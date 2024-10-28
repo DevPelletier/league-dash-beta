@@ -50,6 +50,8 @@ function hexToRgba(hex, alpha) {
 }    
 
 function addPropertiestoData(dataset) {
+    const weeks = dataset[0].data.length; // Number of weeks
+
     // New array with copied objects and additional properties
     let x = 2;
 
@@ -62,10 +64,8 @@ function addPropertiestoData(dataset) {
         } else {
             dashing = []
         }
-        // console.log(dashing)
         x += 1;
 
-        // Use the spread operator to copy properties and add "fill: true"
         return { 
             ...obj, 
             borderColor: color,
@@ -77,8 +77,8 @@ function addPropertiestoData(dataset) {
             pointHoverRadius: 8,
             fill: false, // 'origin'
             segment: {
-                borderColor: (ctx) => ctx.p1DataIndex === 3 ? 'rgba(0,0,0,0.3)' : color,
-                borderDash: (ctx) => ctx.p1DataIndex === 3 ? [10, 15] : dashing,
+                borderColor: (ctx) => ctx.p1DataIndex === (weeks-1) ? 'rgba(0,0,0,0.3)' : color,
+                borderDash: (ctx) => ctx.p1DataIndex === (weeks-1) ? [10, 15] : dashing,
             },
         };
     });

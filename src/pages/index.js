@@ -22,77 +22,77 @@ function createData(id, rank, picUrl, team, pts, pct, wlt, moves, trades, waiver
 const standingsData = [
     {
         label: 'Evil Marc',
-        data: [0, 16, 29, 35],
+        data: [0, 16, 29, 37, 37],
         borderColor: '#f44336',
     },
     {
         label: 'Have a Heart',
-        data: [0, 8, 22, 32],
+        data: [0, 8, 22, 33, 33],
         borderColor: '#e91e63',
     },
     {
         label: 'Sweet Baby Bedjsus',
-        data: [0, 12, 22, 34],
+        data: [0, 12, 22, 32, 32],
         borderColor: '#4caf50',
     },
     {
         label: 'Mitch Marners Dad',
-        data: [0, 10, 21, 24],
+        data: [0, 10, 21, 26, 26],
         borderColor: '#ffeb3b',
     },
     {
         label: 'Star of David ✡️',
-        data: [0, 8, 16, 24],
+        data: [0, 8, 16, 24, 24],
         borderColor: '#009688',
     },
     {
         label: 'Anything is Pospisil 🙏',
-        data: [0, 10, 15, 21],
+        data: [0, 10, 15, 23, 23],
         borderColor: '#ff5722',
     },
     {
         label: 'Mad Raddysh',
-        data: [0, 6, 13, 21],
+        data: [0, 6, 13, 20, 20],
         borderColor: '#ff9800',
     },
     {
         label: 'Fuhr Da Boys',
-        data: [0, 2, 7, 17],
+        data: [0, 2, 7, 17, 17],
         borderColor: '#ffc107',
     },
     {
         label: 'Ayo bath ur son',
-        data: [0, 12, 26, 40],
+        data: [0, 12, 26, 39, 39],
         borderColor: '#cddc39',
     },
     {
         label: 'Bobby Margarita',
-        data: [0, 10, 24, 38],
+        data: [0, 10, 24, 38, 38],
         borderColor: '#8bc34a',
     },
     {
         label: 'Justus for Evil Marc',
-        data: [0, 12, 23, 40],
+        data: [0, 12, 23, 41, 41],
         borderColor: '#4caf50',
     },
     {
         label: 'House Markonnen',
-        data: [0, 6, 19, 32],
+        data: [0, 6, 19, 32, 32],
         borderColor: '#00bcd4',
     },
     {
         label: "Paul Muad'Dib",
-        data: [0, 12, 16, 28],
+        data: [0, 12, 16, 26, 26],
         borderColor: '#2196f3',
     },
     {
         label: 'Man Hugs 🫂',
-        data: [0, 8, 15, 20],
+        data: [0, 8, 15, 20, 20],
         borderColor: '#3f51b5',
     },
     {
         label: 'W.B Snipes',
-        data: [0, 6, 10, 11],
+        data: [0, 6, 10, 10, 10],
         borderColor: '#673ab7',
     },
     {
