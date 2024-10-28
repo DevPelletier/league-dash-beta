@@ -159,7 +159,7 @@ export default function TeamPage({ team }) {
   };
 
   // Render loading indicator while fetching data
-  if (loading) return <p>Loading....</p>;
+  if (loading) return <p>Loading...</p>;
 
   return (<>
     <main className="highlights-page">
