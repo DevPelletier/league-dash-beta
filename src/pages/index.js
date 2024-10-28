@@ -97,7 +97,7 @@ const standingsData = [
     },
     {
         label: 'The Tim Thomas Drama Club',
-        data: [0, 6, 10, 14],
+        data: [0, 6, 10, 14, 14],
         borderColor: '#9c27b0',
     },
 
