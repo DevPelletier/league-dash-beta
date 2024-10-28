@@ -1,0 +1,69 @@
+[
+    {
+        "player1Id": 8473533,
+        "player1Name": "J. Staal",
+        "player1Goals": 1,
+        "url": "https://players.brightcove.net/6415718365001/default_default/index.html?videoId=6363148323112&autoplay=false&muted=false&applicationId=nhl",
+        "title": "Staal nets the feed for opening goal",
+        "description": "TBL@CAR: Staal gets a beautiful feed in the crease and buries it",
+        "player2ID": 8477478,
+        "player2Name": "W. Carrier",
+        "player2Assists": 1
+    },
+    {
+        "player1Id": 8478010,
+        "player1Name": "B. Point",
+        "player1Goals": 1,
+        "url": "https://players.brightcove.net/6415718365001/default_default/index.html?videoId=6363150012112&autoplay=false&muted=false&applicationId=nhl",
+        "title": "Point scores wide open PPG",
+        "description": "TBL@CAR: Point uses the power play for equalizer",
+        "player2ID": 8476453,
+        "player2Name": "N. Kucherov",
+        "player2Assists": 1,
+        "player3ID": 8475167,
+        "player3Name": "V. Hedman",
+        "player3Assists": 1
+    },
+    {
+        "player1Id": 8476453,
+        "player1Name": "N. Kucherov",
+        "player1Goals": 1,
+        "url": "https://players.brightcove.net/6415718365001/default_default/index.html?videoId=6363154157112&autoplay=false&muted=false&applicationId=nhl",
+        "title": "Kucherov buries PPG to take the lead",
+        "description": "TBL@CAR: Kucherov fires the slap shot for the PPG to give the Lightning the lead",
+        "player2ID": 8475167,
+        "player2Name": "V. Hedman",
+        "player2Assists": 2,
+        "player3ID": 8477426,
+        "player3Name": "N. Paul",
+        "player3Assists": 1
+    },
+    {
+        "player1Id": 8476453,
+        "player1Name": "N. Kucherov",
+        "player1Goals": 2,
+        "url": "https://players.brightcove.net/6415718365001/default_default/index.html?videoId=6363153861112&autoplay=false&muted=false&applicationId=nhl",
+        "title": "Kucherov scores empty-net goal",
+        "description": "TBL@CAR: Kucherov scores empty-net goal",
+        "player2ID": 8477404,
+        "player2Name": "J. Guentzel",
+        "player2Assists": 1,
+        "player3ID": 8478416,
+        "player3Name": "E. Cernak",
+        "player3Assists": 1
+    },
+    {
+        "player1Id": 8476453,
+        "player1Name": "N. Kucherov",
+        "player1Goals": 3,
+        "url": "https://players.brightcove.net/6415718365001/default_default/index.html?videoId=6363154645112&autoplay=false&muted=false&applicationId=nhl",
+        "title": "Kucherov empty-nets it for hat trick",
+        "description": "TBL@CAR: Kucherov tallies empty net goal to notch 6th career hat trick",
+        "player2ID": 8477404,
+        "player2Name": "J. Guentzel",
+        "player2Assists": 2,
+        "player3ID": 8475167,
+        "player3Name": "V. Hedman",
+        "player3Assists": 3
+    }
+]

@@ -1,0 +1,245 @@
+//----------------------//  Mixins and Variables //----------------------// 
+$std-MaxWidth: 600px;
+$std-Width: 90vw;
+
+@mixin flex {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+@mixin flex-col {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+@mixin standardWidth {
+    width: $std-Width;
+    max-width: $std-MaxWidth;
+}
+
+
+//----------------------//  Standard //----------------------// 
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+a {
+    color: inherit;
+    text-decoration: none;
+}
+main {
+    padding: 20px 1vw;
+    // max-width: 10px;
+    max-width: 1500px;
+    margin: 0 auto;
+    @include flex-col;
+}
+
+  
+  
+
+
+//----------------------//  Typography //----------------------// 
+
+
+
+.accordTitle {
+    width: 100%;
+}
+
+* {
+    // border: 1px solid lightgrey;
+}
+
+//----------------------//  Standings Page  //----------------------// 
+h5 {
+    margin-bottom: 12px !important;
+}
+.standingsContainer {
+    margin: 0 5vw;
+
+    .standingsTable {
+        .teamName {
+            a {
+                @include flex;
+                justify-content: flex-start;
+                background-color: rgba(0,0,0,0.03);
+                border-radius: 5px;
+                padding: 5px 10px;
+                transition: all 0.3s ease;
+                min-width: 240px;
+                max-width: 300px;
+
+                &:hover {
+                    background-color: rgba(0,0,0,0.25);
+                }
+                
+            
+                .MuiAvatar-root {
+                    // margin: auto;
+                }
+                p {
+                    margin: auto auto auto 20px;
+                }
+            }
+        }
+    }
+}
+
+.standingsGraph {
+    padding: 0 0 60px;
+    .graphContainer {
+        border: 1px solid lightgrey;
+        border-radius: 5px;
+        overflow-x: scroll;
+        padding: 12px;
+
+        .graphContainer-2 {
+            min-width: 800px;
+            min-height: 400px;
+            height: 50vw;
+            max-height: 650px;
+            margin: auto;
+        }
+    }
+}
+
+.graphBtnContainer {
+    margin-top: 20px;
+    width: 100%;
+    @include flex;
+    padding: 0 16px;
+}
+
+//----------------------//  Highlights Page  //----------------------// 
+main.highlights-page {
+    @include flex-col;
+
+}
+
+.titleContainer {
+    @include flex;
+    @include standardWidth;
+    height: 100px;
+    margin: auto;
+
+    * { 
+        margin: auto 0; 
+    }
+
+    .avatar {
+        margin-right: 20px;
+    }
+
+    .pushRight {
+        margin-left: auto;
+    }
+
+    .yahoo {
+        height: 32px;
+        width: 32px;
+        // margin: 5px;
+        padding: 5px;
+        border-radius: 100%;
+        border: 1px solid rgba(0,0,0,0);
+        transition: all 0.3s ease;
+
+        &:hover {
+            background-color: lightgrey;
+        }
+    }
+
+
+}
+.teamHighlights {
+    @include standardWidth;
+    @include flex-col;
+    margin: 0 auto;
+    
+    .hl-item {
+        width: 100%;
+
+        .hl-titleContainer {
+            @include flex-col;
+            width: 95%;
+            margin: 0 auto 0 0;
+            padding: 16px 10px;
+
+            .playerInfo {
+                width: 100%;
+                @include flex;
+                justify-content: flex-start;
+    
+                .playerInfoGrid {
+                    @include flex;
+                    margin: auto;
+                    margin-left: 16px;
+                    height: 24px;
+                    width: inherit;
+
+                    p {
+                        margin-right: 20px;
+                    }
+                }
+                .name {
+                    font-weight: 600;
+                }
+                p.date {
+                    margin: auto 0 auto auto;
+                    font-style: italic;
+                    font-size: 0.7rem;
+                }
+                
+            }
+            .teamDetails {
+                @include flex;
+                justify-content: flex-start;
+                div:first-child {
+                    margin-right: 5px;
+                }
+                span {
+                    margin-top: 3px;
+                }
+            }
+            .vidDescrip {
+                @include flex-col;
+                .row1 {
+                    @include flex;
+                    justify-content: space-between;
+                    margin: 12px 0;
+                }
+            }
+                
+        }
+
+        .vidContainer {
+            min-height: 500px;
+        }
+    }
+}
+
+//----------------------//  Matchup Page  //----------------------// 
+
+.gpContainer {
+    height: 100px;
+    canvas {
+        width: 100%;
+    }
+}
+
+.scoreBoardButtons {
+    .sb-btn {
+        &:hover {
+            cursor: pointer;
+        }
+    }
+}
+
