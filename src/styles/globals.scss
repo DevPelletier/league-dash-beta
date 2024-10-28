@@ -1,5 +1,5 @@
 //----------------------//  Mixins and Variables //----------------------// 
-$std-MaxWidth: 600px;
+$std-MaxWidth: 900px;
 $std-Width: 90vw;
 
 @mixin flex {
@@ -64,7 +64,8 @@ h5 {
     margin-bottom: 12px !important;
 }
 .standingsContainer {
-    margin: 0 5vw;
+    @include standardWidth;
+    margin: 0 auto;
 
     .standingsTable {
         .teamName {
@@ -95,6 +96,8 @@ h5 {
 }
 
 .standingsGraph {
+    // @include standardWidth;
+    // margin: 0 auto;
     padding: 0 0 60px;
     .graphContainer {
         border: 1px solid lightgrey;
@@ -108,6 +111,7 @@ h5 {
             height: 50vw;
             max-height: 650px;
             margin: auto;
+            @include flex;
         }
     }
 }
