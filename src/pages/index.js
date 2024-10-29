@@ -109,6 +109,7 @@ export default function Standings({ team }) {
     const [teams, setTeams] = useState([]);
     const [tableData, setTableData] = useState([]);
     const [graphData, setGraphData] = useState([]);
+    const [updated, setUpdated] = useState([])
 
     const importTeams = (data) => {
         console.log('importTeams')
@@ -146,6 +147,11 @@ export default function Standings({ team }) {
                 setLoading(false);
             })
             .catch((err) => console.error('Failed to fetch players:', err));
+        fetch('/updated.json')
+            .then((res) => res.json())
+            .then((data) => {
+                setUpdated(data);
+            })
     }, []);
 
 
@@ -154,6 +160,7 @@ export default function Standings({ team }) {
   return (
     <>
     <main className="home">
+    <Typography variant="subtitle2" className="updated">Last Updated: {updated.updated}</Typography>
     <div className="standingsGraph">
         <Typography variant="h5">Standings Graph</Typography>
         <StandingsChart standingsData={standingsData} />

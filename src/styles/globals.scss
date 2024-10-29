@@ -122,7 +122,11 @@ h5 {
     @include flex;
     padding: 0 16px;
 }
-
+.updated {
+    margin-left: auto;
+    color: grey;
+    font-style: italic;
+}
 //----------------------//  Highlights Page  //----------------------// 
 main.highlights-page {
     @include flex-col;
