@@ -36489,5 +36489,219 @@
                 "num": 4
             }
         }
+    },
+    {
+        "gameId": 2024020154,
+        "gameDate": "2024-10-29",
+        "player1Id": 8478013,
+        "player1Name": "J. Walman",
+        "player1Goals": 1,
+        "url": "https://players.brightcove.net/6415718365001/default_default/index.html?videoId=6363956855112&autoplay=false&muted=false&applicationId=nhl",
+        "title": "Walman starts the scoring",
+        "description": "LAK@SJS: Walman buries a slap shot from deep to strike first",
+        "player2ID": 8481477,
+        "player2Name": "N. Sturm",
+        "player2Assists": 2,
+        "player3ID": 8479336,
+        "player3Name": "C. Grundstrom",
+        "player3Assists": 2,
+        "playerData": {
+            "8478013": {
+                "name": "Jake Walman",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20232024/DET/8478013.png",
+                "team": "DET",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/DET_light.svg",
+                "num": 96
+            },
+            "8481477": {
+                "name": "Nico Sturm",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20232024/SJS/8481477.png",
+                "team": "SJS",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/SJS_20082009-20232024_light.svg",
+                "num": 7
+            },
+            "8479336": {
+                "name": "Carl Grundstrom",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20232024/LAK/8479336.png",
+                "team": "LAK",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/LAK_20192020-20232024_light.svg",
+                "num": 91
+            }
+        }
+    },
+    {
+        "gameId": 2024020154,
+        "gameDate": "2024-10-29",
+        "player1Id": 8480851,
+        "player1Name": "A. Thomas",
+        "player1Goals": 1,
+        "url": "https://players.brightcove.net/6415718365001/default_default/index.html?videoId=6363957838112&autoplay=false&muted=false&applicationId=nhl",
+        "title": "Thomas nets a rebound",
+        "description": "LAK@SJS: Thomas swats a rebound into the back of the net",
+        "player2ID": 8482730,
+        "player2Name": "B. Clarke",
+        "player2Assists": 7,
+        "player3ID": 8479675,
+        "player3Name": "T. Moore",
+        "player3Assists": 2,
+        "playerData": {
+            "8479675": {
+                "name": "Trevor Moore",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20232024/LAK/8479675.png",
+                "team": "LAK",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/LAK_20192020-20232024_light.svg",
+                "num": 12
+            },
+            "8482730": {
+                "name": "Brandt Clarke",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20232024/LAK/8482730.png",
+                "team": "LAK",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/LAK_20192020-20232024_light.svg",
+                "num": 92
+            },
+            "8480851": {
+                "name": "Akil Thomas",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20232024/LAK/8480851.png",
+                "team": "LAK",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/LAK_20192020-20232024_light.svg",
+                "num": 26
+            }
+        }
+    },
+    {
+        "gameId": 2024020154,
+        "gameDate": "2024-10-29",
+        "player1Id": 8480188,
+        "player1Name": "F. Zetterlund",
+        "player1Goals": 6,
+        "url": "https://players.brightcove.net/6415718365001/default_default/index.html?videoId=6363959929112&autoplay=false&muted=false&applicationId=nhl",
+        "title": "Zetterlund grabs the lead",
+        "description": "LAK@SJS: Zetterlund snaps a shot in on the rush to take the lead",
+        "player2ID": 8477505,
+        "player2Name": "A. Wennberg",
+        "player2Assists": 4,
+        "player3ID": 8478013,
+        "player3Name": "J. Walman",
+        "player3Assists": 6,
+        "playerData": {
+            "8478013": {
+                "name": "Jake Walman",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20232024/DET/8478013.png",
+                "team": "DET",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/DET_light.svg",
+                "num": 96
+            },
+            "8480188": {
+                "name": "Fabian Zetterlund",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20232024/SJS/8480188.png",
+                "team": "SJS",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/SJS_20082009-20232024_light.svg",
+                "num": 20
+            },
+            "8477505": {
+                "name": "Alexander Wennberg",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20232024/NYR/8477505.png",
+                "team": "NYR",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/NYR_light.svg",
+                "num": 21
+            }
+        }
+    },
+    {
+        "gameId": 2024020154,
+        "gameDate": "2024-10-29",
+        "player1Id": 8482155,
+        "player1Name": "A. Laferriere",
+        "player1Goals": 5,
+        "url": "https://players.brightcove.net/6415718365001/default_default/index.html?videoId=6363960130112&autoplay=false&muted=false&applicationId=nhl",
+        "title": "LAK@SJS: Laferriere scores goal against Vitek Vanecek",
+        "description": "LAK@SJS: Laferriere scores goal against Vitek Vanecek",
+        "player2ID": 8477998,
+        "player2Name": "W. Foegele",
+        "player2Assists": 1,
+        "playerData": {
+            "8477998": {
+                "name": "Warren Foegele",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20232024/EDM/8477998.png",
+                "team": "EDM",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/EDM_light.svg",
+                "num": 37
+            },
+            "8482155": {
+                "name": "Alex Laferriere",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20232024/LAK/8482155.png",
+                "team": "LAK",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/LAK_20192020-20232024_light.svg",
+                "num": 14
+            }
+        }
+    },
+    {
+        "gameId": 2024020154,
+        "gameDate": "2024-10-29",
+        "player1Id": 8475726,
+        "player1Name": "T. Toffoli",
+        "player1Goals": 6,
+        "url": "https://players.brightcove.net/6415718365001/default_default/index.html?videoId=6363959659112&autoplay=false&muted=false&applicationId=nhl",
+        "title": "Toffoli regains lead with slick goal",
+        "description": "LAK@SJS: Toffoli slips in a bakchand in tight to take the lead",
+        "player2ID": 8478013,
+        "player2Name": "J. Walman",
+        "player2Assists": 7,
+        "playerData": {
+            "8478013": {
+                "name": "Jake Walman",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20232024/DET/8478013.png",
+                "team": "DET",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/DET_light.svg",
+                "num": 96
+            },
+            "8475726": {
+                "name": "Tyler Toffoli",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20232024/WPG/8475726.png",
+                "team": "WPG",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/WPG_light.svg",
+                "num": 73
+            }
+        }
+    },
+    {
+        "gameId": 2024020154,
+        "gameDate": "2024-10-29",
+        "player1Id": 8482667,
+        "player1Name": "W. Eklund",
+        "player1Goals": 2,
+        "url": "https://players.brightcove.net/6415718365001/default_default/index.html?videoId=6363959091112&autoplay=false&muted=false&applicationId=nhl",
+        "title": "William Eklund with a Goal vs. Los Angeles Kings",
+        "description": "William Eklund with a Goal vs. Los Angeles Kings",
+        "player2ID": 8479316,
+        "player2Name": "L. Kunin",
+        "player2Assists": 1,
+        "player3ID": 8479983,
+        "player3Name": "M. Ferraro",
+        "player3Assists": 2,
+        "playerData": {
+            "8479983": {
+                "name": "Mario Ferraro",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20232024/SJS/8479983.png",
+                "team": "SJS",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/SJS_20082009-20232024_light.svg",
+                "num": 38
+            },
+            "8482667": {
+                "name": "William Eklund",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20232024/SJS/8482667.png",
+                "team": "SJS",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/SJS_20082009-20232024_light.svg",
+                "num": 72
+            },
+            "8479316": {
+                "name": "Luke Kunin",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20232024/SJS/8479316.png",
+                "team": "SJS",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/SJS_20082009-20232024_light.svg",
+                "num": 11
+            }
+        }
     }
 ]
