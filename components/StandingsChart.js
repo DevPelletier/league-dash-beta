@@ -57,8 +57,9 @@ function addPropertiestoData(dataset) {
 
     const datasetsArray = dataset.map((obj) => {
         let color = obj.borderColor;
-        const rgbaColor = hexToRgba(color, 0.5)
+        const rgbaColor = hexToRgba(color, 0.4)
         let dashing; // [dash length, gap length]
+        let lineWidth;
         if (x % 2 == 0) {
             dashing = [10, 5]
         } else {
@@ -70,6 +71,7 @@ function addPropertiestoData(dataset) {
             ...obj, 
             borderColor: color,
             backgroundColor: rgbaColor,
+            borderWidth: 3,
             // cubicInterpolationMode: 'monotone',
             // tension: 0.4,
             pointStyle: 'circle',
@@ -77,8 +79,8 @@ function addPropertiestoData(dataset) {
             pointHoverRadius: 8,
             fill: false, // 'origin'
             segment: {
-                borderColor: (ctx) => ctx.p1DataIndex === (weeks-1) ? 'rgba(0,0,0,0.3)' : color,
-                borderDash: (ctx) => ctx.p1DataIndex === (weeks-1) ? [10, 15] : dashing,
+                borderColor: (ctx) => ctx.p1DataIndex === (weeks-1) ? rgbaColor : color,
+                borderDash: (ctx) => ctx.p1DataIndex === (weeks-1) ? [10, 15] : [],
             },
         };
     });
@@ -138,18 +140,11 @@ const StandingsChart = ({ standingsData }) => {
 
     // Configuration for the chart
     const data = {
-        labels,
+        labels: labels,
+        // labels: {
+        //     position: 'bottom',
+        // },
         datasets: chartData,
-            // {
-            //     label: team1Data.name,
-            //     data: team1Data.data,
-            //     borderColor: team1Data.lineColour,
-            //     backgroundColor: team1Data.bgColour,
-            //     fill: false, // Do not fill under the line
-            //     cubicInterpolationMode: 'monotone',
-            //     tension: 0.4
-            //     // tension: -1  // apparently doesn't do anything lol
-            // },
     };
 
     
@@ -158,7 +153,7 @@ const StandingsChart = ({ standingsData }) => {
         responsive: true,
         plugins: {
             legend: {
-                display: false,
+                display: true,
             },
         },
         scales: {
