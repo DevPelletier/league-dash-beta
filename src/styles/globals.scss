@@ -59,6 +59,19 @@ main {
     // border: 1px solid lightgrey;
 }
 
+
+//----------------------//  Navbar  //----------------------// 
+.nav {
+    
+}
+
+.sideNav {
+    a.teamLink {
+        display: flex;
+    }
+}
+
+
 //----------------------//  Standings Page  //----------------------// 
 h5 {
     margin-bottom: 12px !important;
@@ -131,6 +144,11 @@ h5 {
 main.highlights-page {
     @include flex-col;
 
+    .btnContainer {
+        @include flex;
+        margin: auto;
+        width: 100%;
+    }
 }
 
 .titleContainer {

@@ -126,6 +126,7 @@ export default function TeamPage({ team }) {
     fetch('/highlightsWithPlayers.json')
       .then((res) => res.json())
       .then((data) => {
+        setLoading(true)
         setFilteredVids(
           data
             .filter((vid) =>
@@ -146,13 +147,10 @@ export default function TeamPage({ team }) {
             })
             .slice().reverse()
         );          
-          // setFilteredVids(data.filter((vid) => team.nhlIDs.includes(vid.player1Id))); // Default filter
+        setLoading(false)
       })
-      .then(setLoading(false))
-      // .then(fetchPlayerData())
-      // .then(mapPlayerData())
       .catch((err) => console.error('Failed to fetch players:', err));
-  }, []);
+  }, [team]);
 
   const handleChange = (panel) => (event, isExpanded) => {
     setExpanded(isExpanded ? panel : false); // Update state based on expansion
@@ -200,12 +198,14 @@ export default function TeamPage({ team }) {
                 <div className="playerInfo">
                   <Avatar alt="" src={vid.playerData[vid.matchedPlayerId]?.headshot} className="headshot"
                   sx={{ width: 60, height: 60 }}
+                  variant="square"
                   />
                   <div className="playerInfoGrid">
                     <Typography variant="body1" className="name">{vid.playerData[vid.matchedPlayerId]?.name}</Typography>
                     <div className="teamDetails">
                       <Avatar alt="" src={vid.playerData[vid.matchedPlayerId]?.teamLogo}
                       sx={{ width: 20, height: 20 }}
+                      variant="square"
                       />
                       <Typography variant="caption">
                         {vid.playerData[vid.matchedPlayerId]?.team}&nbsp;#{vid.playerData[vid.matchedPlayerId]?.num}
