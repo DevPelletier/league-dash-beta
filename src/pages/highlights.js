@@ -126,7 +126,7 @@ export default function HighlightsPage({ highlightVideos }) {
                   videoUrl={vid.url}
                 />
                 <div className="btnContainer share">
-                  <CopyTextBtn text={'https://mcdave-dash-beta.vercel.app/highlights#' + vid.gameId + "-" + vid.player1Id} />
+                  {/* <CopyTextBtn text={'https://mcdave-dash-beta.vercel.app/highlights#' + vid.gameId + "-" + vid.player1Id} /> */}
                 </div>
               </>)}
             </AccordionDetails>
