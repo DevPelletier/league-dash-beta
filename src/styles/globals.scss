@@ -248,8 +248,16 @@ main.highlights-page {
 
         .vidContainer {
             min-height: 500px;
+
+            .btnContainer {
+                margin: 16px auto 0;
+            }
         }
     }
+}
+
+.shareBtn {
+    
 }
 
 //----------------------//  Matchup Page  //----------------------// 

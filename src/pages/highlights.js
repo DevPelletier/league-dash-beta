@@ -15,8 +15,11 @@ import AccordionDetails from '@mui/material/AccordionDetails';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import Typography from '@mui/material/Typography';
 import Button from '@mui/material/Button';
+import Tooltip from '@mui/material/Tooltip';
 
 import VideoPlayer from '../../components/VideoPlayer';
+import CopyTextBtn from '../../components/CopytoClipboardBtn';
+
 import yahooImg from '../../public/images/yahoo.png'
 
 import fs from 'fs';
@@ -26,6 +29,8 @@ export default function HighlightsPage({ highlightVideos }) {
   const [vids, setVids] = useState([])
   const [videosToShow, setVideosToShow] = useState(20); // Initially display 20 videos
   const [expanded, setExpanded] = useState(false); // Track expanded accordion
+  const [showLink, setShowLink] = useState(false); // Control link visibility
+  const [copyTooltip, setCopyTooltip] = useState("Copy link"); // Tooltip text for copy action
 
   useEffect(() => {
     setVids([...highlightVideos].reverse());
@@ -40,7 +45,15 @@ export default function HighlightsPage({ highlightVideos }) {
     setExpanded(isExpanded ? panel : false); // Update state based on expansion
   };
 
-
+  const copyTextToClipboard = async () => {
+    try {
+      await navigator.clipboard.writeText(textToCopy);
+      alert('Text copied to clipboard!');
+    } catch (err) {
+      console.error('Failed to copy text: ', err);
+    }
+  };  
+  
   return (
     <main className="highlights-page">
       <div className="titleContainer">
@@ -63,6 +76,7 @@ export default function HighlightsPage({ highlightVideos }) {
           expanded={expanded === index} 
           onChange={handleChange(index)}
           className="hl-item"
+          id={vid.gameId + "-" + vid.player1Id }
         >
             <AccordionSummary
             expandIcon={<ExpandMoreIcon />}
@@ -111,6 +125,9 @@ export default function HighlightsPage({ highlightVideos }) {
                 <VideoPlayer 
                   videoUrl={vid.url}
                 />
+                <div className="btnContainer share">
+                  <CopyTextBtn text={'https://mcdave-dash-beta.vercel.app/highlights#' + vid.gameId + "-" + vid.player1Id} />
+                </div>
               </>)}
             </AccordionDetails>
         </Accordion>
