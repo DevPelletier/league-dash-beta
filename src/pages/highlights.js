@@ -1,6 +1,6 @@
 // import { useRouter } from 'next/router';
 // import * as React from 'react';
-// import { useEffect, useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import Link from 'next/link'
 import Image from 'next/image'
 import { styled } from '@mui/material/styles';
@@ -19,14 +19,17 @@ import Button from '@mui/material/Button';
 import VideoPlayer from '../../components/VideoPlayer';
 import yahooImg from '../../public/images/yahoo.png'
 
-import React, { useState } from 'react';
 import fs from 'fs';
 import path from 'path';
 
 export default function HighlightsPage({ highlightVideos }) {
+  const [vids, setVids] = useState([])
   const [videosToShow, setVideosToShow] = useState(20); // Initially display 20 videos
   const [expanded, setExpanded] = useState(false); // Track expanded accordion
 
+  useEffect(() => {
+    setVids([...highlightVideos].reverse());
+  }, [highlightVideos]);
 
   // Increase the number of videos displayed by 20 each time
   const loadMoreVideos = () => {
@@ -54,7 +57,7 @@ export default function HighlightsPage({ highlightVideos }) {
         Toggle to {toggle ? 'Option 2' : 'Option 1'}
         </button> */}
         {/* { (filteredVids.length > 0) ? (<>got filteredVids</>):(<>loading...</>)} */}
-        {highlightVideos.reverse().slice(0, videosToShow).map((vid, index) => (
+        {vids.slice(0, videosToShow).map((vid, index) => (
         <Accordion 
           key={index} 
           expanded={expanded === index} 
