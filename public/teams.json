@@ -1,6 +1,7 @@
 [
     {
-        "id": "0",
+        "id": "453-l-5795-t-15",
+        "borderColor": "#90caf9",
         "team_key": "453.l.5795.t.15",
         "name": "Justus for Evil Marc",
         "url": "https://hockey.fantasysports.yahoo.com/hockey/5795/15",
@@ -48,10 +49,18 @@
             8479385,
             8480015,
             8482175
+        ],
+        "histPts": [
+            0,
+            12,
+            23,
+            41,
+            47
         ]
     },
     {
-        "id": "1",
+        "id": "453-l-5795-t-3",
+        "borderColor": "#42a5f5",
         "team_key": "453.l.5795.t.3",
         "name": "Ayo bath ur son",
         "url": "https://hockey.fantasysports.yahoo.com/hockey/5795/3",
@@ -99,10 +108,18 @@
             8479420,
             8475786,
             8477935
+        ],
+        "histPts": [
+            0,
+            12,
+            26,
+            39,
+            47
         ]
     },
     {
-        "id": "2",
+        "id": "453-l-5795-t-4",
+        "borderColor": "#ce93d8",
         "team_key": "453.l.5795.t.4",
         "name": "Bobby Margarita",
         "url": "https://hockey.fantasysports.yahoo.com/hockey/5795/4",
@@ -154,17 +171,25 @@
             8480039,
             8481014,
             8477407
+        ],
+        "histPts": [
+            0,
+            10,
+            24,
+            38,
+            48
         ]
     },
     {
-        "id": "3",
+        "id": "453-l-5795-t-5",
+        "borderColor": "#ab47bc",
         "team_key": "453.l.5795.t.5",
         "name": "Evil Marc",
         "url": "https://hockey.fantasysports.yahoo.com/hockey/5795/5",
         "logo": "https://yahoofantasysports-res.cloudinary.com/image/upload/t_s192sq/fantasy-logos/390862196a754bdb333fd284d950ba892d749aa087a4172fe6c253d20787a720.png",
         "div_id": "1",
-        "seasonMoves": 4,
-        "weekMoves": 0,
+        "seasonMoves": 5,
+        "weekMoves": 1,
         "waiverPriority": 11,
         "trades": 0,
         "rank": 4,
@@ -173,45 +198,53 @@
         "pct": ".685",
         "pts": 37,
         "yahooIDs": [
-            7534,
             7523,
+            5421,
             7900,
-            4976,
+            8290,
             5425,
             7526,
             5370,
             6367,
             5525,
             8061,
-            8290,
+            7534,
             7109,
             5279,
             6941,
-            6406,
+            7089,
             4901,
-            5421,
-            7950
+            7950,
+            4976
         ],
         "nhlIDs": [
-            8480064,
             8479999,
+            8476448,
             8480830,
-            8475765,
+            8481557,
             8476453,
             8480014,
             8476462,
             8477932,
             8476312,
             8480891,
-            8481557,
+            8480064,
             8479318,
             8474679,
-            8476448,
-            8480434
+            8480434,
+            8475765
+        ],
+        "histPts": [
+            0,
+            16,
+            29,
+            37,
+            47
         ]
     },
     {
-        "id": "4",
+        "id": "453-l-5795-t-7",
+        "borderColor": "#e57373",
         "team_key": "453.l.5795.t.7",
         "name": "Have a Heart",
         "url": "https://hockey.fantasysports.yahoo.com/hockey/5795/7",
@@ -262,17 +295,25 @@
             8479314,
             8477501,
             8475810
+        ],
+        "histPts": [
+            0,
+            8,
+            22,
+            33,
+            50
         ]
     },
     {
-        "id": "5",
+        "id": "453-l-5795-t-8",
+        "borderColor": "#f44336",
         "team_key": "453.l.5795.t.8",
         "name": "House Markonnen",
         "url": "https://hockey.fantasysports.yahoo.com/hockey/5795/8",
         "logo": "https://yahoofantasysports-res.cloudinary.com/image/upload/t_s192sq/fantasy-logos/5278d48bd8a69a2a330ad7f54f64b0e5c6561724b50895af4d60f6fa17e1869b.jpg",
         "div_id": "2",
-        "seasonMoves": 8,
-        "weekMoves": 2,
+        "seasonMoves": 9,
+        "weekMoves": 3,
         "waiverPriority": 8,
         "trades": 0,
         "rank": 6,
@@ -287,14 +328,14 @@
             8357,
             7267,
             8644,
-            8645,
             7519,
             6794,
             8884,
+            8882,
+            8645,
             30832,
             5364,
             8642,
-            4965,
             6486,
             8314,
             8656
@@ -306,19 +347,27 @@
             8481604,
             8479407,
             8482078,
-            8482105,
             8480069,
             8478468,
             8482730,
+            8482762,
+            8482105,
             8483431,
             8476456,
             8482124,
-            8475799,
             8482087
+        ],
+        "histPts": [
+            0,
+            6,
+            19,
+            32,
+            44
         ]
     },
     {
-        "id": "6",
+        "id": "453-l-5795-t-16",
+        "borderColor": "#d32f2f",
         "team_key": "453.l.5795.t.16",
         "name": "Sweet Baby Bedjsus",
         "url": "https://hockey.fantasysports.yahoo.com/hockey/5795/16",
@@ -368,17 +417,25 @@
             8478055,
             8475218,
             8477494
+        ],
+        "histPts": [
+            0,
+            12,
+            22,
+            32,
+            40
         ]
     },
     {
-        "id": "7",
+        "id": "453-l-5795-t-13",
+        "borderColor": "#ffb74d",
         "team_key": "453.l.5795.t.13",
         "name": "Paul Muad\u2019Dib",
         "url": "https://hockey.fantasysports.yahoo.com/hockey/5795/13",
         "logo": "https://yahoofantasysports-res.cloudinary.com/image/upload/t_s192sq/fantasy-logos/25ece36404ac395c89fb1197bc6623c493613e0487e0618832a60c3ff60f88e7.jpg",
         "div_id": "2",
-        "seasonMoves": 0,
-        "weekMoves": 0,
+        "seasonMoves": 1,
+        "weekMoves": 1,
         "waiverPriority": 1,
         "trades": 0,
         "rank": 8,
@@ -387,8 +444,8 @@
         "pct": ".481",
         "pts": 26,
         "yahooIDs": [
-            6743,
             6390,
+            6080,
             7115,
             8641,
             4921,
@@ -402,11 +459,12 @@
             4786,
             5734,
             4947,
-            7569
+            7569,
+            6743
         ],
         "nhlIDs": [
-            8478402,
             8477955,
+            8477426,
             8479343,
             8482109,
             8475692,
@@ -417,11 +475,20 @@
             8477346,
             8481528,
             8477409,
-            8475158
+            8475158,
+            8478402
+        ],
+        "histPts": [
+            0,
+            12,
+            16,
+            26,
+            32
         ]
     },
     {
-        "id": "8",
+        "id": "453-l-5795-t-10",
+        "borderColor": "#ffa726",
         "team_key": "453.l.5795.t.10",
         "name": "Mitch Marners Dad",
         "url": "https://hockey.fantasysports.yahoo.com/hockey/5795/10",
@@ -472,17 +539,25 @@
             8475171,
             8480023,
             8478911
+        ],
+        "histPts": [
+            0,
+            10,
+            21,
+            26,
+            39
         ]
     },
     {
-        "id": "9",
+        "id": "453-l-5795-t-9",
+        "borderColor": "#f57c00",
         "team_key": "453.l.5795.t.9",
         "name": "Star of David \u2721\ufe0f",
         "url": "https://hockey.fantasysports.yahoo.com/hockey/5795/9",
         "logo": "https://s.yimg.com/cv/apiv2/default/nhl/nhl_1.png",
         "div_id": "1",
-        "seasonMoves": 3,
-        "weekMoves": 0,
+        "seasonMoves": 4,
+        "weekMoves": 1,
         "waiverPriority": 2,
         "trades": "1",
         "rank": 10,
@@ -491,8 +566,8 @@
         "pct": ".444",
         "pts": 24,
         "yahooIDs": [
-            5431,
             5441,
+            5946,
             4699,
             4351,
             6765,
@@ -501,17 +576,17 @@
             7161,
             6576,
             5251,
+            5431,
             4685,
             5733,
-            8017,
             8922,
             6447,
             4472,
             5161
         ],
         "nhlIDs": [
-            8476389,
             8476399,
+            8475287,
             8475184,
             8473419,
             8478444,
@@ -520,22 +595,30 @@
             8479425,
             8478136,
             8475455,
+            8476389,
             8475170,
             8476931,
-            8480798,
             8482702,
             8474563
+        ],
+        "histPts": [
+            0,
+            8,
+            16,
+            24,
+            25
         ]
     },
     {
-        "id": "10",
+        "id": "453-l-5795-t-12",
+        "borderColor": "#4fc3f7",
         "team_key": "453.l.5795.t.12",
         "name": "Anything is Pospisil \ud83d\ude4f",
         "url": "https://hockey.fantasysports.yahoo.com/hockey/5795/12",
         "logo": "https://yahoofantasysports-res.cloudinary.com/image/upload/t_s192sq/fantasy-logos/63cab2b723d3e545b7140105e06300eabcc44165ee30ff13e4fcd80a3136f2ab.jpg",
         "div_id": "1",
-        "seasonMoves": 9,
-        "weekMoves": 1,
+        "seasonMoves": 10,
+        "weekMoves": 2,
         "waiverPriority": 4,
         "trades": "3",
         "rank": 11,
@@ -550,16 +633,17 @@
             6759,
             8002,
             8661,
-            7124,
             7498,
             31751,
             8731,
+            6799,
             4681,
             3637,
             5696,
             30548,
             6078,
-            5699
+            5699,
+            7124
         ],
         "nhlIDs": [
             8478010,
@@ -568,16 +652,25 @@
             8478398,
             8481028,
             8482475,
-            8479345,
             8480145,
             8483457,
+            8478399,
             8475166,
             8471214,
-            8476880
+            8476880,
+            8479345
+        ],
+        "histPts": [
+            0,
+            10,
+            15,
+            23,
+            35
         ]
     },
     {
-        "id": "11",
+        "id": "453-l-5795-t-11",
+        "borderColor": "#29b6f6",
         "team_key": "453.l.5795.t.11",
         "name": "Mad Raddysh",
         "url": "https://hockey.fantasysports.yahoo.com/hockey/5795/11",
@@ -629,10 +722,18 @@
             8478975,
             8475169,
             8477476
+        ],
+        "histPts": [
+            0,
+            6,
+            13,
+            20,
+            26
         ]
     },
     {
-        "id": "12",
+        "id": "453-l-5795-t-1",
+        "borderColor": "#0288d1",
         "team_key": "453.l.5795.t.1",
         "name": "Man Hugs \ud83e\udec2",
         "url": "https://hockey.fantasysports.yahoo.com/hockey/5795/1",
@@ -684,17 +785,25 @@
             8482720,
             8478057,
             8479525
+        ],
+        "histPts": [
+            0,
+            8,
+            15,
+            20,
+            38
         ]
     },
     {
-        "id": "13",
+        "id": "453-l-5795-t-6",
+        "borderColor": "#81c784",
         "team_key": "453.l.5795.t.6",
         "name": "Fuhr da boys",
         "url": "https://hockey.fantasysports.yahoo.com/hockey/5795/6",
         "logo": "https://yahoofantasysports-res.cloudinary.com/image/upload/t_s192sq/fantasy-logos/ee2b5a9f4898c2888a26fff99b17183563aa7cd007ed32f15bf9a85df33c2dbf.png",
         "div_id": "1",
-        "seasonMoves": 4,
-        "weekMoves": 0,
+        "seasonMoves": 5,
+        "weekMoves": 1,
         "waiverPriority": 6,
         "trades": 0,
         "rank": 14,
@@ -706,48 +815,56 @@
             4990,
             8069,
             6057,
-            6377,
-            6890,
             7264,
-            7920,
-            7518,
+            6890,
+            5712,
             7908,
             5777,
-            6745,
-            5712,
-            8652,
+            8910,
             5708,
-            7593,
+            7518,
+            6745,
+            8652,
+            4962,
             7163,
-            4962
+            7593,
+            6377
         ],
         "nhlIDs": [
             8475754,
             8481068,
             8477404,
-            8477942,
-            8478873,
             8479542,
-            8480817,
-            8480036,
+            8478873,
+            8476539,
             8480803,
             8476892,
-            8478440,
-            8476539,
-            8482113,
+            8482858,
             8476869,
-            8475794
+            8480036,
+            8478440,
+            8482113,
+            8475794,
+            8477942
+        ],
+        "histPts": [
+            0,
+            2,
+            7,
+            17,
+            22
         ]
     },
     {
-        "id": "14",
+        "id": "453-l-5795-t-14",
+        "borderColor": "#66bb6a",
         "team_key": "453.l.5795.t.14",
         "name": "The Tim Thomas Drama Club",
         "url": "https://hockey.fantasysports.yahoo.com/hockey/5795/14",
         "logo": "https://yahoofantasysports-res.cloudinary.com/image/upload/t_s192sq/fantasy-logos/38d42c22f680ee8234889d6ec51c7d0ce1e8fa289b63f5a41ad6b7fd016a11f1.jpg",
         "div_id": "2",
-        "seasonMoves": 9,
-        "weekMoves": 0,
+        "seasonMoves": 10,
+        "weekMoves": 1,
         "waiverPriority": 3,
         "trades": "1",
         "rank": 15,
@@ -757,7 +874,6 @@
         "pts": 14,
         "yahooIDs": [
             6762,
-            7832,
             8699,
             6375,
             6752,
@@ -770,15 +886,15 @@
             6791,
             5362,
             4240,
-            7541,
             7429,
+            4003,
+            7541,
             5363,
             6798,
             7110
         ],
         "nhlIDs": [
             8478493,
-            8480355,
             8482157,
             8477940,
             8478420,
@@ -793,17 +909,25 @@
             8474141,
             8478407,
             8479339
+        ],
+        "histPts": [
+            0,
+            6,
+            10,
+            14,
+            14
         ]
     },
     {
-        "id": "15",
+        "id": "453-l-5795-t-2",
+        "borderColor": "#388e3c",
         "team_key": "453.l.5795.t.2",
         "name": "W.B Snipes",
         "url": "https://hockey.fantasysports.yahoo.com/hockey/5795/2",
         "logo": "https://yahoofantasysports-res.cloudinary.com/image/upload/t_s192sq/fantasy-logos/69ad15e445bc8fb45e81620e05563eca7c64eeb99307ee4f7b4be0283c3f6bbc.jpg",
         "div_id": "2",
-        "seasonMoves": 4,
-        "weekMoves": 1,
+        "seasonMoves": 5,
+        "weekMoves": 2,
         "waiverPriority": 5,
         "trades": 0,
         "rank": 16,
@@ -815,7 +939,6 @@
             32763,
             6381,
             6753,
-            8081,
             7578,
             6758,
             8282,
@@ -827,12 +950,12 @@
             4519,
             8898,
             3341,
+            4147,
             7108
         ],
         "nhlIDs": [
             8477946,
             8478474,
-            8481043,
             8480188,
             8478445,
             8481524,
@@ -844,6 +967,13 @@
             8477495,
             8473994,
             8482740
+        ],
+        "histPts": [
+            0,
+            6,
+            10,
+            10,
+            22
         ]
     }
 ]

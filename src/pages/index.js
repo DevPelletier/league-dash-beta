@@ -110,6 +110,8 @@ export default function Standings({ team }) {
     const [tableData, setTableData] = useState([]);
     const [graphData, setGraphData] = useState([]);
     const [updated, setUpdated] = useState([])
+    const [visibleDataset, setVisibleDataset] = useState(null); // Track which dataset to show
+
 
     const importTeams = (data) => {
         console.log('importTeams')
@@ -129,6 +131,14 @@ export default function Standings({ team }) {
         console.log('build graph')
 
         let dataForGraph = []
+        for (let x in data) {
+            let teamObj = {}
+            teamObj.label = data[x].name;
+            teamObj.data = data[x].histPts;
+            teamObj.borderColor = data[x].borderColor;
+            dataForGraph.push(teamObj)
+        }
+        setGraphData(dataForGraph)
         // for 
     }
 
@@ -141,6 +151,7 @@ export default function Standings({ team }) {
                 // console.log(data);
                 setTeams(data);
                 importTeams(data);
+                buildGraph(data);
             })
             .then(() => {
                 // importTeams(teams);
@@ -163,7 +174,7 @@ export default function Standings({ team }) {
     <Typography variant="subtitle2" className="updated">Last Updated: {updated.updated}</Typography>
     <div className="standingsGraph">
         <Typography variant="h5">Standings Graph</Typography>
-        <StandingsChart standingsData={standingsData} />
+        { (graphData.length > 0) ? <StandingsChart standingsData={graphData} /> : <></> }
     </div>
     <div className="standingsContainer">
         <Typography variant="h5">Standings Table</Typography>

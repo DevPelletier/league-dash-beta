@@ -7,7 +7,8 @@ import Button from '@mui/material/Button';
 ChartJS.register(LineElement, CategoryScale, LinearScale, PointElement, Title, Tooltip, Legend, Filler);
 
 // Function to calculate Playoff Point Differential
-const calculatePointDifferential = (datasets) => {
+const calculatePointDifferential = (datasets, playoffThresh) => {
+    console.log(playoffThresh);
     const weeks = datasets[0].data.length; // Number of weeks
   
     // Create a deep copy of the datasets to avoid mutating the original data
@@ -17,29 +18,39 @@ const calculatePointDifferential = (datasets) => {
     }));
   
     // Loop through each week and calculate the point differential
+    let playoffThreshold = 0;
     for (let week = 0; week < weeks; week++) {
       const pointsThisWeek = newDatasets.map((dataset) => dataset.data[week]);
-      const playoffThreshold = pointsThisWeek.sort((a, b) => b - a)[7] || 0; // 8th place points
+        playoffThreshold = pointsThisWeek.sort((a, b) => b - a)[7] || 0; // 8th place points
   
-      newDatasets.forEach((dataset) => {
-        dataset.data[week] = dataset.data[week] - playoffThreshold;
-      });
+        newDatasets.forEach((dataset) => {
+            dataset.data[week] = dataset.data[week] - playoffThreshold;
+        });
     }
   
     return newDatasets;
 };
+const stripDataDown = (datasets) => {
+    const newDatasets = datasets.map((dataset) => ({
+        label: dataset.label,
+        data: [...dataset.data],
+        borderColor: dataset.borderColor,
+    }));
+    return newDatasets;
+}
 
 // Function to convert RGB to RGBA
 function rgbToRgba(color, alpha) {
-    console.log(color)
     const { r, g, b } = color;
-    console.log(`rgba(${r}, ${g}, ${b}, ${alpha})`)
     return `rgba(${r}, ${g}, ${b}, ${alpha})`;
 }
 
 function hexToRgba(hex, alpha) {
+    if (!hex) {
+        return false
+    }
     // Remove the '#' if present
-    hex = hex.replace('#', '');      
+    hex = hex.replace('#', '');
     // Parse the red, green, and blue components from the hex code
     const r = parseInt(hex.substring(0, 2), 16);
     const g = parseInt(hex.substring(2, 4), 16);
@@ -89,39 +100,67 @@ function addPropertiestoData(dataset) {
 };
 
 
-
-
 const StandingsChart = ({ standingsData }) => {
 
     const [useDifferential, setUseDifferential] = useState(true); // Track toggle state
-    const [chartData, setChartData] = useState(standingsData); // Chart data state
+    const [chartData, setChartData] = useState([]); // Chart data state
+    const [ogChartData, setOGChartData] = useState([]); // Chart data state
+    const [chartLoading, setChartLoading] = useState(false);
+    const [playoffThresh, setPlayoffThresh] = useState([]);
 
     // Run `setChartData` only once when the component loads
     useEffect(() => {
         if (useDifferential) {
-            const differentialData = calculatePointDifferential(standingsData); // Calculate differential
+            const differentialData = calculatePointDifferential(standingsData, playoffThresh); // Calculate differential
             const finalData = addPropertiestoData(differentialData);
             setChartData(finalData);
+            setOGChartData(finalData);
         } else {
             const finalData = addPropertiestoData(standingsData) 
             setChartData(finalData);
+            setOGChartData(finalData);
         }
     }, []); // Empty dependency array ensures this runs only once
 
     // Toggle between original data and point differential
     const toggleData = () => {
-        if (useDifferential) {
-            // console.log('useStraight')
-            const finalData = addPropertiestoData(standingsData) 
-            setChartData(finalData); // Revert to original data
-        } else {
-            // console.log('usePlayoffDiff')
-            const differentialData = calculatePointDifferential(standingsData); // Calculate differential
-            const finalData = addPropertiestoData(differentialData);
-            setChartData(finalData); // Update chart data with differential
-        }
+        // if (chartData.length == 1) {
+
+        // } else {
+            if (useDifferential) {
+                // console.log('useStraight')
+                const finalData = addPropertiestoData(standingsData) 
+                setChartData(finalData); // Revert to original data
+            } else {
+                // console.log('usePlayoffDiff')
+                const differentialData = calculatePointDifferential(standingsData, playoffThresh); // Calculate differential
+                const finalData = addPropertiestoData(differentialData);
+                setChartData(finalData); // Update chart data with differential
+            }    
+        // }
         setUseDifferential((prev) => !prev); // Toggle state
     };
+
+
+    // Function to handle button clicks
+    const handleShowDataset = (index) => {
+        console.log('handleShowDataset');
+        setChartLoading(true);
+        
+        let soloData = chartData[index]
+        setChartData([soloData]);
+
+        // const soloChartData = chartData.map((dataset) => ({
+        //     ...dataset,
+        //     backgroundColor: "rgba(0,0,0,0.2)",
+        //     borderColor: "rgba(0,0,0,0.2)"
+        // }));
+        // console.log(soloChartData);
+        // setChartData(chartData);
+
+        setTimeout(setChartLoading(false), 2000);
+    };
+
 
     const getYAxisTitle = () => {
         if (useDifferential) {
@@ -130,11 +169,9 @@ const StandingsChart = ({ standingsData }) => {
             return 'Season Pts'
         }
     };
-    
-
     // Create X Labels
     // Get the length of the original array
-    const originalArrayLength = standingsData[0].data.length;
+    const originalArrayLength = standingsData[0]?.data.length;
     // Create a new array with indices from 0 to the length of the original array
     const labels = Array.from({ length: originalArrayLength }, (_, index) => String(index));
 
@@ -179,14 +216,22 @@ const StandingsChart = ({ standingsData }) => {
     return (<>
     <div className="graphContainer">
         <div className="graphContainer-2">
-        <Line data={data} options={options} />
+            { chartLoading ? <></> : <Line data={data} options={options} /> }
         </div>
     </div>
     <div className="graphBtnContainer">
-        <Button onClick={toggleData} variant="contained" size="small">
+        <Button onClick={toggleData} variant="outlined" size="small">
             {useDifferential ? 'Show Season Pts' : 'Show Playoff Position +/-'}
         </Button>
+
     </div>
+    {/* <div className="graphBtnContainer">
+        {chartData.map((dataset, index) => (<>
+            <Button variant="outlined" size="small" key={index} onClick={() => handleShowDataset(index)}>
+                {dataset.label}
+            </Button>
+        </>))}
+    </div> */}
 
 
     </>

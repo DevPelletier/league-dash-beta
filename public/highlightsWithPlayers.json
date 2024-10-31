@@ -36703,5 +36703,190 @@
                 "num": 11
             }
         }
+    },
+    {
+        "gameId": 2024020155,
+        "gameDate": "2024-10-30",
+        "player1Id": 8476923,
+        "player1Name": "D. Severson",
+        "player1Goals": 2,
+        "url": "https://players.brightcove.net/6415718365001/default_default/index.html?videoId=6364009883112&autoplay=false&muted=false&applicationId=nhl",
+        "title": "Severson opens scoring in the 3rd",
+        "description": "NYI@CBJ: Severson buries a wrister for opening goal",
+        "player2ID": 8476374,
+        "player2Name": "S. Kuraly",
+        "player2Assists": 2,
+        "player3ID": 8478099,
+        "player3Name": "K. Labanc",
+        "player3Assists": 5,
+        "playerData": {
+            "8476923": {
+                "name": "Damon Severson",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20232024/CBJ/8476923.png",
+                "team": "CBJ",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/CBJ_light.svg",
+                "num": 78
+            },
+            "8476374": {
+                "name": "Sean Kuraly",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20232024/CBJ/8476374.png",
+                "team": "CBJ",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/CBJ_light.svg",
+                "num": 7
+            },
+            "8478099": {
+                "name": "Kevin Labanc",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20232024/SJS/8478099.png",
+                "team": "SJS",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/SJS_20082009-20232024_light.svg",
+                "num": 62
+            }
+        }
+    },
+    {
+        "gameId": 2024020156,
+        "gameDate": "2024-10-30",
+        "player1Id": 8480014,
+        "player1Name": "G. Vilardi",
+        "player1Goals": 3,
+        "url": "https://players.brightcove.net/6415718365001/default_default/index.html?videoId=6364008114112&autoplay=false&muted=false&applicationId=nhl",
+        "title": "Vilardi strikes first",
+        "description": "WPG@DET: Vilardi rips it in to open scoring, Connor notches 500th point",
+        "player2ID": 8478398,
+        "player2Name": "K. Connor",
+        "player2Assists": 7,
+        "player3ID": 8479378,
+        "player3Name": "L. Stanley",
+        "player3Assists": 2,
+        "playerData": {
+            "8478398": {
+                "name": "Kyle Connor",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20232024/WPG/8478398.png",
+                "team": "WPG",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/WPG_light.svg",
+                "num": 81
+            },
+            "8480014": {
+                "name": "Gabriel Vilardi",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20232024/WPG/8480014.png",
+                "team": "WPG",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/WPG_light.svg",
+                "num": 13
+            },
+            "8479378": {
+                "name": "Logan Stanley",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20232024/WPG/8479378.png",
+                "team": "WPG",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/WPG_light.svg",
+                "num": 64
+            }
+        }
+    },
+    {
+        "gameId": 2024020156,
+        "gameDate": "2024-10-30",
+        "player1Id": 8480145,
+        "player1Name": "N. Pionk",
+        "player1Goals": 2,
+        "url": "https://players.brightcove.net/6415718365001/default_default/index.html?videoId=6364008589112&autoplay=false&muted=false&applicationId=nhl",
+        "title": "WPG@DET: Pionk scores goal against Alex Lyon",
+        "description": "WPG@DET: Pionk scores goal against Alex Lyon",
+        "player2ID": 8476460,
+        "player2Name": "M. Scheifele",
+        "player2Assists": 7,
+        "player3ID": 8478398,
+        "player3Name": "K. Connor",
+        "player3Assists": 8,
+        "playerData": {
+            "8480145": {
+                "name": "Neal Pionk",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20232024/WPG/8480145.png",
+                "team": "WPG",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/WPG_light.svg",
+                "num": 4
+            },
+            "8476460": {
+                "name": "Mark Scheifele",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20232024/WPG/8476460.png",
+                "team": "WPG",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/WPG_light.svg",
+                "num": 55
+            },
+            "8478398": {
+                "name": "Kyle Connor",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20232024/WPG/8478398.png",
+                "team": "WPG",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/WPG_light.svg",
+                "num": 81
+            }
+        }
+    },
+    {
+        "gameId": 2024020156,
+        "gameDate": "2024-10-30",
+        "player1Id": 8478398,
+        "player1Name": "K. Connor",
+        "player1Goals": 9,
+        "url": "https://players.brightcove.net/6415718365001/default_default/index.html?videoId=6364008546112&autoplay=false&muted=false&applicationId=nhl",
+        "title": "WPG@DET: Connor scores goal against Alex Lyon",
+        "description": "WPG@DET: Connor scores goal against Alex Lyon",
+        "player2ID": 8480014,
+        "player2Name": "G. Vilardi",
+        "player2Assists": 5,
+        "playerData": {
+            "8478398": {
+                "name": "Kyle Connor",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20232024/WPG/8478398.png",
+                "team": "WPG",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/WPG_light.svg",
+                "num": 81
+            },
+            "8480014": {
+                "name": "Gabriel Vilardi",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20232024/WPG/8480014.png",
+                "team": "WPG",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/WPG_light.svg",
+                "num": 13
+            }
+        }
+    },
+    {
+        "gameId": 2024020156,
+        "gameDate": "2024-10-30",
+        "player1Id": 8477946,
+        "player1Name": "D. Larkin",
+        "player1Goals": 5,
+        "url": "https://players.brightcove.net/6415718365001/default_default/index.html?videoId=6364009962112&autoplay=false&muted=false&applicationId=nhl",
+        "title": "Larkin answers back",
+        "description": "WPG@DET: Larkin rips it in to put Red Wings on the board",
+        "player2ID": 8482078,
+        "player2Name": "L. Raymond",
+        "player2Assists": 8,
+        "player3ID": 8481542,
+        "player3Name": "M. Seider",
+        "player3Assists": 5,
+        "playerData": {
+            "8481542": {
+                "name": "Moritz Seider",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20232024/DET/8481542.png",
+                "team": "DET",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/DET_light.svg",
+                "num": 53
+            },
+            "8477946": {
+                "name": "Dylan Larkin",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20232024/DET/8477946.png",
+                "team": "DET",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/DET_light.svg",
+                "num": 71
+            },
+            "8482078": {
+                "name": "Lucas Raymond",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20232024/DET/8482078.png",
+                "team": "DET",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/DET_light.svg",
+                "num": 23
+            }
+        }
     }
 ]
