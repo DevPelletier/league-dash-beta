@@ -109,11 +109,7 @@ export default function HighlightsPage({ highlightVideos }) {
                   <Typography variant="body1">{vid.title}</Typography>
                 </div>
                 <div className="row2">
-                  <Typography variant="subtitle2">
-                    {vid.player1Name}({vid.player1Goals})
-                    {vid.player2Name && <span> from {vid.player2Name}({vid.player2Assists})</span>}
-                    {vid.player3Name && <span> and {vid.player3Name}({vid.player3Assists})</span>}
-                  </Typography>
+                  <Typography variant="subtitle2">{vid.description}</Typography>
                 </div>
               </div>
             </div>
@@ -121,7 +117,11 @@ export default function HighlightsPage({ highlightVideos }) {
             <AccordionDetails className="vidContainer">
               {/* Conditionally render the video only when expanded */}
               {expanded === index && (<>
-                <Typography variant="subtitle2">{vid.description}</Typography>
+                <Typography variant="subtitle2" className="goalInfo">
+                    {vid.player1Name}({vid.player1Goals})
+                    {vid.player2Name && <span> from {vid.player2Name}({vid.player2Assists})</span>}
+                    {vid.player3Name && <span> and {vid.player3Name}({vid.player3Assists})</span>}
+                </Typography>
                 <VideoPlayer 
                   videoUrl={vid.url}
                 />

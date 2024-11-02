@@ -63,11 +63,11 @@ export default function Navbar() {
       <List>
         {mainLinks.map((link) => (
           <ListItem key={link.id} disablePadding>
+            <Link href={link.url} className="teamLink">
             <ListItemButton>
-              <Link href={link.url} className="teamLink">
                 <ListItemText primary={link.text} />
-              </Link>
             </ListItemButton>
+            </Link>
           </ListItem>
         ))}
       </List>
@@ -75,8 +75,8 @@ export default function Navbar() {
       <List>
         {teams.map((item, index) => (
           <ListItem key={index} disablePadding>
-            <ListItemButton>
             <Link href={"/teams/" + item.id} className="teamLink">
+            <ListItemButton>
               <ListItemIcon>
                 <Avatar alt="" src={item.logo}
                   // sx={{ width: 60, height: 60 }}
@@ -84,8 +84,8 @@ export default function Navbar() {
                 />
               </ListItemIcon>
               <ListItemText primary={item.name} />
-            </Link>
             </ListItemButton>
+            </Link>
           </ListItem>
         ))}
       </List>
