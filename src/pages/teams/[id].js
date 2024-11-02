@@ -16,6 +16,8 @@ import AccordionSummary from '@mui/material/AccordionSummary';
 import AccordionDetails from '@mui/material/AccordionDetails';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import Typography from '@mui/material/Typography';
+import Button from '@mui/material/Button';
+
 
 import VideoPlayer from '../../../components/VideoPlayer';
 import yahooImg from '../../../public/images/yahoo.png'
@@ -65,6 +67,8 @@ export default function TeamPage({ team }) {
   const [filteredVids, setFilteredVids] = useState([]); // Store the filtered highlights
   const [mappedData, setMappedData] = useState([]); // store combined highlight and player data here
   const [loading, setLoading] = useState(true); // Loading state
+  const [videosToShow, setVideosToShow] = useState(20); // Initially display 20 videos
+  const [updated, setUpdated] = useState([])
 
   const fetchPlayerData = async () => {
     try {
@@ -122,6 +126,14 @@ export default function TeamPage({ team }) {
   
   useEffect(() => {
     console.log('useEffect')
+
+    setVideosToShow(20) // reset on refresh
+    fetch('/updated.json')
+    .then((res) => res.json())
+    .then((data) => {
+        setUpdated(data);
+    })
+
       // Fetch the JSON data from the public folder
     fetch('/highlightsWithPlayers.json')
       .then((res) => res.json())
@@ -152,6 +164,11 @@ export default function TeamPage({ team }) {
       .catch((err) => console.error('Failed to fetch players:', err));
   }, [team]);
 
+    // Increase the number of videos displayed by 20 each time
+  const loadMoreVideos = () => {
+    setVideosToShow((prev) => prev + 20);
+  };
+  
   const handleChange = (panel) => (event, isExpanded) => {
     setExpanded(isExpanded ? panel : false); // Update state based on expansion
   };
@@ -174,6 +191,20 @@ export default function TeamPage({ team }) {
           </Link>
         </div>
       </div>
+      <Typography variant="subtitle2" className="updated">Last Updated: {updated.updated}</Typography>
+
+      <div className="teamDetailsContainer">
+
+        <span className="teamDetail">Conference: {team.div_id}</span>
+        <span className="teamDetail">Rank: {team.rank}</span>
+        <span className="teamDetail">Pts Pct: {team.pct}</span>
+        <span className="teamDetail">Pts: {team.pts}</span>
+        <span className="teamDetail">Season Moves: {team.seasonMoves}</span>
+        <span className="teamDetail">Trades: {team.trades}</span>
+        <span className="teamDetail">Waiver Priority: {team.waiverPriority}</span>
+        <span className="teamDetail">Moves This Week: {team.weekMoves}</span>
+
+      </div>
       {/* Team Highlights */}
       <Grid size={8} item container alignItems="center" justifyContent="center" spacing={2} className="teamHighlights">
           <Typography variant="h5">Team Highlights</Typography>
@@ -181,7 +212,7 @@ export default function TeamPage({ team }) {
           Toggle to {toggle ? 'Option 2' : 'Option 1'}
           </button> */}
           {/* { (filteredVids.length > 0) ? (<>got filteredVids</>):(<>loading...</>)} */}
-          {filteredVids.map((vid, index) => (
+          {filteredVids.slice(0, videosToShow).map((vid, index) => (
           <Accordion 
             key={index} 
             expanded={expanded === index} 
@@ -219,11 +250,7 @@ export default function TeamPage({ team }) {
                     <Typography variant="body1">{vid.title}</Typography>
                   </div>
                   <div className="row2">
-                    <Typography variant="subtitle2">
-                      {vid.player1Name}({vid.player1Goals})
-                      {vid.player2Name && <span> from {vid.player2Name}({vid.player2Assists})</span>}
-                      {vid.player3Name && <span> and {vid.player3Name}({vid.player3Assists})</span>}
-                    </Typography>
+                    <Typography variant="subtitle2">{vid.description}</Typography>
                   </div>
                 </div>
               </div>
@@ -231,15 +258,31 @@ export default function TeamPage({ team }) {
               <AccordionDetails className="vidContainer">
                 {/* Conditionally render the video only when expanded */}
                 {expanded === index && (<>
-                  <Typography variant="subtitle2">{vid.description}</Typography>
+                  <Typography variant="subtitle2" className="goalInfo">
+                    {vid.player1Name}({vid.player1Goals})
+                    {vid.player2Name && <span> from {vid.player2Name}({vid.player2Assists})</span>}
+                    {vid.player3Name && <span> and {vid.player3Name}({vid.player3Assists})</span>}
+                  </Typography>
                   <VideoPlayer 
                     videoUrl={vid.url}
                   />
+                  <div className="btnContainer share">
+                    {/* <CopyTextBtn text={'https://mcdave-dash-beta.vercel.app/highlights#' + vid.gameId + "-" + vid.player1Id} /> */}
+                  </div>
                 </>)}
               </AccordionDetails>
           </Accordion>
           ))}
       </Grid>
+
+      {videosToShow < filteredVids.length && (
+        <div className="btnContainer">
+          <Button variant="contained" onClick={loadMoreVideos} style={{ marginTop: '20px' }}>
+            Load More
+          </Button>
+        </div>
+      )}
+
     </main>
   
 </>);

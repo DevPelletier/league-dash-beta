@@ -6,13 +6,14 @@ const VideoPlayer = ({ videoUrl }) => {
     return (
         <div style={{ width: '100%', maxWidth: '800px', margin: '0 auto', backgroundColor: '#000' }}>
             <iframe
+                className="vidIFrame"
                 src={videoUrl}
                 frameBorder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowFullScreen
                 style={{
                     width: '100%',
-                    height: '450px', // Directly set the height here to ensure visibility
+                    // height: '450px', // Directly set the height here to ensure visibility
                 }}
             />
         </div>

@@ -108,9 +108,12 @@ export default function Navbar() {
           </IconButton>
 
           {/* App Title */}
+          <Link href="/">
           <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
             McDave League Dash (Beta)
           </Typography>
+          </Link>
+
 
           {/* Optional Buttons */}
           {/* <Button color="inherit">Home</Button>
