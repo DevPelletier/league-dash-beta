@@ -129,7 +129,6 @@ export default function Standings({ team }) {
     // TODO
     const buildGraph = (data) => {
         console.log('build graph')
-
         let dataForGraph = []
         for (let x in data) {
             let teamObj = {}
@@ -148,7 +147,6 @@ export default function Standings({ team }) {
         fetch('/teams.json')
             .then((res) => res.json())
             .then((data) => {
-                // console.log(data);
                 setTeams(data);
                 importTeams(data);
                 buildGraph(data);
