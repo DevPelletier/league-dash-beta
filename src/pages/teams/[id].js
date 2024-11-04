@@ -195,14 +195,14 @@ export default function TeamPage({ team }) {
 
       <div className="teamDetailsContainer">
 
-        <span className="teamDetail">Conference: {team.div_id}</span>
+        <span className="teamDetail">Conference: {team.div_id == 1 ? "EAST" : "WEST"}</span>
         <span className="teamDetail">Rank: {team.rank}</span>
         <span className="teamDetail">Pts Pct: {team.pct}</span>
         <span className="teamDetail">Pts: {team.pts}</span>
-        <span className="teamDetail">Season Moves: {team.seasonMoves}</span>
+        <span className="teamDetail">Season Moves: {team.seasonMoves}/69</span>
         <span className="teamDetail">Trades: {team.trades}</span>
-        <span className="teamDetail">Waiver Priority: {team.waiverPriority}</span>
-        <span className="teamDetail">Moves This Week: {team.weekMoves}</span>
+        <span className="teamDetail">Waiver Priority: {team.waiverPriority}/16</span>
+        <span className="teamDetail">Moves This Week: {team.weekMoves}/4</span>
 
       </div>
       {/* Team Highlights */}
