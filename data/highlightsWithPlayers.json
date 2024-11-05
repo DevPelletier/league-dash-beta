@@ -44413,5 +44413,229 @@
                 "num": 16
             }
         }
+    },
+    {
+        "gameId": 2024020192,
+        "gameDate": "2024-11-04",
+        "player1Id": 8471685,
+        "player1Name": "A. Kopitar",
+        "player1Goals": 5,
+        "url": "https://players.brightcove.net/6415718365001/default_default/index.html?videoId=6364207383112&autoplay=false&muted=false&applicationId=nhl",
+        "title": "Kopitar kicks off scoring",
+        "description": "LAK@NSH: Kopitar banks the wrister off Saros to to give the Kings the early 1-0 lead",
+        "player2ID": 8482730,
+        "player2Name": "B. Clarke",
+        "player2Assists": 11,
+        "player3ID": 8477960,
+        "player3Name": "A. Kempe",
+        "player3Assists": 7,
+        "playerData": {
+            "8471685": {
+                "name": "Anze Kopitar",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20242025/LAK/8471685.png",
+                "team": "LAK",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/LAK_light.svg",
+                "num": 11
+            },
+            "8482730": {
+                "name": "Brandt Clarke",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20242025/LAK/8482730.png",
+                "team": "LAK",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/LAK_light.svg",
+                "num": 92
+            },
+            "8477960": {
+                "name": "Adrian Kempe",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20242025/LAK/8477960.png",
+                "team": "LAK",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/LAK_light.svg",
+                "num": 9
+            }
+        }
+    },
+    {
+        "gameId": 2024020192,
+        "gameDate": "2024-11-04",
+        "player1Id": 8477942,
+        "player1Name": "K. Fiala",
+        "player1Goals": 6,
+        "url": "https://players.brightcove.net/6415718365001/default_default/index.html?videoId=6364208254112&autoplay=false&muted=false&applicationId=nhl",
+        "title": "Fiala doubles the lead",
+        "description": "LAK@NSH: Fiala connects off the rebound and nets the wrister to put the Kings up 2-0 in the 3rd",
+        "player2ID": 8476479,
+        "player2Name": "P. Danault",
+        "player2Assists": 5,
+        "player3ID": 8479675,
+        "player3Name": "T. Moore",
+        "player3Assists": 4,
+        "playerData": {
+            "8476479": {
+                "name": "Phillip Danault",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20242025/LAK/8476479.png",
+                "team": "LAK",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/LAK_light.svg",
+                "num": 24
+            },
+            "8479675": {
+                "name": "Trevor Moore",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20242025/LAK/8479675.png",
+                "team": "LAK",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/LAK_light.svg",
+                "num": 12
+            },
+            "8477942": {
+                "name": "Kevin Fiala",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20242025/LAK/8477942.png",
+                "team": "LAK",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/LAK_light.svg",
+                "num": 22
+            }
+        }
+    },
+    {
+        "gameId": 2024020192,
+        "gameDate": "2024-11-04",
+        "player1Id": 8477960,
+        "player1Name": "A. Kempe",
+        "player1Goals": 5,
+        "url": "https://players.brightcove.net/6415718365001/default_default/index.html?videoId=6364210601112&autoplay=false&muted=false&applicationId=nhl",
+        "title": "Adrian Kempe with a Goal vs. Nashville Predators",
+        "description": "Adrian Kempe with a Goal vs. Nashville Predators",
+        "player2ID": 8473453,
+        "player2Name": "T. Lewis",
+        "player2Assists": 2,
+        "player3ID": 8478882,
+        "player3Name": "V. Gavrikov",
+        "player3Assists": 4,
+        "playerData": {
+            "8478882": {
+                "name": "Vladislav Gavrikov",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20242025/LAK/8478882.png",
+                "team": "LAK",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/LAK_light.svg",
+                "num": 84
+            },
+            "8477960": {
+                "name": "Adrian Kempe",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20242025/LAK/8477960.png",
+                "team": "LAK",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/LAK_light.svg",
+                "num": 9
+            },
+            "8473453": {
+                "name": "Trevor Lewis",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20242025/LAK/8473453.png",
+                "team": "LAK",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/LAK_light.svg",
+                "num": 61
+            }
+        }
+    },
+    {
+        "gameId": 2024020193,
+        "gameDate": "2024-11-04",
+        "player1Id": 8476474,
+        "player1Name": "S. Noesen",
+        "player1Goals": 6,
+        "url": "https://players.brightcove.net/6415718365001/default_default/index.html?videoId=6364207293112&autoplay=false&muted=false&applicationId=nhl",
+        "title": "Noesen breaks the ice",
+        "description": "NJD@EDM: Noesen puts Devils on top with opening goal",
+        "player2ID": 8481032,
+        "player2Name": "P. Cotter",
+        "player2Assists": 3,
+        "player3ID": 8479407,
+        "player3Name": "J. Bratt",
+        "player3Assists": 12,
+        "playerData": {
+            "8479407": {
+                "name": "Jesper Bratt",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20242025/NJD/8479407.png",
+                "team": "NJD",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/NJD_light.svg",
+                "num": 63
+            },
+            "8476474": {
+                "name": "Stefan Noesen",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20242025/NJD/8476474.png",
+                "team": "NJD",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/NJD_light.svg",
+                "num": 11
+            },
+            "8481032": {
+                "name": "Paul Cotter",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20242025/NJD/8481032.png",
+                "team": "NJD",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/NJD_light.svg",
+                "num": 47
+            }
+        }
+    },
+    {
+        "gameId": 2024020193,
+        "gameDate": "2024-11-04",
+        "player1Id": 8479407,
+        "player1Name": "J. Bratt",
+        "player1Goals": 3,
+        "url": "https://players.brightcove.net/6415718365001/default_default/index.html?videoId=6364210012112&autoplay=false&muted=false&applicationId=nhl",
+        "title": "Bratt nets one-timer PPG",
+        "description": "NJD@EDM: Bratt fires one in five-hole on the power-play to extend the lead",
+        "player2ID": 8480002,
+        "player2Name": "N. Hischier",
+        "player2Assists": 6,
+        "player3ID": 8476462,
+        "player3Name": "D. Hamilton",
+        "player3Assists": 7,
+        "playerData": {
+            "8476462": {
+                "name": "Dougie Hamilton",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20242025/NJD/8476462.png",
+                "team": "NJD",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/NJD_light.svg",
+                "num": 7
+            },
+            "8480002": {
+                "name": "Nico Hischier",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20242025/NJD/8480002.png",
+                "team": "NJD",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/NJD_light.svg",
+                "num": 13
+            },
+            "8479407": {
+                "name": "Jesper Bratt",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20242025/NJD/8479407.png",
+                "team": "NJD",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/NJD_light.svg",
+                "num": 63
+            }
+        }
+    },
+    {
+        "gameId": 2024020193,
+        "gameDate": "2024-11-04",
+        "player1Id": 8478414,
+        "player1Name": "T. Meier",
+        "player1Goals": 6,
+        "url": "https://players.brightcove.net/6415718365001/default_default/index.html?videoId=6364210039112&autoplay=false&muted=false&applicationId=nhl",
+        "title": "Meier buries one out front",
+        "description": "NJD@EDM: Meier scores on the rush off a slick dish from Mercer",
+        "player2ID": 8482110,
+        "player2Name": "D. Mercer",
+        "player2Assists": 5,
+        "playerData": {
+            "8482110": {
+                "name": "Dawson Mercer",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20242025/NJD/8482110.png",
+                "team": "NJD",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/NJD_light.svg",
+                "num": 91
+            },
+            "8478414": {
+                "name": "Timo Meier",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20242025/NJD/8478414.png",
+                "team": "NJD",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/NJD_light.svg",
+                "num": 28
+            }
+        }
     }
 ]
