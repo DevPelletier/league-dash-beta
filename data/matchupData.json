@@ -528,7 +528,7 @@
                         0,
                         15
                     ],
-                    "stats": [
+                    "stats": [  // TO DO: figure out where this is coming from... this should be just in ['statValues']
                         {
                             "id": "1",
                             "value": "",

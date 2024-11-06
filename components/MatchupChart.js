@@ -8,7 +8,7 @@ ChartJS.register(LineElement, CategoryScale, LinearScale, PointElement, Title, T
 
 const MatchupChart = ({ team1Data, team2Data }) => {
     // Dummy data for category wins or losses over a week
-    const labels = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'];
+    const labels = ['Start', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Final'];
 
     // Configuration for the chart
     const data = {
@@ -19,7 +19,7 @@ const MatchupChart = ({ team1Data, team2Data }) => {
                 data: team1Data.data,
                 borderColor: team1Data.lineColour,
                 backgroundColor: team1Data.bgColour,
-                fill: false, // Do not fill under the line
+                fill: true, // Do not fill under the line
                 cubicInterpolationMode: 'monotone',
                 tension: 0.4
                 // tension: -1  // apparently doesn't do anything lol
@@ -29,7 +29,7 @@ const MatchupChart = ({ team1Data, team2Data }) => {
                 data: team2Data.data,
                 borderColor: team2Data.lineColour,
                 backgroundColor: team2Data.bgColour,
-                fill: false, // Do not fill under the line
+                fill: true, // Do not fill under the line
                 cubicInterpolationMode: 'monotone',
             },
         ],
@@ -39,11 +39,11 @@ const MatchupChart = ({ team1Data, team2Data }) => {
         scales: {
             y: {
                 beginAtZero: true, // Start the Y-axis at zero
-                min: 0,
-                max: 9,
+                // min: 0,
+                // max: 9,
                 title: {
                     display: true,
-                    text: 'Category Wins',
+                    text: 'Points',
                 },
             },
             x: {
