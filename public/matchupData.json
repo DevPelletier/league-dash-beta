@@ -1,1 +1,5158 @@
-{}
+{
+    "4": [
+        {
+            "id": "4-1-14",
+            "weekStart": "2024-10-28",
+            "weekEnd": "2024-11-03",
+            "teamsData": [
+                {
+                    "team_id": "453.l.5795.t.1",
+                    "currentScore": 16,
+                    "matchupHistScores": [
+                        0,
+                        16,
+                        16,
+                        18
+                    ],
+                    "matchupHistStats": [
+                        {
+                            "id": "1",
+                            "name": "G",
+                            "data": [
+                                0
+                            ]
+                        },
+                        {
+                            "id": "2",
+                            "name": "A",
+                            "data": [
+                                0
+                            ]
+                        },
+                        {
+                            "id": "8",
+                            "name": "PPP",
+                            "data": [
+                                0
+                            ]
+                        },
+                        {
+                            "id": "14",
+                            "name": "SOG",
+                            "data": [
+                                0
+                            ]
+                        },
+                        {
+                            "id": "31",
+                            "name": "HIT",
+                            "data": [
+                                0
+                            ]
+                        },
+                        {
+                            "id": "32",
+                            "name": "BLK",
+                            "data": [
+                                0
+                            ]
+                        },
+                        {
+                            "id": "19",
+                            "name": "W",
+                            "data": [
+                                0
+                            ]
+                        },
+                        {
+                            "id": "22",
+                            "name": "GA",
+                            "data": [
+                                0
+                            ]
+                        },
+                        {
+                            "id": "23",
+                            "name": "GAA",
+                            "data": [
+                                0
+                            ]
+                        },
+                        {
+                            "id": "25",
+                            "name": "SV",
+                            "data": [
+                                0
+                            ]
+                        },
+                        {
+                            "id": "24",
+                            "name": "SA",
+                            "data": [
+                                0
+                            ]
+                        },
+                        {
+                            "id": "26",
+                            "name": "SV%",
+                            "data": [
+                                0
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "team_id": "453.l.5795.t.14",
+                    "currentScore": 2,
+                    "matchupHistScores": [
+                        0,
+                        2,
+                        2,
+                        0
+                    ],
+                    "matchupHistStats": [
+                        {
+                            "id": "1",
+                            "name": "G",
+                            "data": [
+                                0
+                            ]
+                        },
+                        {
+                            "id": "2",
+                            "name": "A",
+                            "data": [
+                                0
+                            ]
+                        },
+                        {
+                            "id": "8",
+                            "name": "PPP",
+                            "data": [
+                                0
+                            ]
+                        },
+                        {
+                            "id": "14",
+                            "name": "SOG",
+                            "data": [
+                                0
+                            ]
+                        },
+                        {
+                            "id": "31",
+                            "name": "HIT",
+                            "data": [
+                                0
+                            ]
+                        },
+                        {
+                            "id": "32",
+                            "name": "BLK",
+                            "data": [
+                                0
+                            ]
+                        },
+                        {
+                            "id": "19",
+                            "name": "W",
+                            "data": [
+                                0
+                            ]
+                        },
+                        {
+                            "id": "22",
+                            "name": "GA",
+                            "data": [
+                                0
+                            ]
+                        },
+                        {
+                            "id": "23",
+                            "name": "GAA",
+                            "data": [
+                                0
+                            ]
+                        },
+                        {
+                            "id": "25",
+                            "name": "SV",
+                            "data": [
+                                0
+                            ]
+                        },
+                        {
+                            "id": "24",
+                            "name": "SA",
+                            "data": [
+                                0
+                            ]
+                        },
+                        {
+                            "id": "26",
+                            "name": "SV%",
+                            "data": [
+                                0
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "4-2-13",
+            "weekStart": "2024-10-28",
+            "weekEnd": "2024-11-03",
+            "teamsData": [
+                {
+                    "team_id": "453.l.5795.t.2",
+                    "currentScore": 6,
+                    "matchupHistScores": [
+                        0,
+                        6,
+                        9,
+                        8
+                    ],
+                    "matchupHistStats": [
+                        {
+                            "id": "1",
+                            "name": "G",
+                            "data": [
+                                0
+                            ]
+                        },
+                        {
+                            "id": "2",
+                            "name": "A",
+                            "data": [
+                                0
+                            ]
+                        },
+                        {
+                            "id": "8",
+                            "name": "PPP",
+                            "data": [
+                                0
+                            ]
+                        },
+                        {
+                            "id": "14",
+                            "name": "SOG",
+                            "data": [
+                                0
+                            ]
+                        },
+                        {
+                            "id": "31",
+                            "name": "HIT",
+                            "data": [
+                                0
+                            ]
+                        },
+                        {
+                            "id": "32",
+                            "name": "BLK",
+                            "data": [
+                                0
+                            ]
+                        },
+                        {
+                            "id": "19",
+                            "name": "W",
+                            "data": [
+                                0
+                            ]
+                        },
+                        {
+                            "id": "22",
+                            "name": "GA",
+                            "data": [
+                                0
+                            ]
+                        },
+                        {
+                            "id": "23",
+                            "name": "GAA",
+                            "data": [
+                                0
+                            ]
+                        },
+                        {
+                            "id": "25",
+                            "name": "SV",
+                            "data": [
+                                0
+                            ]
+                        },
+                        {
+                            "id": "24",
+                            "name": "SA",
+                            "data": [
+                                0
+                            ]
+                        },
+                        {
+                            "id": "26",
+                            "name": "SV%",
+                            "data": [
+                                0
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "team_id": "453.l.5795.t.13",
+                    "currentScore": 12,
+                    "matchupHistScores": [
+                        0,
+                        12,
+                        9,
+                        10
+                    ],
+                    "matchupHistStats": [
+                        {
+                            "id": "1",
+                            "name": "G",
+                            "data": [
+                                0
+                            ]
+                        },
+                        {
+                            "id": "2",
+                            "name": "A",
+                            "data": [
+                                0
+                            ]
+                        },
+                        {
+                            "id": "8",
+                            "name": "PPP",
+                            "data": [
+                                0
+                            ]
+                        },
+                        {
+                            "id": "14",
+                            "name": "SOG",
+                            "data": [
+                                0
+                            ]
+                        },
+                        {
+                            "id": "31",
+                            "name": "HIT",
+                            "data": [
+                                0
+                            ]
+                        },
+                        {
+                            "id": "32",
+                            "name": "BLK",
+                            "data": [
+                                0
+                            ]
+                        },
+                        {
+                            "id": "19",
+                            "name": "W",
+                            "data": [
+                                0
+                            ]
+                        },
+                        {
+                            "id": "22",
+                            "name": "GA",
+                            "data": [
+                                0
+                            ]
+                        },
+                        {
+                            "id": "23",
+                            "name": "GAA",
+                            "data": [
+                                0
+                            ]
+                        },
+                        {
+                            "id": "25",
+                            "name": "SV",
+                            "data": [
+                                0
+                            ]
+                        },
+                        {
+                            "id": "24",
+                            "name": "SA",
+                            "data": [
+                                0
+                            ]
+                        },
+                        {
+                            "id": "26",
+                            "name": "SV%",
+                            "data": [
+                                0
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "4-3-5",
+            "weekStart": "2024-10-28",
+            "weekEnd": "2024-11-03",
+            "teamsData": [
+                {
+                    "team_id": "453.l.5795.t.3",
+                    "currentScore": 14,
+                    "matchupHistScores": [
+                        0,
+                        14,
+                        14,
+                        11
+                    ],
+                    "matchupHistStats": [
+                        {
+                            "id": "1",
+                            "name": "G",
+                            "data": [
+                                0
+                            ]
+                        },
+                        {
+                            "id": "2",
+                            "name": "A",
+                            "data": [
+                                0
+                            ]
+                        },
+                        {
+                            "id": "8",
+                            "name": "PPP",
+                            "data": [
+                                0
+                            ]
+                        },
+                        {
+                            "id": "14",
+                            "name": "SOG",
+                            "data": [
+                                0
+                            ]
+                        },
+                        {
+                            "id": "31",
+                            "name": "HIT",
+                            "data": [
+                                0
+                            ]
+                        },
+                        {
+                            "id": "32",
+                            "name": "BLK",
+                            "data": [
+                                0
+                            ]
+                        },
+                        {
+                            "id": "19",
+                            "name": "W",
+                            "data": [
+                                0
+                            ]
+                        },
+                        {
+                            "id": "22",
+                            "name": "GA",
+                            "data": [
+                                0
+                            ]
+                        },
+                        {
+                            "id": "23",
+                            "name": "GAA",
+                            "data": [
+                                0
+                            ]
+                        },
+                        {
+                            "id": "25",
+                            "name": "SV",
+                            "data": [
+                                0
+                            ]
+                        },
+                        {
+                            "id": "24",
+                            "name": "SA",
+                            "data": [
+                                0
+                            ]
+                        },
+                        {
+                            "id": "26",
+                            "name": "SV%",
+                            "data": [
+                                0
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "team_id": "453.l.5795.t.5",
+                    "currentScore": 4,
+                    "matchupHistScores": [
+                        0,
+                        4,
+                        4,
+                        7
+                    ],
+                    "matchupHistStats": [
+                        {
+                            "id": "1",
+                            "name": "G",
+                            "data": [
+                                0
+                            ]
+                        },
+                        {
+                            "id": "2",
+                            "name": "A",
+                            "data": [
+                                0
+                            ]
+                        },
+                        {
+                            "id": "8",
+                            "name": "PPP",
+                            "data": [
+                                0
+                            ]
+                        },
+                        {
+                            "id": "14",
+                            "name": "SOG",
+                            "data": [
+                                0
+                            ]
+                        },
+                        {
+                            "id": "31",
+                            "name": "HIT",
+                            "data": [
+                                0
+                            ]
+                        },
+                        {
+                            "id": "32",
+                            "name": "BLK",
+                            "data": [
+                                0
+                            ]
+                        },
+                        {
+                            "id": "19",
+                            "name": "W",
+                            "data": [
+                                0
+                            ]
+                        },
+                        {
+                            "id": "22",
+                            "name": "GA",
+                            "data": [
+                                0
+                            ]
+                        },
+                        {
+                            "id": "23",
+                            "name": "GAA",
+                            "data": [
+                                0
+                            ]
+                        },
+                        {
+                            "id": "25",
+                            "name": "SV",
+                            "data": [
+                                0
+                            ]
+                        },
+                        {
+                            "id": "24",
+                            "name": "SA",
+                            "data": [
+                                0
+                            ]
+                        },
+                        {
+                            "id": "26",
+                            "name": "SV%",
+                            "data": [
+                                0
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "4-4-16",
+            "weekStart": "2024-10-28",
+            "weekEnd": "2024-11-03",
+            "teamsData": [
+                {
+                    "team_id": "453.l.5795.t.4",
+                    "currentScore": 10,
+                    "matchupHistScores": [
+                        0,
+                        10,
+                        11,
+                        9
+                    ],
+                    "matchupHistStats": [
+                        {
+                            "id": "1",
+                            "name": "G",
+                            "data": [
+                                0
+                            ]
+                        },
+                        {
+                            "id": "2",
+                            "name": "A",
+                            "data": [
+                                0
+                            ]
+                        },
+                        {
+                            "id": "8",
+                            "name": "PPP",
+                            "data": [
+                                0
+                            ]
+                        },
+                        {
+                            "id": "14",
+                            "name": "SOG",
+                            "data": [
+                                0
+                            ]
+                        },
+                        {
+                            "id": "31",
+                            "name": "HIT",
+                            "data": [
+                                0
+                            ]
+                        },
+                        {
+                            "id": "32",
+                            "name": "BLK",
+                            "data": [
+                                0
+                            ]
+                        },
+                        {
+                            "id": "19",
+                            "name": "W",
+                            "data": [
+                                0
+                            ]
+                        },
+                        {
+                            "id": "22",
+                            "name": "GA",
+                            "data": [
+                                0
+                            ]
+                        },
+                        {
+                            "id": "23",
+                            "name": "GAA",
+                            "data": [
+                                0
+                            ]
+                        },
+                        {
+                            "id": "25",
+                            "name": "SV",
+                            "data": [
+                                0
+                            ]
+                        },
+                        {
+                            "id": "24",
+                            "name": "SA",
+                            "data": [
+                                0
+                            ]
+                        },
+                        {
+                            "id": "26",
+                            "name": "SV%",
+                            "data": [
+                                0
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "team_id": "453.l.5795.t.16",
+                    "currentScore": 8,
+                    "matchupHistScores": [
+                        0,
+                        8,
+                        7,
+                        9
+                    ],
+                    "matchupHistStats": [
+                        {
+                            "id": "1",
+                            "name": "G",
+                            "data": [
+                                0
+                            ]
+                        },
+                        {
+                            "id": "2",
+                            "name": "A",
+                            "data": [
+                                0
+                            ]
+                        },
+                        {
+                            "id": "8",
+                            "name": "PPP",
+                            "data": [
+                                0
+                            ]
+                        },
+                        {
+                            "id": "14",
+                            "name": "SOG",
+                            "data": [
+                                0
+                            ]
+                        },
+                        {
+                            "id": "31",
+                            "name": "HIT",
+                            "data": [
+                                0
+                            ]
+                        },
+                        {
+                            "id": "32",
+                            "name": "BLK",
+                            "data": [
+                                0
+                            ]
+                        },
+                        {
+                            "id": "19",
+                            "name": "W",
+                            "data": [
+                                0
+                            ]
+                        },
+                        {
+                            "id": "22",
+                            "name": "GA",
+                            "data": [
+                                0
+                            ]
+                        },
+                        {
+                            "id": "23",
+                            "name": "GAA",
+                            "data": [
+                                0
+                            ]
+                        },
+                        {
+                            "id": "25",
+                            "name": "SV",
+                            "data": [
+                                0
+                            ]
+                        },
+                        {
+                            "id": "24",
+                            "name": "SA",
+                            "data": [
+                                0
+                            ]
+                        },
+                        {
+                            "id": "26",
+                            "name": "SV%",
+                            "data": [
+                                0
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "4-6-10",
+            "weekStart": "2024-10-28",
+            "weekEnd": "2024-11-03",
+            "teamsData": [
+                {
+                    "team_id": "453.l.5795.t.6",
+                    "currentScore": 8,
+                    "matchupHistScores": [
+                        0,
+                        8,
+                        7,
+                        12
+                    ],
+                    "matchupHistStats": [
+                        {
+                            "id": "1",
+                            "name": "G",
+                            "data": [
+                                0
+                            ]
+                        },
+                        {
+                            "id": "2",
+                            "name": "A",
+                            "data": [
+                                0
+                            ]
+                        },
+                        {
+                            "id": "8",
+                            "name": "PPP",
+                            "data": [
+                                0
+                            ]
+                        },
+                        {
+                            "id": "14",
+                            "name": "SOG",
+                            "data": [
+                                0
+                            ]
+                        },
+                        {
+                            "id": "31",
+                            "name": "HIT",
+                            "data": [
+                                0
+                            ]
+                        },
+                        {
+                            "id": "32",
+                            "name": "BLK",
+                            "data": [
+                                0
+                            ]
+                        },
+                        {
+                            "id": "19",
+                            "name": "W",
+                            "data": [
+                                0
+                            ]
+                        },
+                        {
+                            "id": "22",
+                            "name": "GA",
+                            "data": [
+                                0
+                            ]
+                        },
+                        {
+                            "id": "23",
+                            "name": "GAA",
+                            "data": [
+                                0
+                            ]
+                        },
+                        {
+                            "id": "25",
+                            "name": "SV",
+                            "data": [
+                                0
+                            ]
+                        },
+                        {
+                            "id": "24",
+                            "name": "SA",
+                            "data": [
+                                0
+                            ]
+                        },
+                        {
+                            "id": "26",
+                            "name": "SV%",
+                            "data": [
+                                0
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "team_id": "453.l.5795.t.10",
+                    "currentScore": 10,
+                    "matchupHistScores": [
+                        0,
+                        10,
+                        11,
+                        6
+                    ],
+                    "matchupHistStats": [
+                        {
+                            "id": "1",
+                            "name": "G",
+                            "data": [
+                                0
+                            ]
+                        },
+                        {
+                            "id": "2",
+                            "name": "A",
+                            "data": [
+                                0
+                            ]
+                        },
+                        {
+                            "id": "8",
+                            "name": "PPP",
+                            "data": [
+                                0
+                            ]
+                        },
+                        {
+                            "id": "14",
+                            "name": "SOG",
+                            "data": [
+                                0
+                            ]
+                        },
+                        {
+                            "id": "31",
+                            "name": "HIT",
+                            "data": [
+                                0
+                            ]
+                        },
+                        {
+                            "id": "32",
+                            "name": "BLK",
+                            "data": [
+                                0
+                            ]
+                        },
+                        {
+                            "id": "19",
+                            "name": "W",
+                            "data": [
+                                0
+                            ]
+                        },
+                        {
+                            "id": "22",
+                            "name": "GA",
+                            "data": [
+                                0
+                            ]
+                        },
+                        {
+                            "id": "23",
+                            "name": "GAA",
+                            "data": [
+                                0
+                            ]
+                        },
+                        {
+                            "id": "25",
+                            "name": "SV",
+                            "data": [
+                                0
+                            ]
+                        },
+                        {
+                            "id": "24",
+                            "name": "SA",
+                            "data": [
+                                0
+                            ]
+                        },
+                        {
+                            "id": "26",
+                            "name": "SV%",
+                            "data": [
+                                0
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "4-7-9",
+            "weekStart": "2024-10-28",
+            "weekEnd": "2024-11-03",
+            "teamsData": [
+                {
+                    "team_id": "453.l.5795.t.7",
+                    "currentScore": 16,
+                    "matchupHistScores": [
+                        0,
+                        16,
+                        16,
+                        16
+                    ],
+                    "matchupHistStats": [
+                        {
+                            "id": "1",
+                            "name": "G",
+                            "data": [
+                                0
+                            ]
+                        },
+                        {
+                            "id": "2",
+                            "name": "A",
+                            "data": [
+                                0
+                            ]
+                        },
+                        {
+                            "id": "8",
+                            "name": "PPP",
+                            "data": [
+                                0
+                            ]
+                        },
+                        {
+                            "id": "14",
+                            "name": "SOG",
+                            "data": [
+                                0
+                            ]
+                        },
+                        {
+                            "id": "31",
+                            "name": "HIT",
+                            "data": [
+                                0
+                            ]
+                        },
+                        {
+                            "id": "32",
+                            "name": "BLK",
+                            "data": [
+                                0
+                            ]
+                        },
+                        {
+                            "id": "19",
+                            "name": "W",
+                            "data": [
+                                0
+                            ]
+                        },
+                        {
+                            "id": "22",
+                            "name": "GA",
+                            "data": [
+                                0
+                            ]
+                        },
+                        {
+                            "id": "23",
+                            "name": "GAA",
+                            "data": [
+                                0
+                            ]
+                        },
+                        {
+                            "id": "25",
+                            "name": "SV",
+                            "data": [
+                                0
+                            ]
+                        },
+                        {
+                            "id": "24",
+                            "name": "SA",
+                            "data": [
+                                0
+                            ]
+                        },
+                        {
+                            "id": "26",
+                            "name": "SV%",
+                            "data": [
+                                0
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "team_id": "453.l.5795.t.9",
+                    "currentScore": 2,
+                    "matchupHistScores": [
+                        0,
+                        2,
+                        2,
+                        2
+                    ],
+                    "matchupHistStats": [
+                        {
+                            "id": "1",
+                            "name": "G",
+                            "data": [
+                                0
+                            ]
+                        },
+                        {
+                            "id": "2",
+                            "name": "A",
+                            "data": [
+                                0
+                            ]
+                        },
+                        {
+                            "id": "8",
+                            "name": "PPP",
+                            "data": [
+                                0
+                            ]
+                        },
+                        {
+                            "id": "14",
+                            "name": "SOG",
+                            "data": [
+                                0
+                            ]
+                        },
+                        {
+                            "id": "31",
+                            "name": "HIT",
+                            "data": [
+                                0
+                            ]
+                        },
+                        {
+                            "id": "32",
+                            "name": "BLK",
+                            "data": [
+                                0
+                            ]
+                        },
+                        {
+                            "id": "19",
+                            "name": "W",
+                            "data": [
+                                0
+                            ]
+                        },
+                        {
+                            "id": "22",
+                            "name": "GA",
+                            "data": [
+                                0
+                            ]
+                        },
+                        {
+                            "id": "23",
+                            "name": "GAA",
+                            "data": [
+                                0
+                            ]
+                        },
+                        {
+                            "id": "25",
+                            "name": "SV",
+                            "data": [
+                                0
+                            ]
+                        },
+                        {
+                            "id": "24",
+                            "name": "SA",
+                            "data": [
+                                0
+                            ]
+                        },
+                        {
+                            "id": "26",
+                            "name": "SV%",
+                            "data": [
+                                0
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "4-8-15",
+            "weekStart": "2024-10-28",
+            "weekEnd": "2024-11-03",
+            "teamsData": [
+                {
+                    "team_id": "453.l.5795.t.8",
+                    "currentScore": 11,
+                    "matchupHistScores": [
+                        0,
+                        11,
+                        11,
+                        10
+                    ],
+                    "matchupHistStats": [
+                        {
+                            "id": "1",
+                            "name": "G",
+                            "data": [
+                                0
+                            ]
+                        },
+                        {
+                            "id": "2",
+                            "name": "A",
+                            "data": [
+                                0
+                            ]
+                        },
+                        {
+                            "id": "8",
+                            "name": "PPP",
+                            "data": [
+                                0
+                            ]
+                        },
+                        {
+                            "id": "14",
+                            "name": "SOG",
+                            "data": [
+                                0
+                            ]
+                        },
+                        {
+                            "id": "31",
+                            "name": "HIT",
+                            "data": [
+                                0
+                            ]
+                        },
+                        {
+                            "id": "32",
+                            "name": "BLK",
+                            "data": [
+                                0
+                            ]
+                        },
+                        {
+                            "id": "19",
+                            "name": "W",
+                            "data": [
+                                0
+                            ]
+                        },
+                        {
+                            "id": "22",
+                            "name": "GA",
+                            "data": [
+                                0
+                            ]
+                        },
+                        {
+                            "id": "23",
+                            "name": "GAA",
+                            "data": [
+                                0
+                            ]
+                        },
+                        {
+                            "id": "25",
+                            "name": "SV",
+                            "data": [
+                                0
+                            ]
+                        },
+                        {
+                            "id": "24",
+                            "name": "SA",
+                            "data": [
+                                0
+                            ]
+                        },
+                        {
+                            "id": "26",
+                            "name": "SV%",
+                            "data": [
+                                0
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "team_id": "453.l.5795.t.15",
+                    "currentScore": 7,
+                    "matchupHistScores": [
+                        0,
+                        7,
+                        7,
+                        8
+                    ],
+                    "matchupHistStats": [
+                        {
+                            "id": "1",
+                            "name": "G",
+                            "data": [
+                                0
+                            ]
+                        },
+                        {
+                            "id": "2",
+                            "name": "A",
+                            "data": [
+                                0
+                            ]
+                        },
+                        {
+                            "id": "8",
+                            "name": "PPP",
+                            "data": [
+                                0
+                            ]
+                        },
+                        {
+                            "id": "14",
+                            "name": "SOG",
+                            "data": [
+                                0
+                            ]
+                        },
+                        {
+                            "id": "31",
+                            "name": "HIT",
+                            "data": [
+                                0
+                            ]
+                        },
+                        {
+                            "id": "32",
+                            "name": "BLK",
+                            "data": [
+                                0
+                            ]
+                        },
+                        {
+                            "id": "19",
+                            "name": "W",
+                            "data": [
+                                0
+                            ]
+                        },
+                        {
+                            "id": "22",
+                            "name": "GA",
+                            "data": [
+                                0
+                            ]
+                        },
+                        {
+                            "id": "23",
+                            "name": "GAA",
+                            "data": [
+                                0
+                            ]
+                        },
+                        {
+                            "id": "25",
+                            "name": "SV",
+                            "data": [
+                                0
+                            ]
+                        },
+                        {
+                            "id": "24",
+                            "name": "SA",
+                            "data": [
+                                0
+                            ]
+                        },
+                        {
+                            "id": "26",
+                            "name": "SV%",
+                            "data": [
+                                0
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "4-11-12",
+            "weekStart": "2024-10-28",
+            "weekEnd": "2024-11-03",
+            "teamsData": [
+                {
+                    "team_id": "453.l.5795.t.11",
+                    "currentScore": 6,
+                    "matchupHistScores": [
+                        0,
+                        6,
+                        6,
+                        8
+                    ],
+                    "matchupHistStats": [
+                        {
+                            "id": "1",
+                            "name": "G",
+                            "data": [
+                                0
+                            ]
+                        },
+                        {
+                            "id": "2",
+                            "name": "A",
+                            "data": [
+                                0
+                            ]
+                        },
+                        {
+                            "id": "8",
+                            "name": "PPP",
+                            "data": [
+                                0
+                            ]
+                        },
+                        {
+                            "id": "14",
+                            "name": "SOG",
+                            "data": [
+                                0
+                            ]
+                        },
+                        {
+                            "id": "31",
+                            "name": "HIT",
+                            "data": [
+                                0
+                            ]
+                        },
+                        {
+                            "id": "32",
+                            "name": "BLK",
+                            "data": [
+                                0
+                            ]
+                        },
+                        {
+                            "id": "19",
+                            "name": "W",
+                            "data": [
+                                0
+                            ]
+                        },
+                        {
+                            "id": "22",
+                            "name": "GA",
+                            "data": [
+                                0
+                            ]
+                        },
+                        {
+                            "id": "23",
+                            "name": "GAA",
+                            "data": [
+                                0
+                            ]
+                        },
+                        {
+                            "id": "25",
+                            "name": "SV",
+                            "data": [
+                                0
+                            ]
+                        },
+                        {
+                            "id": "24",
+                            "name": "SA",
+                            "data": [
+                                0
+                            ]
+                        },
+                        {
+                            "id": "26",
+                            "name": "SV%",
+                            "data": [
+                                0
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "team_id": "453.l.5795.t.12",
+                    "currentScore": 12,
+                    "matchupHistScores": [
+                        0,
+                        12,
+                        12,
+                        10
+                    ],
+                    "matchupHistStats": [
+                        {
+                            "id": "1",
+                            "name": "G",
+                            "data": [
+                                0
+                            ]
+                        },
+                        {
+                            "id": "2",
+                            "name": "A",
+                            "data": [
+                                0
+                            ]
+                        },
+                        {
+                            "id": "8",
+                            "name": "PPP",
+                            "data": [
+                                0
+                            ]
+                        },
+                        {
+                            "id": "14",
+                            "name": "SOG",
+                            "data": [
+                                0
+                            ]
+                        },
+                        {
+                            "id": "31",
+                            "name": "HIT",
+                            "data": [
+                                0
+                            ]
+                        },
+                        {
+                            "id": "32",
+                            "name": "BLK",
+                            "data": [
+                                0
+                            ]
+                        },
+                        {
+                            "id": "19",
+                            "name": "W",
+                            "data": [
+                                0
+                            ]
+                        },
+                        {
+                            "id": "22",
+                            "name": "GA",
+                            "data": [
+                                0
+                            ]
+                        },
+                        {
+                            "id": "23",
+                            "name": "GAA",
+                            "data": [
+                                0
+                            ]
+                        },
+                        {
+                            "id": "25",
+                            "name": "SV",
+                            "data": [
+                                0
+                            ]
+                        },
+                        {
+                            "id": "24",
+                            "name": "SA",
+                            "data": [
+                                0
+                            ]
+                        },
+                        {
+                            "id": "26",
+                            "name": "SV%",
+                            "data": [
+                                0
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "5": [
+        {
+            "id": "5-1-16",
+            "weekStart": "2024-11-04",
+            "weekEnd": "2024-11-10",
+            "teamsData": [
+                {
+                    "team_id": "453.l.5795.t.1",
+                    "statValues": [
+                        {
+                            "stat": {
+                                "stat_id": "1",
+                                "value": "5"
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "2",
+                                "value": "9"
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "8",
+                                "value": "7"
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "14",
+                                "value": "26"
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "31",
+                                "value": "6"
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "32",
+                                "value": "9"
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "19",
+                                "value": "0"
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "22",
+                                "value": "8"
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "23",
+                                "value": "4.02"
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "25",
+                                "value": "52"
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "24",
+                                "value": "60"
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "26",
+                                "value": ".867"
+                            }
+                        }
+                    ],
+                    "currentScore": 6,
+                    "matchupHistScores": [
+                        0,
+                        3,
+                        14,
+                        6,
+                        8
+                    ],
+                    "matchupHistStats": [
+                        {
+                            "id": "1",
+                            "name": "G",
+                            "data": [
+                                0,
+                                0,
+                                5.0,
+                                5.0,
+                                8.0
+                            ]
+                        },
+                        {
+                            "id": "2",
+                            "name": "A",
+                            "data": [
+                                0,
+                                0,
+                                7.0,
+                                9.0,
+                                14.0
+                            ]
+                        },
+                        {
+                            "id": "8",
+                            "name": "PPP",
+                            "data": [
+                                0,
+                                0,
+                                7.0,
+                                7.0,
+                                8.0
+                            ]
+                        },
+                        {
+                            "id": "14",
+                            "name": "SOG",
+                            "data": [
+                                0,
+                                0,
+                                23.0,
+                                26.0,
+                                48.0
+                            ]
+                        },
+                        {
+                            "id": "31",
+                            "name": "HIT",
+                            "data": [
+                                0,
+                                0,
+                                6.0,
+                                6.0,
+                                12.0
+                            ]
+                        },
+                        {
+                            "id": "32",
+                            "name": "BLK",
+                            "data": [
+                                0,
+                                0,
+                                4.0,
+                                9.0,
+                                19.0
+                            ]
+                        },
+                        {
+                            "id": "19",
+                            "name": "W",
+                            "data": [
+                                0,
+                                0,
+                                0.0,
+                                0.0,
+                                0.0
+                            ]
+                        },
+                        {
+                            "id": "22",
+                            "name": "GA",
+                            "data": [
+                                0,
+                                0,
+                                8.0,
+                                8.0,
+                                8.0
+                            ]
+                        },
+                        {
+                            "id": "23",
+                            "name": "GAA",
+                            "data": [
+                                0,
+                                0,
+                                4.02,
+                                4.02,
+                                4.02
+                            ]
+                        },
+                        {
+                            "id": "25",
+                            "name": "SV",
+                            "data": [
+                                0,
+                                0,
+                                52.0,
+                                52.0,
+                                52.0
+                            ]
+                        },
+                        {
+                            "id": "24",
+                            "name": "SA",
+                            "data": [
+                                0,
+                                0,
+                                60.0,
+                                60.0,
+                                60.0
+                            ]
+                        },
+                        {
+                            "id": "26",
+                            "name": "SV%",
+                            "data": [
+                                0,
+                                0,
+                                0.867,
+                                0.867,
+                                0.867
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "team_id": "453.l.5795.t.16",
+                    "statValues": [
+                        {
+                            "stat": {
+                                "stat_id": "1",
+                                "value": "2"
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "2",
+                                "value": "2"
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "8",
+                                "value": "2"
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "14",
+                                "value": "34"
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "31",
+                                "value": "14"
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "32",
+                                "value": "13"
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "19",
+                                "value": "1"
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "22",
+                                "value": "2"
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "23",
+                                "value": "2.00"
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "25",
+                                "value": "27"
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "24",
+                                "value": "29"
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "26",
+                                "value": ".931"
+                            }
+                        }
+                    ],
+                    "currentScore": 12,
+                    "matchupHistScores": [
+                        0,
+                        15,
+                        4,
+                        12,
+                        10
+                    ],
+                    "matchupHistStats": [
+                        {
+                            "id": "1",
+                            "name": "G",
+                            "data": [
+                                0,
+                                2.0,
+                                2.0,
+                                2.0,
+                                2.0
+                            ]
+                        },
+                        {
+                            "id": "2",
+                            "name": "A",
+                            "data": [
+                                0,
+                                0.0,
+                                2.0,
+                                2.0,
+                                5.0
+                            ]
+                        },
+                        {
+                            "id": "8",
+                            "name": "PPP",
+                            "data": [
+                                0,
+                                0.0,
+                                2.0,
+                                2.0,
+                                4.0
+                            ]
+                        },
+                        {
+                            "id": "14",
+                            "name": "SOG",
+                            "data": [
+                                0,
+                                14.0,
+                                19.0,
+                                34.0,
+                                44.0
+                            ]
+                        },
+                        {
+                            "id": "31",
+                            "name": "HIT",
+                            "data": [
+                                0,
+                                2.0,
+                                10.0,
+                                14.0,
+                                31.0
+                            ]
+                        },
+                        {
+                            "id": "32",
+                            "name": "BLK",
+                            "data": [
+                                0,
+                                3.0,
+                                9.0,
+                                13.0,
+                                20.0
+                            ]
+                        },
+                        {
+                            "id": "19",
+                            "name": "W",
+                            "data": [
+                                0,
+                                0,
+                                0,
+                                1.0,
+                                2.0
+                            ]
+                        },
+                        {
+                            "id": "22",
+                            "name": "GA",
+                            "data": [
+                                0,
+                                0,
+                                0,
+                                2.0,
+                                4.0
+                            ]
+                        },
+                        {
+                            "id": "23",
+                            "name": "GAA",
+                            "data": [
+                                0,
+                                0,
+                                0,
+                                2.0,
+                                2.0
+                            ]
+                        },
+                        {
+                            "id": "25",
+                            "name": "SV",
+                            "data": [
+                                0,
+                                0,
+                                0,
+                                27.0,
+                                40.0
+                            ]
+                        },
+                        {
+                            "id": "24",
+                            "name": "SA",
+                            "data": [
+                                0,
+                                0,
+                                0,
+                                29.0,
+                                44.0
+                            ]
+                        },
+                        {
+                            "id": "26",
+                            "name": "SV%",
+                            "data": [
+                                0,
+                                0,
+                                0,
+                                0.931,
+                                0.909
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "5-2-6",
+            "weekStart": "2024-11-04",
+            "weekEnd": "2024-11-10",
+            "teamsData": [
+                {
+                    "team_id": "453.l.5795.t.2",
+                    "statValues": [
+                        {
+                            "stat": {
+                                "stat_id": "1",
+                                "value": "1"
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "2",
+                                "value": "6"
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "8",
+                                "value": "1"
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "14",
+                                "value": "23"
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "31",
+                                "value": "22"
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "32",
+                                "value": "8"
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "19",
+                                "value": "1"
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "22",
+                                "value": "1"
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "23",
+                                "value": "1.00"
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "25",
+                                "value": "23"
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "24",
+                                "value": "24"
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "26",
+                                "value": ".958"
+                            }
+                        }
+                    ],
+                    "currentScore": 10,
+                    "matchupHistScores": [
+                        0,
+                        5,
+                        10,
+                        10,
+                        10
+                    ],
+                    "matchupHistStats": [
+                        {
+                            "id": "1",
+                            "name": "G",
+                            "data": [
+                                0,
+                                0.0,
+                                0.0,
+                                1.0,
+                                1.0
+                            ]
+                        },
+                        {
+                            "id": "2",
+                            "name": "A",
+                            "data": [
+                                0,
+                                0.0,
+                                4.0,
+                                6.0,
+                                11.0
+                            ]
+                        },
+                        {
+                            "id": "8",
+                            "name": "PPP",
+                            "data": [
+                                0,
+                                0.0,
+                                1.0,
+                                1.0,
+                                1.0
+                            ]
+                        },
+                        {
+                            "id": "14",
+                            "name": "SOG",
+                            "data": [
+                                0,
+                                3.0,
+                                15.0,
+                                23.0,
+                                44.0
+                            ]
+                        },
+                        {
+                            "id": "31",
+                            "name": "HIT",
+                            "data": [
+                                0,
+                                1.0,
+                                16.0,
+                                22.0,
+                                49.0
+                            ]
+                        },
+                        {
+                            "id": "32",
+                            "name": "BLK",
+                            "data": [
+                                0,
+                                0.0,
+                                4.0,
+                                8.0,
+                                16.0
+                            ]
+                        },
+                        {
+                            "id": "19",
+                            "name": "W",
+                            "data": [
+                                0,
+                                0,
+                                1.0,
+                                1.0,
+                                1.0
+                            ]
+                        },
+                        {
+                            "id": "22",
+                            "name": "GA",
+                            "data": [
+                                0,
+                                0,
+                                1.0,
+                                1.0,
+                                2.0
+                            ]
+                        },
+                        {
+                            "id": "23",
+                            "name": "GAA",
+                            "data": [
+                                0,
+                                0,
+                                1.0,
+                                1.0,
+                                1.4
+                            ]
+                        },
+                        {
+                            "id": "25",
+                            "name": "SV",
+                            "data": [
+                                0,
+                                0,
+                                23.0,
+                                23.0,
+                                32.0
+                            ]
+                        },
+                        {
+                            "id": "24",
+                            "name": "SA",
+                            "data": [
+                                0,
+                                0,
+                                24.0,
+                                24.0,
+                                34.0
+                            ]
+                        },
+                        {
+                            "id": "26",
+                            "name": "SV%",
+                            "data": [
+                                0,
+                                0,
+                                0.958,
+                                0.958,
+                                0.941
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "team_id": "453.l.5795.t.6",
+                    "statValues": [
+                        {
+                            "stat": {
+                                "stat_id": "1",
+                                "value": "2"
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "2",
+                                "value": "4"
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "8",
+                                "value": "2"
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "14",
+                                "value": "37"
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "31",
+                                "value": "9"
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "32",
+                                "value": "14"
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "19",
+                                "value": "0"
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "22",
+                                "value": "7"
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "23",
+                                "value": "3.53"
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "25",
+                                "value": "54"
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "24",
+                                "value": "61"
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "26",
+                                "value": ".885"
+                            }
+                        }
+                    ],
+                    "currentScore": 8,
+                    "matchupHistScores": [
+                        0,
+                        13,
+                        8,
+                        8,
+                        8
+                    ],
+                    "matchupHistStats": [
+                        {
+                            "id": "1",
+                            "name": "G",
+                            "data": [
+                                0,
+                                1.0,
+                                2.0,
+                                2.0,
+                                3.0
+                            ]
+                        },
+                        {
+                            "id": "2",
+                            "name": "A",
+                            "data": [
+                                0,
+                                0.0,
+                                2.0,
+                                4.0,
+                                6.0
+                            ]
+                        },
+                        {
+                            "id": "8",
+                            "name": "PPP",
+                            "data": [
+                                0,
+                                0.0,
+                                2.0,
+                                2.0,
+                                2.0
+                            ]
+                        },
+                        {
+                            "id": "14",
+                            "name": "SOG",
+                            "data": [
+                                0,
+                                8.0,
+                                24.0,
+                                37.0,
+                                51.0
+                            ]
+                        },
+                        {
+                            "id": "31",
+                            "name": "HIT",
+                            "data": [
+                                0,
+                                2.0,
+                                7.0,
+                                9.0,
+                                15.0
+                            ]
+                        },
+                        {
+                            "id": "32",
+                            "name": "BLK",
+                            "data": [
+                                0,
+                                6.0,
+                                11.0,
+                                14.0,
+                                25.0
+                            ]
+                        },
+                        {
+                            "id": "19",
+                            "name": "W",
+                            "data": [
+                                0,
+                                0,
+                                0.0,
+                                0.0,
+                                0.0
+                            ]
+                        },
+                        {
+                            "id": "22",
+                            "name": "GA",
+                            "data": [
+                                0,
+                                0,
+                                4.0,
+                                7.0,
+                                7.0
+                            ]
+                        },
+                        {
+                            "id": "23",
+                            "name": "GAA",
+                            "data": [
+                                0,
+                                0,
+                                4.03,
+                                3.53,
+                                3.53
+                            ]
+                        },
+                        {
+                            "id": "25",
+                            "name": "SV",
+                            "data": [
+                                0,
+                                0,
+                                23.0,
+                                54.0,
+                                54.0
+                            ]
+                        },
+                        {
+                            "id": "24",
+                            "name": "SA",
+                            "data": [
+                                0,
+                                0,
+                                27.0,
+                                61.0,
+                                61.0
+                            ]
+                        },
+                        {
+                            "id": "26",
+                            "name": "SV%",
+                            "data": [
+                                0,
+                                0,
+                                0.852,
+                                0.885,
+                                0.885
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "5-3-8",
+            "weekStart": "2024-11-04",
+            "weekEnd": "2024-11-10",
+            "teamsData": [
+                {
+                    "team_id": "453.l.5795.t.3",
+                    "statValues": [
+                        {
+                            "stat": {
+                                "stat_id": "1",
+                                "value": "4"
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "2",
+                                "value": "6"
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "8",
+                                "value": "3"
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "14",
+                                "value": "42"
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "31",
+                                "value": "18"
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "32",
+                                "value": "10"
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "19",
+                                "value": "0"
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "22",
+                                "value": "2"
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "23",
+                                "value": "1.91"
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "25",
+                                "value": "25"
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "24",
+                                "value": "27"
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "26",
+                                "value": ".926"
+                            }
+                        }
+                    ],
+                    "currentScore": 7,
+                    "matchupHistScores": [
+                        0,
+                        3,
+                        6,
+                        7,
+                        6
+                    ],
+                    "matchupHistStats": [
+                        {
+                            "id": "1",
+                            "name": "G",
+                            "data": [
+                                0,
+                                0.0,
+                                3.0,
+                                4.0,
+                                6.0
+                            ]
+                        },
+                        {
+                            "id": "2",
+                            "name": "A",
+                            "data": [
+                                0,
+                                1.0,
+                                5.0,
+                                6.0,
+                                7.0
+                            ]
+                        },
+                        {
+                            "id": "8",
+                            "name": "PPP",
+                            "data": [
+                                0,
+                                0.0,
+                                3.0,
+                                3.0,
+                                4.0
+                            ]
+                        },
+                        {
+                            "id": "14",
+                            "name": "SOG",
+                            "data": [
+                                0,
+                                3.0,
+                                34.0,
+                                42.0,
+                                67.0
+                            ]
+                        },
+                        {
+                            "id": "31",
+                            "name": "HIT",
+                            "data": [
+                                0,
+                                0.0,
+                                6.0,
+                                18.0,
+                                26.0
+                            ]
+                        },
+                        {
+                            "id": "32",
+                            "name": "BLK",
+                            "data": [
+                                0,
+                                2.0,
+                                3.0,
+                                10.0,
+                                13.0
+                            ]
+                        },
+                        {
+                            "id": "19",
+                            "name": "W",
+                            "data": [
+                                0,
+                                0,
+                                0.0,
+                                0.0,
+                                0.0
+                            ]
+                        },
+                        {
+                            "id": "22",
+                            "name": "GA",
+                            "data": [
+                                0,
+                                0,
+                                2.0,
+                                2.0,
+                                2.0
+                            ]
+                        },
+                        {
+                            "id": "23",
+                            "name": "GAA",
+                            "data": [
+                                0,
+                                0,
+                                1.91,
+                                1.91,
+                                1.91
+                            ]
+                        },
+                        {
+                            "id": "25",
+                            "name": "SV",
+                            "data": [
+                                0,
+                                0,
+                                25.0,
+                                25.0,
+                                25.0
+                            ]
+                        },
+                        {
+                            "id": "24",
+                            "name": "SA",
+                            "data": [
+                                0,
+                                0,
+                                27.0,
+                                27.0,
+                                27.0
+                            ]
+                        },
+                        {
+                            "id": "26",
+                            "name": "SV%",
+                            "data": [
+                                0,
+                                0,
+                                0.926,
+                                0.926,
+                                0.926
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "team_id": "453.l.5795.t.8",
+                    "statValues": [
+                        {
+                            "stat": {
+                                "stat_id": "1",
+                                "value": "4"
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "2",
+                                "value": "12"
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "8",
+                                "value": "5"
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "14",
+                                "value": "34"
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "31",
+                                "value": "23"
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "32",
+                                "value": "17"
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "19",
+                                "value": "1"
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "22",
+                                "value": "4"
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "23",
+                                "value": "4.00"
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "25",
+                                "value": "12"
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "24",
+                                "value": "16"
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "26",
+                                "value": ".750"
+                            }
+                        }
+                    ],
+                    "currentScore": 11,
+                    "matchupHistScores": [
+                        0,
+                        15,
+                        12,
+                        11,
+                        12
+                    ],
+                    "matchupHistStats": [
+                        {
+                            "id": "1",
+                            "name": "G",
+                            "data": [
+                                0,
+                                2.0,
+                                4.0,
+                                4.0,
+                                7.0
+                            ]
+                        },
+                        {
+                            "id": "2",
+                            "name": "A",
+                            "data": [
+                                0,
+                                2.0,
+                                11.0,
+                                12.0,
+                                16.0
+                            ]
+                        },
+                        {
+                            "id": "8",
+                            "name": "PPP",
+                            "data": [
+                                0,
+                                1.0,
+                                5.0,
+                                5.0,
+                                6.0
+                            ]
+                        },
+                        {
+                            "id": "14",
+                            "name": "SOG",
+                            "data": [
+                                0,
+                                7.0,
+                                28.0,
+                                34.0,
+                                56.0
+                            ]
+                        },
+                        {
+                            "id": "31",
+                            "name": "HIT",
+                            "data": [
+                                0,
+                                6.0,
+                                14.0,
+                                23.0,
+                                34.0
+                            ]
+                        },
+                        {
+                            "id": "32",
+                            "name": "BLK",
+                            "data": [
+                                0,
+                                3.0,
+                                11.0,
+                                17.0,
+                                28.0
+                            ]
+                        },
+                        {
+                            "id": "19",
+                            "name": "W",
+                            "data": [
+                                0,
+                                0,
+                                1.0,
+                                1.0,
+                                2.0
+                            ]
+                        },
+                        {
+                            "id": "22",
+                            "name": "GA",
+                            "data": [
+                                0,
+                                0,
+                                4.0,
+                                4.0,
+                                10.0
+                            ]
+                        },
+                        {
+                            "id": "23",
+                            "name": "GAA",
+                            "data": [
+                                0,
+                                0,
+                                4.0,
+                                4.0,
+                                3.92
+                            ]
+                        },
+                        {
+                            "id": "25",
+                            "name": "SV",
+                            "data": [
+                                0,
+                                0,
+                                12.0,
+                                12.0,
+                                54.0
+                            ]
+                        },
+                        {
+                            "id": "24",
+                            "name": "SA",
+                            "data": [
+                                0,
+                                0,
+                                16.0,
+                                16.0,
+                                64.0
+                            ]
+                        },
+                        {
+                            "id": "26",
+                            "name": "SV%",
+                            "data": [
+                                0,
+                                0,
+                                0.75,
+                                0.75,
+                                0.844
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "5-4-15",
+            "weekStart": "2024-11-04",
+            "weekEnd": "2024-11-10",
+            "teamsData": [
+                {
+                    "team_id": "453.l.5795.t.4",
+                    "statValues": [
+                        {
+                            "stat": {
+                                "stat_id": "1",
+                                "value": "5"
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "2",
+                                "value": "5"
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "8",
+                                "value": "1"
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "14",
+                                "value": "35"
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "31",
+                                "value": "17"
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "32",
+                                "value": "8"
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "19",
+                                "value": "2"
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "22",
+                                "value": "6"
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "23",
+                                "value": "2.00"
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "25",
+                                "value": "87"
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "24",
+                                "value": "93"
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "26",
+                                "value": ".935"
+                            }
+                        }
+                    ],
+                    "currentScore": 9,
+                    "matchupHistScores": [
+                        0,
+                        7,
+                        4,
+                        9,
+                        8
+                    ],
+                    "matchupHistStats": [
+                        {
+                            "id": "1",
+                            "name": "G",
+                            "data": [
+                                0,
+                                1.0,
+                                3.0,
+                                5.0,
+                                6.0
+                            ]
+                        },
+                        {
+                            "id": "2",
+                            "name": "A",
+                            "data": [
+                                0,
+                                1.0,
+                                2.0,
+                                5.0,
+                                8.0
+                            ]
+                        },
+                        {
+                            "id": "8",
+                            "name": "PPP",
+                            "data": [
+                                0,
+                                0.0,
+                                0.0,
+                                1.0,
+                                2.0
+                            ]
+                        },
+                        {
+                            "id": "14",
+                            "name": "SOG",
+                            "data": [
+                                0,
+                                5.0,
+                                25.0,
+                                35.0,
+                                58.0
+                            ]
+                        },
+                        {
+                            "id": "31",
+                            "name": "HIT",
+                            "data": [
+                                0,
+                                4.0,
+                                12.0,
+                                17.0,
+                                27.0
+                            ]
+                        },
+                        {
+                            "id": "32",
+                            "name": "BLK",
+                            "data": [
+                                0,
+                                0.0,
+                                4.0,
+                                8.0,
+                                16.0
+                            ]
+                        },
+                        {
+                            "id": "19",
+                            "name": "W",
+                            "data": [
+                                0,
+                                0,
+                                1.0,
+                                2.0,
+                                3.0
+                            ]
+                        },
+                        {
+                            "id": "22",
+                            "name": "GA",
+                            "data": [
+                                0,
+                                0,
+                                4.0,
+                                6.0,
+                                12.0
+                            ]
+                        },
+                        {
+                            "id": "23",
+                            "name": "GAA",
+                            "data": [
+                                0,
+                                0,
+                                2.0,
+                                2.0,
+                                2.41
+                            ]
+                        },
+                        {
+                            "id": "25",
+                            "name": "SV",
+                            "data": [
+                                0,
+                                0,
+                                54.0,
+                                87.0,
+                                135.0
+                            ]
+                        },
+                        {
+                            "id": "24",
+                            "name": "SA",
+                            "data": [
+                                0,
+                                0,
+                                58.0,
+                                93.0,
+                                147.0
+                            ]
+                        },
+                        {
+                            "id": "26",
+                            "name": "SV%",
+                            "data": [
+                                0,
+                                0,
+                                0.931,
+                                0.935,
+                                0.918
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "team_id": "453.l.5795.t.15",
+                    "statValues": [
+                        {
+                            "stat": {
+                                "stat_id": "1",
+                                "value": "4"
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "2",
+                                "value": "11"
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "8",
+                                "value": "6"
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "14",
+                                "value": "32"
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "31",
+                                "value": "14"
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "32",
+                                "value": "17"
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "19",
+                                "value": "2"
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "22",
+                                "value": "3"
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "23",
+                                "value": "1.50"
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "25",
+                                "value": "33"
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "24",
+                                "value": "36"
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "26",
+                                "value": ".917"
+                            }
+                        }
+                    ],
+                    "currentScore": 9,
+                    "matchupHistScores": [
+                        0,
+                        11,
+                        14,
+                        9,
+                        10
+                    ],
+                    "matchupHistStats": [
+                        {
+                            "id": "1",
+                            "name": "G",
+                            "data": [
+                                0,
+                                0.0,
+                                4.0,
+                                4.0,
+                                7.0
+                            ]
+                        },
+                        {
+                            "id": "2",
+                            "name": "A",
+                            "data": [
+                                0,
+                                1.0,
+                                8.0,
+                                11.0,
+                                14.0
+                            ]
+                        },
+                        {
+                            "id": "8",
+                            "name": "PPP",
+                            "data": [
+                                0,
+                                1.0,
+                                6.0,
+                                6.0,
+                                6.0
+                            ]
+                        },
+                        {
+                            "id": "14",
+                            "name": "SOG",
+                            "data": [
+                                0,
+                                3.0,
+                                30.0,
+                                32.0,
+                                47.0
+                            ]
+                        },
+                        {
+                            "id": "31",
+                            "name": "HIT",
+                            "data": [
+                                0,
+                                3.0,
+                                11.0,
+                                14.0,
+                                26.0
+                            ]
+                        },
+                        {
+                            "id": "32",
+                            "name": "BLK",
+                            "data": [
+                                0,
+                                4.0,
+                                16.0,
+                                17.0,
+                                26.0
+                            ]
+                        },
+                        {
+                            "id": "19",
+                            "name": "W",
+                            "data": [
+                                0,
+                                1.0,
+                                2.0,
+                                2.0,
+                                2.0
+                            ]
+                        },
+                        {
+                            "id": "22",
+                            "name": "GA",
+                            "data": [
+                                0,
+                                0.0,
+                                3.0,
+                                3.0,
+                                6.0
+                            ]
+                        },
+                        {
+                            "id": "23",
+                            "name": "GAA",
+                            "data": [
+                                0,
+                                0.0,
+                                1.5,
+                                1.5,
+                                2.02
+                            ]
+                        },
+                        {
+                            "id": "25",
+                            "name": "SV",
+                            "data": [
+                                0,
+                                16.0,
+                                33.0,
+                                33.0,
+                                52.0
+                            ]
+                        },
+                        {
+                            "id": "24",
+                            "name": "SA",
+                            "data": [
+                                0,
+                                16.0,
+                                36.0,
+                                36.0,
+                                58.0
+                            ]
+                        },
+                        {
+                            "id": "26",
+                            "name": "SV%",
+                            "data": [
+                                0,
+                                1.0,
+                                0.917,
+                                0.917,
+                                0.897
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "5-5-7",
+            "weekStart": "2024-11-04",
+            "weekEnd": "2024-11-10",
+            "teamsData": [
+                {
+                    "team_id": "453.l.5795.t.5",
+                    "statValues": [
+                        {
+                            "stat": {
+                                "stat_id": "1",
+                                "value": "2"
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "2",
+                                "value": "7"
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "8",
+                                "value": "6"
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "14",
+                                "value": "28"
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "31",
+                                "value": "9"
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "32",
+                                "value": "12"
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "19",
+                                "value": ""
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "22",
+                                "value": ""
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "23",
+                                "value": ""
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "25",
+                                "value": ""
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "24",
+                                "value": ""
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "26",
+                                "value": ""
+                            }
+                        }
+                    ],
+                    "currentScore": 10,
+                    "matchupHistScores": [
+                        0,
+                        14,
+                        8,
+                        10,
+                        12
+                    ],
+                    "matchupHistStats": [
+                        {
+                            "id": "1",
+                            "name": "G",
+                            "data": [
+                                0,
+                                0.0,
+                                2.0,
+                                2.0,
+                                6.0
+                            ]
+                        },
+                        {
+                            "id": "2",
+                            "name": "A",
+                            "data": [
+                                0,
+                                1.0,
+                                6.0,
+                                7.0,
+                                9.0
+                            ]
+                        },
+                        {
+                            "id": "8",
+                            "name": "PPP",
+                            "data": [
+                                0,
+                                1.0,
+                                5.0,
+                                6.0,
+                                7.0
+                            ]
+                        },
+                        {
+                            "id": "14",
+                            "name": "SOG",
+                            "data": [
+                                0,
+                                4.0,
+                                26.0,
+                                28.0,
+                                49.0
+                            ]
+                        },
+                        {
+                            "id": "31",
+                            "name": "HIT",
+                            "data": [
+                                0,
+                                1.0,
+                                8.0,
+                                9.0,
+                                21.0
+                            ]
+                        },
+                        {
+                            "id": "32",
+                            "name": "BLK",
+                            "data": [
+                                0,
+                                1.0,
+                                6.0,
+                                12.0,
+                                18.0
+                            ]
+                        },
+                        {
+                            "id": "19",
+                            "name": "W",
+                            "data": [
+                                0,
+                                0,
+                                0,
+                                0,
+                                2.0
+                            ]
+                        },
+                        {
+                            "id": "22",
+                            "name": "GA",
+                            "data": [
+                                0,
+                                0,
+                                0,
+                                0,
+                                4.0
+                            ]
+                        },
+                        {
+                            "id": "23",
+                            "name": "GAA",
+                            "data": [
+                                0,
+                                0,
+                                0,
+                                0,
+                                2.01
+                            ]
+                        },
+                        {
+                            "id": "25",
+                            "name": "SV",
+                            "data": [
+                                0,
+                                0,
+                                0,
+                                0,
+                                40.0
+                            ]
+                        },
+                        {
+                            "id": "24",
+                            "name": "SA",
+                            "data": [
+                                0,
+                                0,
+                                0,
+                                0,
+                                44.0
+                            ]
+                        },
+                        {
+                            "id": "26",
+                            "name": "SV%",
+                            "data": [
+                                0,
+                                0,
+                                0,
+                                0,
+                                0.909
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "team_id": "453.l.5795.t.7",
+                    "statValues": [
+                        {
+                            "stat": {
+                                "stat_id": "1",
+                                "value": "1"
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "2",
+                                "value": "5"
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "8",
+                                "value": "1"
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "14",
+                                "value": "22"
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "31",
+                                "value": "12"
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "32",
+                                "value": "11"
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "19",
+                                "value": "0"
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "22",
+                                "value": "5"
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "23",
+                                "value": "5.00"
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "25",
+                                "value": "32"
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "24",
+                                "value": "37"
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "26",
+                                "value": ".865"
+                            }
+                        }
+                    ],
+                    "currentScore": 8,
+                    "matchupHistScores": [
+                        0,
+                        4,
+                        10,
+                        8,
+                        6
+                    ],
+                    "matchupHistStats": [
+                        {
+                            "id": "1",
+                            "name": "G",
+                            "data": [
+                                0,
+                                0.0,
+                                1.0,
+                                1.0,
+                                4.0
+                            ]
+                        },
+                        {
+                            "id": "2",
+                            "name": "A",
+                            "data": [
+                                0,
+                                0.0,
+                                5.0,
+                                5.0,
+                                14.0
+                            ]
+                        },
+                        {
+                            "id": "8",
+                            "name": "PPP",
+                            "data": [
+                                0,
+                                0.0,
+                                1.0,
+                                1.0,
+                                3.0
+                            ]
+                        },
+                        {
+                            "id": "14",
+                            "name": "SOG",
+                            "data": [
+                                0,
+                                0.0,
+                                19.0,
+                                22.0,
+                                42.0
+                            ]
+                        },
+                        {
+                            "id": "31",
+                            "name": "HIT",
+                            "data": [
+                                0,
+                                0.0,
+                                11.0,
+                                12.0,
+                                27.0
+                            ]
+                        },
+                        {
+                            "id": "32",
+                            "name": "BLK",
+                            "data": [
+                                0,
+                                0.0,
+                                10.0,
+                                11.0,
+                                27.0
+                            ]
+                        },
+                        {
+                            "id": "19",
+                            "name": "W",
+                            "data": [
+                                0,
+                                0,
+                                0.0,
+                                0.0,
+                                0.0
+                            ]
+                        },
+                        {
+                            "id": "22",
+                            "name": "GA",
+                            "data": [
+                                0,
+                                0,
+                                5.0,
+                                5.0,
+                                5.0
+                            ]
+                        },
+                        {
+                            "id": "23",
+                            "name": "GAA",
+                            "data": [
+                                0,
+                                0,
+                                5.0,
+                                5.0,
+                                5.0
+                            ]
+                        },
+                        {
+                            "id": "25",
+                            "name": "SV",
+                            "data": [
+                                0,
+                                0,
+                                32.0,
+                                32.0,
+                                32.0
+                            ]
+                        },
+                        {
+                            "id": "24",
+                            "name": "SA",
+                            "data": [
+                                0,
+                                0,
+                                37.0,
+                                37.0,
+                                37.0
+                            ]
+                        },
+                        {
+                            "id": "26",
+                            "name": "SV%",
+                            "data": [
+                                0,
+                                0,
+                                0.865,
+                                0.865,
+                                0.865
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "5-9-11",
+            "weekStart": "2024-11-04",
+            "weekEnd": "2024-11-10",
+            "teamsData": [
+                {
+                    "team_id": "453.l.5795.t.9",
+                    "statValues": [
+                        {
+                            "stat": {
+                                "stat_id": "1",
+                                "value": "1"
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "2",
+                                "value": "4"
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "8",
+                                "value": "1"
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "14",
+                                "value": "20"
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "31",
+                                "value": "12"
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "32",
+                                "value": "12"
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "19",
+                                "value": "1"
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "22",
+                                "value": "3"
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "23",
+                                "value": "2.77"
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "25",
+                                "value": "32"
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "24",
+                                "value": "35"
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "26",
+                                "value": ".914"
+                            }
+                        }
+                    ],
+                    "currentScore": 1,
+                    "matchupHistScores": [
+                        0,
+                        11,
+                        2,
+                        1,
+                        0
+                    ],
+                    "matchupHistStats": [
+                        {
+                            "id": "1",
+                            "name": "G",
+                            "data": [
+                                0,
+                                0.0,
+                                1.0,
+                                1.0,
+                                2.0
+                            ]
+                        },
+                        {
+                            "id": "2",
+                            "name": "A",
+                            "data": [
+                                0,
+                                0.0,
+                                4.0,
+                                4.0,
+                                8.0
+                            ]
+                        },
+                        {
+                            "id": "8",
+                            "name": "PPP",
+                            "data": [
+                                0,
+                                0.0,
+                                1.0,
+                                1.0,
+                                1.0
+                            ]
+                        },
+                        {
+                            "id": "14",
+                            "name": "SOG",
+                            "data": [
+                                0,
+                                0.0,
+                                20.0,
+                                20.0,
+                                42.0
+                            ]
+                        },
+                        {
+                            "id": "31",
+                            "name": "HIT",
+                            "data": [
+                                0,
+                                4.0,
+                                12.0,
+                                12.0,
+                                23.0
+                            ]
+                        },
+                        {
+                            "id": "32",
+                            "name": "BLK",
+                            "data": [
+                                0,
+                                3.0,
+                                12.0,
+                                12.0,
+                                20.0
+                            ]
+                        },
+                        {
+                            "id": "19",
+                            "name": "W",
+                            "data": [
+                                0,
+                                0,
+                                1.0,
+                                1.0,
+                                1.0
+                            ]
+                        },
+                        {
+                            "id": "22",
+                            "name": "GA",
+                            "data": [
+                                0,
+                                0,
+                                3.0,
+                                3.0,
+                                3.0
+                            ]
+                        },
+                        {
+                            "id": "23",
+                            "name": "GAA",
+                            "data": [
+                                0,
+                                0,
+                                2.77,
+                                2.77,
+                                2.77
+                            ]
+                        },
+                        {
+                            "id": "25",
+                            "name": "SV",
+                            "data": [
+                                0,
+                                0,
+                                32.0,
+                                32.0,
+                                32.0
+                            ]
+                        },
+                        {
+                            "id": "24",
+                            "name": "SA",
+                            "data": [
+                                0,
+                                0,
+                                35.0,
+                                35.0,
+                                35.0
+                            ]
+                        },
+                        {
+                            "id": "26",
+                            "name": "SV%",
+                            "data": [
+                                0,
+                                0,
+                                0.914,
+                                0.914,
+                                0.914
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "team_id": "453.l.5795.t.11",
+                    "statValues": [
+                        {
+                            "stat": {
+                                "stat_id": "1",
+                                "value": "4"
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "2",
+                                "value": "6"
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "8",
+                                "value": "3"
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "14",
+                                "value": "30"
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "31",
+                                "value": "18"
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "32",
+                                "value": "12"
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "19",
+                                "value": "2"
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "22",
+                                "value": "2"
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "23",
+                                "value": "1.00"
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "25",
+                                "value": "42"
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "24",
+                                "value": "44"
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "26",
+                                "value": ".955"
+                            }
+                        }
+                    ],
+                    "currentScore": 17,
+                    "matchupHistScores": [
+                        0,
+                        7,
+                        16,
+                        17,
+                        18
+                    ],
+                    "matchupHistStats": [
+                        {
+                            "id": "1",
+                            "name": "G",
+                            "data": [
+                                0,
+                                0.0,
+                                3.0,
+                                4.0,
+                                5.0
+                            ]
+                        },
+                        {
+                            "id": "2",
+                            "name": "A",
+                            "data": [
+                                0,
+                                0.0,
+                                5.0,
+                                6.0,
+                                10.0
+                            ]
+                        },
+                        {
+                            "id": "8",
+                            "name": "PPP",
+                            "data": [
+                                0,
+                                0.0,
+                                3.0,
+                                3.0,
+                                5.0
+                            ]
+                        },
+                        {
+                            "id": "14",
+                            "name": "SOG",
+                            "data": [
+                                0,
+                                0.0,
+                                22.0,
+                                30.0,
+                                52.0
+                            ]
+                        },
+                        {
+                            "id": "31",
+                            "name": "HIT",
+                            "data": [
+                                0,
+                                0.0,
+                                16.0,
+                                18.0,
+                                32.0
+                            ]
+                        },
+                        {
+                            "id": "32",
+                            "name": "BLK",
+                            "data": [
+                                0,
+                                1.0,
+                                10.0,
+                                12.0,
+                                23.0
+                            ]
+                        },
+                        {
+                            "id": "19",
+                            "name": "W",
+                            "data": [
+                                0,
+                                0,
+                                2.0,
+                                2.0,
+                                3.0
+                            ]
+                        },
+                        {
+                            "id": "22",
+                            "name": "GA",
+                            "data": [
+                                0,
+                                0,
+                                2.0,
+                                2.0,
+                                2.0
+                            ]
+                        },
+                        {
+                            "id": "23",
+                            "name": "GAA",
+                            "data": [
+                                0,
+                                0,
+                                1.0,
+                                1.0,
+                                0.67
+                            ]
+                        },
+                        {
+                            "id": "25",
+                            "name": "SV",
+                            "data": [
+                                0,
+                                0,
+                                42.0,
+                                42.0,
+                                77.0
+                            ]
+                        },
+                        {
+                            "id": "24",
+                            "name": "SA",
+                            "data": [
+                                0,
+                                0,
+                                44.0,
+                                44.0,
+                                79.0
+                            ]
+                        },
+                        {
+                            "id": "26",
+                            "name": "SV%",
+                            "data": [
+                                0,
+                                0,
+                                0.955,
+                                0.955,
+                                0.975
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "5-10-12",
+            "weekStart": "2024-11-04",
+            "weekEnd": "2024-11-10",
+            "teamsData": [
+                {
+                    "team_id": "453.l.5795.t.10",
+                    "statValues": [
+                        {
+                            "stat": {
+                                "stat_id": "1",
+                                "value": "2"
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "2",
+                                "value": "5"
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "8",
+                                "value": "3"
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "14",
+                                "value": "14"
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "31",
+                                "value": "13"
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "32",
+                                "value": "8"
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "19",
+                                "value": "2"
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "22",
+                                "value": "3"
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "23",
+                                "value": "1.50"
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "25",
+                                "value": "49"
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "24",
+                                "value": "52"
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "26",
+                                "value": ".942"
+                            }
+                        }
+                    ],
+                    "currentScore": 12,
+                    "matchupHistScores": [
+                        0,
+                        2,
+                        12,
+                        12,
+                        9
+                    ],
+                    "matchupHistStats": [
+                        {
+                            "id": "1",
+                            "name": "G",
+                            "data": [
+                                0,
+                                0.0,
+                                2.0,
+                                2.0,
+                                6.0
+                            ]
+                        },
+                        {
+                            "id": "2",
+                            "name": "A",
+                            "data": [
+                                0,
+                                0.0,
+                                5.0,
+                                5.0,
+                                7.0
+                            ]
+                        },
+                        {
+                            "id": "8",
+                            "name": "PPP",
+                            "data": [
+                                0,
+                                0.0,
+                                3.0,
+                                3.0,
+                                3.0
+                            ]
+                        },
+                        {
+                            "id": "14",
+                            "name": "SOG",
+                            "data": [
+                                0,
+                                0.0,
+                                13.0,
+                                14.0,
+                                31.0
+                            ]
+                        },
+                        {
+                            "id": "31",
+                            "name": "HIT",
+                            "data": [
+                                0,
+                                0.0,
+                                13.0,
+                                13.0,
+                                22.0
+                            ]
+                        },
+                        {
+                            "id": "32",
+                            "name": "BLK",
+                            "data": [
+                                0,
+                                1.0,
+                                8.0,
+                                8.0,
+                                17.0
+                            ]
+                        },
+                        {
+                            "id": "19",
+                            "name": "W",
+                            "data": [
+                                0,
+                                0,
+                                1.0,
+                                2.0,
+                                2.0
+                            ]
+                        },
+                        {
+                            "id": "22",
+                            "name": "GA",
+                            "data": [
+                                0,
+                                0,
+                                2.0,
+                                3.0,
+                                7.0
+                            ]
+                        },
+                        {
+                            "id": "23",
+                            "name": "GAA",
+                            "data": [
+                                0,
+                                0,
+                                2.0,
+                                1.5,
+                                2.28
+                            ]
+                        },
+                        {
+                            "id": "25",
+                            "name": "SV",
+                            "data": [
+                                0,
+                                0,
+                                21.0,
+                                49.0,
+                                83.0
+                            ]
+                        },
+                        {
+                            "id": "24",
+                            "name": "SA",
+                            "data": [
+                                0,
+                                0,
+                                23.0,
+                                52.0,
+                                90.0
+                            ]
+                        },
+                        {
+                            "id": "26",
+                            "name": "SV%",
+                            "data": [
+                                0,
+                                0,
+                                0.913,
+                                0.942,
+                                0.922
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "team_id": "453.l.5795.t.12",
+                    "statValues": [
+                        {
+                            "stat": {
+                                "stat_id": "1",
+                                "value": "0"
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "2",
+                                "value": "3"
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "8",
+                                "value": "1"
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "14",
+                                "value": "25"
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "31",
+                                "value": "25"
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "32",
+                                "value": "10"
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "19",
+                                "value": "0"
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "22",
+                                "value": "8"
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "23",
+                                "value": "2.73"
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "25",
+                                "value": "77"
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "24",
+                                "value": "85"
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "26",
+                                "value": ".906"
+                            }
+                        }
+                    ],
+                    "currentScore": 6,
+                    "matchupHistScores": [
+                        0,
+                        16,
+                        6,
+                        6,
+                        9
+                    ],
+                    "matchupHistStats": [
+                        {
+                            "id": "1",
+                            "name": "G",
+                            "data": [
+                                0,
+                                0.0,
+                                0.0,
+                                0.0,
+                                0.0
+                            ]
+                        },
+                        {
+                            "id": "2",
+                            "name": "A",
+                            "data": [
+                                0,
+                                1.0,
+                                3.0,
+                                3.0,
+                                4.0
+                            ]
+                        },
+                        {
+                            "id": "8",
+                            "name": "PPP",
+                            "data": [
+                                0,
+                                0.0,
+                                1.0,
+                                1.0,
+                                1.0
+                            ]
+                        },
+                        {
+                            "id": "14",
+                            "name": "SOG",
+                            "data": [
+                                0,
+                                1.0,
+                                23.0,
+                                25.0,
+                                34.0
+                            ]
+                        },
+                        {
+                            "id": "31",
+                            "name": "HIT",
+                            "data": [
+                                0,
+                                9.0,
+                                22.0,
+                                25.0,
+                                39.0
+                            ]
+                        },
+                        {
+                            "id": "32",
+                            "name": "BLK",
+                            "data": [
+                                0,
+                                3.0,
+                                9.0,
+                                10.0,
+                                17.0
+                            ]
+                        },
+                        {
+                            "id": "19",
+                            "name": "W",
+                            "data": [
+                                0,
+                                0.0,
+                                0.0,
+                                0.0,
+                                0.0
+                            ]
+                        },
+                        {
+                            "id": "22",
+                            "name": "GA",
+                            "data": [
+                                0,
+                                2.0,
+                                5.0,
+                                8.0,
+                                9.0
+                            ]
+                        },
+                        {
+                            "id": "23",
+                            "name": "GAA",
+                            "data": [
+                                0,
+                                2.04,
+                                2.56,
+                                2.73,
+                                2.24
+                            ]
+                        },
+                        {
+                            "id": "25",
+                            "name": "SV",
+                            "data": [
+                                0,
+                                24.0,
+                                44.0,
+                                77.0,
+                                107.0
+                            ]
+                        },
+                        {
+                            "id": "24",
+                            "name": "SA",
+                            "data": [
+                                0,
+                                26.0,
+                                49.0,
+                                85.0,
+                                116.0
+                            ]
+                        },
+                        {
+                            "id": "26",
+                            "name": "SV%",
+                            "data": [
+                                0,
+                                0.923,
+                                0.898,
+                                0.906,
+                                0.922
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "5-13-14",
+            "weekStart": "2024-11-04",
+            "weekEnd": "2024-11-10",
+            "teamsData": [
+                {
+                    "team_id": "453.l.5795.t.13",
+                    "statValues": [
+                        {
+                            "stat": {
+                                "stat_id": "1",
+                                "value": "3"
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "2",
+                                "value": "3"
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "8",
+                                "value": "2"
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "14",
+                                "value": "20"
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "31",
+                                "value": "15"
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "32",
+                                "value": "16"
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "19",
+                                "value": "2"
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "22",
+                                "value": "1"
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "23",
+                                "value": "0.50"
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "25",
+                                "value": "66"
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "24",
+                                "value": "67"
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "26",
+                                "value": ".985"
+                            }
+                        }
+                    ],
+                    "currentScore": 14,
+                    "matchupHistScores": [
+                        0,
+                        9,
+                        12,
+                        14,
+                        12
+                    ],
+                    "matchupHistStats": [
+                        {
+                            "id": "1",
+                            "name": "G",
+                            "data": [
+                                0,
+                                0.0,
+                                1.0,
+                                3.0,
+                                7.0
+                            ]
+                        },
+                        {
+                            "id": "2",
+                            "name": "A",
+                            "data": [
+                                0,
+                                0.0,
+                                2.0,
+                                3.0,
+                                8.0
+                            ]
+                        },
+                        {
+                            "id": "8",
+                            "name": "PPP",
+                            "data": [
+                                0,
+                                0.0,
+                                1.0,
+                                2.0,
+                                4.0
+                            ]
+                        },
+                        {
+                            "id": "14",
+                            "name": "SOG",
+                            "data": [
+                                0,
+                                1.0,
+                                12.0,
+                                20.0,
+                                38.0
+                            ]
+                        },
+                        {
+                            "id": "31",
+                            "name": "HIT",
+                            "data": [
+                                0,
+                                0.0,
+                                13.0,
+                                15.0,
+                                20.0
+                            ]
+                        },
+                        {
+                            "id": "32",
+                            "name": "BLK",
+                            "data": [
+                                0,
+                                1.0,
+                                13.0,
+                                16.0,
+                                20.0
+                            ]
+                        },
+                        {
+                            "id": "19",
+                            "name": "W",
+                            "data": [
+                                0,
+                                0,
+                                2.0,
+                                2.0,
+                                4.0
+                            ]
+                        },
+                        {
+                            "id": "22",
+                            "name": "GA",
+                            "data": [
+                                0,
+                                0,
+                                1.0,
+                                1.0,
+                                5.0
+                            ]
+                        },
+                        {
+                            "id": "23",
+                            "name": "GAA",
+                            "data": [
+                                0,
+                                0,
+                                0.5,
+                                0.5,
+                                1.25
+                            ]
+                        },
+                        {
+                            "id": "25",
+                            "name": "SV",
+                            "data": [
+                                0,
+                                0,
+                                66.0,
+                                66.0,
+                                112.0
+                            ]
+                        },
+                        {
+                            "id": "24",
+                            "name": "SA",
+                            "data": [
+                                0,
+                                0,
+                                67.0,
+                                67.0,
+                                117.0
+                            ]
+                        },
+                        {
+                            "id": "26",
+                            "name": "SV%",
+                            "data": [
+                                0,
+                                0,
+                                0.985,
+                                0.985,
+                                0.957
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "team_id": "453.l.5795.t.14",
+                    "statValues": [
+                        {
+                            "stat": {
+                                "stat_id": "1",
+                                "value": "5"
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "2",
+                                "value": "2"
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "8",
+                                "value": "1"
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "14",
+                                "value": "37"
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "31",
+                                "value": "14"
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "32",
+                                "value": "6"
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "19",
+                                "value": ""
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "22",
+                                "value": ""
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "23",
+                                "value": ""
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "25",
+                                "value": ""
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "24",
+                                "value": ""
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "26",
+                                "value": ""
+                            }
+                        }
+                    ],
+                    "currentScore": 4,
+                    "matchupHistScores": [
+                        0,
+                        9,
+                        6,
+                        4,
+                        6
+                    ],
+                    "matchupHistStats": [
+                        {
+                            "id": "1",
+                            "name": "G",
+                            "data": [
+                                0,
+                                0.0,
+                                4.0,
+                                5.0,
+                                5.0
+                            ]
+                        },
+                        {
+                            "id": "2",
+                            "name": "A",
+                            "data": [
+                                0,
+                                0.0,
+                                2.0,
+                                2.0,
+                                5.0
+                            ]
+                        },
+                        {
+                            "id": "8",
+                            "name": "PPP",
+                            "data": [
+                                0,
+                                0.0,
+                                1.0,
+                                1.0,
+                                2.0
+                            ]
+                        },
+                        {
+                            "id": "14",
+                            "name": "SOG",
+                            "data": [
+                                0,
+                                3.0,
+                                30.0,
+                                37.0,
+                                58.0
+                            ]
+                        },
+                        {
+                            "id": "31",
+                            "name": "HIT",
+                            "data": [
+                                0,
+                                0.0,
+                                12.0,
+                                14.0,
+                                19.0
+                            ]
+                        },
+                        {
+                            "id": "32",
+                            "name": "BLK",
+                            "data": [
+                                0,
+                                0.0,
+                                4.0,
+                                6.0,
+                                13.0
+                            ]
+                        },
+                        {
+                            "id": "19",
+                            "name": "W",
+                            "data": [
+                                0,
+                                0,
+                                0,
+                                0,
+                                1.0
+                            ]
+                        },
+                        {
+                            "id": "22",
+                            "name": "GA",
+                            "data": [
+                                0,
+                                0,
+                                0,
+                                0,
+                                1.0
+                            ]
+                        },
+                        {
+                            "id": "23",
+                            "name": "GAA",
+                            "data": [
+                                0,
+                                0,
+                                0,
+                                0,
+                                1.01
+                            ]
+                        },
+                        {
+                            "id": "25",
+                            "name": "SV",
+                            "data": [
+                                0,
+                                0,
+                                0,
+                                0,
+                                25.0
+                            ]
+                        },
+                        {
+                            "id": "24",
+                            "name": "SA",
+                            "data": [
+                                0,
+                                0,
+                                0,
+                                0,
+                                26.0
+                            ]
+                        },
+                        {
+                            "id": "26",
+                            "name": "SV%",
+                            "data": [
+                                0,
+                                0,
+                                0,
+                                0,
+                                0.962
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

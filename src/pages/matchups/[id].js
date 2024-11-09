@@ -78,7 +78,7 @@ export default function MatchupPage({ matchup }) {
   };
 
   const checkIfStatsExist = (data) => {
-    if (data.teamsData[0].stats.length > 0) {
+    if (data.teamsData[0].matchupHistStats.length > 0) {
       setStatsExist(true)
     } else {
       console.log("no stats")
@@ -113,12 +113,33 @@ export default function MatchupPage({ matchup }) {
     <div>
       <h4>Scoreboard</h4>
       { statsExist ? (<>
-          <span>Team | {matchup.teamsData[0].stats[0].name} | {matchup.teamsData[0].stats[1].name} | {matchup.teamsData[0].stats[2].name} | {matchup.teamsData[0].stats[3].name} | {matchup.teamsData[0].stats[4].name} | {matchup.teamsData[0].stats[5].name} | {matchup.teamsData[0].stats[6].name} | {matchup.teamsData[0].stats[7].name} | {matchup.teamsData[0].stats[8].name} | {matchup.teamsData[0].stats[9].name} | {matchup.teamsData[0].stats[10].name} | {matchup.teamsData[0].stats[11].name}</span>
+          <span>Team</span>
+          {matchup.teamsData[0].matchupHistStats.map((stat) => (
+            <span key={stat.id}>
+              &nbsp;|&nbsp;{stat.name}
+            </span>
+          ))}
           <br />
-          <span>{matchup.teamsData[0].team_id} | {matchup.teamsData[0].stats[0].value} | {matchup.teamsData[0].stats[1].value} | {matchup.teamsData[0].stats[2].value} | {matchup.teamsData[0].stats[3].value} | {matchup.teamsData[0].stats[4].value} | {matchup.teamsData[0].stats[5].value} | {matchup.teamsData[0].stats[6].value} | {matchup.teamsData[0].stats[7].value} | {matchup.teamsData[0].stats[8].value} | {matchup.teamsData[0].stats[9].value} | {matchup.teamsData[0].stats[10].value} | {matchup.teamsData[0].stats[11].value}</span>
-          <span>Team | {matchup.teamsData[1].stats[0].name} | {matchup.teamsData[1].stats[1].name} | {matchup.teamsData[1].stats[2].name} | {matchup.teamsData[1].stats[3].name} | {matchup.teamsData[1].stats[4].name} | {matchup.teamsData[1].stats[5].name} | {matchup.teamsData[1].stats[6].name} | {matchup.teamsData[1].stats[7].name} | {matchup.teamsData[1].stats[8].name} | {matchup.teamsData[1].stats[9].name} | {matchup.teamsData[1].stats[10].name} | {matchup.teamsData[1].stats[11].name}</span>
+          <span>{matchup.teamsData[0].team_id}</span>
+          {matchup.teamsData[0].matchupHistStats.map((stat) => (
+            <span key={stat.id}>
+              &nbsp;|&nbsp;{stat.data.slice(-1)}
+            </span>
+          ))}
+          <br /><br /><br />
+          <span>Team</span>
+          {matchup.teamsData[1].matchupHistStats.map((stat) => (
+            <span key={stat.id}>
+              &nbsp;|&nbsp;{stat.name}
+            </span>
+          ))}
           <br />
-          <span>{matchup.teamsData[1].team_id} | {matchup.teamsData[1].stats[0].value} | {matchup.teamsData[1].stats[1].value} | {matchup.teamsData[1].stats[2].value} | {matchup.teamsData[1].stats[3].value} | {matchup.teamsData[1].stats[4].value} | {matchup.teamsData[1].stats[5].value} | {matchup.teamsData[1].stats[6].value} | {matchup.teamsData[1].stats[7].value} | {matchup.teamsData[1].stats[8].value} | {matchup.teamsData[1].stats[9].value} | {matchup.teamsData[1].stats[10].value} | {matchup.teamsData[1].stats[11].value}</span>
+          <span>{matchup.teamsData[1].team_id}</span>
+          {matchup.teamsData[1].matchupHistStats.map((stat) => (
+            <span key={stat.id}>
+              &nbsp;|&nbsp;{stat.data.slice(-1)}
+            </span>
+          ))}
       </>) : (<>
         <span>No stats avaiable for this matchup</span>
       </>)}
