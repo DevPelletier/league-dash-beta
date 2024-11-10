@@ -50680,5 +50680,2740 @@
                 "num": 19
             }
         }
+    },
+    {
+        "gameId": 2024020224,
+        "gameDate": "2024-11-09",
+        "player1Id": 8484145,
+        "player1Name": "Z. Benson",
+        "player1Goals": 2,
+        "url": "https://players.brightcove.net/6415718365001/default_default/index.html?videoId=6364465638112&autoplay=false&muted=false&applicationId=nhl",
+        "title": "Benson breaks the ice early",
+        "description": "CGY@BUF: Benson pops Vladar's rebound between the pipes",
+        "player2ID": 8480196,
+        "player2Name": "J. Bryson",
+        "player2Assists": 1,
+        "player3ID": 8482671,
+        "player3Name": "O. Power",
+        "player3Assists": 7,
+        "playerData": {
+            "8482671": {
+                "name": "Owen Power",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20242025/BUF/8482671.png",
+                "team": "BUF",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/BUF_light.svg",
+                "num": 25
+            },
+            "8484145": {
+                "name": "Zach Benson",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20242025/BUF/8484145.png",
+                "team": "BUF",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/BUF_light.svg",
+                "num": 9
+            }
+        }
+    },
+    {
+        "gameId": 2024020224,
+        "gameDate": "2024-11-09",
+        "player1Id": 8479420,
+        "player1Name": "T. Thompson",
+        "player1Goals": 10,
+        "url": "https://players.brightcove.net/6415718365001/default_default/index.html?videoId=6364466556112&autoplay=false&muted=false&applicationId=nhl",
+        "title": "CGY@BUF: Thompson scores PPG against Dan Vladar",
+        "description": "CGY@BUF: Thompson scores PPG against Dan Vladar",
+        "player2ID": 8480839,
+        "player2Name": "R. Dahlin",
+        "player2Assists": 9,
+        "player3ID": 8482175,
+        "player3Name": "J. Peterka",
+        "player3Assists": 7,
+        "playerData": {
+            "8480839": {
+                "name": "Rasmus Dahlin",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20242025/BUF/8480839.png",
+                "team": "BUF",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/BUF_light.svg",
+                "num": 26
+            },
+            "8479420": {
+                "name": "Tage Thompson",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20242025/BUF/8479420.png",
+                "team": "BUF",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/BUF_light.svg",
+                "num": 72
+            },
+            "8482175": {
+                "name": "JJ Peterka",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20242025/BUF/8482175.png",
+                "team": "BUF",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/BUF_light.svg",
+                "num": 77
+            }
+        }
+    },
+    {
+        "gameId": 2024020224,
+        "gameDate": "2024-11-09",
+        "player1Id": 8482679,
+        "player1Name": "M. Coronato",
+        "player1Goals": 5,
+        "url": "https://players.brightcove.net/6415718365001/default_default/index.html?videoId=6364471222112&autoplay=false&muted=false&applicationId=nhl",
+        "title": "Coronato taps one home",
+        "description": "CGY@BUF: Coronato deposits Weegar's feed into the irons",
+        "player2ID": 8477346,
+        "player2Name": "M. Weegar",
+        "player2Assists": 4,
+        "player3ID": 8476399,
+        "player3Name": "B. Coleman",
+        "player3Assists": 5,
+        "playerData": {
+            "8477346": {
+                "name": "MacKenzie Weegar",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20242025/CGY/8477346.png",
+                "team": "CGY",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/CGY_light.svg",
+                "num": 52
+            },
+            "8476399": {
+                "name": "Blake Coleman",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20242025/CGY/8476399.png",
+                "team": "CGY",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/CGY_light.svg",
+                "num": 20
+            },
+            "8482679": {
+                "name": "Matt Coronato",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20242025/CGY/8482679.png",
+                "team": "CGY",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/CGY_light.svg",
+                "num": 27
+            }
+        }
+    },
+    {
+        "gameId": 2024020224,
+        "gameDate": "2024-11-09",
+        "player1Id": 8474150,
+        "player1Name": "M. Backlund",
+        "player1Goals": 3,
+        "url": "https://players.brightcove.net/6415718365001/default_default/index.html?videoId=6364474583112&autoplay=false&muted=false&applicationId=nhl",
+        "title": "Backlund whips in equalizer",
+        "description": "CGY@BUF: Backlund wires in game-tying goal in the 3rd",
+        "player2ID": 8476456,
+        "player2Name": "J. Huberdeau",
+        "player2Assists": 4,
+        "player3ID": 8483808,
+        "player3Name": "A. Kuzmenko",
+        "player3Assists": 7,
+        "playerData": {
+            "8474150": {
+                "name": "Mikael Backlund",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20242025/CGY/8474150.png",
+                "team": "CGY",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/CGY_light.svg",
+                "num": 11
+            },
+            "8476456": {
+                "name": "Jonathan Huberdeau",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20242025/CGY/8476456.png",
+                "team": "CGY",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/CGY_light.svg",
+                "num": 10
+            },
+            "8483808": {
+                "name": "Andrei Kuzmenko",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20242025/CGY/8483808.png",
+                "team": "CGY",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/CGY_light.svg",
+                "num": 96
+            }
+        }
+    },
+    {
+        "gameId": 2024020230,
+        "gameDate": "2024-11-09",
+        "player1Id": 8480113,
+        "player1Name": "A. Iafallo",
+        "player1Goals": 2,
+        "url": "https://players.brightcove.net/6415718365001/default_default/index.html?videoId=6364476014112&autoplay=false&muted=false&applicationId=nhl",
+        "title": "Iafallo rips in PPG for game opener",
+        "description": "DAL@WPG: Iafallo picks the corner on the dish from Namestnikov for PPG",
+        "player2ID": 8476480,
+        "player2Name": "V. Namestnikov",
+        "player2Assists": 7,
+        "player3ID": 8482149,
+        "player3Name": "C. Perfetti",
+        "player3Assists": 8,
+        "playerData": {
+            "8482149": {
+                "name": "Cole Perfetti",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20242025/WPG/8482149.png",
+                "team": "WPG",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/WPG_light.svg",
+                "num": 91
+            },
+            "8476480": {
+                "name": "Vladislav Namestnikov",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20242025/WPG/8476480.png",
+                "team": "WPG",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/WPG_light.svg",
+                "num": 7
+            },
+            "8480113": {
+                "name": "Alex Iafallo",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20242025/WPG/8480113.png",
+                "team": "WPG",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/WPG_light.svg",
+                "num": 9
+            }
+        }
+    },
+    {
+        "gameId": 2024020230,
+        "gameDate": "2024-11-09",
+        "player1Id": 8480845,
+        "player1Name": "R. Kupari",
+        "player1Goals": 2,
+        "url": "https://players.brightcove.net/6415718365001/default_default/index.html?videoId=6364476341112&autoplay=false&muted=false&applicationId=nhl",
+        "title": "DAL@WPG: Kupari scores goal against Jake Oettinger",
+        "description": "DAL@WPG: Kupari scores goal against Jake Oettinger",
+        "player2ID": 8480113,
+        "player2Name": "A. Iafallo",
+        "player2Assists": 4,
+        "playerData": {
+            "8480113": {
+                "name": "Alex Iafallo",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20242025/WPG/8480113.png",
+                "team": "WPG",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/WPG_light.svg",
+                "num": 9
+            },
+            "8480845": {
+                "name": "Rasmus Kupari",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20242025/WPG/8480845.png",
+                "team": "WPG",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/WPG_light.svg",
+                "num": 15
+            }
+        }
+    },
+    {
+        "gameId": 2024020230,
+        "gameDate": "2024-11-09",
+        "player1Id": 8476480,
+        "player1Name": "V. Namestnikov",
+        "player1Goals": 4,
+        "url": "https://players.brightcove.net/6415718365001/default_default/index.html?videoId=6364477971112&autoplay=false&muted=false&applicationId=nhl",
+        "title": "Namestnikov jams in wraparound",
+        "description": "DAL@WPG: Namestnikov comes from behind and tucks one in under Oettinger",
+        "player2ID": 8482149,
+        "player2Name": "C. Perfetti",
+        "player2Assists": 9,
+        "player3ID": 8480145,
+        "player3Name": "N. Pionk",
+        "player3Assists": 11,
+        "playerData": {
+            "8480145": {
+                "name": "Neal Pionk",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20242025/WPG/8480145.png",
+                "team": "WPG",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/WPG_light.svg",
+                "num": 4
+            },
+            "8482149": {
+                "name": "Cole Perfetti",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20242025/WPG/8482149.png",
+                "team": "WPG",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/WPG_light.svg",
+                "num": 91
+            },
+            "8476480": {
+                "name": "Vladislav Namestnikov",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20242025/WPG/8476480.png",
+                "team": "WPG",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/WPG_light.svg",
+                "num": 7
+            }
+        }
+    },
+    {
+        "gameId": 2024020230,
+        "gameDate": "2024-11-09",
+        "player1Id": 8477940,
+        "player1Name": "N. Ehlers",
+        "player1Goals": 9,
+        "url": "https://players.brightcove.net/6415718365001/default_default/index.html?videoId=6364478365112&autoplay=false&muted=false&applicationId=nhl",
+        "title": "DAL@WPG: Ehlers scores PPG against Jake Oettinger",
+        "description": "DAL@WPG: Ehlers scores PPG against Jake Oettinger",
+        "player2ID": 8476460,
+        "player2Name": "M. Scheifele",
+        "player2Assists": 12,
+        "player3ID": 8480014,
+        "player3Name": "G. Vilardi",
+        "player3Assists": 7,
+        "playerData": {
+            "8476460": {
+                "name": "Mark Scheifele",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20242025/WPG/8476460.png",
+                "team": "WPG",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/WPG_light.svg",
+                "num": 55
+            },
+            "8480014": {
+                "name": "Gabriel Vilardi",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20242025/WPG/8480014.png",
+                "team": "WPG",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/WPG_light.svg",
+                "num": 13
+            },
+            "8477940": {
+                "name": "Nikolaj Ehlers",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20242025/WPG/8477940.png",
+                "team": "WPG",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/WPG_light.svg",
+                "num": 27
+            }
+        }
+    },
+    {
+        "gameId": 2024020230,
+        "gameDate": "2024-11-09",
+        "player1Id": 8478449,
+        "player1Name": "R. Hintz",
+        "player1Goals": 5,
+        "url": "https://players.brightcove.net/6415718365001/default_default/index.html?videoId=6364483014112&autoplay=false&muted=false&applicationId=nhl",
+        "title": "Hintz breaks through",
+        "description": "DAL@WPG: Hintz sneaks one through the five hole of Hellebuyck",
+        "player2ID": 8481581,
+        "player2Name": "T. Harley",
+        "player2Assists": 6,
+        "player3ID": 8474149,
+        "player3Name": "E. Dadonov",
+        "player3Assists": 3,
+        "playerData": {
+            "8481581": {
+                "name": "Thomas Harley",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20242025/DAL/8481581.png",
+                "team": "DAL",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/DAL_light.svg",
+                "num": 55
+            },
+            "8478449": {
+                "name": "Roope Hintz",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20242025/DAL/8478449.png",
+                "team": "DAL",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/DAL_light.svg",
+                "num": 24
+            },
+            "8474149": {
+                "name": "Evgenii Dadonov",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20242025/DAL/8474149.png",
+                "team": "DAL",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/DAL_light.svg",
+                "num": 63
+            }
+        }
+    },
+    {
+        "gameId": 2024020225,
+        "gameDate": "2024-11-09",
+        "player1Id": 8480797,
+        "player1Name": "J. Farabee",
+        "player1Goals": 3,
+        "url": "https://players.brightcove.net/6415718365001/default_default/index.html?videoId=6364485315112&autoplay=false&muted=false&applicationId=nhl",
+        "title": "Farabee kicks off scoring",
+        "description": "PHI@FLA: Farabee finds the puck in traffic and nets it for the early lead in the 1st",
+        "player2ID": 8476872,
+        "player2Name": "S. Laughton",
+        "player2Assists": 4,
+        "player3ID": 8481553,
+        "player3Name": "B. Brink",
+        "player3Assists": 4,
+        "playerData": {
+            "8476872": {
+                "name": "Scott Laughton",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20242025/PHI/8476872.png",
+                "team": "PHI",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/PHI_light.svg",
+                "num": 21
+            },
+            "8480797": {
+                "name": "Joel Farabee",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20242025/PHI/8480797.png",
+                "team": "PHI",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/PHI_light.svg",
+                "num": 86
+            },
+            "8481553": {
+                "name": "Bobby Brink",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20242025/PHI/8481553.png",
+                "team": "PHI",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/PHI_light.svg",
+                "num": 10
+            }
+        }
+    },
+    {
+        "gameId": 2024020225,
+        "gameDate": "2024-11-09",
+        "player1Id": 8477220,
+        "player1Name": "N. Schmidt",
+        "player1Goals": 2,
+        "url": "https://players.brightcove.net/6415718365001/default_default/index.html?videoId=6364486478112&autoplay=false&muted=false&applicationId=nhl",
+        "title": "Schmidt blasts in a rocket",
+        "description": "PHI@FLA: Schmidt slaps the puck into the twine from up top to tie it up at 1",
+        "player2ID": 8478542,
+        "player2Name": "E. Rodrigues",
+        "player2Assists": 4,
+        "player3ID": 8477493,
+        "player3Name": "A. Barkov",
+        "player3Assists": 10,
+        "playerData": {
+            "8477493": {
+                "name": "Aleksander Barkov",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20242025/FLA/8477493.png",
+                "team": "FLA",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/FLA_light.svg",
+                "num": 16
+            },
+            "8478542": {
+                "name": "Evan Rodrigues",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20242025/FLA/8478542.png",
+                "team": "FLA",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/FLA_light.svg",
+                "num": 17
+            },
+            "8477220": {
+                "name": "Nate Schmidt",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20242025/FLA/8477220.png",
+                "team": "FLA",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/FLA_light.svg",
+                "num": 88
+            }
+        }
+    },
+    {
+        "gameId": 2024020225,
+        "gameDate": "2024-11-09",
+        "player1Id": 8475179,
+        "player1Name": "D. Kulikov",
+        "player1Goals": 2,
+        "url": "https://players.brightcove.net/6415718365001/default_default/index.html?videoId=6364487556112&autoplay=false&muted=false&applicationId=nhl",
+        "title": "Kulikov grabs the lead",
+        "description": "PHI@FLA: Kulikov sends in the snap shot to put the Panthers on top in the 2nd",
+        "player2ID": 8478542,
+        "player2Name": "E. Rodrigues",
+        "player2Assists": 5,
+        "player3ID": 8477933,
+        "player3Name": "S. Reinhart",
+        "player3Assists": 12,
+        "playerData": {
+            "8477933": {
+                "name": "Sam Reinhart",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20242025/FLA/8477933.png",
+                "team": "FLA",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/FLA_light.svg",
+                "num": 13
+            },
+            "8475179": {
+                "name": "Dmitry Kulikov",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20242025/FLA/8475179.png",
+                "team": "FLA",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/FLA_light.svg",
+                "num": 7
+            },
+            "8478542": {
+                "name": "Evan Rodrigues",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20242025/FLA/8478542.png",
+                "team": "FLA",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/FLA_light.svg",
+                "num": 17
+            }
+        }
+    },
+    {
+        "gameId": 2024020225,
+        "gameDate": "2024-11-09",
+        "player1Id": 8478409,
+        "player1Name": "A. Richard",
+        "player1Goals": 1,
+        "url": "https://players.brightcove.net/6415718365001/default_default/index.html?videoId=6364487757112&autoplay=false&muted=false&applicationId=nhl",
+        "title": "Richard answers back",
+        "description": "PHI@FLA: Richard blasts it through the pipes to tie the game at 2 in the 2nd",
+        "player2ID": 8478439,
+        "player2Name": "T. Konecny",
+        "player2Assists": 9,
+        "player3ID": 8477499,
+        "player3Name": "R. Ristolainen",
+        "player3Assists": 2,
+        "playerData": {
+            "8478439": {
+                "name": "Travis Konecny",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20242025/PHI/8478439.png",
+                "team": "PHI",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/PHI_light.svg",
+                "num": 11
+            },
+            "8477499": {
+                "name": "Rasmus Ristolainen",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20242025/PHI/8477499.png",
+                "team": "PHI",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/PHI_light.svg",
+                "num": 55
+            }
+        }
+    },
+    {
+        "gameId": 2024020225,
+        "gameDate": "2024-11-09",
+        "player1Id": 8477935,
+        "player1Name": "S. Bennett",
+        "player1Goals": 9,
+        "url": "https://players.brightcove.net/6415718365001/default_default/index.html?videoId=6364487198112&autoplay=false&muted=false&applicationId=nhl",
+        "title": "Bennett takes the lead",
+        "description": "PHI@FLA: Bennett off the beautiful feed, elevates it short side to give the Panthers the lead in the 2nd",
+        "player2ID": 8477409,
+        "player2Name": "C. Verhaeghe",
+        "player2Assists": 8,
+        "player3ID": 8478859,
+        "player3Name": "N. Mikkola",
+        "player3Assists": 8,
+        "playerData": {
+            "8478859": {
+                "name": "Niko Mikkola",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20242025/FLA/8478859.png",
+                "team": "FLA",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/FLA_light.svg",
+                "num": 77
+            },
+            "8477409": {
+                "name": "Carter Verhaeghe",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20242025/FLA/8477409.png",
+                "team": "FLA",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/FLA_light.svg",
+                "num": 23
+            },
+            "8477935": {
+                "name": "Sam Bennett",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20242025/FLA/8477935.png",
+                "team": "FLA",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/FLA_light.svg",
+                "num": 9
+            }
+        }
+    },
+    {
+        "gameId": 2024020225,
+        "gameDate": "2024-11-09",
+        "player1Id": 8477903,
+        "player1Name": "G. Hathaway",
+        "player1Goals": 2,
+        "url": "https://players.brightcove.net/6415718365001/default_default/index.html?videoId=6364489620112&autoplay=false&muted=false&applicationId=nhl",
+        "title": "Hathaway sneaks one in",
+        "description": "PHI@FLA: Hathaway gets one past Bobrovsky who deflects it to tie the game at 3 in the 3rd",
+        "player2ID": 8476872,
+        "player2Name": "S. Laughton",
+        "player2Assists": 5,
+        "player3ID": 8476372,
+        "player3Name": "N. Seeler",
+        "player3Assists": 3,
+        "playerData": {
+            "8476372": {
+                "name": "Nick Seeler",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20242025/PHI/8476372.png",
+                "team": "PHI",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/PHI_light.svg",
+                "num": 24
+            },
+            "8476872": {
+                "name": "Scott Laughton",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20242025/PHI/8476872.png",
+                "team": "PHI",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/PHI_light.svg",
+                "num": 21
+            },
+            "8477903": {
+                "name": "Garnet Hathaway",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20242025/PHI/8477903.png",
+                "team": "PHI",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/PHI_light.svg",
+                "num": 19
+            }
+        }
+    },
+    {
+        "gameId": 2024020226,
+        "gameDate": "2024-11-09",
+        "player1Id": 8480064,
+        "player1Name": "J. Norris",
+        "player1Goals": 5,
+        "url": "https://players.brightcove.net/6415718365001/default_default/index.html?videoId=6364489346112&autoplay=false&muted=false&applicationId=nhl",
+        "title": "Norris starts off Senators with PPG",
+        "description": "OTT@BOS: Norris blasts the wrister for the PPG and puts the Senators up 1 late in the 1st",
+        "player2ID": 8480801,
+        "player2Name": "B. Tkachuk",
+        "player2Assists": 10,
+        "player3ID": 8480208,
+        "player3Name": "D. Batherson",
+        "player3Assists": 8,
+        "playerData": {
+            "8480064": {
+                "name": "Josh Norris",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20242025/OTT/8480064.png",
+                "team": "OTT",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/OTT_light.svg",
+                "num": 9
+            },
+            "8480801": {
+                "name": "Brady Tkachuk",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20242025/OTT/8480801.png",
+                "team": "OTT",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/OTT_light.svg",
+                "num": 7
+            },
+            "8480208": {
+                "name": "Drake Batherson",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20242025/OTT/8480208.png",
+                "team": "OTT",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/OTT_light.svg",
+                "num": 19
+            }
+        }
+    },
+    {
+        "gameId": 2024020226,
+        "gameDate": "2024-11-09",
+        "player1Id": 8478401,
+        "player1Name": "P. Zacha",
+        "player1Goals": 3,
+        "url": "https://players.brightcove.net/6415718365001/default_default/index.html?videoId=6364489219112&autoplay=false&muted=false&applicationId=nhl",
+        "title": "OTT@BOS: Zacha scores goal against Linus Ullmark",
+        "description": "OTT@BOS: Zacha scores goal against Linus Ullmark",
+        "player2ID": 8477956,
+        "player2Name": "D. Pastrnak",
+        "player2Assists": 8,
+        "player3ID": 8477507,
+        "player3Name": "N. Zadorov",
+        "player3Assists": 5,
+        "playerData": {
+            "8477956": {
+                "name": "David Pastrnak",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20242025/BOS/8477956.png",
+                "team": "BOS",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/BOS_light.svg",
+                "num": 88
+            },
+            "8478401": {
+                "name": "Pavel Zacha",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20242025/BOS/8478401.png",
+                "team": "BOS",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/BOS_light.svg",
+                "num": 18
+            },
+            "8477507": {
+                "name": "Nikita Zadorov",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20242025/BOS/8477507.png",
+                "team": "BOS",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/BOS_light.svg",
+                "num": 91
+            }
+        }
+    },
+    {
+        "gameId": 2024020226,
+        "gameDate": "2024-11-09",
+        "player1Id": 8473419,
+        "player1Name": "B. Marchand",
+        "player1Goals": 5,
+        "url": "https://players.brightcove.net/6415718365001/default_default/index.html?videoId=6364488910112&autoplay=false&muted=false&applicationId=nhl",
+        "title": "Marchand grabs the lead",
+        "description": "OTT@BOS: Marchand nets it off a beautiful feed to give the Bruins a 2-1 lead in the 2nd",
+        "player2ID": 8479638,
+        "player2Name": "J. Brazeau",
+        "player2Assists": 2,
+        "player3ID": 8476854,
+        "player3Name": "H. Lindholm",
+        "player3Assists": 4,
+        "playerData": {
+            "8476854": {
+                "name": "Hampus Lindholm",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20242025/BOS/8476854.png",
+                "team": "BOS",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/BOS_light.svg",
+                "num": 27
+            },
+            "8473419": {
+                "name": "Brad Marchand",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20242025/BOS/8473419.png",
+                "team": "BOS",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/BOS_light.svg",
+                "num": 63
+            },
+            "8479638": {
+                "name": "Justin Brazeau",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20242025/BOS/8479638.png",
+                "team": "BOS",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/BOS_light.svg",
+                "num": 55
+            }
+        }
+    },
+    {
+        "gameId": 2024020226,
+        "gameDate": "2024-11-09",
+        "player1Id": 8478020,
+        "player1Name": "M. Amadio",
+        "player1Goals": 1,
+        "url": "https://players.brightcove.net/6415718365001/default_default/index.html?videoId=6364491181112&autoplay=false&muted=false&applicationId=nhl",
+        "title": "Amadio fires nifty wrister",
+        "description": "OTT@BOS: Amadio blasts the puck through the pipes to tie the game up late in the 3rd",
+        "player2ID": 8479393,
+        "player2Name": "N. Gregor",
+        "player2Assists": 1,
+        "player3ID": 8478469,
+        "player3Name": "T. Chabot",
+        "player3Assists": 7,
+        "playerData": {
+            "8478469": {
+                "name": "Thomas Chabot",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20242025/OTT/8478469.png",
+                "team": "OTT",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/OTT_light.svg",
+                "num": 72
+            },
+            "8478020": {
+                "name": "Michael Amadio",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20242025/OTT/8478020.png",
+                "team": "OTT",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/OTT_light.svg",
+                "num": 22
+            },
+            "8479393": {
+                "name": "Noah Gregor",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20242025/OTT/8479393.png",
+                "team": "OTT",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/OTT_light.svg",
+                "num": 73
+            }
+        }
+    },
+    {
+        "gameId": 2024020226,
+        "gameDate": "2024-11-09",
+        "player1Id": 8480801,
+        "player1Name": "B. Tkachuk",
+        "player1Goals": 8,
+        "url": "https://players.brightcove.net/6415718365001/default_default/index.html?videoId=6364493150112&autoplay=false&muted=false&applicationId=nhl",
+        "title": "Tkachuk's stellar OT winner",
+        "description": "OTT@BOS: Tkachuk whips in a wrister to win it in overtime",
+        "playerData": {
+            "8480801": {
+                "name": "Brady Tkachuk",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20242025/OTT/8480801.png",
+                "team": "OTT",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/OTT_light.svg",
+                "num": 7
+            }
+        }
+    },
+    {
+        "gameId": 2024020227,
+        "gameDate": "2024-11-09",
+        "player1Id": 8479982,
+        "player1Name": "C. Timmins",
+        "player1Goals": 1,
+        "url": "https://players.brightcove.net/6415718365001/default_default/index.html?videoId=6364487500112&autoplay=false&muted=false&applicationId=nhl",
+        "title": "Timmins strikes first",
+        "description": "MTL@TOR: Timmins fires in opening goal",
+        "player2ID": 8481122,
+        "player2Name": "S. Benoit",
+        "player2Assists": 2,
+        "player3ID": 8471817,
+        "player3Name": "R. Reaves",
+        "player3Assists": 1,
+        "playerData": {
+            "8481122": {
+                "name": "Simon Benoit",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20242025/TOR/8481122.png",
+                "team": "TOR",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/TOR_light.svg",
+                "num": 2
+            },
+            "8479982": {
+                "name": "Conor Timmins",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20242025/TOR/8479982.png",
+                "team": "TOR",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/TOR_light.svg",
+                "num": 25
+            },
+            "8471817": {
+                "name": "Ryan Reaves",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20242025/TOR/8471817.png",
+                "team": "TOR",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/TOR_light.svg",
+                "num": 75
+            }
+        }
+    },
+    {
+        "gameId": 2024020227,
+        "gameDate": "2024-11-09",
+        "player1Id": 8477939,
+        "player1Name": "W. Nylander",
+        "player1Goals": 11,
+        "url": "https://players.brightcove.net/6415718365001/default_default/index.html?videoId=6364489227112&autoplay=false&muted=false&applicationId=nhl",
+        "title": "Nylander doubles lead with PPG",
+        "description": "MTL@TOR: Nylander finds the twine with beautiful PPG",
+        "player2ID": 8482720,
+        "player2Name": "M. Knies",
+        "player2Assists": 3,
+        "player3ID": 8476853,
+        "player3Name": "M. Rielly",
+        "player3Assists": 8,
+        "playerData": {
+            "8476853": {
+                "name": "Morgan Rielly",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20242025/TOR/8476853.png",
+                "team": "TOR",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/TOR_light.svg",
+                "num": 44
+            },
+            "8477939": {
+                "name": "William Nylander",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20242025/TOR/8477939.png",
+                "team": "TOR",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/TOR_light.svg",
+                "num": 88
+            },
+            "8482720": {
+                "name": "Matthew Knies",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20242025/TOR/8482720.png",
+                "team": "TOR",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/TOR_light.svg",
+                "num": 23
+            }
+        }
+    },
+    {
+        "gameId": 2024020227,
+        "gameDate": "2024-11-09",
+        "player1Id": 8478483,
+        "player1Name": "M. Marner",
+        "player1Goals": 4,
+        "url": "https://players.brightcove.net/6415718365001/default_default/index.html?videoId=6364489536112&autoplay=false&muted=false&applicationId=nhl",
+        "title": "Marner buries SHG",
+        "description": "MTL@TOR: Kampf, Marner team up for SHG",
+        "player2ID": 8480144,
+        "player2Name": "D. Kampf",
+        "player2Assists": 3,
+        "playerData": {
+            "8478483": {
+                "name": "Mitch Marner",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20242025/TOR/8478483.png",
+                "team": "TOR",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/TOR_light.svg",
+                "num": 16
+            },
+            "8480144": {
+                "name": "David Kampf",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20242025/TOR/8480144.png",
+                "team": "TOR",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/TOR_light.svg",
+                "num": 64
+            }
+        }
+    },
+    {
+        "gameId": 2024020227,
+        "gameDate": "2024-11-09",
+        "player1Id": 8475848,
+        "player1Name": "B. Gallagher",
+        "player1Goals": 7,
+        "url": "https://players.brightcove.net/6415718365001/default_default/index.html?videoId=6364491068112&autoplay=false&muted=false&applicationId=nhl",
+        "title": "Gallagher bats in a PPG",
+        "description": "MTL@TOR: Gallagher bats in PPG to put Canadiens on the board",
+        "player2ID": 8482476,
+        "player2Name": "E. Heineman",
+        "player2Assists": 2,
+        "player3ID": 8483457,
+        "player3Name": "L. Hutson",
+        "player3Assists": 8,
+        "playerData": {
+            "8483457": {
+                "name": "Lane Hutson",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20242025/MTL/8483457.png",
+                "team": "MTL",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/MTL_light.svg",
+                "num": 48
+            },
+            "8475848": {
+                "name": "Brendan Gallagher",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20242025/MTL/8475848.png",
+                "team": "MTL",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/MTL_light.svg",
+                "num": 11
+            },
+            "8482476": {
+                "name": "Emil Heineman",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20242025/MTL/8482476.png",
+                "team": "MTL",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/MTL_light.svg",
+                "num": 51
+            }
+        }
+    },
+    {
+        "gameId": 2024020227,
+        "gameDate": "2024-11-09",
+        "player1Id": 8475166,
+        "player1Name": "J. Tavares",
+        "player1Goals": 8,
+        "url": "https://players.brightcove.net/6415718365001/default_default/index.html?videoId=6364491093112&autoplay=false&muted=false&applicationId=nhl",
+        "title": "MTL@TOR: Tavares scores PPG against Samuel Montembeault",
+        "description": "MTL@TOR: Tavares scores PPG against Samuel Montembeault",
+        "player2ID": 8478483,
+        "player2Name": "M. Marner",
+        "player2Assists": 16,
+        "player3ID": 8477939,
+        "player3Name": "W. Nylander",
+        "player3Assists": 7,
+        "playerData": {
+            "8478483": {
+                "name": "Mitch Marner",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20242025/TOR/8478483.png",
+                "team": "TOR",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/TOR_light.svg",
+                "num": 16
+            },
+            "8477939": {
+                "name": "William Nylander",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20242025/TOR/8477939.png",
+                "team": "TOR",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/TOR_light.svg",
+                "num": 88
+            },
+            "8475166": {
+                "name": "John Tavares",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20242025/TOR/8475166.png",
+                "team": "TOR",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/TOR_light.svg",
+                "num": 91
+            }
+        }
+    },
+    {
+        "gameId": 2024020228,
+        "gameDate": "2024-11-09",
+        "player1Id": 8475184,
+        "player1Name": "C. Kreider",
+        "player1Goals": 8,
+        "url": "https://players.brightcove.net/6415718365001/default_default/index.html?videoId=6364488056112&autoplay=false&muted=false&applicationId=nhl",
+        "title": "Kreider tips in opening PPG",
+        "description": "NYR@DET: Kreider opens the scoring with tip-in PPG",
+        "player2ID": 8479323,
+        "player2Name": "A. Fox",
+        "player2Assists": 10,
+        "player3ID": 8478550,
+        "player3Name": "A. Panarin",
+        "player3Assists": 11,
+        "playerData": {
+            "8479323": {
+                "name": "Adam Fox",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20242025/NYR/8479323.png",
+                "team": "NYR",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/NYR_light.svg",
+                "num": 23
+            },
+            "8478550": {
+                "name": "Artemi Panarin",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20242025/NYR/8478550.png",
+                "team": "NYR",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/NYR_light.svg",
+                "num": 10
+            },
+            "8475184": {
+                "name": "Chris Kreider",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20242025/NYR/8475184.png",
+                "team": "NYR",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/NYR_light.svg",
+                "num": 20
+            }
+        }
+    },
+    {
+        "gameId": 2024020228,
+        "gameDate": "2024-11-09",
+        "player1Id": 8476918,
+        "player1Name": "J. Vesey",
+        "player1Goals": 1,
+        "url": "https://players.brightcove.net/6415718365001/default_default/index.html?videoId=6364490538112&autoplay=false&muted=false&applicationId=nhl",
+        "title": "Vesey finishes Carrick's feed",
+        "description": "NYR@DET: Vesey doubles the lead in the 2nd",
+        "player2ID": 8475842,
+        "player2Name": "S. Carrick",
+        "player2Assists": 2,
+        "player3ID": 8481708,
+        "player3Name": "Z. Jones",
+        "player3Assists": 4,
+        "playerData": {
+            "8481708": {
+                "name": "Zac Jones",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20242025/NYR/8481708.png",
+                "team": "NYR",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/NYR_light.svg",
+                "num": 6
+            },
+            "8475842": {
+                "name": "Sam Carrick",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20242025/NYR/8475842.png",
+                "team": "NYR",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/NYR_light.svg",
+                "num": 39
+            }
+        }
+    },
+    {
+        "gameId": 2024020228,
+        "gameDate": "2024-11-09",
+        "player1Id": 8478550,
+        "player1Name": "A. Panarin",
+        "player1Goals": 10,
+        "url": "https://players.brightcove.net/6415718365001/default_default/index.html?videoId=6364490449112&autoplay=false&muted=false&applicationId=nhl",
+        "title": "Panarin extends the lead",
+        "description": "NYR@DET: Panarin and Zibanejad combine for a 3-0 lead",
+        "player2ID": 8476459,
+        "player2Name": "M. Zibanejad",
+        "player2Assists": 9,
+        "player3ID": 8482109,
+        "player3Name": "A. Lafreni\u00e8re",
+        "player3Assists": 6,
+        "playerData": {
+            "8478550": {
+                "name": "Artemi Panarin",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20242025/NYR/8478550.png",
+                "team": "NYR",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/NYR_light.svg",
+                "num": 10
+            },
+            "8482109": {
+                "name": "Alexis Lafreni\u00e8re",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20242025/NYR/8482109.png",
+                "team": "NYR",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/NYR_light.svg",
+                "num": 13
+            },
+            "8476459": {
+                "name": "Mika Zibanejad",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20242025/NYR/8476459.png",
+                "team": "NYR",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/NYR_light.svg",
+                "num": 93
+            }
+        }
+    },
+    {
+        "gameId": 2024020228,
+        "gameDate": "2024-11-09",
+        "player1Id": 8475191,
+        "player1Name": "R. Smith",
+        "player1Goals": 3,
+        "url": "https://players.brightcove.net/6415718365001/default_default/index.html?videoId=6364491946112&autoplay=false&muted=false&applicationId=nhl",
+        "title": "Reilly Smith with a Goal vs. Detroit Red Wings",
+        "description": "Reilly Smith with a Goal vs. Detroit Red Wings",
+        "player2ID": 8479323,
+        "player2Name": "A. Fox",
+        "player2Assists": 11,
+        "playerData": {
+            "8479323": {
+                "name": "Adam Fox",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20242025/NYR/8479323.png",
+                "team": "NYR",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/NYR_light.svg",
+                "num": 23
+            },
+            "8475191": {
+                "name": "Reilly Smith",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20242025/NYR/8475191.png",
+                "team": "NYR",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/NYR_light.svg",
+                "num": 91
+            }
+        }
+    },
+    {
+        "gameId": 2024020229,
+        "gameDate": "2024-11-09",
+        "player1Id": 8481580,
+        "player1Name": "C. McMichael",
+        "player1Goals": 9,
+        "url": "https://players.brightcove.net/6415718365001/default_default/index.html?videoId=6364485575112&autoplay=false&muted=false&applicationId=nhl",
+        "title": "McMichael strikes early",
+        "description": "WSH@STL: McMichael scores less than a minute into the game",
+        "player2ID": 8479345,
+        "player2Name": "J. Chychrun",
+        "player2Assists": 3,
+        "playerData": {
+            "8479345": {
+                "name": "Jakob Chychrun",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20242025/WSH/8479345.png",
+                "team": "WSH",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/WSH_secondary_light.svg",
+                "num": 6
+            },
+            "8481580": {
+                "name": "Connor McMichael",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20242025/WSH/8481580.png",
+                "team": "WSH",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/WSH_secondary_light.svg",
+                "num": 24
+            }
+        }
+    },
+    {
+        "gameId": 2024020229,
+        "gameDate": "2024-11-09",
+        "player1Id": 8481059,
+        "player1Name": "S. Perunovich",
+        "player1Goals": 1,
+        "url": "https://players.brightcove.net/6415718365001/default_default/index.html?videoId=6364486308112&autoplay=false&muted=false&applicationId=nhl",
+        "title": "Perunovich's first NHL goal",
+        "description": "WSH@STL: Perunovich goes five-hole for his first career goal",
+        "player2ID": 8482516,
+        "player2Name": "M. Kessel",
+        "player2Assists": 2,
+        "player3ID": 8479385,
+        "player3Name": "J. Kyrou",
+        "player3Assists": 8,
+        "playerData": {
+            "8479385": {
+                "name": "Jordan Kyrou",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20242025/STL/8479385.png",
+                "team": "STL",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/STL_light.svg",
+                "num": 25
+            },
+            "8481059": {
+                "name": "Scott Perunovich",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20242025/STL/8481059.png",
+                "team": "STL",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/STL_light.svg",
+                "num": 48
+            },
+            "8482516": {
+                "name": "Matthew Kessel",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20242025/STL/8482516.png",
+                "team": "STL",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/STL_light.svg",
+                "num": 51
+            }
+        }
+    },
+    {
+        "gameId": 2024020229,
+        "gameDate": "2024-11-09",
+        "player1Id": 8471214,
+        "player1Name": "A. Ovechkin",
+        "player1Goals": 9,
+        "url": "https://players.brightcove.net/6415718365001/default_default/index.html?videoId=6364490259112&autoplay=false&muted=false&applicationId=nhl",
+        "title": "Ovechkin buries a laser",
+        "description": "WSH@STL: Ovechkin finishes a slick play for a goal in 2nd",
+        "player2ID": 8481656,
+        "player2Name": "A. Protas",
+        "player2Assists": 8,
+        "player3ID": 8478440,
+        "player3Name": "D. Strome",
+        "player3Assists": 16,
+        "playerData": {
+            "8471214": {
+                "name": "Alex Ovechkin",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20242025/WSH/8471214.png",
+                "team": "WSH",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/WSH_secondary_light.svg",
+                "num": 8
+            },
+            "8478440": {
+                "name": "Dylan Strome",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20242025/WSH/8478440.png",
+                "team": "WSH",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/WSH_secondary_light.svg",
+                "num": 17
+            },
+            "8481656": {
+                "name": "Aliaksei Protas",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20242025/WSH/8481656.png",
+                "team": "WSH",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/WSH_secondary_light.svg",
+                "num": 21
+            }
+        }
+    },
+    {
+        "gameId": 2024020229,
+        "gameDate": "2024-11-09",
+        "player1Id": 8479345,
+        "player1Name": "J. Chychrun",
+        "player1Goals": 3,
+        "url": "https://players.brightcove.net/6415718365001/default_default/index.html?videoId=6364489224112&autoplay=false&muted=false&applicationId=nhl",
+        "title": "WSH@STL: Chychrun scores goal against Jordan Binnington",
+        "description": "WSH@STL: Chychrun scores goal against Jordan Binnington",
+        "player2ID": 8479400,
+        "player2Name": "P. Dubois",
+        "player2Assists": 7,
+        "player3ID": 8476880,
+        "player3Name": "T. Wilson",
+        "player3Assists": 5,
+        "playerData": {
+            "8479345": {
+                "name": "Jakob Chychrun",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20242025/WSH/8479345.png",
+                "team": "WSH",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/WSH_secondary_light.svg",
+                "num": 6
+            },
+            "8476880": {
+                "name": "Tom Wilson",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20242025/WSH/8476880.png",
+                "team": "WSH",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/WSH_secondary_light.svg",
+                "num": 43
+            },
+            "8479400": {
+                "name": "Pierre-Luc Dubois",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20242025/WSH/8479400.png",
+                "team": "WSH",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/WSH_secondary_light.svg",
+                "num": 80
+            }
+        }
+    },
+    {
+        "gameId": 2024020229,
+        "gameDate": "2024-11-09",
+        "player1Id": 8471214,
+        "player1Name": "A. Ovechkin",
+        "player1Goals": 10,
+        "url": "https://players.brightcove.net/6415718365001/default_default/index.html?videoId=6364490557112&autoplay=false&muted=false&applicationId=nhl",
+        "title": "Ovechkin's PPG for second goal",
+        "description": "WSH@STL: Ovechkin scores his second goal of the game",
+        "player2ID": 8478440,
+        "player2Name": "D. Strome",
+        "player2Assists": 17,
+        "player3ID": 8476880,
+        "player3Name": "T. Wilson",
+        "player3Assists": 6,
+        "playerData": {
+            "8476880": {
+                "name": "Tom Wilson",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20242025/WSH/8476880.png",
+                "team": "WSH",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/WSH_secondary_light.svg",
+                "num": 43
+            },
+            "8471214": {
+                "name": "Alex Ovechkin",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20242025/WSH/8471214.png",
+                "team": "WSH",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/WSH_secondary_light.svg",
+                "num": 8
+            },
+            "8478440": {
+                "name": "Dylan Strome",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20242025/WSH/8478440.png",
+                "team": "WSH",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/WSH_secondary_light.svg",
+                "num": 17
+            }
+        }
+    },
+    {
+        "gameId": 2024020229,
+        "gameDate": "2024-11-09",
+        "player1Id": 8480873,
+        "player1Name": "R. Sandin",
+        "player1Goals": 2,
+        "url": "https://players.brightcove.net/6415718365001/default_default/index.html?videoId=6364491709112&autoplay=false&muted=false&applicationId=nhl",
+        "title": "Sandin, Sgarbossa team up for goal",
+        "description": "WSH@STL: Sandin finishes Sgarbossa's feed for a 5-1 lead",
+        "player2ID": 8475958,
+        "player2Name": "M. Sgarbossa",
+        "player2Assists": 1,
+        "player3ID": 8478233,
+        "player3Name": "A. Mangiapane",
+        "player3Assists": 2,
+        "playerData": {
+            "8480873": {
+                "name": "Rasmus Sandin",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20242025/WSH/8480873.png",
+                "team": "WSH",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/WSH_secondary_light.svg",
+                "num": 38
+            },
+            "8478233": {
+                "name": "Andrew Mangiapane",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20242025/WSH/8478233.png",
+                "team": "WSH",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/WSH_secondary_light.svg",
+                "num": 88
+            },
+            "8475958": {
+                "name": "Michael Sgarbossa",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20242025/WSH/8475958.png",
+                "team": "WSH",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/WSH_secondary_light.svg",
+                "num": 23
+            }
+        }
+    },
+    {
+        "gameId": 2024020229,
+        "gameDate": "2024-11-09",
+        "player1Id": 8481580,
+        "player1Name": "C. McMichael",
+        "player1Goals": 10,
+        "url": "https://players.brightcove.net/6415718365001/default_default/index.html?videoId=6364492006112&autoplay=false&muted=false&applicationId=nhl",
+        "title": "McMichael scores brilliant PPG",
+        "description": "WSH@STL: McMichael scores sweet PPG, his second goal of the game",
+        "player2ID": 8478440,
+        "player2Name": "D. Strome",
+        "player2Assists": 18,
+        "player3ID": 8474590,
+        "player3Name": "J. Carlson",
+        "player3Assists": 8,
+        "playerData": {
+            "8474590": {
+                "name": "John Carlson",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20242025/WSH/8474590.png",
+                "team": "WSH",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/WSH_secondary_light.svg",
+                "num": 74
+            },
+            "8478440": {
+                "name": "Dylan Strome",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20242025/WSH/8478440.png",
+                "team": "WSH",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/WSH_secondary_light.svg",
+                "num": 17
+            },
+            "8481580": {
+                "name": "Connor McMichael",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20242025/WSH/8481580.png",
+                "team": "WSH",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/WSH_secondary_light.svg",
+                "num": 24
+            }
+        }
+    },
+    {
+        "gameId": 2024020229,
+        "gameDate": "2024-11-09",
+        "player1Id": 8475958,
+        "player1Name": "M. Sgarbossa",
+        "player1Goals": 1,
+        "url": "https://players.brightcove.net/6415718365001/default_default/index.html?videoId=6364491261112&autoplay=false&muted=false&applicationId=nhl",
+        "title": "WSH@STL: Sgarbossa scores goal against Jordan Binnington",
+        "description": "WSH@STL: Sgarbossa scores goal against Jordan Binnington",
+        "player2ID": 8478233,
+        "player2Name": "A. Mangiapane",
+        "player2Assists": 3,
+        "player3ID": 8480796,
+        "player3Name": "M. Fehervary",
+        "player3Assists": 3,
+        "playerData": {
+            "8480796": {
+                "name": "Martin Fehervary",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20242025/WSH/8480796.png",
+                "team": "WSH",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/WSH_secondary_light.svg",
+                "num": 42
+            },
+            "8478233": {
+                "name": "Andrew Mangiapane",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20242025/WSH/8478233.png",
+                "team": "WSH",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/WSH_secondary_light.svg",
+                "num": 88
+            },
+            "8475958": {
+                "name": "Michael Sgarbossa",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20242025/WSH/8475958.png",
+                "team": "WSH",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/WSH_secondary_light.svg",
+                "num": 23
+            }
+        }
+    },
+    {
+        "gameId": 2024020229,
+        "gameDate": "2024-11-09",
+        "player1Id": 8479520,
+        "player1Name": "B. Duhaime",
+        "player1Goals": 3,
+        "url": "https://players.brightcove.net/6415718365001/default_default/index.html?videoId=6364492217112&autoplay=false&muted=false&applicationId=nhl",
+        "title": "WSH@STL: Duhaime scores goal against Jordan Binnington",
+        "description": "WSH@STL: Duhaime scores goal against Jordan Binnington",
+        "player2ID": 8474590,
+        "player2Name": "J. Carlson",
+        "player2Assists": 9,
+        "player3ID": 8479390,
+        "player3Name": "T. Raddysh",
+        "player3Assists": 4,
+        "playerData": {
+            "8474590": {
+                "name": "John Carlson",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20242025/WSH/8474590.png",
+                "team": "WSH",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/WSH_secondary_light.svg",
+                "num": 74
+            },
+            "8479520": {
+                "name": "Brandon Duhaime",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20242025/WSH/8479520.png",
+                "team": "WSH",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/WSH_secondary_light.svg",
+                "num": 22
+            },
+            "8479390": {
+                "name": "Taylor Raddysh",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20242025/WSH/8479390.png",
+                "team": "WSH",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/WSH_secondary_light.svg",
+                "num": 16
+            }
+        }
+    },
+    {
+        "gameId": 2024020231,
+        "gameDate": "2024-11-09",
+        "player1Id": 8481601,
+        "player1Name": "S. Holmstrom",
+        "player1Goals": 2,
+        "url": "https://players.brightcove.net/6415718365001/default_default/index.html?videoId=6364488793112&autoplay=false&muted=false&applicationId=nhl",
+        "title": "Holmstrom opens scoring",
+        "description": "NJD@NYI: Holmstrom tucks home opening goal",
+        "player2ID": 8481237,
+        "player2Name": "K. MacLean",
+        "player2Assists": 2,
+        "playerData": {
+            "8481601": {
+                "name": "Simon Holmstrom",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20242025/NYI/8481601.png",
+                "team": "NYI",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/NYI_light.svg",
+                "num": 10
+            },
+            "8481237": {
+                "name": "Kyle MacLean",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20242025/NYI/8481237.png",
+                "team": "NYI",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/NYI_light.svg",
+                "num": 32
+            }
+        }
+    },
+    {
+        "gameId": 2024020231,
+        "gameDate": "2024-11-09",
+        "player1Id": 8481559,
+        "player1Name": "J. Hughes",
+        "player1Goals": 6,
+        "url": "https://players.brightcove.net/6415718365001/default_default/index.html?videoId=6364489743112&autoplay=false&muted=false&applicationId=nhl",
+        "title": "Hughes fires in PPG",
+        "description": "NJD@NYI: Hughes blasts in a wrister for PPG",
+        "player2ID": 8476462,
+        "player2Name": "D. Hamilton",
+        "player2Assists": 9,
+        "player3ID": 8479407,
+        "player3Name": "J. Bratt",
+        "player3Assists": 14,
+        "playerData": {
+            "8476462": {
+                "name": "Dougie Hamilton",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20242025/NJD/8476462.png",
+                "team": "NJD",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/NJD_light.svg",
+                "num": 7
+            },
+            "8481559": {
+                "name": "Jack Hughes",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20242025/NJD/8481559.png",
+                "team": "NJD",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/NJD_light.svg",
+                "num": 86
+            },
+            "8479407": {
+                "name": "Jesper Bratt",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20242025/NJD/8479407.png",
+                "team": "NJD",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/NJD_light.svg",
+                "num": 63
+            }
+        }
+    },
+    {
+        "gameId": 2024020231,
+        "gameDate": "2024-11-09",
+        "player1Id": 8479395,
+        "player1Name": "D. Cholowski",
+        "player1Goals": 2,
+        "url": "https://players.brightcove.net/6415718365001/default_default/index.html?videoId=6364492428112&autoplay=false&muted=false&applicationId=nhl",
+        "title": "Cholowski finds the twine",
+        "description": "NJD@NYI: Cholowski wires in a wrister",
+        "player2ID": 8481601,
+        "player2Name": "S. Holmstrom",
+        "player2Assists": 5,
+        "player3ID": 8478115,
+        "player3Name": "P. Engvall",
+        "player3Assists": 2,
+        "playerData": {
+            "8481601": {
+                "name": "Simon Holmstrom",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20242025/NYI/8481601.png",
+                "team": "NYI",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/NYI_light.svg",
+                "num": 10
+            },
+            "8478115": {
+                "name": "Pierre Engvall",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20242025/NYI/8478115.png",
+                "team": "NYI",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/NYI_light.svg",
+                "num": 18
+            },
+            "8479395": {
+                "name": "Dennis Cholowski",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20242025/NYI/8479395.png",
+                "team": "NYI",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/NYI_light.svg",
+                "num": 25
+            }
+        }
+    },
+    {
+        "gameId": 2024020231,
+        "gameDate": "2024-11-09",
+        "player1Id": 8475754,
+        "player1Name": "B. Nelson",
+        "player1Goals": 6,
+        "url": "https://players.brightcove.net/6415718365001/default_default/index.html?videoId=6364491653112&autoplay=false&muted=false&applicationId=nhl",
+        "title": "NJD@NYI: Nelson scores goal against Jacob Markstrom",
+        "description": "NJD@NYI: Nelson scores goal against Jacob Markstrom",
+        "player2ID": 8475151,
+        "player2Name": "K. Palmieri",
+        "player2Assists": 6,
+        "player3ID": 8484958,
+        "player3Name": "M. Tsyplakov",
+        "player3Assists": 7,
+        "playerData": {
+            "8475754": {
+                "name": "Brock Nelson",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20242025/NYI/8475754.png",
+                "team": "NYI",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/NYI_light.svg",
+                "num": 29
+            },
+            "8475151": {
+                "name": "Kyle Palmieri",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20242025/NYI/8475151.png",
+                "team": "NYI",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/NYI_light.svg",
+                "num": 21
+            },
+            "8484958": {
+                "name": "Maxim Tsyplakov",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20242025/NYI/8484958.png",
+                "team": "NYI",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/NYI_light.svg",
+                "num": 7
+            }
+        }
+    },
+    {
+        "gameId": 2024020231,
+        "gameDate": "2024-11-09",
+        "player1Id": 8482110,
+        "player1Name": "D. Mercer",
+        "player1Goals": 4,
+        "url": "https://players.brightcove.net/6415718365001/default_default/index.html?videoId=6364492163112&autoplay=false&muted=false&applicationId=nhl",
+        "title": "NJD@NYI: Mercer scores goal against Ilya Sorokin",
+        "description": "NJD@NYI: Mercer scores goal against Ilya Sorokin",
+        "player2ID": 8481032,
+        "player2Name": "P. Cotter",
+        "player2Assists": 5,
+        "player3ID": 8478399,
+        "player3Name": "J. Siegenthaler",
+        "player3Assists": 5,
+        "playerData": {
+            "8478399": {
+                "name": "Jonas Siegenthaler",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20242025/NJD/8478399.png",
+                "team": "NJD",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/NJD_light.svg",
+                "num": 71
+            },
+            "8482110": {
+                "name": "Dawson Mercer",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20242025/NJD/8482110.png",
+                "team": "NJD",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/NJD_light.svg",
+                "num": 91
+            },
+            "8481032": {
+                "name": "Paul Cotter",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20242025/NJD/8481032.png",
+                "team": "NJD",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/NJD_light.svg",
+                "num": 47
+            }
+        }
+    },
+    {
+        "gameId": 2024020231,
+        "gameDate": "2024-11-09",
+        "player1Id": 8476474,
+        "player1Name": "S. Noesen",
+        "player1Goals": 7,
+        "url": "https://players.brightcove.net/6415718365001/default_default/index.html?videoId=6364494199112&autoplay=false&muted=false&applicationId=nhl",
+        "title": "Noesen nets equalizer",
+        "description": "NJD@NYI: Noesen ties it late in the 3rd",
+        "player2ID": 8481559,
+        "player2Name": "J. Hughes",
+        "player2Assists": 11,
+        "player3ID": 8476462,
+        "player3Name": "D. Hamilton",
+        "player3Assists": 10,
+        "playerData": {
+            "8476462": {
+                "name": "Dougie Hamilton",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20242025/NJD/8476462.png",
+                "team": "NJD",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/NJD_light.svg",
+                "num": 7
+            },
+            "8481559": {
+                "name": "Jack Hughes",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20242025/NJD/8481559.png",
+                "team": "NJD",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/NJD_light.svg",
+                "num": 86
+            },
+            "8476474": {
+                "name": "Stefan Noesen",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20242025/NJD/8476474.png",
+                "team": "NJD",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/NJD_light.svg",
+                "num": 11
+            }
+        }
+    },
+    {
+        "gameId": 2024020231,
+        "gameDate": "2024-11-09",
+        "player1Id": 8481559,
+        "player1Name": "J. Hughes",
+        "player1Goals": 7,
+        "url": "https://players.brightcove.net/6415718365001/default_default/index.html?videoId=6364492742112&autoplay=false&muted=false&applicationId=nhl",
+        "title": "Hughes nets superb OT winning goal",
+        "description": "NJD@NYI: Hughes fires in a beauty to win it in OT",
+        "player2ID": 8476462,
+        "player2Name": "D. Hamilton",
+        "player2Assists": 11,
+        "playerData": {
+            "8476462": {
+                "name": "Dougie Hamilton",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20242025/NJD/8476462.png",
+                "team": "NJD",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/NJD_light.svg",
+                "num": 7
+            },
+            "8481559": {
+                "name": "Jack Hughes",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20242025/NJD/8481559.png",
+                "team": "NJD",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/NJD_light.svg",
+                "num": 86
+            }
+        }
+    },
+    {
+        "gameId": 2024020232,
+        "gameDate": "2024-11-09",
+        "player1Id": 8476887,
+        "player1Name": "F. Forsberg",
+        "player1Goals": 7,
+        "url": "https://players.brightcove.net/6415718365001/default_default/index.html?videoId=6364491185112&autoplay=false&muted=false&applicationId=nhl",
+        "title": "UTA@NSH: Forsberg scores goal against Connor Ingram",
+        "description": "UTA@NSH: Forsberg scores goal against Connor Ingram",
+        "player2ID": 8474600,
+        "player2Name": "R. Josi",
+        "player2Assists": 8,
+        "player3ID": 8481704,
+        "player3Name": "J. Parssinen",
+        "player3Assists": 2,
+        "playerData": {
+            "8474600": {
+                "name": "Roman Josi",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20242025/NSH/8474600.png",
+                "team": "NSH",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/NSH_light.svg",
+                "num": 59
+            },
+            "8476887": {
+                "name": "Filip Forsberg",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20242025/NSH/8476887.png",
+                "team": "NSH",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/NSH_light.svg",
+                "num": 9
+            },
+            "8481704": {
+                "name": "Juuso Parssinen",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20242025/NSH/8481704.png",
+                "team": "NSH",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/NSH_light.svg",
+                "num": 13
+            }
+        }
+    },
+    {
+        "gameId": 2024020232,
+        "gameDate": "2024-11-09",
+        "player1Id": 8476539,
+        "player1Name": "J. Marchessault",
+        "player1Goals": 3,
+        "url": "https://players.brightcove.net/6415718365001/default_default/index.html?videoId=6364490191112&autoplay=false&muted=false&applicationId=nhl",
+        "title": "UTA@NSH: Marchessault scores PPG against Connor Ingram",
+        "description": "UTA@NSH: Marchessault scores PPG against Connor Ingram",
+        "player2ID": 8474600,
+        "player2Name": "R. Josi",
+        "player2Assists": 9,
+        "player3ID": 8474564,
+        "player3Name": "S. Stamkos",
+        "player3Assists": 4,
+        "playerData": {
+            "8474600": {
+                "name": "Roman Josi",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20242025/NSH/8474600.png",
+                "team": "NSH",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/NSH_light.svg",
+                "num": 59
+            },
+            "8474564": {
+                "name": "Steven Stamkos",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20242025/NSH/8474564.png",
+                "team": "NSH",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/NSH_light.svg",
+                "num": 91
+            },
+            "8476539": {
+                "name": "Jonathan Marchessault",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20242025/NSH/8476539.png",
+                "team": "NSH",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/NSH_light.svg",
+                "num": 81
+            }
+        }
+    },
+    {
+        "gameId": 2024020232,
+        "gameDate": "2024-11-09",
+        "player1Id": 8476887,
+        "player1Name": "F. Forsberg",
+        "player1Goals": 8,
+        "url": "https://players.brightcove.net/6415718365001/default_default/index.html?videoId=6364491744112&autoplay=false&muted=false&applicationId=nhl",
+        "title": "UTA@NSH: Forsberg scores goal against Connor Ingram",
+        "description": "UTA@NSH: Forsberg scores goal against Connor Ingram",
+        "playerData": {
+            "8476887": {
+                "name": "Filip Forsberg",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20242025/NSH/8476887.png",
+                "team": "NSH",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/NSH_light.svg",
+                "num": 9
+            }
+        }
+    },
+    {
+        "gameId": 2024020232,
+        "gameDate": "2024-11-09",
+        "player1Id": 8474679,
+        "player1Name": "G. Nyquist",
+        "player1Goals": 5,
+        "url": "https://players.brightcove.net/6415718365001/default_default/index.html?videoId=6364494720112&autoplay=false&muted=false&applicationId=nhl",
+        "title": "Jonathan Marchessault with a Goal vs. Utah Hockey Club",
+        "description": "Jonathan Marchessault with a Goal vs. Utah Hockey Club",
+        "player2ID": 8476539,
+        "player2Name": "J. Marchessault",
+        "player2Assists": 6,
+        "playerData": {
+            "8476539": {
+                "name": "Jonathan Marchessault",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20242025/NSH/8476539.png",
+                "team": "NSH",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/NSH_light.svg",
+                "num": 81
+            },
+            "8474679": {
+                "name": "Gustav Nyquist",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20242025/NSH/8474679.png",
+                "team": "NSH",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/NSH_light.svg",
+                "num": 14
+            }
+        }
+    },
+    {
+        "gameId": 2024020233,
+        "gameDate": "2024-11-09",
+        "player1Id": 8480835,
+        "player1Name": "J. Drury",
+        "player1Goals": 2,
+        "url": "https://players.brightcove.net/6415718365001/default_default/index.html?videoId=6364491939112&autoplay=false&muted=false&applicationId=nhl",
+        "title": "Drury kicks off scoring",
+        "description": "CAR@COL: Drury puts Hurricanes on top in opening period",
+        "player2ID": 8476921,
+        "player2Name": "J. Martinook",
+        "player2Assists": 4,
+        "player3ID": 8473533,
+        "player3Name": "J. Staal",
+        "player3Assists": 2,
+        "playerData": {
+            "8476921": {
+                "name": "Jordan Martinook",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20242025/CAR/8476921.png",
+                "team": "CAR",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/CAR_light.svg",
+                "num": 48
+            },
+            "8473533": {
+                "name": "Jordan Staal",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20242025/CAR/8473533.png",
+                "team": "CAR",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/CAR_light.svg",
+                "num": 11
+            },
+            "8480835": {
+                "name": "Jack Drury",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20242025/CAR/8480835.png",
+                "team": "CAR",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/CAR_light.svg",
+                "num": 18
+            }
+        }
+    },
+    {
+        "gameId": 2024020233,
+        "gameDate": "2024-11-09",
+        "player1Id": 8476921,
+        "player1Name": "J. Martinook",
+        "player1Goals": 3,
+        "url": "https://players.brightcove.net/6415718365001/default_default/index.html?videoId=6364493447112&autoplay=false&muted=false&applicationId=nhl",
+        "title": "Martinook doubles lead",
+        "description": "CAR@COL: Jarvis sets up Martinook to increase Hurricanes' lead in 2nd period",
+        "player2ID": 8482093,
+        "player2Name": "S. Jarvis",
+        "player2Assists": 6,
+        "player3ID": 8480336,
+        "player3Name": "S. Walker",
+        "player3Assists": 1,
+        "playerData": {
+            "8482093": {
+                "name": "Seth Jarvis",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20242025/CAR/8482093.png",
+                "team": "CAR",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/CAR_light.svg",
+                "num": 24
+            },
+            "8480336": {
+                "name": "Sean Walker",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20242025/CAR/8480336.png",
+                "team": "CAR",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/CAR_light.svg",
+                "num": 26
+            },
+            "8476921": {
+                "name": "Jordan Martinook",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20242025/CAR/8476921.png",
+                "team": "CAR",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/CAR_light.svg",
+                "num": 48
+            }
+        }
+    },
+    {
+        "gameId": 2024020233,
+        "gameDate": "2024-11-09",
+        "player1Id": 8480069,
+        "player1Name": "C. Makar",
+        "player1Goals": 6,
+        "url": "https://players.brightcove.net/6415718365001/default_default/index.html?videoId=6364492769112&autoplay=false&muted=false&applicationId=nhl",
+        "title": "Makar starts off Avalanche with SHG",
+        "description": "CAR@COL: Makar trims Avalanche's deficit with SHG in 2nd period",
+        "playerData": {
+            "8480069": {
+                "name": "Cale Makar",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20242025/COL/8480069.png",
+                "team": "COL",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/COL_light.svg",
+                "num": 8
+            }
+        }
+    },
+    {
+        "gameId": 2024020233,
+        "gameDate": "2024-11-09",
+        "player1Id": 8484258,
+        "player1Name": "S. Malinski",
+        "player1Goals": 1,
+        "url": "https://players.brightcove.net/6415718365001/default_default/index.html?videoId=6364495104112&autoplay=false&muted=false&applicationId=nhl",
+        "title": "CAR@COL: Malinski scores goal against Spencer Martin",
+        "description": "CAR@COL: Malinski scores goal against Spencer Martin",
+        "player2ID": 8477492,
+        "player2Name": "N. MacKinnon",
+        "player2Assists": 20,
+        "player3ID": 8479398,
+        "player3Name": "S. Girard",
+        "player3Assists": 7,
+        "playerData": {
+            "8477492": {
+                "name": "Nathan MacKinnon",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20242025/COL/8477492.png",
+                "team": "COL",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/COL_light.svg",
+                "num": 29
+            },
+            "8479398": {
+                "name": "Samuel Girard",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20242025/COL/8479398.png",
+                "team": "COL",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/COL_light.svg",
+                "num": 49
+            },
+            "8484258": {
+                "name": "Sam Malinski",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20242025/COL/8484258.png",
+                "team": "COL",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/COL_light.svg",
+                "num": 70
+            }
+        }
+    },
+    {
+        "gameId": 2024020233,
+        "gameDate": "2024-11-09",
+        "player1Id": 8480039,
+        "player1Name": "M. Necas",
+        "player1Goals": 8,
+        "url": "https://players.brightcove.net/6415718365001/default_default/index.html?videoId=6364493567112&autoplay=false&muted=false&applicationId=nhl",
+        "title": "Necas buries power-play goal",
+        "description": "CAR@COL: Necas extends his point streak to nine games with PPG",
+        "player2ID": 8482093,
+        "player2Name": "S. Jarvis",
+        "player2Assists": 7,
+        "player3ID": 8480830,
+        "player3Name": "A. Svechnikov",
+        "player3Assists": 9,
+        "playerData": {
+            "8482093": {
+                "name": "Seth Jarvis",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20242025/CAR/8482093.png",
+                "team": "CAR",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/CAR_light.svg",
+                "num": 24
+            },
+            "8480830": {
+                "name": "Andrei Svechnikov",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20242025/CAR/8480830.png",
+                "team": "CAR",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/CAR_light.svg",
+                "num": 37
+            },
+            "8480039": {
+                "name": "Martin Necas",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20242025/CAR/8480039.png",
+                "team": "CAR",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/CAR_light.svg",
+                "num": 88
+            }
+        }
+    },
+    {
+        "gameId": 2024020233,
+        "gameDate": "2024-11-09",
+        "player1Id": 8477492,
+        "player1Name": "N. MacKinnon",
+        "player1Goals": 7,
+        "url": "https://players.brightcove.net/6415718365001/default_default/index.html?videoId=6364494639112&autoplay=false&muted=false&applicationId=nhl",
+        "title": "MacKinnon ties it up",
+        "description": "CAR@COL: MacKinnon gets on board in back-and-forth 2nd period",
+        "player2ID": 8477476,
+        "player2Name": "A. Lehkonen",
+        "player2Assists": 2,
+        "player3ID": 8481206,
+        "player3Name": "J. Ludvig",
+        "player3Assists": 2,
+        "playerData": {
+            "8477492": {
+                "name": "Nathan MacKinnon",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20242025/COL/8477492.png",
+                "team": "COL",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/COL_light.svg",
+                "num": 29
+            },
+            "8481206": {
+                "name": "John Ludvig",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20242025/COL/8481206.png",
+                "team": "COL",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/COL_light.svg",
+                "num": 3
+            }
+        }
+    },
+    {
+        "gameId": 2024020233,
+        "gameDate": "2024-11-09",
+        "player1Id": 8477476,
+        "player1Name": "A. Lehkonen",
+        "player1Goals": 2,
+        "url": "https://players.brightcove.net/6415718365001/default_default/index.html?videoId=6364493672112&autoplay=false&muted=false&applicationId=nhl",
+        "title": "CAR@COL: Lehkonen scores goal against Spencer Martin",
+        "description": "CAR@COL: Lehkonen scores goal against Spencer Martin",
+        "player2ID": 8478420,
+        "player2Name": "M. Rantanen",
+        "player2Assists": 12,
+        "player3ID": 8478038,
+        "player3Name": "D. Toews",
+        "player3Assists": 3,
+        "playerData": {
+            "8478420": {
+                "name": "Mikko Rantanen",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20242025/COL/8478420.png",
+                "team": "COL",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/COL_light.svg",
+                "num": 96
+            },
+            "8478038": {
+                "name": "Devon Toews",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20242025/COL/8478038.png",
+                "team": "COL",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/COL_light.svg",
+                "num": 7
+            }
+        }
+    },
+    {
+        "gameId": 2024020233,
+        "gameDate": "2024-11-09",
+        "player1Id": 8478420,
+        "player1Name": "M. Rantanen",
+        "player1Goals": 7,
+        "url": "https://players.brightcove.net/6415718365001/default_default/index.html?videoId=6364494371112&autoplay=false&muted=false&applicationId=nhl",
+        "title": "Rantanen's power-play tally",
+        "description": "CAR@COL: Rantanen increases Avalanche's lead with PPG in 2nd period",
+        "player2ID": 8479999,
+        "player2Name": "C. Mittelstadt",
+        "player2Assists": 10,
+        "player3ID": 8477492,
+        "player3Name": "N. MacKinnon",
+        "player3Assists": 21,
+        "playerData": {
+            "8477492": {
+                "name": "Nathan MacKinnon",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20242025/COL/8477492.png",
+                "team": "COL",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/COL_light.svg",
+                "num": 29
+            },
+            "8478420": {
+                "name": "Mikko Rantanen",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20242025/COL/8478420.png",
+                "team": "COL",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/COL_light.svg",
+                "num": 96
+            },
+            "8479999": {
+                "name": "Casey Mittelstadt",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20242025/COL/8479999.png",
+                "team": "COL",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/COL_light.svg",
+                "num": 37
+            }
+        }
+    },
+    {
+        "gameId": 2024020233,
+        "gameDate": "2024-11-09",
+        "player1Id": 8476921,
+        "player1Name": "J. Martinook",
+        "player1Goals": 4,
+        "url": "https://players.brightcove.net/6415718365001/default_default/index.html?videoId=6364495660112&autoplay=false&muted=false&applicationId=nhl",
+        "title": "Martinook lights lamp again",
+        "description": "CAR@COL: Martinook trims Hurricanes' deficit with his second goal of game",
+        "player2ID": 8480039,
+        "player2Name": "M. Necas",
+        "player2Assists": 15,
+        "player3ID": 8478427,
+        "player3Name": "S. Aho",
+        "player3Assists": 10,
+        "playerData": {
+            "8478427": {
+                "name": "Sebastian Aho",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20242025/CAR/8478427.png",
+                "team": "CAR",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/CAR_light.svg",
+                "num": 20
+            },
+            "8480039": {
+                "name": "Martin Necas",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20242025/CAR/8480039.png",
+                "team": "CAR",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/CAR_light.svg",
+                "num": 88
+            },
+            "8476921": {
+                "name": "Jordan Martinook",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20242025/CAR/8476921.png",
+                "team": "CAR",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/CAR_light.svg",
+                "num": 48
+            }
+        }
+    },
+    {
+        "gameId": 2024020233,
+        "gameDate": "2024-11-09",
+        "player1Id": 8478420,
+        "player1Name": "M. Rantanen",
+        "player1Goals": 8,
+        "url": "https://players.brightcove.net/6415718365001/default_default/index.html?videoId=6364497353112&autoplay=false&muted=false&applicationId=nhl",
+        "title": "Mikko Rantanen with a Goal vs. Carolina Hurricanes",
+        "description": "CAR@COL: Rantanen with a Goal vs. Carolina Hurricanes",
+        "player2ID": 8477492,
+        "player2Name": "N. MacKinnon",
+        "player2Assists": 22,
+        "playerData": {
+            "8477492": {
+                "name": "Nathan MacKinnon",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20242025/COL/8477492.png",
+                "team": "COL",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/COL_light.svg",
+                "num": 29
+            },
+            "8478420": {
+                "name": "Mikko Rantanen",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20242025/COL/8478420.png",
+                "team": "COL",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/COL_light.svg",
+                "num": 96
+            }
+        }
+    },
+    {
+        "gameId": 2024020234,
+        "gameDate": "2024-11-09",
+        "player1Id": 8481716,
+        "player1Name": "D. Voronkov",
+        "player1Goals": 1,
+        "url": "https://players.brightcove.net/6415718365001/default_default/index.html?videoId=6364492028112&autoplay=false&muted=false&applicationId=nhl",
+        "title": "Voronkov strikes first",
+        "description": "CBJ@LAK: Voronkov gives Blue Jackets lead with tip-in goal in opening period",
+        "player2ID": 8479941,
+        "player2Name": "J. Danforth",
+        "player2Assists": 3,
+        "playerData": {
+            "8479941": {
+                "name": "Justin Danforth",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20242025/CBJ/8479941.png",
+                "team": "CBJ",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/CBJ_light.svg",
+                "num": 17
+            }
+        }
+    },
+    {
+        "gameId": 2024020234,
+        "gameDate": "2024-11-09",
+        "player1Id": 8478882,
+        "player1Name": "V. Gavrikov",
+        "player1Goals": 2,
+        "url": "https://players.brightcove.net/6415718365001/default_default/index.html?videoId=6364492869112&autoplay=false&muted=false&applicationId=nhl",
+        "title": "Gavrikov gets Kings started",
+        "description": "CBJ@LAK: Gavrikov evens score against former team in 2nd period",
+        "player2ID": 8477960,
+        "player2Name": "A. Kempe",
+        "player2Assists": 8,
+        "player3ID": 8471685,
+        "player3Name": "A. Kopitar",
+        "player3Assists": 11,
+        "playerData": {
+            "8478882": {
+                "name": "Vladislav Gavrikov",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20242025/LAK/8478882.png",
+                "team": "LAK",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/LAK_light.svg",
+                "num": 84
+            },
+            "8471685": {
+                "name": "Anze Kopitar",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20242025/LAK/8471685.png",
+                "team": "LAK",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/LAK_light.svg",
+                "num": 11
+            },
+            "8477960": {
+                "name": "Adrian Kempe",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20242025/LAK/8477960.png",
+                "team": "LAK",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/LAK_light.svg",
+                "num": 9
+            }
+        }
+    },
+    {
+        "gameId": 2024020234,
+        "gameDate": "2024-11-09",
+        "player1Id": 8477998,
+        "player1Name": "W. Foegele",
+        "player1Goals": 6,
+        "url": "https://players.brightcove.net/6415718365001/default_default/index.html?videoId=6364492878112&autoplay=false&muted=false&applicationId=nhl",
+        "title": "Foegele grabs lead",
+        "description": "CBJ@LAK: Thomas sets up Foegele for nice goal in 2nd period",
+        "player2ID": 8480851,
+        "player2Name": "A. Thomas",
+        "player2Assists": 1,
+        "player3ID": 8482726,
+        "player3Name": "S. Helenius",
+        "player3Assists": 1,
+        "playerData": {
+            "8477998": {
+                "name": "Warren Foegele",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20242025/LAK/8477998.png",
+                "team": "LAK",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/LAK_light.svg",
+                "num": 37
+            },
+            "8480851": {
+                "name": "Akil Thomas",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20242025/LAK/8480851.png",
+                "team": "LAK",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/LAK_light.svg",
+                "num": 26
+            }
+        }
+    },
+    {
+        "gameId": 2024020234,
+        "gameDate": "2024-11-09",
+        "player1Id": 8479675,
+        "player1Name": "T. Moore",
+        "player1Goals": 2,
+        "url": "https://players.brightcove.net/6415718365001/default_default/index.html?videoId=6364495630112&autoplay=false&muted=false&applicationId=nhl",
+        "title": "Moore nets short-handed goal",
+        "description": "CBJ@LAK: Moore increases Kings' lead with SHG early in 3rd period",
+        "player2ID": 8476479,
+        "player2Name": "P. Danault",
+        "player2Assists": 8,
+        "playerData": {
+            "8476479": {
+                "name": "Phillip Danault",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20242025/LAK/8476479.png",
+                "team": "LAK",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/LAK_light.svg",
+                "num": 24
+            },
+            "8479675": {
+                "name": "Trevor Moore",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20242025/LAK/8479675.png",
+                "team": "LAK",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/LAK_light.svg",
+                "num": 12
+            }
+        }
+    },
+    {
+        "gameId": 2024020234,
+        "gameDate": "2024-11-09",
+        "player1Id": 8478500,
+        "player1Name": "I. Provorov",
+        "player1Goals": 1,
+        "url": "https://players.brightcove.net/6415718365001/default_default/index.html?videoId=6364494483112&autoplay=false&muted=false&applicationId=nhl",
+        "title": "CBJ@LAK: Provorov scores PPG against David Rittich",
+        "description": "CBJ@LAK: Provorov scores PPG against David Rittich",
+        "player2ID": 8479941,
+        "player2Name": "J. Danforth",
+        "player2Assists": 4,
+        "player3ID": 8484166,
+        "player3Name": "A. Fantilli",
+        "player3Assists": 4,
+        "playerData": {
+            "8478500": {
+                "name": "Ivan Provorov",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20242025/CBJ/8478500.png",
+                "team": "CBJ",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/CBJ_light.svg",
+                "num": 9
+            },
+            "8484166": {
+                "name": "Adam Fantilli",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20242025/CBJ/8484166.png",
+                "team": "CBJ",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/CBJ_light.svg",
+                "num": 19
+            },
+            "8479941": {
+                "name": "Justin Danforth",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20242025/CBJ/8479941.png",
+                "team": "CBJ",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/CBJ_light.svg",
+                "num": 17
+            }
+        }
+    },
+    {
+        "gameId": 2024020234,
+        "gameDate": "2024-11-09",
+        "player1Id": 8482155,
+        "player1Name": "A. Laferriere",
+        "player1Goals": 9,
+        "url": "https://players.brightcove.net/6415718365001/default_default/index.html?videoId=6364495937112&autoplay=false&muted=false&applicationId=nhl",
+        "title": "CBJ@LAK: Laferriere scores goal against Elvis Merzlikins",
+        "description": "CBJ@LAK: Laferriere scores goal against Elvis Merzlikins",
+        "player2ID": 8476441,
+        "player2Name": "J. Edmundson",
+        "player2Assists": 3,
+        "player3ID": 8477998,
+        "player3Name": "W. Foegele",
+        "player3Assists": 3,
+        "playerData": {
+            "8476441": {
+                "name": "Joel Edmundson",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20242025/LAK/8476441.png",
+                "team": "LAK",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/LAK_light.svg",
+                "num": 6
+            },
+            "8482155": {
+                "name": "Alex Laferriere",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20242025/LAK/8482155.png",
+                "team": "LAK",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/LAK_light.svg",
+                "num": 14
+            },
+            "8477998": {
+                "name": "Warren Foegele",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20242025/LAK/8477998.png",
+                "team": "LAK",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/LAK_light.svg",
+                "num": 37
+            }
+        }
+    },
+    {
+        "gameId": 2024020234,
+        "gameDate": "2024-11-09",
+        "player1Id": 8482730,
+        "player1Name": "B. Clarke",
+        "player1Goals": 2,
+        "url": "https://players.brightcove.net/6415718365001/default_default/index.html?videoId=6364497038112&autoplay=false&muted=false&applicationId=nhl",
+        "title": "Brandt Clarke with a Powerplay Goal vs. Columbus Blue Jackets",
+        "description": "CBJ@LAK: Clarke with a Powerplay Goal vs. Columbus Blue Jackets",
+        "player2ID": 8471685,
+        "player2Name": "A. Kopitar",
+        "player2Assists": 12,
+        "player3ID": 8477960,
+        "player3Name": "A. Kempe",
+        "player3Assists": 9,
+        "playerData": {
+            "8471685": {
+                "name": "Anze Kopitar",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20242025/LAK/8471685.png",
+                "team": "LAK",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/LAK_light.svg",
+                "num": 11
+            },
+            "8482730": {
+                "name": "Brandt Clarke",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20242025/LAK/8482730.png",
+                "team": "LAK",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/LAK_light.svg",
+                "num": 92
+            },
+            "8477960": {
+                "name": "Adrian Kempe",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20242025/LAK/8477960.png",
+                "team": "LAK",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/LAK_light.svg",
+                "num": 9
+            }
+        }
+    },
+    {
+        "gameId": 2024020235,
+        "gameDate": "2024-11-09",
+        "player1Id": 8477934,
+        "player1Name": "L. Draisaitl",
+        "player1Goals": 10,
+        "url": "https://players.brightcove.net/6415718365001/default_default/index.html?videoId=6364493453112&autoplay=false&muted=false&applicationId=nhl",
+        "title": "Draisaitl kicks off scoring",
+        "description": "EDM@VAN: Draisaitl cleans up loose puck to open the scoring",
+        "player2ID": 8475786,
+        "player2Name": "Z. Hyman",
+        "player2Assists": 3,
+        "player3ID": 8478402,
+        "player3Name": "C. McDavid",
+        "player3Assists": 8,
+        "playerData": {
+            "8477934": {
+                "name": "Leon Draisaitl",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20242025/EDM/8477934.png",
+                "team": "EDM",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/EDM_light.svg",
+                "num": 29
+            },
+            "8478402": {
+                "name": "Connor McDavid",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20242025/EDM/8478402.png",
+                "team": "EDM",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/EDM_light.svg",
+                "num": 97
+            },
+            "8475786": {
+                "name": "Zach Hyman",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20242025/EDM/8475786.png",
+                "team": "EDM",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/EDM_light.svg",
+                "num": 18
+            }
+        }
+    },
+    {
+        "gameId": 2024020235,
+        "gameDate": "2024-11-09",
+        "player1Id": 8470621,
+        "player1Name": "C. Perry",
+        "player1Goals": 3,
+        "url": "https://players.brightcove.net/6415718365001/default_default/index.html?videoId=6364495946112&autoplay=false&muted=false&applicationId=nhl",
+        "title": "Perry caps tic-tac-toe play",
+        "description": "EDM@VAN: Perry scores tic-tac-toe goal for 2-0 lead",
+        "player2ID": 8477406,
+        "player2Name": "M. Janmark",
+        "player2Assists": 3,
+        "player3ID": 8478585,
+        "player3Name": "D. Ryan",
+        "player3Assists": 1,
+        "playerData": {
+            "8477406": {
+                "name": "Mattias Janmark",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20242025/EDM/8477406.png",
+                "team": "EDM",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/EDM_light.svg",
+                "num": 13
+            },
+            "8470621": {
+                "name": "Corey Perry",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20242025/EDM/8470621.png",
+                "team": "EDM",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/EDM_light.svg",
+                "num": 90
+            },
+            "8478585": {
+                "name": "Derek Ryan",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20242025/EDM/8478585.png",
+                "team": "EDM",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/EDM_light.svg",
+                "num": 10
+            }
+        }
+    },
+    {
+        "gameId": 2024020235,
+        "gameDate": "2024-11-09",
+        "player1Id": 8478042,
+        "player1Name": "V. Arvidsson",
+        "player1Goals": 2,
+        "url": "https://players.brightcove.net/6415718365001/default_default/index.html?videoId=6364495096112&autoplay=false&muted=false&applicationId=nhl",
+        "title": "EDM@VAN: Arvidsson scores goal against Kevin Lankinen",
+        "description": "EDM@VAN: Arvidsson scores goal against Kevin Lankinen",
+        "player2ID": 8477934,
+        "player2Name": "L. Draisaitl",
+        "player2Assists": 8,
+        "player3ID": 8476967,
+        "player3Name": "B. Kulak",
+        "player3Assists": 2,
+        "playerData": {
+            "8477934": {
+                "name": "Leon Draisaitl",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20242025/EDM/8477934.png",
+                "team": "EDM",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/EDM_light.svg",
+                "num": 29
+            },
+            "8476967": {
+                "name": "Brett Kulak",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20242025/EDM/8476967.png",
+                "team": "EDM",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/EDM_light.svg",
+                "num": 27
+            },
+            "8478042": {
+                "name": "Viktor Arvidsson",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20242025/EDM/8478042.png",
+                "team": "EDM",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/EDM_light.svg",
+                "num": 33
+            }
+        }
+    },
+    {
+        "gameId": 2024020235,
+        "gameDate": "2024-11-09",
+        "player1Id": 8480012,
+        "player1Name": "E. Pettersson",
+        "player1Goals": 3,
+        "url": "https://players.brightcove.net/6415718365001/default_default/index.html?videoId=6364495756112&autoplay=false&muted=false&applicationId=nhl",
+        "title": "Pettersson's crafty tip-in goal",
+        "description": "EDM@VAN: Pettersson scores tip-in goal to trim the lead",
+        "player2ID": 8478498,
+        "player2Name": "J. DeBrusk",
+        "player2Assists": 5,
+        "playerData": {
+            "8480012": {
+                "name": "Elias Pettersson",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20242025/VAN/8480012.png",
+                "team": "VAN",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/VAN_light.svg",
+                "num": 40
+            },
+            "8478498": {
+                "name": "Jake DeBrusk",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20242025/VAN/8478498.png",
+                "team": "VAN",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/VAN_light.svg",
+                "num": 74
+            }
+        }
+    },
+    {
+        "gameId": 2024020235,
+        "gameDate": "2024-11-09",
+        "player1Id": 8479425,
+        "player1Name": "F. Hronek",
+        "player1Goals": 1,
+        "url": "https://players.brightcove.net/6415718365001/default_default/index.html?videoId=6364494896112&autoplay=false&muted=false&applicationId=nhl",
+        "title": "EDM@VAN: Hronek scores goal against Stuart Skinner",
+        "description": "EDM@VAN: Hronek scores goal against Stuart Skinner",
+        "player2ID": 8476927,
+        "player2Name": "T. Blueger",
+        "player2Assists": 5,
+        "player3ID": 8478046,
+        "player3Name": "D. Heinen",
+        "player3Assists": 4,
+        "playerData": {
+            "8479425": {
+                "name": "Filip Hronek",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20242025/VAN/8479425.png",
+                "team": "VAN",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/VAN_light.svg",
+                "num": 17
+            },
+            "8478046": {
+                "name": "Danton Heinen",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20242025/VAN/8478046.png",
+                "team": "VAN",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/VAN_light.svg",
+                "num": 20
+            },
+            "8476927": {
+                "name": "Teddy Blueger",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20242025/VAN/8476927.png",
+                "team": "VAN",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/VAN_light.svg",
+                "num": 53
+            }
+        }
+    },
+    {
+        "gameId": 2024020235,
+        "gameDate": "2024-11-09",
+        "player1Id": 8477015,
+        "player1Name": "C. Brown",
+        "player1Goals": 2,
+        "url": "https://players.brightcove.net/6415718365001/default_default/index.html?videoId=6364498549112&autoplay=false&muted=false&applicationId=nhl",
+        "title": "EDM@VAN: Brown scores goal against Kevin Lankinen",
+        "description": "EDM@VAN: Brown scores goal against Kevin Lankinen",
+        "player2ID": 8474641,
+        "player2Name": "A. Henrique",
+        "player2Assists": 1,
+        "player3ID": 8477406,
+        "player3Name": "M. Janmark",
+        "player3Assists": 4,
+        "playerData": {
+            "8474641": {
+                "name": "Adam Henrique",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20242025/EDM/8474641.png",
+                "team": "EDM",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/EDM_light.svg",
+                "num": 19
+            },
+            "8477015": {
+                "name": "Connor Brown",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20242025/EDM/8477015.png",
+                "team": "EDM",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/EDM_light.svg",
+                "num": 28
+            },
+            "8477406": {
+                "name": "Mattias Janmark",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20242025/EDM/8477406.png",
+                "team": "EDM",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/EDM_light.svg",
+                "num": 13
+            }
+        }
+    },
+    {
+        "gameId": 2024020235,
+        "gameDate": "2024-11-09",
+        "player1Id": 8478402,
+        "player1Name": "C. McDavid",
+        "player1Goals": 4,
+        "url": "https://players.brightcove.net/6415718365001/default_default/index.html?videoId=6364496815112&autoplay=false&muted=false&applicationId=nhl",
+        "title": "McDavid buries rebound for PPG",
+        "description": "EDM@VAN: McDavid stashes a rebound home for PPG in 3rd",
+        "player2ID": 8475786,
+        "player2Name": "Z. Hyman",
+        "player2Assists": 4,
+        "player3ID": 8476454,
+        "player3Name": "R. Nugent-Hopkins",
+        "player3Assists": 5,
+        "playerData": {
+            "8478402": {
+                "name": "Connor McDavid",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20242025/EDM/8478402.png",
+                "team": "EDM",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/EDM_light.svg",
+                "num": 97
+            },
+            "8475786": {
+                "name": "Zach Hyman",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20242025/EDM/8475786.png",
+                "team": "EDM",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/EDM_light.svg",
+                "num": 18
+            },
+            "8476454": {
+                "name": "Ryan Nugent-Hopkins",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20242025/EDM/8476454.png",
+                "team": "EDM",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/EDM_light.svg",
+                "num": 93
+            }
+        }
+    },
+    {
+        "gameId": 2024020235,
+        "gameDate": "2024-11-09",
+        "player1Id": 8476967,
+        "player1Name": "B. Kulak",
+        "player1Goals": 4,
+        "url": "https://players.brightcove.net/6415718365001/default_default/index.html?videoId=6364497863112&autoplay=false&muted=false&applicationId=nhl",
+        "title": "EDM@VAN: Kulak scores goal against Kevin Lankinen",
+        "description": "EDM@VAN: Kulak scores goal against Kevin Lankinen",
+        "player2ID": 8478402,
+        "player2Name": "C. McDavid",
+        "player2Assists": 9,
+        "player3ID": 8480834,
+        "player3Name": "T. Emberson",
+        "player3Assists": 1,
+        "playerData": {
+            "8478402": {
+                "name": "Connor McDavid",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20242025/EDM/8478402.png",
+                "team": "EDM",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/EDM_light.svg",
+                "num": 97
+            },
+            "8476967": {
+                "name": "Brett Kulak",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20242025/EDM/8476967.png",
+                "team": "EDM",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/EDM_light.svg",
+                "num": 27
+            },
+            "8480834": {
+                "name": "Ty Emberson",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20242025/EDM/8480834.png",
+                "team": "EDM",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/EDM_light.svg",
+                "num": 49
+            }
+        }
+    },
+    {
+        "gameId": 2024020235,
+        "gameDate": "2024-11-09",
+        "player1Id": 8477015,
+        "player1Name": "C. Brown",
+        "player1Goals": 3,
+        "url": "https://players.brightcove.net/6415718365001/default_default/index.html?videoId=6364497961112&autoplay=false&muted=false&applicationId=nhl",
+        "title": "Brown's second goal",
+        "description": "EDM@VAN: Brown scores his second goal of the game",
+        "player2ID": 8477406,
+        "player2Name": "M. Janmark",
+        "player2Assists": 5,
+        "playerData": {
+            "8477015": {
+                "name": "Connor Brown",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20242025/EDM/8477015.png",
+                "team": "EDM",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/EDM_light.svg",
+                "num": 28
+            },
+            "8477406": {
+                "name": "Mattias Janmark",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20242025/EDM/8477406.png",
+                "team": "EDM",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/EDM_light.svg",
+                "num": 13
+            }
+        }
+    },
+    {
+        "gameId": 2024020235,
+        "gameDate": "2024-11-09",
+        "player1Id": 8480459,
+        "player1Name": "P. Suter",
+        "player1Goals": 5,
+        "url": "https://players.brightcove.net/6415718365001/default_default/index.html?videoId=6364498869112&autoplay=false&muted=false&applicationId=nhl",
+        "title": "EDM@VAN: Suter scores PPG against Stuart Skinner",
+        "description": "EDM@VAN: Suter scores PPG against Stuart Skinner",
+        "player2ID": 8480012,
+        "player2Name": "E. Pettersson",
+        "player2Assists": 4,
+        "player3ID": 8480800,
+        "player3Name": "Q. Hughes",
+        "player3Assists": 12,
+        "playerData": {
+            "8480800": {
+                "name": "Quinn Hughes",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20242025/VAN/8480800.png",
+                "team": "VAN",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/VAN_light.svg",
+                "num": 43
+            },
+            "8480012": {
+                "name": "Elias Pettersson",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20242025/VAN/8480012.png",
+                "team": "VAN",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/VAN_light.svg",
+                "num": 40
+            },
+            "8480459": {
+                "name": "Pius Suter",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20242025/VAN/8480459.png",
+                "team": "VAN",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/VAN_light.svg",
+                "num": 24
+            }
+        }
     }
 ]
