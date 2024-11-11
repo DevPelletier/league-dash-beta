@@ -53415,5 +53415,345 @@
                 "num": 24
             }
         }
+    },
+    {
+        "gameId": 2024020236,
+        "gameDate": "2024-11-10",
+        "player1Id": 8481477,
+        "player1Name": "N. Sturm",
+        "player1Goals": 3,
+        "url": "https://players.brightcove.net/6415718365001/default_default/index.html?videoId=6364525777112&autoplay=false&muted=false&applicationId=nhl",
+        "title": "Sturm breaks the ice",
+        "description": "SJS@NJD: Sturm strikes first with a lucky bounce",
+        "player2ID": 8479336,
+        "player2Name": "C. Grundstrom",
+        "player2Assists": 3,
+        "player3ID": 8481567,
+        "player3Name": "H. Thrun",
+        "player3Assists": 4,
+        "playerData": {
+            "8481567": {
+                "name": "Henry Thrun",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20242025/SJS/8481567.png",
+                "team": "SJS",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/SJS_light.svg",
+                "num": 3
+            },
+            "8481477": {
+                "name": "Nico Sturm",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20242025/SJS/8481477.png",
+                "team": "SJS",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/SJS_light.svg",
+                "num": 7
+            },
+            "8479336": {
+                "name": "Carl Grundstrom",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20242025/SJS/8479336.png",
+                "team": "SJS",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/SJS_light.svg",
+                "num": 91
+            }
+        }
+    },
+    {
+        "gameId": 2024020237,
+        "gameDate": "2024-11-10",
+        "player1Id": 8477450,
+        "player1Name": "J. Dickinson",
+        "player1Goals": 2,
+        "url": "https://players.brightcove.net/6415718365001/default_default/index.html?videoId=6364526075112&autoplay=false&muted=false&applicationId=nhl",
+        "title": "Dickinson nets nasty wrister",
+        "description": "MIN@CHI: Dickinson drifts into the slot and wires it into the twine",
+        "playerData": {
+            "8477450": {
+                "name": "Jason Dickinson",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20242025/CHI/8477450.png",
+                "team": "CHI",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/CHI_light.svg",
+                "num": 16
+            }
+        }
+    },
+    {
+        "gameId": 2024020237,
+        "gameDate": "2024-11-10",
+        "player1Id": 8481557,
+        "player1Name": "M. Boldy",
+        "player1Goals": 9,
+        "url": "https://players.brightcove.net/6415718365001/default_default/index.html?videoId=6364528970112&autoplay=false&muted=false&applicationId=nhl",
+        "title": "Boldy rings in equalizer",
+        "description": "MIN@CHI: Boldy wires game-tying goal off the crossbar and in",
+        "player2ID": 8478864,
+        "player2Name": "K. Kaprizov",
+        "player2Assists": 19,
+        "player3ID": 8475692,
+        "player3Name": "M. Zuccarello",
+        "player3Assists": 8,
+        "playerData": {
+            "8478864": {
+                "name": "Kirill Kaprizov",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20242025/MIN/8478864.png",
+                "team": "MIN",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/MIN_light.svg",
+                "num": 97
+            },
+            "8481557": {
+                "name": "Matt Boldy",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20242025/MIN/8481557.png",
+                "team": "MIN",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/MIN_light.svg",
+                "num": 12
+            },
+            "8475692": {
+                "name": "Mats Zuccarello",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20242025/MIN/8475692.png",
+                "team": "MIN",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/MIN_light.svg",
+                "num": 36
+            }
+        }
+    },
+    {
+        "gameId": 2024020237,
+        "gameDate": "2024-11-10",
+        "player1Id": 8480798,
+        "player1Name": "P. Kurashev",
+        "player1Goals": 3,
+        "url": "https://players.brightcove.net/6415718365001/default_default/index.html?videoId=6364529716112&autoplay=false&muted=false&applicationId=nhl",
+        "title": "Kurashev floats in OT winner",
+        "description": "MIN@CHI: Kurashev fires it in overtime and finds twine",
+        "player2ID": 8477495,
+        "player2Name": "S. Jones",
+        "player2Assists": 8,
+        "playerData": {
+            "8477495": {
+                "name": "Seth Jones",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20242025/CHI/8477495.png",
+                "team": "CHI",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/CHI_light.svg",
+                "num": 4
+            },
+            "8480798": {
+                "name": "Philipp Kurashev",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20242025/CHI/8480798.png",
+                "team": "CHI",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/CHI_light.svg",
+                "num": 23
+            }
+        }
+    },
+    {
+        "gameId": 2024020238,
+        "gameDate": "2024-11-10",
+        "player1Id": 8481517,
+        "player1Name": "B. Leason",
+        "player1Goals": 1,
+        "url": "https://players.brightcove.net/6415718365001/default_default/index.html?videoId=6364527758112&autoplay=false&muted=false&applicationId=nhl",
+        "title": "Leason kicks off scoring",
+        "description": "CBJ@ANA: Leason goes five-hole for game's opening goal",
+        "player2ID": 8483445,
+        "player2Name": "C. Gauthier",
+        "player2Assists": 5,
+        "player3ID": 8477527,
+        "player3Name": "R. Johnston",
+        "player3Assists": 2,
+        "playerData": {
+            "8483445": {
+                "name": "Cutter Gauthier",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20242025/ANA/8483445.png",
+                "team": "ANA",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/ANA_light.svg",
+                "num": 61
+            },
+            "8481517": {
+                "name": "Brett Leason",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20242025/ANA/8481517.png",
+                "team": "ANA",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/ANA_light.svg",
+                "num": 20
+            },
+            "8477527": {
+                "name": "Ross Johnston",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20242025/ANA/8477527.png",
+                "team": "ANA",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/ANA_light.svg",
+                "num": 44
+            }
+        }
+    },
+    {
+        "gameId": 2024020238,
+        "gameDate": "2024-11-10",
+        "player1Id": 8482475,
+        "player1Name": "Y. Chinakhov",
+        "player1Goals": 4,
+        "url": "https://players.brightcove.net/6415718365001/default_default/index.html?videoId=6364527001112&autoplay=false&muted=false&applicationId=nhl",
+        "title": "Chinakhov hammers a PPG",
+        "description": "CBJ@ANA: Chinakhov unloads slap shot for PPG in 1st",
+        "player2ID": 8478460,
+        "player2Name": "Z. Werenski",
+        "player2Assists": 7,
+        "player3ID": 8480893,
+        "player3Name": "K. Marchenko",
+        "player3Assists": 9,
+        "playerData": {
+            "8478460": {
+                "name": "Zach Werenski",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20242025/CBJ/8478460.png",
+                "team": "CBJ",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/CBJ_light.svg",
+                "num": 8
+            },
+            "8480893": {
+                "name": "Kirill Marchenko",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20242025/CBJ/8480893.png",
+                "team": "CBJ",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/CBJ_light.svg",
+                "num": 86
+            },
+            "8482475": {
+                "name": "Yegor Chinakhov",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20242025/CBJ/8482475.png",
+                "team": "CBJ",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/CBJ_light.svg",
+                "num": 59
+            }
+        }
+    },
+    {
+        "gameId": 2024020238,
+        "gameDate": "2024-11-10",
+        "player1Id": 8481605,
+        "player1Name": "J. LaCombe",
+        "player1Goals": 1,
+        "url": "https://players.brightcove.net/6415718365001/default_default/index.html?videoId=6364528100112&autoplay=false&muted=false&applicationId=nhl",
+        "title": "LaCombe buries rebound",
+        "description": "CBJ@ANA: LaCombe puts a rebound home for a 2-1 lead",
+        "player2ID": 8475462,
+        "player2Name": "R. Gudas",
+        "player2Assists": 2,
+        "player3ID": 8478873,
+        "player3Name": "T. Terry",
+        "player3Assists": 6,
+        "playerData": {
+            "8475462": {
+                "name": "Radko Gudas",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20242025/ANA/8475462.png",
+                "team": "ANA",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/ANA_light.svg",
+                "num": 7
+            },
+            "8481605": {
+                "name": "Jackson LaCombe",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20242025/ANA/8481605.png",
+                "team": "ANA",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/ANA_light.svg",
+                "num": 2
+            },
+            "8478873": {
+                "name": "Troy Terry",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20242025/ANA/8478873.png",
+                "team": "ANA",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/ANA_light.svg",
+                "num": 19
+            }
+        }
+    },
+    {
+        "gameId": 2024020238,
+        "gameDate": "2024-11-10",
+        "player1Id": 8484153,
+        "player1Name": "L. Carlsson",
+        "player1Goals": 5,
+        "url": "https://players.brightcove.net/6415718365001/default_default/index.html?videoId=6364530985112&autoplay=false&muted=false&applicationId=nhl",
+        "title": "Carlsson roofs one-timer",
+        "description": "CBJ@ANA: Carlsson extends the lead with one-timer in 3rd",
+        "player2ID": 8475208,
+        "player2Name": "B. Dumoulin",
+        "player2Assists": 3,
+        "player3ID": 8476458,
+        "player3Name": "R. Strome",
+        "player3Assists": 4,
+        "playerData": {
+            "8475208": {
+                "name": "Brian Dumoulin",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20242025/ANA/8475208.png",
+                "team": "ANA",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/ANA_light.svg",
+                "num": 6
+            },
+            "8484153": {
+                "name": "Leo Carlsson",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20242025/ANA/8484153.png",
+                "team": "ANA",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/ANA_light.svg",
+                "num": 91
+            },
+            "8476458": {
+                "name": "Ryan Strome",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20242025/ANA/8476458.png",
+                "team": "ANA",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/ANA_light.svg",
+                "num": 16
+            }
+        }
+    },
+    {
+        "gameId": 2024020238,
+        "gameDate": "2024-11-10",
+        "player1Id": 8480893,
+        "player1Name": "K. Marchenko",
+        "player1Goals": 6,
+        "url": "https://players.brightcove.net/6415718365001/default_default/index.html?videoId=6364531684112&autoplay=false&muted=false&applicationId=nhl",
+        "title": "CBJ@ANA: Marchenko scores goal against John Gibson",
+        "description": "CBJ@ANA: Marchenko scores goal against John Gibson",
+        "playerData": {
+            "8480893": {
+                "name": "Kirill Marchenko",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20242025/CBJ/8480893.png",
+                "team": "CBJ",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/CBJ_light.svg",
+                "num": 86
+            }
+        }
+    },
+    {
+        "gameId": 2024020238,
+        "gameDate": "2024-11-10",
+        "player1Id": 8480806,
+        "player1Name": "I. Lundestrom",
+        "player1Goals": 2,
+        "url": "https://players.brightcove.net/6415718365001/default_default/index.html?videoId=6364530233112&autoplay=false&muted=false&applicationId=nhl",
+        "title": "Isac Lundestrom with a Goal vs. Columbus Blue Jackets",
+        "description": "Isac Lundestrom with a Goal vs. Columbus Blue Jackets",
+        "player2ID": 8478366,
+        "player2Name": "F. Vatrano",
+        "player2Assists": 4,
+        "player3ID": 8476934,
+        "player3Name": "B. McGinn",
+        "player3Assists": 3,
+        "playerData": {
+            "8478366": {
+                "name": "Frank Vatrano",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20242025/ANA/8478366.png",
+                "team": "ANA",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/ANA_light.svg",
+                "num": 77
+            },
+            "8480806": {
+                "name": "Isac Lundestrom",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20242025/ANA/8480806.png",
+                "team": "ANA",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/ANA_light.svg",
+                "num": 21
+            },
+            "8476934": {
+                "name": "Brock McGinn",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20242025/ANA/8476934.png",
+                "team": "ANA",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/ANA_light.svg",
+                "num": 26
+            }
+        }
     }
 ]
