@@ -103,13 +103,13 @@ export default function MatchupPage({ matchup }) {
         <Link href="/matchups">Back to All Matchups</Link>
     </div>
     <div>
-    <div className="matchupTitleContainer">
-        <span>Matchup ID: {matchup.id}</span>
-        <span>Week Start: {matchup.weekStart}</span>
-        <span>Week End: {matchup.weekEnd}</span>
-        <span>Team 1: {matchup.teamsData[0].team_id} {matchup.teamsData[0].matchupHistScores.at(-1)}</span>
-        <span>Team 2: {matchup.teamsData[1].team_id} {matchup.teamsData[1].matchupHistScores.at(-1)}</span>
-    </div>
+      <div className="matchupTitleContainer">
+          <span>Matchup ID: {matchup.id}</span>
+          <span>Week Start: {matchup.weekStart}</span>
+          <span>Week End: {matchup.weekEnd}</span>
+          <span>Team 1: {matchup.teamsData[0].team_id} {matchup.teamsData[0].matchupHistScores.at(-1)}</span>
+          <span>Team 2: {matchup.teamsData[1].team_id} {matchup.teamsData[1].matchupHistScores.at(-1)}</span>
+      </div>
     </div>
 
     <div>
