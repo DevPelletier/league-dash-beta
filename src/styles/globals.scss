@@ -356,4 +356,37 @@ main.highlights-page {
         }
     }
 }
+.matchupTitleContainer {
+    margin: auto;
+    width: fit-content;
+}
+.scoreboardContainer {
+    margin: auto;   
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    // justify-items: center;
+    // align-items: center;
+    // border: 1px solid red;
+    grid-gap: 0;
+    width: calc(200px + 13*60px - 60px);
+    .MuiButtonGroup-root, .scoreboardRow {
+        display: grid;
+        grid-template-columns: 200px repeat(13, 60px);
+        width: calc(200px + 13*60px - 60px);
+    }
+    button.MuiButton-root, span {
+        padding: 10px 20px;
+        border: 1px solid red;
+        @include flex;
+        
+        &.title {
+            // font-weight: bold;
+        }
+
+        &.team {
+            width: 200px;
+        }
+    }
+}
 

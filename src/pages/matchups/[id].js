@@ -5,6 +5,8 @@ import * as React from 'react';
 import { useEffect, useState } from 'react';
 import Link from 'next/link'
 import MatchupChart from '../../../components/MatchupChart';
+import Button from '@mui/material/Button';
+import ButtonGroup from '@mui/material/ButtonGroup';
 
 // Fetch the team data from the JSON file
 export async function getStaticProps({ params }) {
@@ -101,48 +103,59 @@ export default function MatchupPage({ matchup }) {
         <Link href="/matchups">Back to All Matchups</Link>
     </div>
     <div>
-      { graphData.length > 0 ? <MatchupChart team1Data={graphData[0]} team2Data={graphData[1]} /> : <>loading...</> }
-    </div>
-    <div>
+    <div className="matchupTitleContainer">
         <span>Matchup ID: {matchup.id}</span>
         <span>Week Start: {matchup.weekStart}</span>
         <span>Week End: {matchup.weekEnd}</span>
         <span>Team 1: {matchup.teamsData[0].team_id} {matchup.teamsData[0].matchupHistScores.at(-1)}</span>
         <span>Team 2: {matchup.teamsData[1].team_id} {matchup.teamsData[1].matchupHistScores.at(-1)}</span>
     </div>
+    </div>
+
     <div>
       <h4>Scoreboard</h4>
+      <div className="scoreboardContainer">
       { statsExist ? (<>
-          <span>Team</span>
+          <ButtonGroup variant="contained" aria-label="Basic button group">
+          <span className="title team">Team</span>
+
           {matchup.teamsData[0].matchupHistStats.map((stat) => (
-            <span key={stat.id}>
-              &nbsp;|&nbsp;{stat.name}
-            </span>
+            <Button className="title" key={stat.id}>
+              {stat.name}
+            </Button>
           ))}
+          </ButtonGroup>
           <br />
-          <span>{matchup.teamsData[0].team_id}</span>
+          <div className="scoreboardRow">
+
+          <span className="title team">{matchup.teamsData[0].team_id}</span>
           {matchup.teamsData[0].matchupHistStats.map((stat) => (
             <span key={stat.id}>
-              &nbsp;|&nbsp;{stat.data.slice(-1)}
+              {stat.data.slice(-1)}
             </span>
           ))}
+
+          </div>
+
           <br /><br /><br />
-          <span>Team</span>
+
+          <div className="scoreboardRow">
+          <span className="title team">{matchup.teamsData[1].team_id}</span>
           {matchup.teamsData[1].matchupHistStats.map((stat) => (
             <span key={stat.id}>
-              &nbsp;|&nbsp;{stat.name}
+              {stat.data.slice(-1)}
             </span>
           ))}
-          <br />
-          <span>{matchup.teamsData[1].team_id}</span>
-          {matchup.teamsData[1].matchupHistStats.map((stat) => (
-            <span key={stat.id}>
-              &nbsp;|&nbsp;{stat.data.slice(-1)}
-            </span>
-          ))}
+          </div>
       </>) : (<>
         <span>No stats avaiable for this matchup</span>
       </>)}
+      </div>
+
+    </div>
+
+    <div>
+      { graphData.length > 0 ? <MatchupChart team1Data={graphData[0]} team2Data={graphData[1]} /> : <>loading...</> }
     </div>
     </>)
   }
