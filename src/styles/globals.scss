@@ -340,6 +340,59 @@ main.highlights-page {
 }
 }
 
+//----------------------//  Matchup Overview Page  //----------------------// 
+.matchups {
+    width: 80vw;
+    max-width: 650px;
+    min-width: 250px;
+    margin: auto;
+    @include flex-col;
+    text-align: center;
+}
+
+.weekTitle {
+    margin: 32px auto 20px;
+}
+.matchupContainer {
+    width: 100%;
+    margin: auto auto 10px;
+    // border: 1px solid darkslategrey;
+    border-radius: 5px;
+    background-color: #f0f0f0;
+    a {
+        padding: 10px 0;
+        @include flex;
+        // justify-content: space-between;    
+    }
+    .team1, .team2 {
+        padding: 0 20px;
+        @include flex;
+        .MuiAvatar-img {
+            height: 32px;
+            width: 32px;
+            border-radius: 100%;
+        }
+        p {
+            margin: auto 6px;
+        }
+    }
+    .team1 {
+        margin-right: auto;
+    }
+    .team2 {
+        margin-left: auto;
+    }
+    .score {
+        @include flex;
+        // flex-grow: 1;
+        text-align: center;
+        p {
+            height: min-content;
+            margin: auto;
+        }
+    }
+}
+
 //----------------------//  Matchup Page  //----------------------// 
 
 .gpContainer {
@@ -359,6 +412,8 @@ main.highlights-page {
 .matchupTitleContainer {
     margin: auto;
     width: fit-content;
+    @include flex-col;
+    text-align: center;
 }
 .scoreboardContainer {
     margin: auto;   
@@ -370,6 +425,9 @@ main.highlights-page {
     // border: 1px solid red;
     grid-gap: 0;
     width: calc(200px + 13*60px - 60px);
+    border: 1px solid darkslategray;
+    border-top: none;
+    border-radius: 5px;
     .MuiButtonGroup-root, .scoreboardRow {
         display: grid;
         grid-template-columns: 200px repeat(13, 60px);
@@ -377,7 +435,7 @@ main.highlights-page {
     }
     button.MuiButton-root, span {
         padding: 10px 20px;
-        border: 1px solid red;
+        // border: 1px solid red;
         @include flex;
         
         &.title {
@@ -386,6 +444,11 @@ main.highlights-page {
 
         &.team {
             width: 200px;
+        }
+
+        &.statBox {
+            border: dotted darkslategrey;
+            border-width: 0.5px;
         }
     }
 }

@@ -8,6 +8,8 @@ import MatchupChart from '../../../components/MatchupChart';
 import Button from '@mui/material/Button';
 import ButtonGroup from '@mui/material/ButtonGroup';
 
+import ArrowBackIcon from '@mui/icons-material/ArrowBack';
+
 // Fetch the team data from the JSON file
 export async function getStaticProps({ params }) {
     const filePath = path.join(process.cwd(), 'data', 'matchupData.json');
@@ -56,7 +58,8 @@ export async function getStaticPaths() {
   }
   
 export default function MatchupPage({ matchup }) {
-  const [graphData, setGraphData] = useState(true);
+  const [graphData, setGraphData] = useState([]);
+  const [teamsData, setTeamsData] = useState([]);
   const [statsExist, setStatsExist] = useState(false)
 
   // Increase the number of videos displayed by 20 each time
@@ -64,14 +67,16 @@ export default function MatchupPage({ matchup }) {
     let newData = [];
     for (let i = 0; i < data.teamsData.length; i++) {
       let teamObj = {};
-      teamObj.name = data.teamsData[i].team_id;
+      teamObj.name = teamsData[i].name,
       teamObj.data = data.teamsData[i].matchupHistScores;
       if (i == 0) {
         teamObj.lineColour = "#4fc3f7"
         teamObj.bgColour = "rgba(0,0,0,0.1)"  
+        teamObj.yAxis = "Category Pts"
       } else {
         teamObj.lineColour = "#f57c00"
         teamObj.bgColour = "rgba(0,0,0,0.1)"
+        teamObj.yAxis = "Category Pts"
       }
       newData.push(teamObj);
     } 
@@ -87,12 +92,70 @@ export default function MatchupPage({ matchup }) {
     }
   }
 
+  function findObjectByName(arr, value, keyName) {
+    for (let i = 0; i < arr.length; i++) {
+      if (arr[i][keyName] === value) {
+        return arr[i]; // Return the object if found
+      }
+    }
+    return null; // Return null if no object is found with that name
+  }
+
+  const handleButtonClick = (event) => {
+    // Get the text content of the clicked button
+    const buttonText = event.target.textContent;
+
+    if (buttonText == "Team") {
+      assignGraphData(matchup);
+      return;
+    }
+    
+    const statData1 = findObjectByName(matchup.teamsData[0].matchupHistStats, buttonText, 'name');
+    const statData2 = findObjectByName(matchup.teamsData[1].matchupHistStats, buttonText, 'name');
+
+    const newData = [
+      {
+        bgColour: "rgba(0,0,0,0.1)",
+        data: statData1.data,
+        lineColour: "#4fc3f7",
+        name: teamsData[0].name,
+        yAxis: buttonText
+      },
+      {
+        bgColour: "rgba(0,0,0,0.1)",
+        data: statData2.data,
+        lineColour: "#f57c00",
+        name: teamsData[1].name,
+        yAxis: buttonText
+      }
+    ]
+
+    if (buttonText == 'SV%') {
+      newData[0].yMin = 0.750;
+      newData[0].yMax = 1.000;
+    }
+    setGraphData(newData);
+  };
+
+  const getTeamsData = (data) => {
+    const team1 = findObjectByName(data, matchup.teamsData[0].team_id, 'team_key')
+    const team2 = findObjectByName(data, matchup.teamsData[1].team_id, 'team_key')
+    
+    setTeamsData([team1, team2])
+  }
+
 
 
     useEffect(() => {
         // console.log(matchup)
+        fetch('/teams.json')
+        .then((res) => res.json())
+        .then((data) => {
+            getTeamsData(data);
+        })
         assignGraphData(matchup);
         checkIfStatsExist(matchup);
+
         // TO DOs:
         // match teamID to team name
         // match data for data required in MatchupChart.js component
@@ -100,27 +163,36 @@ export default function MatchupPage({ matchup }) {
 
     return (<>
     <div>
-        <Link href="/matchups">Back to All Matchups</Link>
+        <Button href="/matchups" variant="outlined">
+          <ArrowBackIcon />&nbsp;Back to All Matchups
+        </Button>
     </div>
     <div>
       <div className="matchupTitleContainer">
-          <span>Matchup ID: {matchup.id}</span>
-          <span>Week Start: {matchup.weekStart}</span>
-          <span>Week End: {matchup.weekEnd}</span>
-          <span>Team 1: {matchup.teamsData[0].team_id} {matchup.teamsData[0].matchupHistScores.at(-1)}</span>
-          <span>Team 2: {matchup.teamsData[1].team_id} {matchup.teamsData[1].matchupHistScores.at(-1)}</span>
+          {/* <span>Matchup ID: {matchup.id}</span> */}
+          { teamsData.length > 0 ? (<>
+            <span>Week {matchup.id.charAt(0)}</span>
+            <span>{matchup.weekStart} to {matchup.weekEnd}</span>
+
+            <span>{teamsData[0].name} vs. {teamsData[1].name}</span>
+            <span>{matchup.teamsData[0].matchupHistScores.at(-1)} - {matchup.teamsData[1].matchupHistScores.at(-1)}</span>
+          </>) : (<>
+            loading...
+          </>)}
       </div>
     </div>
 
     <div>
-      <h4>Scoreboard</h4>
+      {/* <h4>Scoreboard</h4> */}
       <div className="scoreboardContainer">
-      { statsExist ? (<>
+      { (statsExist) & (teamsData.length > 0) ? (<>
           <ButtonGroup variant="contained" aria-label="Basic button group">
-          <span className="title team">Team</span>
+            <Button className="title" onClick={handleButtonClick}>
+              Team
+            </Button>
 
           {matchup.teamsData[0].matchupHistStats.map((stat) => (
-            <Button className="title" key={stat.id}>
+            <Button className="title" key={stat.id} onClick={handleButtonClick}>
               {stat.name}
             </Button>
           ))}
@@ -128,9 +200,9 @@ export default function MatchupPage({ matchup }) {
           <br />
           <div className="scoreboardRow">
 
-          <span className="title team">{matchup.teamsData[0].team_id}</span>
+          <span className="title team statBox">{teamsData[0].name}</span>
           {matchup.teamsData[0].matchupHistStats.map((stat) => (
-            <span key={stat.id}>
+            <span key={stat.id} className="statBox">
               {stat.data.slice(-1)}
             </span>
           ))}
@@ -140,15 +212,15 @@ export default function MatchupPage({ matchup }) {
           <br /><br /><br />
 
           <div className="scoreboardRow">
-          <span className="title team">{matchup.teamsData[1].team_id}</span>
+          <span className="title team statBox">{teamsData[1].name}</span>
           {matchup.teamsData[1].matchupHistStats.map((stat) => (
-            <span key={stat.id}>
+            <span key={stat.id} className="statBox">
               {stat.data.slice(-1)}
             </span>
           ))}
           </div>
       </>) : (<>
-        <span>No stats avaiable for this matchup</span>
+        <span>Loading...</span>
       </>)}
       </div>
 

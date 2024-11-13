@@ -2,13 +2,18 @@
 import React from 'react';
 import { Line } from 'react-chartjs-2';
 import { Chart as ChartJS, LineElement, CategoryScale, LinearScale, PointElement, Title, Tooltip, Legend } from 'chart.js';
+import { useEffect, useState } from 'react';
 
 // Register the required Chart.js components
 ChartJS.register(LineElement, CategoryScale, LinearScale, PointElement, Title, Tooltip, Legend);
 
 const MatchupChart = ({ team1Data, team2Data }) => {
+    useEffect(() => {
+
+    }, [team1Data, team2Data]); // Refresh if data changes
+
     // Dummy data for category wins or losses over a week
-    const labels = ['Start', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Final'];
+    const labels = ['START', 'MON', 'TUE', 'WED', 'THU', 'FRI', 'SAT', 'FINAL'];
 
     // Configuration for the chart
     const data = {
@@ -36,20 +41,26 @@ const MatchupChart = ({ team1Data, team2Data }) => {
     };
 
     const options = {
+        responsive: true,
+        plugins: {
+            legend: {
+                display: false,
+            },
+        },
         scales: {
             y: {
                 beginAtZero: true, // Start the Y-axis at zero
-                // min: 0,
-                // max: 9,
+                min: team1Data.yMin,
+                max: team1Data.yMax,
                 title: {
                     display: true,
-                    text: 'Points',
+                    text: team1Data.yAxis,
                 },
             },
             x: {
                 title: {
                     display: true,
-                    text: 'Day of the Week',
+                    text: 'Matchup Timeline',
                 },
             },
         },
