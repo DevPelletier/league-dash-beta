@@ -56645,5 +56645,307 @@
                 "num": 19
             }
         }
+    },
+    {
+        "gameId": 2024020252,
+        "gameDate": "2024-11-13",
+        "player1Id": 8481013,
+        "player1Name": "J. Berggren",
+        "player1Goals": 1,
+        "url": "https://players.brightcove.net/6415718365001/default_default/index.html?videoId=6364677028112&autoplay=false&muted=false&applicationId=nhl",
+        "title": "Berggren starts the scoring",
+        "description": "DET@PIT: Berggren roofs a wrister for opening goal",
+        "player2ID": 8475765,
+        "player2Name": "V. Tarasenko",
+        "player2Assists": 2,
+        "player3ID": 8473507,
+        "player3Name": "J. Petry",
+        "player3Assists": 2,
+        "playerData": {
+            "8473507": {
+                "name": "Jeff Petry",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20242025/DET/8473507.png",
+                "team": "DET",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/DET_light.svg",
+                "num": 46
+            },
+            "8475765": {
+                "name": "Vladimir Tarasenko",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20242025/DET/8475765.png",
+                "team": "DET",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/DET_light.svg",
+                "num": 11
+            },
+            "8481013": {
+                "name": "Jonatan Berggren",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20242025/DET/8481013.png",
+                "team": "DET",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/DET_light.svg",
+                "num": 48
+            }
+        }
+    },
+    {
+        "gameId": 2024020252,
+        "gameDate": "2024-11-13",
+        "player1Id": 8474141,
+        "player1Name": "P. Kane",
+        "player1Goals": 3,
+        "url": "https://players.brightcove.net/6415718365001/default_default/index.html?videoId=6364676857112&autoplay=false&muted=false&applicationId=nhl",
+        "title": "Kane snaps in PPG",
+        "description": "DET@PIT: Kane fires it home on the power-play",
+        "player2ID": 8477946,
+        "player2Name": "D. Larkin",
+        "player2Assists": 3,
+        "player3ID": 8482078,
+        "player3Name": "L. Raymond",
+        "player3Assists": 13,
+        "playerData": {
+            "8477946": {
+                "name": "Dylan Larkin",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20242025/DET/8477946.png",
+                "team": "DET",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/DET_light.svg",
+                "num": 71
+            },
+            "8482078": {
+                "name": "Lucas Raymond",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20242025/DET/8482078.png",
+                "team": "DET",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/DET_light.svg",
+                "num": 23
+            },
+            "8474141": {
+                "name": "Patrick Kane",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20242025/DET/8474141.png",
+                "team": "DET",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/DET_light.svg",
+                "num": 88
+            }
+        }
+    },
+    {
+        "gameId": 2024020252,
+        "gameDate": "2024-11-13",
+        "player1Id": 8475810,
+        "player1Name": "B. Rust",
+        "player1Goals": 4,
+        "url": "https://players.brightcove.net/6415718365001/default_default/index.html?videoId=6364676737112&autoplay=false&muted=false&applicationId=nhl",
+        "title": "Rust tucks it home",
+        "description": "DET@PIT: Rust buries it past Talbot",
+        "player2ID": 8478047,
+        "player2Name": "M. Bunting",
+        "player2Assists": 2,
+        "playerData": {
+            "8475810": {
+                "name": "Bryan Rust",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20242025/PIT/8475810.png",
+                "team": "PIT",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/PIT_light.svg",
+                "num": 17
+            },
+            "8478047": {
+                "name": "Michael Bunting",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20242025/PIT/8478047.png",
+                "team": "PIT",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/PIT_light.svg",
+                "num": 8
+            }
+        }
+    },
+    {
+        "gameId": 2024020252,
+        "gameDate": "2024-11-13",
+        "player1Id": 8478463,
+        "player1Name": "A. Beauvillier",
+        "player1Goals": 5,
+        "url": "https://players.brightcove.net/6415718365001/default_default/index.html?videoId=6364677626112&autoplay=false&muted=false&applicationId=nhl",
+        "title": "DET@PIT: Beauvillier scores goal against Cam Talbot",
+        "description": "DET@PIT: Beauvillier scores goal against Cam Talbot",
+        "player2ID": 8477969,
+        "player2Name": "M. Pettersson",
+        "player2Assists": 7,
+        "player3ID": 8471675,
+        "player3Name": "S. Crosby",
+        "player3Assists": 11,
+        "playerData": {
+            "8477969": {
+                "name": "Marcus Pettersson",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20242025/PIT/8477969.png",
+                "team": "PIT",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/PIT_light.svg",
+                "num": 28
+            },
+            "8471675": {
+                "name": "Sidney Crosby",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20242025/PIT/8471675.png",
+                "team": "PIT",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/PIT_light.svg",
+                "num": 87
+            },
+            "8478463": {
+                "name": "Anthony Beauvillier",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20242025/PIT/8478463.png",
+                "team": "PIT",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/PIT_light.svg",
+                "num": 72
+            }
+        }
+    },
+    {
+        "gameId": 2024020253,
+        "gameDate": "2024-11-13",
+        "player1Id": 8479390,
+        "player1Name": "T. Raddysh",
+        "player1Goals": 3,
+        "url": "https://players.brightcove.net/6415718365001/default_default/index.html?videoId=6364675632112&autoplay=false&muted=false&applicationId=nhl",
+        "title": "Raddysh opens scoring",
+        "description": "TOR@WSH: Raddysh finds the twine for opening goal",
+        "player2ID": 8481580,
+        "player2Name": "C. McMichael",
+        "player2Assists": 7,
+        "player3ID": 8479400,
+        "player3Name": "P. Dubois",
+        "player3Assists": 8,
+        "playerData": {
+            "8479400": {
+                "name": "Pierre-Luc Dubois",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20242025/WSH/8479400.png",
+                "team": "WSH",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/WSH_secondary_light.svg",
+                "num": 80
+            },
+            "8481580": {
+                "name": "Connor McMichael",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20242025/WSH/8481580.png",
+                "team": "WSH",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/WSH_secondary_light.svg",
+                "num": 24
+            },
+            "8479390": {
+                "name": "Taylor Raddysh",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20242025/WSH/8479390.png",
+                "team": "WSH",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/WSH_secondary_light.svg",
+                "num": 16
+            }
+        }
+    },
+    {
+        "gameId": 2024020253,
+        "gameDate": "2024-11-13",
+        "player1Id": 8482259,
+        "player1Name": "B. McMann",
+        "player1Goals": 4,
+        "url": "https://players.brightcove.net/6415718365001/default_default/index.html?videoId=6364674577112&autoplay=false&muted=false&applicationId=nhl",
+        "title": "McMann answers back",
+        "description": "TOR@WSH: Tavares, McMann team up to even the score",
+        "player2ID": 8475166,
+        "player2Name": "J. Tavares",
+        "player2Assists": 7,
+        "player3ID": 8480995,
+        "player3Name": "P. Holmberg",
+        "player3Assists": 2,
+        "playerData": {
+            "8475166": {
+                "name": "John Tavares",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20242025/TOR/8475166.png",
+                "team": "TOR",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/TOR_light.svg",
+                "num": 91
+            },
+            "8480995": {
+                "name": "Pontus Holmberg",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20242025/TOR/8480995.png",
+                "team": "TOR",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/TOR_light.svg",
+                "num": 29
+            },
+            "8482259": {
+                "name": "Bobby McMann",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20242025/TOR/8482259.png",
+                "team": "TOR",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/TOR_light.svg",
+                "num": 74
+            }
+        }
+    },
+    {
+        "gameId": 2024020253,
+        "gameDate": "2024-11-13",
+        "player1Id": 8478440,
+        "player1Name": "D. Strome",
+        "player1Goals": 5,
+        "url": "https://players.brightcove.net/6415718365001/default_default/index.html?videoId=6364676415112&autoplay=false&muted=false&applicationId=nhl",
+        "title": "TOR@WSH: Strome scores goal against Joseph Woll",
+        "description": "TOR@WSH: Strome scores goal against Joseph Woll",
+        "player2ID": 8481656,
+        "player2Name": "A. Protas",
+        "player2Assists": 9,
+        "player3ID": 8478911,
+        "player3Name": "M. Roy",
+        "player3Assists": 2,
+        "playerData": {
+            "8478440": {
+                "name": "Dylan Strome",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20242025/WSH/8478440.png",
+                "team": "WSH",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/WSH_secondary_light.svg",
+                "num": 17
+            },
+            "8481656": {
+                "name": "Aliaksei Protas",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20242025/WSH/8481656.png",
+                "team": "WSH",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/WSH_secondary_light.svg",
+                "num": 21
+            },
+            "8478911": {
+                "name": "Matt Roy",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20242025/WSH/8478911.png",
+                "team": "WSH",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/WSH_secondary_light.svg",
+                "num": 3
+            }
+        }
+    },
+    {
+        "gameId": 2024020253,
+        "gameDate": "2024-11-13",
+        "player1Id": 8481656,
+        "player1Name": "A. Protas",
+        "player1Goals": 6,
+        "url": "https://players.brightcove.net/6415718365001/default_default/index.html?videoId=6364678744112&autoplay=false&muted=false&applicationId=nhl",
+        "title": "TOR@WSH: Protas scores goal against Joseph Woll",
+        "description": "TOR@WSH: Protas scores goal against Joseph Woll",
+        "player2ID": 8480873,
+        "player2Name": "R. Sandin",
+        "player2Assists": 6,
+        "player3ID": 8471214,
+        "player3Name": "A. Ovechkin",
+        "player3Assists": 9,
+        "playerData": {
+            "8480873": {
+                "name": "Rasmus Sandin",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20242025/WSH/8480873.png",
+                "team": "WSH",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/WSH_secondary_light.svg",
+                "num": 38
+            },
+            "8471214": {
+                "name": "Alex Ovechkin",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20242025/WSH/8471214.png",
+                "team": "WSH",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/WSH_secondary_light.svg",
+                "num": 8
+            },
+            "8481656": {
+                "name": "Aliaksei Protas",
+                "headshot": "https://assets.nhle.com/mugs/nhl/20242025/WSH/8481656.png",
+                "team": "WSH",
+                "teamLogo": "https://assets.nhle.com/logos/nhl/svg/WSH_secondary_light.svg",
+                "num": 21
+            }
+        }
     }
 ]

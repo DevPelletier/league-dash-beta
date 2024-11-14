@@ -6,8 +6,12 @@ import Avatar from '@mui/material/Avatar';
 import Typography from '@mui/material/Typography';
 
 
-// OK so...
-// realizing that this doesn't really make sense and what I really need to do is change the python script to gather data by MATCHUP - and then plot those points on a graph.
+// TODO
+// Make Weeks into accordions? It's accordions all the way down? lol?
+// But also reverse the order of the weeks, so it's the most recent week (active week) at the top
+// Also for centering - make each matchup a grid so that each element has it's given space (and the centered element is always centered)
+
+// Also also - may want to just match all of this data up in python because this fetching shit is so annoying
 export default function Matchups({}) {
     const [matchupData, setMatchupData] = useState({});
     const [teamsData, setTeamsData] = useState([]);
@@ -45,20 +49,20 @@ export default function Matchups({}) {
     }
 
     useEffect(() => {
-        fetch('/teams.json')
-            .then((res) => res.json())
-            .then((data) => {
-                setTeamsData(data);
-            })
-            .then(() => {
-                setLoading(false);
-            })
-            .catch((err) => console.error('Failed to fetch teams:', err));
+        // fetch('/teams.json')
+        //     .then((res) => res.json())
+        //     .then((data) => {
+        //         setTeamsData(data);
+        //     })
+        //     .then(() => {
+        //         setLoading(false);
+        //     })
+        //     .catch((err) => console.error('Failed to fetch teams:', err));
         fetch('/matchupData.json')
             .then((res) => res.json())
             .then((data) => {
-                console.log('fetched data:', data);
-                matchTeamsData(data)
+                setMatchupData(data)
+                setLoading(false);
             })
             .catch((err) => console.error('Failed to fetch matchupData:', err));
 
@@ -86,13 +90,15 @@ export default function Matchups({}) {
     useEffect(() => {
         // This will log matchupData whenever it changes
         console.log("matchupData updated:", matchupData);
+        console.log(Object.keys(matchupData).length)
     }, [matchupData]);
 
 
 return (<>
     { ((Object.keys(matchupData).length > 0) && (!loading)) ? (<>
         <main className="matchups">
-        {Object.entries(matchupData).map(([key, matchups]) => (<>
+        {Object.entries(matchupData).reverse().map(([key, matchups]) => (<>
+            {key == "4" ? (<></>) : (<>
             <div key={key} className="weekTitle">
                 <Typography variant="h6">Week {key}</Typography>
                 <Typography variant="subtitle2">{matchups[0].weekStart} - {matchups[0].weekEnd}</Typography>
@@ -106,7 +112,7 @@ return (<>
                         <Typography variant="body2">{matchup.teamsData[0].name}</Typography>
                     </div>
                     <div className="score">
-                        <Typography variant="body1">{matchup.teamsData[0].score} - {matchup.teamsData[1].score}</Typography>
+                        <Typography variant="body1">{matchup.teamsData[0].currentScore} - {matchup.teamsData[1].currentScore}</Typography>
                     </div>
                     <div className="team2">
                             {/* ({matchup.teamsData[1].rank}) */}
@@ -117,11 +123,12 @@ return (<>
                 </Link>
                 </div>
             </>))}
+            </>)}
 
         </>))}
         </main>
     </>) : loading ? (<>
-        <span>Loading.....</span>
+        <span>Loading....</span>
     </>) : (<>
         <div>No matchup data found.</div>
     </>)}

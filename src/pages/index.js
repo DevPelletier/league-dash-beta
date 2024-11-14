@@ -11,98 +11,13 @@ import Paper from '@mui/material/Paper';
 import Avatar from '@mui/material/Avatar';
 import Link from 'next/link'
 import Typography from '@mui/material/Typography';
-  
+import Button from '@mui/material/Button';
+
 import StandingsChart from '../../components/StandingsChart';
 
 function createData(id, rank, picUrl, team, pts, pct, wlt, moves, trades, waiver) {
   return { id, rank, picUrl, team, pts, pct, wlt, pts, moves, trades, waiver };
 }
-
-// TODO 
-const standingsData = [
-    {
-        label: 'Evil Marc',
-        data: [0, 16, 29, 37, 50],
-        borderColor: '#f44336',
-    },
-    {
-        label: 'Have a Heart',
-        data: [0, 8, 22, 33, 45],
-        borderColor: '#e91e63',
-    },
-    {
-        label: 'Sweet Baby Bedjsus',
-        data: [0, 12, 22, 32, 43],
-        borderColor: '#4caf50',
-    },
-    {
-        label: 'Mitch Marners Dad',
-        data: [0, 10, 21, 26, 38],
-        borderColor: '#ffeb3b',
-    },
-    {
-        label: 'Star of David ✡️',
-        data: [0, 8, 16, 24, 30],
-        borderColor: '#009688',
-    },
-    {
-        label: 'Anything is Pospisil 🙏',
-        data: [0, 10, 15, 23, 36],
-        borderColor: '#ff5722',
-    },
-    {
-        label: 'Mad Raddysh',
-        data: [0, 6, 13, 20, 25],
-        borderColor: '#ff9800',
-    },
-    {
-        label: 'Fuhr Da Boys',
-        data: [0, 2, 7, 17, 23],
-        borderColor: '#ffc107',
-    },
-    {
-        label: 'Ayo bath ur son',
-        data: [0, 12, 26, 39, 44],
-        borderColor: '#cddc39',
-    },
-    {
-        label: 'Bobby Margarita',
-        data: [0, 10, 24, 38, 45],
-        borderColor: '#8bc34a',
-    },
-    {
-        label: 'Justus for Evil Marc',
-        data: [0, 12, 23, 41, 43],
-        borderColor: '#4caf50',
-    },
-    {
-        label: 'House Markonnen',
-        data: [0, 6, 19, 32, 48],
-        borderColor: '#00bcd4',
-    },
-    {
-        label: "Paul Muad'Dib",
-        data: [0, 12, 16, 26, 38],
-        borderColor: '#2196f3',
-    },
-    {
-        label: 'Man Hugs 🫂',
-        data: [0, 8, 15, 20, 34],
-        borderColor: '#3f51b5',
-    },
-    {
-        label: 'W.B Snipes',
-        data: [0, 6, 10, 10, 16],
-        borderColor: '#673ab7',
-    },
-    {
-        label: 'The Tim Thomas Drama Club',
-        data: [0, 6, 10, 14, 18],
-        borderColor: '#9c27b0',
-    },
-
-]
-
 
 export default function Standings({ team }) {
     const [loading, setLoading] = useState(true);
@@ -114,7 +29,7 @@ export default function Standings({ team }) {
 
 
     const importTeams = (data) => {
-        console.log('importTeams')
+        // console.log('importTeams')
         // console.log(data)
         let dataForTable = []
         for (let item in data) {
@@ -128,7 +43,7 @@ export default function Standings({ team }) {
 
     // TODO
     const buildGraph = (data) => {
-        console.log('build graph')
+        // console.log('build graph')
         let dataForGraph = []
         for (let x in data) {
             let teamObj = {}
@@ -142,7 +57,7 @@ export default function Standings({ team }) {
     }
 
     useEffect(() => {
-        console.log('useEffect')
+        // console.log('useEffect')
           // Fetch the JSON data from the public folder
         fetch('/teams.json')
             .then((res) => res.json())
@@ -171,11 +86,11 @@ export default function Standings({ team }) {
     <main className="home">
     <Typography variant="subtitle2" className="updated">Last Updated: {updated.updated}</Typography>
     <div className="standingsGraph">
-        <Typography variant="h5">Standings Graph</Typography>
-        { (graphData.length > 0) ? <StandingsChart standingsData={graphData} /> : <></> }
+        <Typography variant="h4">Standings Graph</Typography>
+        { (graphData.length > 0) && (teams.length > 0) ? <StandingsChart standingsData={graphData} teams={teams} /> : <></> }
     </div>
     <div className="standingsContainer">
-        <Typography variant="h5">Standings Table</Typography>
+        <Typography variant="h4">Standings Table</Typography>
         <TableContainer component={Paper} className="standingsTable">
         <Table sx={{ minWidth: 650 }} aria-label="simple table">
             <TableHead>

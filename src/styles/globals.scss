@@ -42,7 +42,6 @@ main {
     margin: 0 auto;
     @include flex-col;
 }
-
   
   
 
@@ -80,6 +79,12 @@ h5 {
 .standingsContainer {
     @include standardWidth;
     margin: 0 auto;
+    padding: 60px 0;
+    text-align: center;
+
+    h4 {
+        margin-bottom: 12px;
+    }
 
     .standingsTable {
         .teamName {
@@ -110,9 +115,15 @@ h5 {
 }
 
 .standingsGraph {
+    text-align: center;
     // @include standardWidth;
     // margin: 0 auto;
     padding: 0 0 60px;
+
+    h4 {
+        margin-bottom: 12px;
+    }
+
     .graphContainer {
         border: 1px solid lightgrey;
         border-radius: 5px;
@@ -134,7 +145,7 @@ h5 {
     margin-top: 20px;
     width: 100%;
     @include flex;
-    padding: 0 16px;
+    padding: 0 16px 16px;
 }
 .updated {
     margin-left: auto;
@@ -142,6 +153,29 @@ h5 {
     font-style: italic;
     padding: 3px 0;
     font-size: 0.8rem;
+}
+
+.avatarContainer {
+    @include flex;
+    flex-wrap: wrap;
+
+    width: 80vw;
+    max-width: 650px;
+    min-width: 250px;
+    margin: auto;
+
+    .standingsTeamBtn {
+        border: none;
+        background: none;
+        border-radius: 100%;
+        border: 3px solid rgba(0,0,0,0);
+        margin: 0 16px 12px;
+        transition: all 0.3s ease;
+        &:hover {
+            cursor: pointer;
+            border: 3px solid rgba(0,0,0,0.8);
+        }
+    }
 }
 
 //----------------------//  Team Page  //----------------------// 
@@ -357,15 +391,21 @@ main.highlights-page {
     width: 100%;
     margin: auto auto 10px;
     // border: 1px solid darkslategrey;
-    border-radius: 5px;
-    background-color: #f0f0f0;
+
     a {
+        border-radius: 5px;
+        background-color: #f4f4f4;    
         padding: 10px 0;
-        @include flex;
+        display: grid;
+        grid-template-columns: 42.5% 15% 42.5%;
+        transition: all 0.2s ease;
         // justify-content: space-between;    
+        &:hover {
+            background-color: lightgreen;
+        }
     }
     .team1, .team2 {
-        padding: 0 20px;
+        padding: 0 16px;
         @include flex;
         .MuiAvatar-img {
             height: 32px;
@@ -402,6 +442,11 @@ main.highlights-page {
     }
 }
 
+.backBtn {
+    padding: 12px;
+    position: absolute;
+}
+
 .scoreBoardButtons {
     .sb-btn {
         &:hover {
@@ -410,10 +455,55 @@ main.highlights-page {
     }
 }
 .matchupTitleContainer {
+    padding: 32px 0 0;
     margin: auto;
     width: fit-content;
     @include flex-col;
     text-align: center;
+
+    .scoreboardTitle {
+        @include flex-col;
+        padding: 20px 0 10px;
+
+        .row {
+            display: grid;
+            grid-template-columns: 47% 6% 47%;
+            width: 80vw;
+            margin: auto;
+
+            &.names {
+                h5:first-child {
+                    margin: auto 20px auto auto;
+                }
+                h5:last-child {
+                    margin: auto auto auto 20px;
+                }
+            }
+            &.scores {
+                width: 200px;
+                margin: auto;
+                @include flex;
+                h5 {
+                    padding: 8px 4px;
+                    border-radius: 3px;
+                    background-color: black;
+                    color: white;
+                    width: 50px;
+                }
+                span {
+                    line-height: 45px;
+                }
+                h5:first-child {
+                    margin: auto 20px auto auto;
+                }
+                h5:last-child {
+                    margin: auto auto auto 20px;
+                }
+
+            }
+            
+        }
+    }
 }
 .scoreboardContainer {
     margin: auto;   
@@ -445,11 +535,32 @@ main.highlights-page {
         &.team {
             width: 200px;
         }
-
-        &.statBox {
-            border: dotted darkslategrey;
-            border-width: 0.5px;
+    }
+    .statBox {
+        border: dotted darkslategrey;
+        border-width: 0.5px;
+        height: 36px;
+        width: auto;
+        @include flex;
+        p {
+            line-height: 36px;
         }
     }
+
+}
+
+.matchGraphContainer {
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    overflow-x: scroll;
+    padding: 12px;
+    .matchGraphContainer-2 {
+        min-width: 800px;
+        min-height: 400px;
+        height: 50vw;
+        max-height: 650px;
+        margin: auto;
+        @include flex;
+    }    
 }
 

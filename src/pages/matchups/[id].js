@@ -7,6 +7,8 @@ import Link from 'next/link'
 import MatchupChart from '../../../components/MatchupChart';
 import Button from '@mui/material/Button';
 import ButtonGroup from '@mui/material/ButtonGroup';
+import Avatar from '@mui/material/Avatar';
+import Typography from '@mui/material/Typography';
 
 import ArrowBackIcon from '@mui/icons-material/ArrowBack';
 
@@ -64,10 +66,11 @@ export default function MatchupPage({ matchup }) {
 
   // Increase the number of videos displayed by 20 each time
   const assignGraphData = (data) => {
+    console.log(data);
     let newData = [];
     for (let i = 0; i < data.teamsData.length; i++) {
       let teamObj = {};
-      teamObj.name = teamsData[i].name,
+      teamObj.name = data.teamsData[i].name,
       teamObj.data = data.teamsData[i].matchupHistScores;
       if (i == 0) {
         teamObj.lineColour = "#4fc3f7"
@@ -162,7 +165,7 @@ export default function MatchupPage({ matchup }) {
     }, [matchup]);
 
     return (<>
-    <div>
+    <div className="backBtn">
         <Button href="/matchups" variant="outlined">
           <ArrowBackIcon />&nbsp;Back to All Matchups
         </Button>
@@ -171,11 +174,20 @@ export default function MatchupPage({ matchup }) {
       <div className="matchupTitleContainer">
           {/* <span>Matchup ID: {matchup.id}</span> */}
           { teamsData.length > 0 ? (<>
-            <span>Week {matchup.id.charAt(0)}</span>
-            <span>{matchup.weekStart} to {matchup.weekEnd}</span>
-
-            <span>{teamsData[0].name} vs. {teamsData[1].name}</span>
-            <span>{matchup.teamsData[0].matchupHistScores.at(-1)} - {matchup.teamsData[1].matchupHistScores.at(-1)}</span>
+            <Typography variant="overline">Week {matchup.id.charAt(0)}</Typography>
+            <Typography variant="caption">{matchup.weekStart} to {matchup.weekEnd}</Typography>
+            <div className="scoreboardTitle">
+              <div className="row names">
+                <Typography variant="h5">({teamsData[0].rank}) {teamsData[0].name}</Typography>
+                <Typography variant="overline">vs.</Typography> 
+                <Typography variant="h5">({teamsData[1].rank}) {teamsData[1].name}</Typography>
+              </div>
+              <div className="row scores">
+                <Typography variant="h5">{matchup.teamsData[0].matchupHistScores.at(-1)}</Typography>
+                <Typography variant="overline">-</Typography>
+                <Typography variant="h5">{matchup.teamsData[1].matchupHistScores.at(-1)}</Typography>
+              </div>
+            </div>
           </>) : (<>
             loading...
           </>)}
@@ -200,11 +212,15 @@ export default function MatchupPage({ matchup }) {
           <br />
           <div className="scoreboardRow">
 
-          <span className="title team statBox">{teamsData[0].name}</span>
+          <div className="statBox">
+            <Typography variant="body1" className="title team">{teamsData[0].name}</Typography>
+          </div>
           {matchup.teamsData[0].matchupHistStats.map((stat) => (
-            <span key={stat.id} className="statBox">
-              {stat.data.slice(-1)}
-            </span>
+            <div className="statBox">
+              <Typography variant="body1" key={stat.id}>
+                {stat.data.slice(-1)}
+              </Typography>
+            </div>
           ))}
 
           </div>
@@ -212,11 +228,15 @@ export default function MatchupPage({ matchup }) {
           <br /><br /><br />
 
           <div className="scoreboardRow">
-          <span className="title team statBox">{teamsData[1].name}</span>
+          <div className="statBox">
+            <Typography variant="body1" className="title team">{teamsData[1].name}</Typography>
+          </div>
           {matchup.teamsData[1].matchupHistStats.map((stat) => (
-            <span key={stat.id} className="statBox">
-              {stat.data.slice(-1)}
-            </span>
+            <div className="statBox">
+              <Typography variant="body1" key={stat.id}>
+                {stat.data.slice(-1)}
+              </Typography>
+            </div>
           ))}
           </div>
       </>) : (<>
@@ -226,8 +246,10 @@ export default function MatchupPage({ matchup }) {
 
     </div>
 
-    <div>
-      { graphData.length > 0 ? <MatchupChart team1Data={graphData[0]} team2Data={graphData[1]} /> : <>loading...</> }
+    <div className="matchGraphContainer">
+      <div className="matchGraphContainer-2">
+        { graphData.length > 0 ? <MatchupChart team1Data={graphData[0]} team2Data={graphData[1]} /> : <>loading...</> }
+      </div>
     </div>
     </>)
   }
