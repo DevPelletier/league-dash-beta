@@ -146,6 +146,15 @@ h5 {
     width: 100%;
     @include flex;
     padding: 0 16px 16px;
+    .MuiFormControlLabel-root {
+        width: 220px;
+        padding: 0 5px;
+        @include flex;
+        justify-content: flex-start;    
+        // border: 0.5px solid slategrey;    
+        border-radius: 5px;
+        background-color: #F4F4F4;
+    }
 }
 .updated {
     margin-left: auto;

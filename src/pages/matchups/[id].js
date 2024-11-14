@@ -118,14 +118,14 @@ export default function MatchupPage({ matchup }) {
 
     const newData = [
       {
-        bgColour: "rgba(0,0,0,0.1)",
+        // bgColour: "rgba(0,0,0,0.1)",
         data: statData1.data,
         lineColour: "#4fc3f7",
         name: teamsData[0].name,
         yAxis: buttonText
       },
       {
-        bgColour: "rgba(0,0,0,0.1)",
+        // bgColour: "rgba(0,0,0,0.1)",
         data: statData2.data,
         lineColour: "#f57c00",
         name: teamsData[1].name,
@@ -216,8 +216,8 @@ export default function MatchupPage({ matchup }) {
             <Typography variant="body1" className="title team">{teamsData[0].name}</Typography>
           </div>
           {matchup.teamsData[0].matchupHistStats.map((stat) => (
-            <div className="statBox">
-              <Typography variant="body1" key={stat.id}>
+            <div className="statBox" key={stat.id}>
+              <Typography variant="body1">
                 {stat.data.slice(-1)}
               </Typography>
             </div>
@@ -232,8 +232,8 @@ export default function MatchupPage({ matchup }) {
             <Typography variant="body1" className="title team">{teamsData[1].name}</Typography>
           </div>
           {matchup.teamsData[1].matchupHistStats.map((stat) => (
-            <div className="statBox">
-              <Typography variant="body1" key={stat.id}>
+            <div className="statBox" key={stat.id}>
+              <Typography variant="body1">
                 {stat.data.slice(-1)}
               </Typography>
             </div>
