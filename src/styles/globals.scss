@@ -63,12 +63,14 @@ main {
 .nav {
     .navButtons {
         margin-left: 20px;
-        button {
+        .navBtn {
             margin-left: 10px;
-            border-bottom: 1px solid rgba(0,0,0,0);
+            padding: 10px 10px;
+            border-bottom: 2px solid rgba(0,0,0,0);
             border-radius: 0;
+            transition: all 0.3s ease;
             &:hover {
-                border-bottom: 1px solid white;
+                border-bottom: 2px solid white;
                 background-color: rgba(0,0,0,0);
             }
         }
