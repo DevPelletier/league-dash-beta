@@ -24,9 +24,13 @@ const MatchupChart = ({ team1Data, team2Data }) => {
                 data: team1Data.data,
                 borderColor: team1Data.lineColour,
                 backgroundColor: team1Data.bgColour,
-                fill: true, // Do not fill under the line
+                fill: false, // Do not fill under the line
                 cubicInterpolationMode: 'monotone',
-                tension: 0.4
+                tension: 0.4,
+                borderWidth: 3,
+                pointStyle: 'circle',
+                pointRadius: 5,
+                pointHoverRadius: 8,
                 // tension: -1  // apparently doesn't do anything lol
             },
             {
@@ -34,8 +38,12 @@ const MatchupChart = ({ team1Data, team2Data }) => {
                 data: team2Data.data,
                 borderColor: team2Data.lineColour,
                 backgroundColor: team2Data.bgColour,
-                fill: true, // Do not fill under the line
+                // fill: true, // Do not fill under the line
                 cubicInterpolationMode: 'monotone',
+                borderWidth: 3,
+                pointStyle: 'circle',
+                pointRadius: 5,
+                pointHoverRadius: 8,
             },
         ],
     };

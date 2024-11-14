@@ -61,7 +61,18 @@ main {
 
 //----------------------//  Navbar  //----------------------// 
 .nav {
-    
+    .navButtons {
+        margin-left: 20px;
+        button {
+            margin-left: 10px;
+            border-bottom: 1px solid rgba(0,0,0,0);
+            border-radius: 0;
+            &:hover {
+                border-bottom: 1px solid white;
+                background-color: rgba(0,0,0,0);
+            }
+        }
+    }
 }
 
 .sideNav {
@@ -69,6 +80,11 @@ main {
         display: flex;
         width: 100%;
     }
+
+}
+
+@media (max-width: 750px) {
+    .navButtons { display: none; }
 }
 
 

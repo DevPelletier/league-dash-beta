@@ -120,9 +120,11 @@ export default function Navbar() {
 
 
           {/* Optional Buttons */}
-          {/* <Button color="inherit">Home</Button>
-          <Button color="inherit">About</Button>
-          <Button color="inherit">Contact</Button> */}
+          <div className="navButtons">
+            <Button color="inherit">Standings</Button>
+            <Button color="inherit">Matchups</Button>
+            <Button color="inherit">Highlights</Button>
+          </div>
         </Toolbar>
       </AppBar>
 

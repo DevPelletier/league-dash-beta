@@ -73,11 +73,11 @@ export default function MatchupPage({ matchup }) {
       teamObj.name = data.teamsData[i].name,
       teamObj.data = data.teamsData[i].matchupHistScores;
       if (i == 0) {
-        teamObj.lineColour = "#4fc3f7"
+        teamObj.lineColour = "#d32f2f"
         teamObj.bgColour = "rgba(0,0,0,0.1)"  
         teamObj.yAxis = "Category Pts"
       } else {
-        teamObj.lineColour = "#f57c00"
+        teamObj.lineColour = "#0288d1"
         teamObj.bgColour = "rgba(0,0,0,0.1)"
         teamObj.yAxis = "Category Pts"
       }
@@ -118,16 +118,16 @@ export default function MatchupPage({ matchup }) {
 
     const newData = [
       {
-        // bgColour: "rgba(0,0,0,0.1)",
+        bgColour: "rgba(0,0,0,0.0)",
         data: statData1.data,
-        lineColour: "#4fc3f7",
+        lineColour: "#d32f2f",
         name: teamsData[0].name,
         yAxis: buttonText
       },
       {
-        // bgColour: "rgba(0,0,0,0.1)",
+        bgColour: "rgba(0,0,0,0.0)",
         data: statData2.data,
-        lineColour: "#f57c00",
+        lineColour: "#0288d1",
         name: teamsData[1].name,
         yAxis: buttonText
       }
