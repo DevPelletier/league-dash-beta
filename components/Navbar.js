@@ -22,6 +22,10 @@ const mainLinks = [
     url: "/",
   },
   {
+    text: "Matchups",
+    url: "/matchups",
+  },
+  {
     text: "All Highlights",
     url: "/highlights",
   },
