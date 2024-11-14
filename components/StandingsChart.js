@@ -27,7 +27,7 @@ const calculatePointDifferential = (datasets, playoffThresh) => {
     // Loop through each week and calculate the point differential
     let playoffThreshold = 0;
     for (let week = 0; week < weeks; week++) {
-      const pointsThisWeek = newDatasets.map((dataset) => dataset.data[week]);
+        const pointsThisWeek = newDatasets.map((dataset) => dataset.data[week]);
         playoffThreshold = pointsThisWeek.sort((a, b) => b - a)[7] || 0; // 8th place points
   
         newDatasets.forEach((dataset) => {
@@ -209,6 +209,25 @@ const StandingsChart = ({ standingsData, teams }) => {
                 title: {
                     display: true,
                     text: getYAxisTitle(),
+                },
+                grid: {
+                    lineWidth: (context) => {
+                        if (useDifferential) {
+                            // Check if the current gridline is at value 0
+                            return context.tick.value === 0 ? 2.5 : 0.5; // Bold line at 0
+                        } else {
+                            return 0.5;
+                        }
+                    },
+                    color: (context) => {
+                        if (useDifferential) {
+                            // Use a specific color for the gridline at value 0
+                            return context.tick.value === 0 ? "black" : "grey";
+                        } else {
+                            return "grey";
+                        }
+
+                    },
                 },
             },
             x: {
