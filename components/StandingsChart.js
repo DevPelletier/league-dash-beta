@@ -212,6 +212,7 @@ const StandingsChart = ({ standingsData, teams }) => {
                     text: getYAxisTitle(),
                 },
                 grid: {
+                    
                     lineWidth: (context) => {
                         if (useDifferential) {
                             // Check if the current gridline is at value 0

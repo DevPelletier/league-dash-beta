@@ -83,6 +83,8 @@ export default function MatchupPage({ matchup }) {
       }
       newData.push(teamObj);
     } 
+    newData[0].yMin = 0;
+    newData[0].yMax = 18;
 
     setGraphData(newData);
   };
@@ -137,6 +139,7 @@ export default function MatchupPage({ matchup }) {
       newData[0].yMin = 0.750;
       newData[0].yMax = 1.000;
     }
+
     setGraphData(newData);
   };
 
