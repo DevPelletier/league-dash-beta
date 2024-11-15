@@ -113,6 +113,7 @@ const StandingsChart = ({ standingsData, teams }) => {
     const [chartData, setChartData] = useState([]); // Chart data state
     const [chartLoading, setChartLoading] = useState(false);
     const [playoffThresh, setPlayoffThresh] = useState([]);
+    const [playoffYMaxMin, setPlayoffYMaxMin] = useState([]);
     const chartRef = useRef(null);
 
     // Run `setChartData` only once when the component loads

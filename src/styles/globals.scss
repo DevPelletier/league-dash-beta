@@ -591,3 +591,85 @@ main.highlights-page {
     }    
 }
 
+
+//----------------------//  Games Page  //----------------------// 
+.games {
+    .gamesDateTitle {
+        @include flex-col;
+        width: 80vw;
+        max-width: 650px;
+        min-width: 300px;
+        margin: auto;
+        text-align: center;
+    }
+
+    .gameContainer {
+        @include flex-col;
+        margin: auto;
+
+        .gameContainer2 {
+            width: 100%;
+            max-width: 650px;
+            min-width: 300px;
+            margin: auto;
+            margin-bottom: 10px;
+            padding: 5px 10px;
+
+            a {
+                @include flex;
+                width: inherit;
+                height: 50px;
+                background-color: #F4F4F4;
+                border-radius: 5px;
+                transition: all 0.3s ease;
+
+                &:hover {
+                    background-color: lightgreen;
+                }
+                .row1 {
+                    margin: auto;
+                    @include flex;
+
+                    span { margin: auto; }
+
+                    .MuiAvatar-root {
+                        margin: 0 10px;
+                    }
+                }
+
+            }
+            
+        }
+    }
+}
+//----------------------// Individual Game Page  //----------------------// 
+.games-page {
+    margin: auto;
+    padding: 50px 0;
+    @include flex-col;
+
+    .gameTitleContainer {
+        width: 80vw;
+        max-width: 650px;
+        min-width: 300px;
+        margin: auto;
+        @include flex-col;
+        span {
+            text-align: center;
+        }
+
+        .gameTitle {
+            padding-bottom: 20px;
+            margin: auto;
+            @include flex;
+            h5 {
+                margin: auto 20px;
+            }
+        }
+    }
+}
+
+.yt-container {
+    margin: auto;
+    @include flex;
+}
