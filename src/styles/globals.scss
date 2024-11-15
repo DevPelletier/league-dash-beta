@@ -223,6 +223,7 @@ main.highlights-page {
         margin: auto;
         @include flex;
     }
+
 }
 
 .titleContainer {
@@ -363,6 +364,12 @@ main.highlights-page {
 .shareBtn {
     
 }
+
+.TPLogo {
+    padding: 5px;
+    margin-right: 10px;
+}
+
 
 
 @media (max-width: 500px) {

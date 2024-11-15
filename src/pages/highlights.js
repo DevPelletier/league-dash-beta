@@ -21,6 +21,8 @@ import VideoPlayer from '../../components/VideoPlayer';
 import CopyTextBtn from '../../components/CopytoClipboardBtn';
 
 import yahooImg from '../../public/images/yahoo.png'
+import snLogo from '../../public/images/snLogo.png'
+
 
 import fs from 'fs';
 import path from 'path';
@@ -31,9 +33,35 @@ export default function HighlightsPage({ highlightVideos }) {
   const [expanded, setExpanded] = useState(false); // Track expanded accordion
   const [showLink, setShowLink] = useState(false); // Control link visibility
   const [copyTooltip, setCopyTooltip] = useState("Copy link"); // Tooltip text for copy action
+  const [dimensions, setDimensions] = useState({
+    width: 0,
+    height: 0,
+  });
+
 
   useEffect(() => {
     setVids([...highlightVideos].reverse());
+    // Update iframe size on window resize
+    // Ensure the code runs only on the client side
+    if (typeof window !== "undefined") {
+      const updateDimensions = () => {
+          setDimensions({
+              width: Math.max(300, Math.min(window.innerWidth * 0.8, 650)), // Min: 300px, Max: 1200px
+              height: Math.max(200, Math.min(window.innerHeight * 0.5, 400)), // Min: 200px, Max: 800px
+          });
+      }
+      // Set initial dimensions
+      updateDimensions();
+
+      // Add event listener for window resize
+      window.addEventListener("resize", updateDimensions);
+
+      // Cleanup event listener
+      return () => {
+          window.removeEventListener("resize", updateDimensions);
+      };
+  };
+
   }, [highlightVideos]);
 
   // Increase the number of videos displayed by 20 each time
@@ -76,7 +104,7 @@ export default function HighlightsPage({ highlightVideos }) {
           expanded={expanded === index} 
           onChange={handleChange(index)}
           className="hl-item"
-          id={vid.gameId + "-" + vid.player1Id }
+          // id={vid.gameId + "-" + vid.player1Id }
         >
             <AccordionSummary
             expandIcon={<ExpandMoreIcon />}
@@ -84,7 +112,8 @@ export default function HighlightsPage({ highlightVideos }) {
             id={`panel${index}-header`}
             // className="titleContainer"
             >
-            <div className="hl-titleContainer">
+            { vid.playerData ? (<>
+              <div className="hl-titleContainer">
               <div className="playerInfo">
                 <Avatar alt="" src={vid.playerData[vid.player1Id]?.headshot} className="headshot"
                 sx={{ width: 60, height: 60 }}
@@ -113,21 +142,55 @@ export default function HighlightsPage({ highlightVideos }) {
                 </div>
               </div>
             </div>
+            </>):(<>
+              {/* <div className="hl-titleContainer">
+              <div className="playerInfo"> */}
+                <Avatar alt="" src="/images/snLogo.png" className="TPLogo"
+                  sx={{ width: 60, height: 60 }}
+                  variant="square"
+                />
+                {/* </div>
+              </div> */}
+              <div className="vidDescrip">
+                <div className="row1">
+                  <Typography variant="body1">{vid.title}</Typography>
+                  <Typography variant="caption">{vid.gameDate}</Typography>
+                </div>
+                <div className="row2">
+                  <Typography variant="subtitle2">{vid.descrip}</Typography>
+                </div>
+              </div>
+            </>)}
             </AccordionSummary>
             <AccordionDetails className="vidContainer">
               {/* Conditionally render the video only when expanded */}
               {expanded === index && (<>
-                <Typography variant="subtitle2" className="goalInfo">
-                    {vid.player1Name}({vid.player1Goals})
-                    {vid.player2Name && <span> from {vid.player2Name}({vid.player2Assists})</span>}
-                    {vid.player3Name && <span> and {vid.player3Name}({vid.player3Assists})</span>}
-                </Typography>
-                <VideoPlayer 
-                  videoUrl={vid.url}
-                />
+                { vid.playerData ? (<>
+                  <Typography variant="subtitle2" className="goalInfo">
+                      {vid.player1Name}({vid.player1Goals})
+                      {vid.player2Name && <span> from {vid.player2Name}({vid.player2Assists})</span>}
+                      {vid.player3Name && <span> and {vid.player3Name}({vid.player3Assists})</span>}
+                  </Typography>
+                  <VideoPlayer 
+                    videoUrl={vid.url}
+                  />
                 <div className="btnContainer share">
                   {/* <CopyTextBtn text={'https://mcdave-dash-beta.vercel.app/highlights#' + vid.gameId + "-" + vid.player1Id} /> */}
                 </div>
+
+                </>):(<>
+                  <div className="yt-container">
+                    <iframe 
+                        src={vid.url} title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen
+                        style={{
+                            border: "none",
+                            width: `${dimensions.width}px`,
+                            height: `${dimensions.height}px`,
+                        }}
+                    ></iframe>
+                  </div>
+
+                </>)}
               </>)}
             </AccordionDetails>
         </Accordion>

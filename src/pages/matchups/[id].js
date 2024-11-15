@@ -162,9 +162,8 @@ export default function MatchupPage({ matchup }) {
         assignGraphData(matchup);
         checkIfStatsExist(matchup);
 
-        // TO DOs:
-        // match teamID to team name
-        // match data for data required in MatchupChart.js component
+        console.log(teamsData)
+
     }, [matchup]);
 
     return (<>
@@ -177,13 +176,19 @@ export default function MatchupPage({ matchup }) {
       <div className="matchupTitleContainer">
           {/* <span>Matchup ID: {matchup.id}</span> */}
           { teamsData.length > 0 ? (<>
-            <Typography variant="overline">Week {matchup.id.charAt(0)}</Typography>
+            <Typography variant="overline"><Link href="/matchups">
+              Week {matchup.id.charAt(0)}
+            </Link></Typography>
             <Typography variant="caption">{matchup.weekStart} to {matchup.weekEnd}</Typography>
             <div className="scoreboardTitle">
               <div className="row names">
-                <Typography variant="h5">({teamsData[0].rank}) {teamsData[0].name}</Typography>
+                <Typography variant="h5"><Link href={"/teams/" + teamsData[0].id}>
+                  ({teamsData[0].rank}) {teamsData[0].name}
+                </Link></Typography>
                 <Typography variant="overline">vs.</Typography> 
-                <Typography variant="h5">({teamsData[1].rank}) {teamsData[1].name}</Typography>
+                <Typography variant="h5"><Link href={"/teams/" + teamsData[1].id}>
+                  ({teamsData[1].rank}) {teamsData[1].name}
+                </Link></Typography>
               </div>
               <div className="row scores">
                 <Typography variant="h5">{matchup.teamsData[0].matchupHistScores.at(-1) / 2}</Typography>
