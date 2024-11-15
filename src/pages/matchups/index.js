@@ -112,7 +112,15 @@ return (<>
                         <Typography variant="body2">{matchup.teamsData[0].name}</Typography>
                     </div>
                     <div className="score">
-                        <Typography variant="body1">{matchup.teamsData[0].currentScore} - {matchup.teamsData[1].currentScore}</Typography>
+                        <div className="scoreContainer">
+                        <div className="scoreNum">
+                            <Typography variant="body1">{matchup.teamsData[0].currentScore}</Typography>
+                        </div>
+                        <Typography variant="body1"> - </Typography>
+                        <div className="scoreNum">
+                            <Typography variant="body1">{matchup.teamsData[1].currentScore}</Typography>
+                        </div>
+                        </div>
                     </div>
                     <div className="team2">
                             {/* ({matchup.teamsData[1].rank}) */}

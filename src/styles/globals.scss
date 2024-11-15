@@ -424,7 +424,7 @@ main.highlights-page {
         background-color: #f4f4f4;    
         padding: 10px 0;
         display: grid;
-        grid-template-columns: 42.5% 15% 42.5%;
+        grid-template-columns: auto auto;
         transition: all 0.2s ease;
         // justify-content: space-between;    
         &:hover {
@@ -451,14 +451,69 @@ main.highlights-page {
     }
     .score {
         @include flex;
-        // flex-grow: 1;
+        position: absolute;
+        width: 80vw;
+        max-width: 650px;
+        min-width: 250px;
+        height: 40px;
         text-align: center;
+        .scoreContainer {
+            @include flex;
+            margin: auto;
+
+            .scoreNum {
+                padding: 5px 5px;
+                background-color: lightblue;
+                border-radius: 3px;
+                margin: 0 5px;
+                min-width: 40px;
+            }
+        }
+        
         p {
             height: min-content;
             margin: auto;
+            font-weight: bold;
+            font-size: 1.1rem;
         }
     }
 }
+
+@media (max-width: 700px) {
+.matchups {
+    .matchupContainer {
+        a {
+            // grid-template-columns: 45% 10% 45%;
+            padding: 12px 0;
+            
+            .team1 {
+                flex-direction: column-reverse;
+                p {
+                    font-size: 0.7rem;
+                    margin-left: 0;
+                    text-align: left;
+                }
+            }
+            .team2 {
+                flex-direction: column;
+                p {
+                    font-size: 0.7rem;
+                    margin-right: 0;
+                    text-align: right;
+                }
+                .MuiAvatar-root {
+                    margin-left: auto;
+                }
+            }
+
+            .score {
+                height: 60px;
+            }
+        }
+    }
+}
+}
+
 
 //----------------------//  Matchup Page  //----------------------// 
 
@@ -499,11 +554,13 @@ main.highlights-page {
             margin: auto;
 
             &.names {
-                h5:first-child {
-                    margin: auto 20px auto auto;
-                }
-                h5:last-child {
-                    margin: auto auto auto 20px;
+                h5 {
+                    &:first-child {
+                         margin-right: 20px;
+                    }
+                    &:last-child {
+                        margin-left: 20px;
+                    }
                 }
             }
             &.scores {
@@ -513,8 +570,8 @@ main.highlights-page {
                 h5 {
                     padding: 8px 4px;
                     border-radius: 3px;
-                    background-color: black;
-                    color: white;
+                    background-color: lightblue;
+                    // color: white;
                     width: 50px;
                 }
                 span {
@@ -545,6 +602,9 @@ main.highlights-page {
     border: 1px solid darkslategray;
     border-top: none;
     border-radius: 5px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    max-width: 95vw;
     .MuiButtonGroup-root, .scoreboardRow {
         display: grid;
         grid-template-columns: 200px repeat(13, 60px);
@@ -581,6 +641,8 @@ main.highlights-page {
     border-radius: 5px;
     overflow-x: scroll;
     padding: 12px;
+    max-width: 95vw;
+    margin: auto;
     .matchGraphContainer-2 {
         min-width: 800px;
         min-height: 400px;

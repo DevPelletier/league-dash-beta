@@ -165,11 +165,11 @@ export default function MatchupPage({ matchup }) {
     }, [matchup]);
 
     return (<>
-    <div className="backBtn">
+    {/* <div className="backBtn">
         <Button href="/matchups" variant="outlined">
           <ArrowBackIcon />&nbsp;Back to All Matchups
         </Button>
-    </div>
+    </div> */}
     <div>
       <div className="matchupTitleContainer">
           {/* <span>Matchup ID: {matchup.id}</span> */}
@@ -183,9 +183,9 @@ export default function MatchupPage({ matchup }) {
                 <Typography variant="h5">({teamsData[1].rank}) {teamsData[1].name}</Typography>
               </div>
               <div className="row scores">
-                <Typography variant="h5">{matchup.teamsData[0].matchupHistScores.at(-1)}</Typography>
+                <Typography variant="h5">{matchup.teamsData[0].matchupHistScores.at(-1) / 2}</Typography>
                 <Typography variant="overline">-</Typography>
-                <Typography variant="h5">{matchup.teamsData[1].matchupHistScores.at(-1)}</Typography>
+                <Typography variant="h5">{matchup.teamsData[1].matchupHistScores.at(-1) / 2}</Typography>
               </div>
             </div>
           </>) : (<>
@@ -194,57 +194,53 @@ export default function MatchupPage({ matchup }) {
       </div>
     </div>
 
-    <div>
-      {/* <h4>Scoreboard</h4> */}
-      <div className="scoreboardContainer">
-      { (statsExist) & (teamsData.length > 0) ? (<>
-          <ButtonGroup variant="contained" aria-label="Basic button group">
-            <Button className="title" onClick={handleButtonClick}>
-              Team
-            </Button>
+    {/* <h4>Scoreboard</h4> */}
+    <div className="scoreboardContainer">
+    { (statsExist) & (teamsData.length > 0) ? (<>
+        <ButtonGroup variant="contained" aria-label="Basic button group">
+          <Button className="title" onClick={handleButtonClick}>
+            Team
+          </Button>
 
-          {matchup.teamsData[0].matchupHistStats.map((stat) => (
-            <Button className="title" key={stat.id} onClick={handleButtonClick}>
-              {stat.name}
-            </Button>
-          ))}
-          </ButtonGroup>
-          <br />
-          <div className="scoreboardRow">
+        {matchup.teamsData[0].matchupHistStats.map((stat) => (
+          <Button className="title" key={stat.id} onClick={handleButtonClick}>
+            {stat.name}
+          </Button>
+        ))}
+        </ButtonGroup>
+        <br />
+        <div className="scoreboardRow">
 
-          <div className="statBox">
-            <Typography variant="body1" className="title team">{teamsData[0].name}</Typography>
+        <div className="statBox">
+          <Typography variant="body1" className="title team">{teamsData[0].name}</Typography>
+        </div>
+        {matchup.teamsData[0].matchupHistStats.map((stat) => (
+          <div className="statBox" key={stat.id}>
+            <Typography variant="body1">
+              {stat.data.slice(-1)}
+            </Typography>
           </div>
-          {matchup.teamsData[0].matchupHistStats.map((stat) => (
-            <div className="statBox" key={stat.id}>
-              <Typography variant="body1">
-                {stat.data.slice(-1)}
-              </Typography>
-            </div>
-          ))}
+        ))}
 
+        </div>
+
+        <div className="scoreboardRow">
+        <div className="statBox">
+          <Typography variant="body1" className="title team">{teamsData[1].name}</Typography>
+        </div>
+        {matchup.teamsData[1].matchupHistStats.map((stat) => (
+          <div className="statBox" key={stat.id}>
+            <Typography variant="body1">
+              {stat.data.slice(-1)}
+            </Typography>
           </div>
-
-          <br /><br /><br />
-
-          <div className="scoreboardRow">
-          <div className="statBox">
-            <Typography variant="body1" className="title team">{teamsData[1].name}</Typography>
-          </div>
-          {matchup.teamsData[1].matchupHistStats.map((stat) => (
-            <div className="statBox" key={stat.id}>
-              <Typography variant="body1">
-                {stat.data.slice(-1)}
-              </Typography>
-            </div>
-          ))}
-          </div>
-      </>) : (<>
-        <span>Loading...</span>
-      </>)}
-      </div>
-
+        ))}
+        </div>
+    </>) : (<>
+      <span>Loading...</span>
+    </>)}
     </div>
+
 
     <div className="matchGraphContainer">
       <div className="matchGraphContainer-2">
