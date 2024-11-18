@@ -1,0 +1,30 @@
+#video-playlist .Playlist-logo,
+#video-forecast .Playlist-logo {
+  background-image: url(https://s.yimg.com/dh/ap/fantasy/img/nhl/nhl_com_video.png);
+  background-repeat: no-repeat;
+  height: 27px;
+  width: 98px;
+}
+#video-playlist .Bd.Player-bg,
+#video-forecast .Bd.Player-bg {
+  background-image: url(https://s.yimg.com/dh/ap/fantasy/img/nhl/ivp_nhl_bg2.jpg);
+  background-repeat: no-repeat;
+  color: #000;
+  background-size: cover;
+}
+#video-playlist .Bd .mode-cinematron.channel-applet-wrap .ov,
+#video-forecast .Bd .mode-cinematron.channel-applet-wrap .ov {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  #video-playlist .Playlist-logo,
+  #video-forecast .Playlist-logo {
+    background-image: url(https://s.yimg.com/dh/ap/fantasy/img/nhl/nhl_com_video@2x.png);
+    background-size: auto 27px;
+  }
+  #video-playlist .Bd.Player-bg,
+  #video-forecast .Bd.Player-bg {
+    background-image: url(https://s.yimg.com/dh/ap/fantasy/img/nhl/ivp_nhl_bg2@2x.jpg);
+    background-size: cover;
+  }
+}

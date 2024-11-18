@@ -1,0 +1,34 @@
+html {
+  background-image: url(https://s.yimg.com/dh/ap/fantasy/img/background-hockey@2x.jpg?v=1);
+  background-attachment: fixed;
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+}
+html.Phone, html.Ybar3 {
+  background-image: none;
+}
+
+@media screen and (max-width: 767px) {
+  html {
+    background-size: cover;
+  }
+}
+.Branding-logo {
+  background: url(https://s.yimg.com/dh/ap/fantasy/img/nhl/nhl_lockup_new@1x.png) 0 0 no-repeat;
+  display: block;
+  height: 37px;
+  width: 80px;
+  z-index: 10005;
+  margin-top: 5px;
+}
+
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  .Branding-logo {
+    background-image: url(https://s.yimg.com/dh/ap/fantasy/img/nhl/nhl_lockup_new@2x.png);
+    background-size: auto 37px;
+  }
+}
+#Stencil .C-accent {
+  color: #188fff;
+}
