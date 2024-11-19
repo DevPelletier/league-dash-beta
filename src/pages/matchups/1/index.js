@@ -1,196 +1,206 @@
 import * as React from 'react';
 import { useEffect, useState } from 'react';
-import { styled } from '@mui/material/styles';
-import Box from '@mui/material/Box';
-import Paper from '@mui/material/Paper';
-import Grid from '@mui/material/Grid2';
+import Link from 'next/link'
+import Button from '@mui/material/Button';
 import Avatar from '@mui/material/Avatar';
+import Typography from '@mui/material/Typography';
+import MatchupChart2 from '../../../../components/MatchupChart2';
+import Grid from '@mui/material/Grid2';
 import Accordion from '@mui/material/Accordion';
 import AccordionActions from '@mui/material/AccordionActions';
 import AccordionSummary from '@mui/material/AccordionSummary';
 import AccordionDetails from '@mui/material/AccordionDetails';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
-import Button from '@mui/material/Button';
 
-import MatchupChart from '../../../../components/MatchupChart';
-import GamesBarChart from '../../../../components/GamesBarChart';
-import VideoPlayer from '../../../../components/VideoPlayer';
 
-const team1Data = {
-  name: 'Man Hugs',
-  data: [6, 8, 7, 7, 4, 3, 4],
-  lineColour: 'rgb(255, 99, 132)',
-  bgColour: 'rgba(255, 99, 132, 0.2)',
-}
-const team2Data = {
-  name: 'Bobby Margarita',
-  data: [2, 0, 1, 1, 5, 6, 5],
-  lineColour: 'rgb(54, 162, 235)',
-  bgColour: 'rgba(54, 162, 235, 0.2)',
-}
+// TODO
+// Make Weeks into accordions? It's accordions all the way down? lol?
+// But also reverse the order of the weeks, so it's the most recent week (active week) at the top
+// Also for centering - make each matchup a grid so that each element has it's given space (and the centered element is always centered)
 
-const teams = [
-  { name: 'Team A', gamesPlayed: 20, totalGames: 30 },
-  { name: 'Team B', gamesPlayed: 25, totalGames: 32 },
-  // Add more teams as needed...
-];
+// Also also - may want to just match all of this data up in python because this fetching shit is so annoying
+export default function Matchups({}) {
+    const [matchupData, setMatchupData] = useState({});
+    const [teamsData, setTeamsData] = useState([]);
+    const [loading, setLoading] = useState(true);
+    const [expanded, setExpanded] = useState('7'); // Track expanded accordion
 
-// Two arrays of player IDs to toggle between
-const playerIDsOption1 = [8473533]; // Example: Option 1
-const playerIDsOption2 = [8478010, 8476453]; // Example: Option 2
+    
+    const matchTeamsData = async (initMatchupData) => {
+        for (let week in initMatchupData) {
+            for (let matchup in initMatchupData[week]) {
+                for (let data in initMatchupData[week][matchup]) {
+                    if (Array.isArray(initMatchupData[week][matchup][data])) {
+                        for (let team in initMatchupData[week][matchup][data]) {
+                            let teamId = initMatchupData[week][matchup][data][team].team_id;
+                            for (let teamData in teamsData) {
+                                if (teamsData[teamData].team_key == teamId) {
+                                    initMatchupData[week][matchup][data][team].name = teamsData[teamData].name;
+                                    initMatchupData[week][matchup][data][team].score = (initMatchupData[week][matchup][data][team].matchupHistScores.at(-1)) / 2;
+                                    initMatchupData[week][matchup][data][team].logo = teamsData[teamData].logo;
+                                    initMatchupData[week][matchup][data][team].url = teamsData[teamData].url;
+                                    initMatchupData[week][matchup][data][team].rank = teamsData[teamData].rank;
+                                    initMatchupData[week][matchup][data][team].totalWLT = teamsData[teamData].totalWLT;
+                                    // MATCH ALL OF THE STUFF HERE
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        setMatchupData(initMatchupData);
+    }
 
-export default function Matchup() {
-  const [vids, setVids] = useState([]);
-  const [filteredVids, setFilteredVids] = useState([]); // Store the filtered players
-  const [toggle, setToggle] = useState(true); // State to track which player ID array is active
+    function delay(time) {
+        return new Promise(resolve => setTimeout(resolve, time));
+    }
 
-  useEffect(() => {
-      // Fetch the JSON data from the public folder
-      fetch('/sample.json')
-          .then((res) => res.json())
-          .then((data) => {
-              setVids(data); // Store all players in state
-              setFilteredVids(data.filter((vid) => playerIDsOption1.includes(vid.player1Id))); // Default filter
-          })
-          .catch((err) => console.error('Failed to fetch players:', err));
-  }, []);
+    useEffect(() => {
+        // fetch('/teams.json')
+        //     .then((res) => res.json())
+        //     .then((data) => {
+        //         setTeamsData(data);
+        //     })
+        //     .then(() => {
+        //         setLoading(false);
+        //     })
+        //     .catch((err) => console.error('Failed to fetch teams:', err));
+        fetch('/matchupData.json')
+            .then((res) => res.json())
+            .then((data) => {
+                setMatchupData(data)
+                setLoading(false);
+            })
+            .catch((err) => console.error('Failed to fetch matchupData:', err));
 
-  // Function to toggle between the two arrays of player IDs
-  const toggleFilter = () => {
-    setToggle((prevToggle) => !prevToggle); // Switch toggle state
 
-    const activePlayerIDs = toggle ? playerIDsOption2 : playerIDsOption1;
-    console.log(activePlayerIDs);
+        // const fetchData = async () => {
+        //     try {
+        //         const response = await fetch('/teams.json');
+        //         const data = await response.json();
+        //         setTeamsData(data);
 
-    // Filter players based on the active player IDs array
-    const newFilteredPlayers = vids.filter((vid) =>
-        activePlayerIDs.includes(vid.player1Id)
-    );
+        //         const response2 = await fetch('/matchupData.json');
+        //         const data2 = await response2.json();
+        //         await matchTeamsData(data2);
+        //     } catch (error) {
+        //         console.error('Error fetching data:', error);
+        //     } finally {
+        //         setLoading(false);
+        //         console.log(matchupData)
+        //     }
+        // }
+        
+        // fetchData();
+    }, []);
 
-    setFilteredVids(newFilteredPlayers); // Update filtered players
-  };
+    useEffect(() => {
+        // This will log matchupData whenever it changes
+        console.log("matchupData updated:", matchupData);
+    }, [matchupData]);
 
-  return (
-  <>
-  <h1>Matchup</h1>
-  <Box sx={{ flexGrow: 1 }} >
-    <Grid container spacing={2}>
+    const handleChange = (panel) => (event, isExpanded) => {
+        setExpanded(isExpanded ? panel : false); // Update state based on expansion
+    };
+    
 
-      {/* Topline Matchup Score */}
-      {/* <Grid size={8} item container alignItems="center" justifyContent="center">
-        <Grid item container spacing={2} alignItems="center" justifyContent="center">
-          <Avatar alt="" src="@/public/images/image.png" />
-          <span>5</span>
-          <span>vs</span>
-          <span>4</span>
-          <Avatar alt="" src="@/public/images/image.png" />
-        </Grid>
-      </Grid> */}
+return (<>
+    { ((Object.keys(matchupData).length > 0) && (!loading)) ? (<>
+        <main className="matchups">
+        <Grid size={8} item container alignItems="center" justifyContent="center" spacing={2} className="matchupsGrid">
 
-      {/* Games Played * Total Games Graph */}
-      {/* <Grid size={8} item container alignItems="center" justifyContent="center" className="gpContainer">
-        <GamesBarChart teams={teams} />
-      </Grid> */}
-
-      {/* Main Matchup Graph */}
-      {/* <Grid size={8} item container alignItems="center" justifyContent="center" className="graphContainer">
-        <MatchupChart team1Data={team1Data} team2Data={team2Data} />
-      </Grid> */}
-      
-      {/* Main Matchup Scoreboard */}
-      {/* <Grid size={8} item container alignItems="center" justifyContent="center" direction="row" spacing={0}>
-        <Grid size={8} item container alignItems="center" justifyContent="center" direction="row" spacing={0} className="scoreBoardButtons">
-          <Grid item container alignItems="center" justifyContent="center" size={1} className="sb-btn">
-            XX
-          </Grid>
-          <Grid item container alignItems="center" justifyContent="center" size={1}>
-            XX
-          </Grid>
-          <Grid item container alignItems="center" justifyContent="center" size={1}>
-            XX
-          </Grid>
-          <Grid item container alignItems="center" justifyContent="center" size={1}>
-            XX
-          </Grid>
-          <Grid item container alignItems="center" justifyContent="center" size={1}>
-            XX
-          </Grid>
-          <Grid item container alignItems="center" justifyContent="center" size={1}>
-            XX
-          </Grid>
-          <Grid item container alignItems="center" justifyContent="center" size={1}>
-            XX
-          </Grid>
-          <Grid item container alignItems="center" justifyContent="center" size={1}>
-            XX
-          </Grid>
-        </Grid>
-        <Grid size={8} item container alignItems="center" justifyContent="center" direction="row" spacing={0} className="scoreBoardButtons">
-          <Grid item container alignItems="center" justifyContent="center" size={1}>
-            XX
-          </Grid>
-          <Grid item container alignItems="center" justifyContent="center" size={1}>
-            XX
-          </Grid>
-          <Grid item container alignItems="center" justifyContent="center" size={1}>
-            XX
-          </Grid>
-          <Grid item container alignItems="center" justifyContent="center" size={1}>
-            XX
-          </Grid>
-          <Grid item container alignItems="center" justifyContent="center" size={1}>
-            XX
-          </Grid>
-          <Grid item container alignItems="center" justifyContent="center" size={1}>
-            XX
-          </Grid>
-          <Grid item container alignItems="center" justifyContent="center" size={1}>
-            XX
-          </Grid>
-          <Grid item container alignItems="center" justifyContent="center" size={1}>
-            XX
-          </Grid>
-        </Grid>
-      </Grid> */}
-
-      {/* Team Highlights */}
-      <Grid size={8} item container alignItems="center" justifyContent="center" spacing={2} className="teamHighlights">
-        <h2>Team Highlights</h2>
-        {/* <button onClick={toggleFilter}>
-          Toggle to {toggle ? 'Option 2' : 'Option 1'}
-        </button> */}
-        {filteredVids.map((vid) => (
-          <Accordion key={vid.id}>
-            <AccordionSummary
-              expandIcon={<ExpandMoreIcon />}
-              aria-controls="panel1-content"
-              id="panel1-header"
+        {Object.entries(matchupData).reverse().map(([key, matchups]) => (<>
+            {key == "4" ? (<></>) : (<>
+            <Accordion 
+            key={key} 
+            expanded={expanded === key} 
+            onChange={handleChange(key)}
+            className="matchupWeek"
+            // id={vid.gameId + "-" + vid.player1Id }
             >
-              <div className="playerInfo">
-                <Avatar alt="" src="@/public/images/image.png" />
-                <div className="playerInfoGrid">
-                  <span>Jordan Staal</span>
-                  <span>CAR</span>
-                </div>
-              </div>
-              <div className="vidDescrip">
-                <p>{vid.title}</p>
-                <p>{vid.description}</p>
-                <p>{vid.player1Name}({vid.player1Goals})
-                  {vid.player2Name && <span> from {vid.player2Name}({vid.player2Assists})</span>}
-                  {vid.player3Name && <span> and {vid.player3Name}({vid.player3Assists})</span>}
-                </p>
-              </div>
-            </AccordionSummary>
-            <AccordionDetails>
-              <VideoPlayer videoUrl={vid.url} />
-            </AccordionDetails>
-          </Accordion>
-        ))}
-      </Grid>
+                <AccordionSummary
+                expandIcon={<ExpandMoreIcon />}
+                aria-controls={`panel${key}-content`}
+                id={`panel${key}-header`}
+                className="matchupWeekTitle"
+                >
+                    <div className="weekTitle">
+                        <Typography variant="h6">Week {key}</Typography>
+                        <Typography variant="subtitle2">{matchups[0].weekStart} - {matchups[0].weekEnd}</Typography>
+                    </div>
+                </AccordionSummary>
+                <AccordionDetails className="matchupsContainer">
+                    {matchups.map((matchup, index) => (<>
+                        <div key={index} className="matchupItem">
+                        <Link href={"/matchups/" + matchup.id}>
+                            <div className="team1">
+                                {/* ({matchup.teamsData[0].rank}) */}
+                                <Avatar variant="round" alt="McDave Sweepstakes" src={matchup.teamsData[0].logo} />
+                                <Typography variant="body2">{matchup.teamsData[0].name}</Typography>
+                            </div>
+                            <div className="score">
+                                <div className="scoreContainer">
+                                <div className="scoreNum">
+                                    <Typography variant="body1">{matchup.teamsData[0].currentScore}</Typography>
+                                </div>
+                                <Typography variant="body1"> - </Typography>
+                                <div className="scoreNum">
+                                    <Typography variant="body1">{matchup.teamsData[1].currentScore}</Typography>
+                                </div>
+                                </div>
+                            </div>
+                            <div className="team2">
+                                    {/* ({matchup.teamsData[1].rank}) */}
+                                    <Typography variant="body2">{matchup.teamsData[1].name}</Typography>
+                                    <Avatar variant="round" alt="McDave Sweepstakes" src={matchup.teamsData[1].logo} />
+                            </div>
+                            {/* <Button variant="outlined" href={"/matchups/" + matchup.id}>Go To Matchup</Button> */}
+                        </Link>
+                        <MatchupChart2
+                            team1Data={{
+                                name: matchup.teamsData[0].name,
+                                data: matchup.teamsData[0].matchupHistScores,
+                                lineColour: "#d32f2f",
+                                backgroundColor: "#d32f2f",
+                                fill: false, // Do not fill under the line
+                                cubicInterpolationMode: 'monotone',
+                                tension: 0.4,
+                                borderWidth: 3,
+                                pointStyle: 'circle',
+                                // pointRadius: 5,
+                                // pointHoverRadius: 8,
+                                yMin: 0,
+                                yMax: 18,
+                            }}
+                            team2Data={{
+                                name: matchup.teamsData[1].name,
+                                data: matchup.teamsData[1].matchupHistScores,
+                                lineColour: "#0288d1",
+                                backgroundColor: "#0288d1",
+                                fill: false, // Do not fill under the line
+                                cubicInterpolationMode: 'monotone',
+                                tension: 0.4,
+                                borderWidth: 3,
+                                pointStyle: 'circle',
+                                // pointRadius: 5,
+                                // pointHoverRadius: 8,
+                            }}
+                        />
+                        </div>
+                    </>))}
+                </AccordionDetails>
+            </Accordion>
+            </>)}
 
-    </Grid>
-  </Box>
-  </>
-  )
+        </>))}
+        </Grid>
+        </main>
+    </>) : loading ? (<>
+        <span>Loading....</span>
+    </>) : (<>
+        <div>No matchup data found.</div>
+    </>)}
+
+</>); 
 }

@@ -10287,93 +10287,106 @@
                             }
                         }
                     ],
-                    "currentScore": 0.0,
+                    "currentScore": 7.5,
                     "matchupHistScores": [
-                        0
+                        0,
+                        15
                     ],
                     "matchupHistStats": [
                         {
                             "id": "1",
                             "name": "G",
                             "data": [
-                                0
+                                0,
+                                1.0
                             ]
                         },
                         {
                             "id": "2",
                             "name": "A",
                             "data": [
-                                0
+                                0,
+                                3.0
                             ]
                         },
                         {
                             "id": "8",
                             "name": "PPP",
                             "data": [
-                                0
+                                0,
+                                1.0
                             ]
                         },
                         {
                             "id": "14",
                             "name": "SOG",
                             "data": [
-                                0
+                                0,
+                                14.0
                             ]
                         },
                         {
                             "id": "31",
                             "name": "HIT",
                             "data": [
-                                0
+                                0,
+                                10.0
                             ]
                         },
                         {
                             "id": "32",
                             "name": "BLK",
                             "data": [
-                                0
+                                0,
+                                7.0
                             ]
                         },
                         {
                             "id": "19",
                             "name": "W",
                             "data": [
-                                0
+                                0,
+                                0.0
                             ]
                         },
                         {
                             "id": "22",
                             "name": "GA",
                             "data": [
-                                0
+                                0,
+                                5.0
                             ]
                         },
                         {
                             "id": "23",
                             "name": "GAA",
                             "data": [
-                                0
+                                0,
+                                5.05
                             ]
                         },
                         {
                             "id": "25",
                             "name": "SV",
                             "data": [
-                                0
+                                0,
+                                24.0
                             ]
                         },
                         {
                             "id": "24",
                             "name": "SA",
                             "data": [
-                                0
+                                0,
+                                29.0
                             ]
                         },
                         {
                             "id": "26",
                             "name": "SV%",
                             "data": [
-                                0
+                                0,
+                                0.828
                             ]
                         }
                     ],
@@ -10459,57 +10472,65 @@
                             }
                         }
                     ],
-                    "currentScore": 0.0,
+                    "currentScore": 1.5,
                     "matchupHistScores": [
-                        0
+                        0,
+                        3
                     ],
                     "matchupHistStats": [
                         {
                             "id": "1",
                             "name": "G",
                             "data": [
-                                0
+                                0,
+                                2.0
                             ]
                         },
                         {
                             "id": "2",
                             "name": "A",
                             "data": [
-                                0
+                                0,
+                                2.0
                             ]
                         },
                         {
                             "id": "8",
                             "name": "PPP",
                             "data": [
-                                0
+                                0,
+                                1.0
                             ]
                         },
                         {
                             "id": "14",
                             "name": "SOG",
                             "data": [
-                                0
+                                0,
+                                6.0
                             ]
                         },
                         {
                             "id": "31",
                             "name": "HIT",
                             "data": [
-                                0
+                                0,
+                                6.0
                             ]
                         },
                         {
                             "id": "32",
                             "name": "BLK",
                             "data": [
-                                0
+                                0,
+                                4.0
                             ]
                         },
                         {
                             "id": "19",
                             "name": "W",
                             "data": [
+                                0,
                                 0
                             ]
                         },
@@ -10517,6 +10538,7 @@
                             "id": "22",
                             "name": "GA",
                             "data": [
+                                0,
                                 0
                             ]
                         },
@@ -10524,6 +10546,7 @@
                             "id": "23",
                             "name": "GAA",
                             "data": [
+                                0,
                                 0
                             ]
                         },
@@ -10531,6 +10554,7 @@
                             "id": "25",
                             "name": "SV",
                             "data": [
+                                0,
                                 0
                             ]
                         },
@@ -10538,6 +10562,7 @@
                             "id": "24",
                             "name": "SA",
                             "data": [
+                                0,
                                 0
                             ]
                         },
@@ -10545,6 +10570,7 @@
                             "id": "26",
                             "name": "SV%",
                             "data": [
+                                0,
                                 0
                             ]
                         }
@@ -10638,57 +10664,65 @@
                             }
                         }
                     ],
-                    "currentScore": 0.0,
+                    "currentScore": 5.0,
                     "matchupHistScores": [
-                        0
+                        0,
+                        10
                     ],
                     "matchupHistStats": [
                         {
                             "id": "1",
                             "name": "G",
                             "data": [
-                                0
+                                0,
+                                2.0
                             ]
                         },
                         {
                             "id": "2",
                             "name": "A",
                             "data": [
-                                0
+                                0,
+                                3.0
                             ]
                         },
                         {
                             "id": "8",
                             "name": "PPP",
                             "data": [
-                                0
+                                0,
+                                1.0
                             ]
                         },
                         {
                             "id": "14",
                             "name": "SOG",
                             "data": [
-                                0
+                                0,
+                                15.0
                             ]
                         },
                         {
                             "id": "31",
                             "name": "HIT",
                             "data": [
-                                0
+                                0,
+                                7.0
                             ]
                         },
                         {
                             "id": "32",
                             "name": "BLK",
                             "data": [
-                                0
+                                0,
+                                2.0
                             ]
                         },
                         {
                             "id": "19",
                             "name": "W",
                             "data": [
+                                0,
                                 0
                             ]
                         },
@@ -10696,6 +10730,7 @@
                             "id": "22",
                             "name": "GA",
                             "data": [
+                                0,
                                 0
                             ]
                         },
@@ -10703,6 +10738,7 @@
                             "id": "23",
                             "name": "GAA",
                             "data": [
+                                0,
                                 0
                             ]
                         },
@@ -10710,6 +10746,7 @@
                             "id": "25",
                             "name": "SV",
                             "data": [
+                                0,
                                 0
                             ]
                         },
@@ -10717,6 +10754,7 @@
                             "id": "24",
                             "name": "SA",
                             "data": [
+                                0,
                                 0
                             ]
                         },
@@ -10724,6 +10762,7 @@
                             "id": "26",
                             "name": "SV%",
                             "data": [
+                                0,
                                 0
                             ]
                         }
@@ -10810,93 +10849,106 @@
                             }
                         }
                     ],
-                    "currentScore": 0.0,
+                    "currentScore": 4.0,
                     "matchupHistScores": [
-                        0
+                        0,
+                        8
                     ],
                     "matchupHistStats": [
                         {
                             "id": "1",
                             "name": "G",
                             "data": [
-                                0
+                                0,
+                                2.0
                             ]
                         },
                         {
                             "id": "2",
                             "name": "A",
                             "data": [
-                                0
+                                0,
+                                1.0
                             ]
                         },
                         {
                             "id": "8",
                             "name": "PPP",
                             "data": [
-                                0
+                                0,
+                                1.0
                             ]
                         },
                         {
                             "id": "14",
                             "name": "SOG",
                             "data": [
-                                0
+                                0,
+                                9.0
                             ]
                         },
                         {
                             "id": "31",
                             "name": "HIT",
                             "data": [
-                                0
+                                0,
+                                0.0
                             ]
                         },
                         {
                             "id": "32",
                             "name": "BLK",
                             "data": [
-                                0
+                                0,
+                                0.0
                             ]
                         },
                         {
                             "id": "19",
                             "name": "W",
                             "data": [
-                                0
+                                0,
+                                1.0
                             ]
                         },
                         {
                             "id": "22",
                             "name": "GA",
                             "data": [
-                                0
+                                0,
+                                0.0
                             ]
                         },
                         {
                             "id": "23",
                             "name": "GAA",
                             "data": [
-                                0
+                                0,
+                                0.0
                             ]
                         },
                         {
                             "id": "25",
                             "name": "SV",
                             "data": [
-                                0
+                                0,
+                                30.0
                             ]
                         },
                         {
                             "id": "24",
                             "name": "SA",
                             "data": [
-                                0
+                                0,
+                                30.0
                             ]
                         },
                         {
                             "id": "26",
                             "name": "SV%",
                             "data": [
-                                0
+                                0,
+                                1.0
                             ]
                         }
                     ],
@@ -10989,93 +11041,106 @@
                             }
                         }
                     ],
-                    "currentScore": 0.0,
+                    "currentScore": 5.0,
                     "matchupHistScores": [
-                        0
+                        0,
+                        10
                     ],
                     "matchupHistStats": [
                         {
                             "id": "1",
                             "name": "G",
                             "data": [
-                                0
+                                0,
+                                0.0
                             ]
                         },
                         {
                             "id": "2",
                             "name": "A",
                             "data": [
-                                0
+                                0,
+                                1.0
                             ]
                         },
                         {
                             "id": "8",
                             "name": "PPP",
                             "data": [
-                                0
+                                0,
+                                0.0
                             ]
                         },
                         {
                             "id": "14",
                             "name": "SOG",
                             "data": [
-                                0
+                                0,
+                                13.0
                             ]
                         },
                         {
                             "id": "31",
                             "name": "HIT",
                             "data": [
-                                0
+                                0,
+                                7.0
                             ]
                         },
                         {
                             "id": "32",
                             "name": "BLK",
                             "data": [
-                                0
+                                0,
+                                7.0
                             ]
                         },
                         {
                             "id": "19",
                             "name": "W",
                             "data": [
-                                0
+                                0,
+                                1.0
                             ]
                         },
                         {
                             "id": "22",
                             "name": "GA",
                             "data": [
-                                0
+                                0,
+                                2.0
                             ]
                         },
                         {
                             "id": "23",
                             "name": "GAA",
                             "data": [
-                                0
+                                0,
+                                2.0
                             ]
                         },
                         {
                             "id": "25",
                             "name": "SV",
                             "data": [
-                                0
+                                0,
+                                24.0
                             ]
                         },
                         {
                             "id": "24",
                             "name": "SA",
                             "data": [
-                                0
+                                0,
+                                26.0
                             ]
                         },
                         {
                             "id": "26",
                             "name": "SV%",
                             "data": [
-                                0
+                                0,
+                                0.923
                             ]
                         }
                     ],
@@ -11161,57 +11226,65 @@
                             }
                         }
                     ],
-                    "currentScore": 0.0,
+                    "currentScore": 4.0,
                     "matchupHistScores": [
-                        0
+                        0,
+                        8
                     ],
                     "matchupHistStats": [
                         {
                             "id": "1",
                             "name": "G",
                             "data": [
-                                0
+                                0,
+                                0.0
                             ]
                         },
                         {
                             "id": "2",
                             "name": "A",
                             "data": [
-                                0
+                                0,
+                                5.0
                             ]
                         },
                         {
                             "id": "8",
                             "name": "PPP",
                             "data": [
-                                0
+                                0,
+                                0.0
                             ]
                         },
                         {
                             "id": "14",
                             "name": "SOG",
                             "data": [
-                                0
+                                0,
+                                16.0
                             ]
                         },
                         {
                             "id": "31",
                             "name": "HIT",
                             "data": [
-                                0
+                                0,
+                                7.0
                             ]
                         },
                         {
                             "id": "32",
                             "name": "BLK",
                             "data": [
-                                0
+                                0,
+                                7.0
                             ]
                         },
                         {
                             "id": "19",
                             "name": "W",
                             "data": [
+                                0,
                                 0
                             ]
                         },
@@ -11219,6 +11292,7 @@
                             "id": "22",
                             "name": "GA",
                             "data": [
+                                0,
                                 0
                             ]
                         },
@@ -11226,6 +11300,7 @@
                             "id": "23",
                             "name": "GAA",
                             "data": [
+                                0,
                                 0
                             ]
                         },
@@ -11233,6 +11308,7 @@
                             "id": "25",
                             "name": "SV",
                             "data": [
+                                0,
                                 0
                             ]
                         },
@@ -11240,6 +11316,7 @@
                             "id": "24",
                             "name": "SA",
                             "data": [
+                                0,
                                 0
                             ]
                         },
@@ -11247,6 +11324,7 @@
                             "id": "26",
                             "name": "SV%",
                             "data": [
+                                0,
                                 0
                             ]
                         }
@@ -11340,57 +11418,65 @@
                             }
                         }
                     ],
-                    "currentScore": 0.0,
+                    "currentScore": 3.0,
                     "matchupHistScores": [
-                        0
+                        0,
+                        6
                     ],
                     "matchupHistStats": [
                         {
                             "id": "1",
                             "name": "G",
                             "data": [
-                                0
+                                0,
+                                1.0
                             ]
                         },
                         {
                             "id": "2",
                             "name": "A",
                             "data": [
-                                0
+                                0,
+                                1.0
                             ]
                         },
                         {
                             "id": "8",
                             "name": "PPP",
                             "data": [
-                                0
+                                0,
+                                1.0
                             ]
                         },
                         {
                             "id": "14",
                             "name": "SOG",
                             "data": [
-                                0
+                                0,
+                                9.0
                             ]
                         },
                         {
                             "id": "31",
                             "name": "HIT",
                             "data": [
-                                0
+                                0,
+                                0.0
                             ]
                         },
                         {
                             "id": "32",
                             "name": "BLK",
                             "data": [
-                                0
+                                0,
+                                5.0
                             ]
                         },
                         {
                             "id": "19",
                             "name": "W",
                             "data": [
+                                0,
                                 0
                             ]
                         },
@@ -11398,6 +11484,7 @@
                             "id": "22",
                             "name": "GA",
                             "data": [
+                                0,
                                 0
                             ]
                         },
@@ -11405,6 +11492,7 @@
                             "id": "23",
                             "name": "GAA",
                             "data": [
+                                0,
                                 0
                             ]
                         },
@@ -11412,6 +11500,7 @@
                             "id": "25",
                             "name": "SV",
                             "data": [
+                                0,
                                 0
                             ]
                         },
@@ -11419,6 +11508,7 @@
                             "id": "24",
                             "name": "SA",
                             "data": [
+                                0,
                                 0
                             ]
                         },
@@ -11426,6 +11516,7 @@
                             "id": "26",
                             "name": "SV%",
                             "data": [
+                                0,
                                 0
                             ]
                         }
@@ -11512,57 +11603,65 @@
                             }
                         }
                     ],
-                    "currentScore": 0.0,
+                    "currentScore": 6.0,
                     "matchupHistScores": [
-                        0
+                        0,
+                        12
                     ],
                     "matchupHistStats": [
                         {
                             "id": "1",
                             "name": "G",
                             "data": [
-                                0
+                                0,
+                                3.0
                             ]
                         },
                         {
                             "id": "2",
                             "name": "A",
                             "data": [
-                                0
+                                0,
+                                0.0
                             ]
                         },
                         {
                             "id": "8",
                             "name": "PPP",
                             "data": [
-                                0
+                                0,
+                                1.0
                             ]
                         },
                         {
                             "id": "14",
                             "name": "SOG",
                             "data": [
-                                0
+                                0,
+                                11.0
                             ]
                         },
                         {
                             "id": "31",
                             "name": "HIT",
                             "data": [
-                                0
+                                0,
+                                13.0
                             ]
                         },
                         {
                             "id": "32",
                             "name": "BLK",
                             "data": [
-                                0
+                                0,
+                                8.0
                             ]
                         },
                         {
                             "id": "19",
                             "name": "W",
                             "data": [
+                                0,
                                 0
                             ]
                         },
@@ -11570,6 +11669,7 @@
                             "id": "22",
                             "name": "GA",
                             "data": [
+                                0,
                                 0
                             ]
                         },
@@ -11577,6 +11677,7 @@
                             "id": "23",
                             "name": "GAA",
                             "data": [
+                                0,
                                 0
                             ]
                         },
@@ -11584,6 +11685,7 @@
                             "id": "25",
                             "name": "SV",
                             "data": [
+                                0,
                                 0
                             ]
                         },
@@ -11591,6 +11693,7 @@
                             "id": "24",
                             "name": "SA",
                             "data": [
+                                0,
                                 0
                             ]
                         },
@@ -11598,6 +11701,7 @@
                             "id": "26",
                             "name": "SV%",
                             "data": [
+                                0,
                                 0
                             ]
                         }
@@ -11691,93 +11795,106 @@
                             }
                         }
                     ],
-                    "currentScore": 0.0,
+                    "currentScore": 7.0,
                     "matchupHistScores": [
-                        0
+                        0,
+                        14
                     ],
                     "matchupHistStats": [
                         {
                             "id": "1",
                             "name": "G",
                             "data": [
-                                0
+                                0,
+                                0.0
                             ]
                         },
                         {
                             "id": "2",
                             "name": "A",
                             "data": [
-                                0
+                                0,
+                                2.0
                             ]
                         },
                         {
                             "id": "8",
                             "name": "PPP",
                             "data": [
-                                0
+                                0,
+                                1.0
                             ]
                         },
                         {
                             "id": "14",
                             "name": "SOG",
                             "data": [
-                                0
+                                0,
+                                19.0
                             ]
                         },
                         {
                             "id": "31",
                             "name": "HIT",
                             "data": [
-                                0
+                                0,
+                                17.0
                             ]
                         },
                         {
                             "id": "32",
                             "name": "BLK",
                             "data": [
-                                0
+                                0,
+                                13.0
                             ]
                         },
                         {
                             "id": "19",
                             "name": "W",
                             "data": [
-                                0
+                                0,
+                                1.0
                             ]
                         },
                         {
                             "id": "22",
                             "name": "GA",
                             "data": [
-                                0
+                                0,
+                                2.0
                             ]
                         },
                         {
                             "id": "23",
                             "name": "GAA",
                             "data": [
-                                0
+                                0,
+                                2.0
                             ]
                         },
                         {
                             "id": "25",
                             "name": "SV",
                             "data": [
-                                0
+                                0,
+                                34.0
                             ]
                         },
                         {
                             "id": "24",
                             "name": "SA",
                             "data": [
-                                0
+                                0,
+                                36.0
                             ]
                         },
                         {
                             "id": "26",
                             "name": "SV%",
                             "data": [
-                                0
+                                0,
+                                0.944
                             ]
                         }
                     ],
@@ -11863,93 +11980,106 @@
                             }
                         }
                     ],
-                    "currentScore": 0.0,
+                    "currentScore": 2.0,
                     "matchupHistScores": [
-                        0
+                        0,
+                        4
                     ],
                     "matchupHistStats": [
                         {
                             "id": "1",
                             "name": "G",
                             "data": [
-                                0
+                                0,
+                                1.0
                             ]
                         },
                         {
                             "id": "2",
                             "name": "A",
                             "data": [
-                                0
+                                0,
+                                3.0
                             ]
                         },
                         {
                             "id": "8",
                             "name": "PPP",
                             "data": [
-                                0
+                                0,
+                                0.0
                             ]
                         },
                         {
                             "id": "14",
                             "name": "SOG",
                             "data": [
-                                0
+                                0,
+                                6.0
                             ]
                         },
                         {
                             "id": "31",
                             "name": "HIT",
                             "data": [
-                                0
+                                0,
+                                3.0
                             ]
                         },
                         {
                             "id": "32",
                             "name": "BLK",
                             "data": [
-                                0
+                                0,
+                                6.0
                             ]
                         },
                         {
                             "id": "19",
                             "name": "W",
                             "data": [
-                                0
+                                0,
+                                0.0
                             ]
                         },
                         {
                             "id": "22",
                             "name": "GA",
                             "data": [
-                                0
+                                0,
+                                4.0
                             ]
                         },
                         {
                             "id": "23",
                             "name": "GAA",
                             "data": [
-                                0
+                                0,
+                                9.36
                             ]
                         },
                         {
                             "id": "25",
                             "name": "SV",
                             "data": [
-                                0
+                                0,
+                                9.0
                             ]
                         },
                         {
                             "id": "24",
                             "name": "SA",
                             "data": [
-                                0
+                                0,
+                                13.0
                             ]
                         },
                         {
                             "id": "26",
                             "name": "SV%",
                             "data": [
-                                0
+                                0,
+                                0.692
                             ]
                         }
                     ],
@@ -12042,57 +12172,65 @@
                             }
                         }
                     ],
-                    "currentScore": 0.0,
+                    "currentScore": 3.5,
                     "matchupHistScores": [
-                        0
+                        0,
+                        7
                     ],
                     "matchupHistStats": [
                         {
                             "id": "1",
                             "name": "G",
                             "data": [
-                                0
+                                0,
+                                3.0
                             ]
                         },
                         {
                             "id": "2",
                             "name": "A",
                             "data": [
-                                0
+                                0,
+                                2.0
                             ]
                         },
                         {
                             "id": "8",
                             "name": "PPP",
                             "data": [
-                                0
+                                0,
+                                2.0
                             ]
                         },
                         {
                             "id": "14",
                             "name": "SOG",
                             "data": [
-                                0
+                                0,
+                                13.0
                             ]
                         },
                         {
                             "id": "31",
                             "name": "HIT",
                             "data": [
-                                0
+                                0,
+                                1.0
                             ]
                         },
                         {
                             "id": "32",
                             "name": "BLK",
                             "data": [
-                                0
+                                0,
+                                5.0
                             ]
                         },
                         {
                             "id": "19",
                             "name": "W",
                             "data": [
+                                0,
                                 0
                             ]
                         },
@@ -12100,6 +12238,7 @@
                             "id": "22",
                             "name": "GA",
                             "data": [
+                                0,
                                 0
                             ]
                         },
@@ -12107,6 +12246,7 @@
                             "id": "23",
                             "name": "GAA",
                             "data": [
+                                0,
                                 0
                             ]
                         },
@@ -12114,6 +12254,7 @@
                             "id": "25",
                             "name": "SV",
                             "data": [
+                                0,
                                 0
                             ]
                         },
@@ -12121,6 +12262,7 @@
                             "id": "24",
                             "name": "SA",
                             "data": [
+                                0,
                                 0
                             ]
                         },
@@ -12128,6 +12270,7 @@
                             "id": "26",
                             "name": "SV%",
                             "data": [
+                                0,
                                 0
                             ]
                         }
@@ -12214,93 +12357,106 @@
                             }
                         }
                     ],
-                    "currentScore": 0.0,
+                    "currentScore": 5.5,
                     "matchupHistScores": [
-                        0
+                        0,
+                        11
                     ],
                     "matchupHistStats": [
                         {
                             "id": "1",
                             "name": "G",
                             "data": [
-                                0
+                                0,
+                                0.0
                             ]
                         },
                         {
                             "id": "2",
                             "name": "A",
                             "data": [
-                                0
+                                0,
+                                2.0
                             ]
                         },
                         {
                             "id": "8",
                             "name": "PPP",
                             "data": [
-                                0
+                                0,
+                                1.0
                             ]
                         },
                         {
                             "id": "14",
                             "name": "SOG",
                             "data": [
-                                0
+                                0,
+                                19.0
                             ]
                         },
                         {
                             "id": "31",
                             "name": "HIT",
                             "data": [
-                                0
+                                0,
+                                6.0
                             ]
                         },
                         {
                             "id": "32",
                             "name": "BLK",
                             "data": [
-                                0
+                                0,
+                                2.0
                             ]
                         },
                         {
                             "id": "19",
                             "name": "W",
                             "data": [
-                                0
+                                0,
+                                0.0
                             ]
                         },
                         {
                             "id": "22",
                             "name": "GA",
                             "data": [
-                                0
+                                0,
+                                4.0
                             ]
                         },
                         {
                             "id": "23",
                             "name": "GAA",
                             "data": [
-                                0
+                                0,
+                                4.18
                             ]
                         },
                         {
                             "id": "25",
                             "name": "SV",
                             "data": [
-                                0
+                                0,
+                                23.0
                             ]
                         },
                         {
                             "id": "24",
                             "name": "SA",
                             "data": [
-                                0
+                                0,
+                                27.0
                             ]
                         },
                         {
                             "id": "26",
                             "name": "SV%",
                             "data": [
-                                0
+                                0,
+                                0.852
                             ]
                         }
                     ],
@@ -12393,93 +12549,106 @@
                             }
                         }
                     ],
-                    "currentScore": 0.0,
+                    "currentScore": 7.0,
                     "matchupHistScores": [
-                        0
+                        0,
+                        14
                     ],
                     "matchupHistStats": [
                         {
                             "id": "1",
                             "name": "G",
                             "data": [
-                                0
+                                0,
+                                0.0
                             ]
                         },
                         {
                             "id": "2",
                             "name": "A",
                             "data": [
-                                0
+                                0,
+                                1.0
                             ]
                         },
                         {
                             "id": "8",
                             "name": "PPP",
                             "data": [
-                                0
+                                0,
+                                0.0
                             ]
                         },
                         {
                             "id": "14",
                             "name": "SOG",
                             "data": [
-                                0
+                                0,
+                                9.0
                             ]
                         },
                         {
                             "id": "31",
                             "name": "HIT",
                             "data": [
-                                0
+                                0,
+                                1.0
                             ]
                         },
                         {
                             "id": "32",
                             "name": "BLK",
                             "data": [
-                                0
+                                0,
+                                1.0
                             ]
                         },
                         {
                             "id": "19",
                             "name": "W",
                             "data": [
-                                0
+                                0,
+                                0.0
                             ]
                         },
                         {
                             "id": "22",
                             "name": "GA",
                             "data": [
-                                0
+                                0,
+                                2.0
                             ]
                         },
                         {
                             "id": "23",
                             "name": "GAA",
                             "data": [
-                                0
+                                0,
+                                2.09
                             ]
                         },
                         {
                             "id": "25",
                             "name": "SV",
                             "data": [
-                                0
+                                0,
+                                22.0
                             ]
                         },
                         {
                             "id": "24",
                             "name": "SA",
                             "data": [
-                                0
+                                0,
+                                24.0
                             ]
                         },
                         {
                             "id": "26",
                             "name": "SV%",
                             "data": [
-                                0
+                                0,
+                                0.917
                             ]
                         }
                     ],
@@ -12565,57 +12734,65 @@
                             }
                         }
                     ],
-                    "currentScore": 0.0,
+                    "currentScore": 2.0,
                     "matchupHistScores": [
-                        0
+                        0,
+                        4
                     ],
                     "matchupHistStats": [
                         {
                             "id": "1",
                             "name": "G",
                             "data": [
-                                0
+                                0,
+                                0.0
                             ]
                         },
                         {
                             "id": "2",
                             "name": "A",
                             "data": [
-                                0
+                                0,
+                                2.0
                             ]
                         },
                         {
                             "id": "8",
                             "name": "PPP",
                             "data": [
-                                0
+                                0,
+                                0.0
                             ]
                         },
                         {
                             "id": "14",
                             "name": "SOG",
                             "data": [
-                                0
+                                0,
+                                6.0
                             ]
                         },
                         {
                             "id": "31",
                             "name": "HIT",
                             "data": [
-                                0
+                                0,
+                                0.0
                             ]
                         },
                         {
                             "id": "32",
                             "name": "BLK",
                             "data": [
-                                0
+                                0,
+                                0.0
                             ]
                         },
                         {
                             "id": "19",
                             "name": "W",
                             "data": [
+                                0,
                                 0
                             ]
                         },
@@ -12623,6 +12800,7 @@
                             "id": "22",
                             "name": "GA",
                             "data": [
+                                0,
                                 0
                             ]
                         },
@@ -12630,6 +12808,7 @@
                             "id": "23",
                             "name": "GAA",
                             "data": [
+                                0,
                                 0
                             ]
                         },
@@ -12637,6 +12816,7 @@
                             "id": "25",
                             "name": "SV",
                             "data": [
+                                0,
                                 0
                             ]
                         },
@@ -12644,6 +12824,7 @@
                             "id": "24",
                             "name": "SA",
                             "data": [
+                                0,
                                 0
                             ]
                         },
@@ -12651,6 +12832,7 @@
                             "id": "26",
                             "name": "SV%",
                             "data": [
+                                0,
                                 0
                             ]
                         }
@@ -12746,6 +12928,7 @@
                     ],
                     "currentScore": 0.0,
                     "matchupHistScores": [
+                        0,
                         0
                     ],
                     "matchupHistStats": [
@@ -12753,6 +12936,7 @@
                             "id": "1",
                             "name": "G",
                             "data": [
+                                0,
                                 0
                             ]
                         },
@@ -12760,6 +12944,7 @@
                             "id": "2",
                             "name": "A",
                             "data": [
+                                0,
                                 0
                             ]
                         },
@@ -12767,6 +12952,7 @@
                             "id": "8",
                             "name": "PPP",
                             "data": [
+                                0,
                                 0
                             ]
                         },
@@ -12774,6 +12960,7 @@
                             "id": "14",
                             "name": "SOG",
                             "data": [
+                                0,
                                 0
                             ]
                         },
@@ -12781,6 +12968,7 @@
                             "id": "31",
                             "name": "HIT",
                             "data": [
+                                0,
                                 0
                             ]
                         },
@@ -12788,6 +12976,7 @@
                             "id": "32",
                             "name": "BLK",
                             "data": [
+                                0,
                                 0
                             ]
                         },
@@ -12795,42 +12984,48 @@
                             "id": "19",
                             "name": "W",
                             "data": [
-                                0
+                                0,
+                                0.0
                             ]
                         },
                         {
                             "id": "22",
                             "name": "GA",
                             "data": [
-                                0
+                                0,
+                                5.0
                             ]
                         },
                         {
                             "id": "23",
                             "name": "GAA",
                             "data": [
-                                0
+                                0,
+                                4.94
                             ]
                         },
                         {
                             "id": "25",
                             "name": "SV",
                             "data": [
-                                0
+                                0,
+                                29.0
                             ]
                         },
                         {
                             "id": "24",
                             "name": "SA",
                             "data": [
-                                0
+                                0,
+                                34.0
                             ]
                         },
                         {
                             "id": "26",
                             "name": "SV%",
                             "data": [
-                                0
+                                0,
+                                0.853
                             ]
                         }
                     ],
@@ -12916,93 +13111,106 @@
                             }
                         }
                     ],
-                    "currentScore": 0.0,
+                    "currentScore": 9.0,
                     "matchupHistScores": [
-                        0
+                        0,
+                        18
                     ],
                     "matchupHistStats": [
                         {
                             "id": "1",
                             "name": "G",
                             "data": [
-                                0
+                                0,
+                                1.0
                             ]
                         },
                         {
                             "id": "2",
                             "name": "A",
                             "data": [
-                                0
+                                0,
+                                2.0
                             ]
                         },
                         {
                             "id": "8",
                             "name": "PPP",
                             "data": [
-                                0
+                                0,
+                                0.0
                             ]
                         },
                         {
                             "id": "14",
                             "name": "SOG",
                             "data": [
-                                0
+                                0,
+                                8.0
                             ]
                         },
                         {
                             "id": "31",
                             "name": "HIT",
                             "data": [
-                                0
+                                0,
+                                4.0
                             ]
                         },
                         {
                             "id": "32",
                             "name": "BLK",
                             "data": [
-                                0
+                                0,
+                                3.0
                             ]
                         },
                         {
                             "id": "19",
                             "name": "W",
                             "data": [
-                                0
+                                0,
+                                2.0
                             ]
                         },
                         {
                             "id": "22",
                             "name": "GA",
                             "data": [
-                                0
+                                0,
+                                6.0
                             ]
                         },
                         {
                             "id": "23",
                             "name": "GAA",
                             "data": [
-                                0
+                                0,
+                                2.99
                             ]
                         },
                         {
                             "id": "25",
                             "name": "SV",
                             "data": [
-                                0
+                                0,
+                                40.0
                             ]
                         },
                         {
                             "id": "24",
                             "name": "SA",
                             "data": [
-                                0
+                                0,
+                                46.0
                             ]
                         },
                         {
                             "id": "26",
                             "name": "SV%",
                             "data": [
-                                0
+                                0,
+                                0.87
                             ]
                         }
                     ],

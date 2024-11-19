@@ -68,7 +68,6 @@ export default function TeamPage({ team }) {
   const [mappedData, setMappedData] = useState([]); // store combined highlight and player data here
   const [loading, setLoading] = useState(true); // Loading state
   const [videosToShow, setVideosToShow] = useState(20); // Initially display 20 videos
-  const [updated, setUpdated] = useState([])
 
   const fetchPlayerData = async () => {
     try {
@@ -128,11 +127,6 @@ export default function TeamPage({ team }) {
     console.log('useEffect')
 
     setVideosToShow(20) // reset on refresh
-    fetch('/updated.json')
-    .then((res) => res.json())
-    .then((data) => {
-        setUpdated(data);
-    })
 
       // Fetch the JSON data from the public folder
     fetch('/highlightsWithPlayers.json')
@@ -191,7 +185,6 @@ export default function TeamPage({ team }) {
           </Link>
         </div>
       </div>
-      <Typography variant="subtitle2" className="updated">Last Updated: {updated.updated}</Typography>
 
       <div className="teamDetailsContainer">
 

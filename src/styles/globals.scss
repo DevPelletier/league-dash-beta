@@ -2,6 +2,8 @@
 $std-MaxWidth: 900px;
 $std-Width: 90vw;
 
+$MUIblue: #1976d2;
+
 @mixin flex {
     display: flex;
     justify-content: center;
@@ -54,10 +56,12 @@ main {
     width: 100%;
 }
 
-* {
-    // border: 1px solid lightgrey;
+span.updated {
+    font-family:Arial, Helvetica, sans-serif;
+    @include flex;
+    text-align: center;
+    padding: 10px 16px;
 }
-
 
 //----------------------//  Navbar  //----------------------// 
 .nav {
@@ -410,80 +414,110 @@ main.highlights-page {
 
 //----------------------//  Matchup Overview Page  //----------------------// 
 .matchups {
-    width: 80vw;
-    max-width: 650px;
-    min-width: 250px;
+    width: auto;
+    // max-width: 650px;
+    // min-width: 250px;
     margin: auto;
     @include flex-col;
     text-align: center;
+
+    .matchupsGrid {
+        @include flex-col;
+        // width: inherit;
+        width: $std-Width;
+        max-width: $std-MaxWidth;
+        margin: auto;
+    }
+
+    .matchupWeek {
+        margin: auto;
+        width: 100%;
+        .matchupWeekTitle {
+            background-color: $MUIblue;
+            color: white;
+
+            .weekTitle {
+                margin: auto;
+            }
+        }
+
+        .matchupsContainer {
+            @include flex;
+            flex-wrap: wrap;
+        }
+
+        .matchupItem {
+            // width: 100%;
+            max-width: 400px;
+            height: 300px;
+            margin: auto auto 10px;
+            // border: 1px solid darkslategrey;
+        
+            a {
+                border-radius: 5px;
+                background-color: #f4f4f4;    
+                padding: 10px 0;
+                display: grid;
+                grid-template-columns: auto auto;
+                transition: all 0.2s ease;
+                // justify-content: space-between;    
+                &:hover {
+                    background-color: lightgreen;
+                }
+            }
+            .team1, .team2 {
+                padding: 0 16px;
+                @include flex;
+                .MuiAvatar-img {
+                    height: 32px;
+                    width: 32px;
+                    border-radius: 100%;
+                }
+                p {
+                    margin: auto 6px;
+                }
+            }
+            .team1 {
+                margin-right: auto;
+            }
+            .team2 {
+                margin-left: auto;
+            }
+            .score {
+                @include flex;
+                position: absolute;
+                width: 80vw;
+                max-width: 650px;
+                min-width: 250px;
+                height: 40px;
+                text-align: center;
+                .scoreContainer {
+                    @include flex;
+                    margin: auto;
+        
+                    .scoreNum {
+                        padding: 5px 5px;
+                        background-color: lightblue;
+                        border-radius: 3px;
+                        margin: 0 5px;
+                        min-width: 40px;
+                    }
+                }
+                
+                p {
+                    height: min-content;
+                    margin: auto;
+                    font-weight: bold;
+                    font-size: 1.1rem;
+                }
+            }
+        }
+    }
 }
 
 .weekTitle {
-    margin: 32px auto 20px;
-}
-.matchupContainer {
-    width: 100%;
-    margin: auto auto 10px;
-    // border: 1px solid darkslategrey;
+    // margin: 32px auto 20px;
 
-    a {
-        border-radius: 5px;
-        background-color: #f4f4f4;    
-        padding: 10px 0;
-        display: grid;
-        grid-template-columns: auto auto;
-        transition: all 0.2s ease;
-        // justify-content: space-between;    
-        &:hover {
-            background-color: lightgreen;
-        }
-    }
-    .team1, .team2 {
-        padding: 0 16px;
-        @include flex;
-        .MuiAvatar-img {
-            height: 32px;
-            width: 32px;
-            border-radius: 100%;
-        }
-        p {
-            margin: auto 6px;
-        }
-    }
-    .team1 {
-        margin-right: auto;
-    }
-    .team2 {
-        margin-left: auto;
-    }
-    .score {
-        @include flex;
-        position: absolute;
-        width: 80vw;
-        max-width: 650px;
-        min-width: 250px;
-        height: 40px;
-        text-align: center;
-        .scoreContainer {
-            @include flex;
-            margin: auto;
-
-            .scoreNum {
-                padding: 5px 5px;
-                background-color: lightblue;
-                border-radius: 3px;
-                margin: 0 5px;
-                min-width: 40px;
-            }
-        }
-        
-        p {
-            height: min-content;
-            margin: auto;
-            font-weight: bold;
-            font-size: 1.1rem;
-        }
-    }
 }
 
 @media (max-width: 700px) {
