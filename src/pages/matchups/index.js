@@ -4,6 +4,13 @@ import Link from 'next/link'
 import Button from '@mui/material/Button';
 import Avatar from '@mui/material/Avatar';
 import Typography from '@mui/material/Typography';
+import MatchupChart2 from '../../../components/MatchupChart2';
+import Grid from '@mui/material/Grid2';
+import Accordion from '@mui/material/Accordion';
+import AccordionActions from '@mui/material/AccordionActions';
+import AccordionSummary from '@mui/material/AccordionSummary';
+import AccordionDetails from '@mui/material/AccordionDetails';
+import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 
 
 // TODO
@@ -16,6 +23,7 @@ export default function Matchups({}) {
     const [matchupData, setMatchupData] = useState({});
     const [teamsData, setTeamsData] = useState([]);
     const [loading, setLoading] = useState(true);
+    const [expanded, setExpanded] = useState('7'); // Track expanded accordion
 
     
     const matchTeamsData = async (initMatchupData) => {
@@ -90,50 +98,105 @@ export default function Matchups({}) {
     useEffect(() => {
         // This will log matchupData whenever it changes
         console.log("matchupData updated:", matchupData);
-        console.log(Object.keys(matchupData).length)
     }, [matchupData]);
 
+    const handleChange = (panel) => (event, isExpanded) => {
+        setExpanded(isExpanded ? panel : false); // Update state based on expansion
+    };
+    
 
 return (<>
     { ((Object.keys(matchupData).length > 0) && (!loading)) ? (<>
         <main className="matchups">
+        <Grid size={8} item container alignItems="center" justifyContent="center" spacing={2} className="matchupsGrid">
+
         {Object.entries(matchupData).reverse().map(([key, matchups]) => (<>
             {key == "4" ? (<></>) : (<>
-            <div key={key} className="weekTitle">
-                <Typography variant="h6">Week {key}</Typography>
-                <Typography variant="subtitle2">{matchups[0].weekStart} - {matchups[0].weekEnd}</Typography>
-            </div>
-            {matchups.map((matchup, index) => (<>
-                <div key={index} className="matchupContainer">
-                <Link href={"/matchups/" + matchup.id}>
-                    <div className="team1">
-                        {/* ({matchup.teamsData[0].rank}) */}
-                        <Avatar variant="round" alt="McDave Sweepstakes" src={matchup.teamsData[0].logo} />
-                        <Typography variant="body2">{matchup.teamsData[0].name}</Typography>
+            <Accordion 
+            key={key} 
+            expanded={expanded === key} 
+            onChange={handleChange(key)}
+            className="matchupWeek"
+            // id={vid.gameId + "-" + vid.player1Id }
+            >
+                <AccordionSummary
+                expandIcon={<ExpandMoreIcon />}
+                aria-controls={`panel${key}-content`}
+                id={`panel${key}-header`}
+                className="matchupWeekTitle"
+                >
+                    <div className="weekTitle">
+                        <Typography variant="h6">Week {key}</Typography>
+                        <Typography variant="subtitle2">{matchups[0].weekStart} - {matchups[0].weekEnd}</Typography>
                     </div>
-                    <div className="score">
-                        <div className="scoreContainer">
-                        <div className="scoreNum">
-                            <Typography variant="body1">{matchup.teamsData[0].currentScore}</Typography>
+                </AccordionSummary>
+                <AccordionDetails className="matchupsContainer">
+                    {matchups.map((matchup, index) => (<>
+                        <div key={index} className="matchupItem">
+                        <Link href={"/matchups/" + matchup.id}>
+                            <div className="team1">
+                                {/* ({matchup.teamsData[0].rank}) */}
+                                <Avatar variant="round" alt="McDave Sweepstakes" src={matchup.teamsData[0].logo} />
+                                <Typography variant="body2">{matchup.teamsData[0].name}</Typography>
+                            </div>
+                            <div className="score">
+                                <div className="scoreContainer">
+                                <div className="scoreNum">
+                                    <Typography variant="body1">{matchup.teamsData[0].currentScore}</Typography>
+                                </div>
+                                <Typography variant="body1"> - </Typography>
+                                <div className="scoreNum">
+                                    <Typography variant="body1">{matchup.teamsData[1].currentScore}</Typography>
+                                </div>
+                                </div>
+                            </div>
+                            <div className="team2">
+                                    {/* ({matchup.teamsData[1].rank}) */}
+                                    <Typography variant="body2">{matchup.teamsData[1].name}</Typography>
+                                    <Avatar variant="round" alt="McDave Sweepstakes" src={matchup.teamsData[1].logo} />
+                            </div>
+                            {/* <Button variant="outlined" href={"/matchups/" + matchup.id}>Go To Matchup</Button> */}
+                        </Link>
+                        { expanded == key ? (<>
+                            <MatchupChart2
+                            team1Data={{
+                                name: matchup.teamsData[0].name,
+                                data: matchup.teamsData[0].matchupHistScores,
+                                lineColour: "#d32f2f",
+                                backgroundColor: "#d32f2f",
+                                fill: false, // Do not fill under the line
+                                cubicInterpolationMode: 'monotone',
+                                tension: 0.4,
+                                borderWidth: 3,
+                                pointStyle: 'circle',
+                                // pointRadius: 5,
+                                // pointHoverRadius: 8,
+                                yMin: 0,
+                                yMax: 18,
+                            }}
+                            team2Data={{
+                                name: matchup.teamsData[1].name,
+                                data: matchup.teamsData[1].matchupHistScores,
+                                lineColour: "#0288d1",
+                                backgroundColor: "#0288d1",
+                                fill: false, // Do not fill under the line
+                                cubicInterpolationMode: 'monotone',
+                                tension: 0.4,
+                                borderWidth: 3,
+                                pointStyle: 'circle',
+                                // pointRadius: 5,
+                                // pointHoverRadius: 8,
+                            }}
+                        />
+                        </>):(<></>)}
                         </div>
-                        <Typography variant="body1"> - </Typography>
-                        <div className="scoreNum">
-                            <Typography variant="body1">{matchup.teamsData[1].currentScore}</Typography>
-                        </div>
-                        </div>
-                    </div>
-                    <div className="team2">
-                            {/* ({matchup.teamsData[1].rank}) */}
-                            <Typography variant="body2">{matchup.teamsData[1].name}</Typography>
-                            <Avatar variant="round" alt="McDave Sweepstakes" src={matchup.teamsData[1].logo} />
-                    </div>
-                    {/* <Button variant="outlined" href={"/matchups/" + matchup.id}>Go To Matchup</Button> */}
-                </Link>
-                </div>
-            </>))}
+                    </>))}
+                </AccordionDetails>
+            </Accordion>
             </>)}
 
         </>))}
+        </Grid>
         </main>
     </>) : loading ? (<>
         <span>Loading....</span>

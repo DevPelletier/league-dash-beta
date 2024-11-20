@@ -454,11 +454,11 @@ main.highlights-page {
             // border: 1px solid darkslategrey;
         
             a {
+                display: grid;
+                grid-template-columns: 40% 20% 40%;
                 border-radius: 5px;
                 background-color: #f4f4f4;    
                 padding: 10px 0;
-                display: grid;
-                grid-template-columns: auto auto;
                 transition: all 0.2s ease;
                 // justify-content: space-between;    
                 &:hover {
@@ -475,20 +475,19 @@ main.highlights-page {
                 }
                 p {
                     margin: auto 6px;
+                    font-size: 0.6rem;
                 }
             }
             .team1 {
                 margin-right: auto;
+                text-align: left;
             }
             .team2 {
                 margin-left: auto;
+                text-align: right;
             }
             .score {
                 @include flex;
-                position: absolute;
-                width: 80vw;
-                max-width: 650px;
-                min-width: 250px;
                 height: 40px;
                 text-align: center;
                 .scoreContainer {
@@ -500,7 +499,11 @@ main.highlights-page {
                         background-color: lightblue;
                         border-radius: 3px;
                         margin: 0 5px;
-                        min-width: 40px;
+                        min-width: 30px;
+                        height: 30px;
+                        p {
+                            font-size: 0.9rem;
+                        }
                     }
                 }
                 
