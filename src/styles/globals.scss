@@ -153,8 +153,8 @@ h5 {
         padding: 12px;
 
         .graphContainer-2 {
-            min-width: 800px;
-            min-height: 400px;
+            min-width: 420px;
+            min-height: 500px;
             height: 50vw;
             max-height: 650px;
             margin: auto;
@@ -444,6 +444,10 @@ main.highlights-page {
         .matchupsContainer {
             @include flex;
             flex-wrap: wrap;
+
+            .smallChartContainer {
+                min-height: 220px;
+            }
         }
 
         .matchupItem {
@@ -466,7 +470,7 @@ main.highlights-page {
                 }
             }
             .team1, .team2 {
-                padding: 0 16px;
+                padding: 0 10px;
                 @include flex;
                 .MuiAvatar-img {
                     height: 32px;
@@ -525,6 +529,18 @@ main.highlights-page {
 
 @media (max-width: 700px) {
 .matchups {
+    .matchupWeek {
+        .matchupItem {
+            a {
+                width: 87vw;
+                margin: auto;
+
+                .team1, .team2 {
+                    padding: 0 5px;
+                }
+            }
+        }
+    }
     .matchupContainer {
         a {
             // grid-template-columns: 45% 10% 45%;
@@ -688,8 +704,8 @@ main.highlights-page {
     max-width: 95vw;
     margin: auto;
     .matchGraphContainer-2 {
-        min-width: 800px;
-        min-height: 400px;
+        min-width: 420px;
+        min-height: 500px;
         height: 50vw;
         max-height: 650px;
         margin: auto;

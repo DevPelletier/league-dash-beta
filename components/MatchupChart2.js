@@ -50,6 +50,7 @@ const MatchupChart = ({ team1Data, team2Data }) => {
 
     const options = {
         responsive: true,
+        maintainAspectRatio: false,
         plugins: {
             legend: {
                 display: false,

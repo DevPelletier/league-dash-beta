@@ -158,36 +158,38 @@ return (<>
                             {/* <Button variant="outlined" href={"/matchups/" + matchup.id}>Go To Matchup</Button> */}
                         </Link>
                         { expanded == key ? (<>
+                            <div className="smallChartContainer">
                             <MatchupChart2
-                            team1Data={{
-                                name: matchup.teamsData[0].name,
-                                data: matchup.teamsData[0].matchupHistScores,
-                                lineColour: "#d32f2f",
-                                backgroundColor: "#d32f2f",
-                                fill: false, // Do not fill under the line
-                                cubicInterpolationMode: 'monotone',
-                                tension: 0.4,
-                                borderWidth: 3,
-                                pointStyle: 'circle',
-                                // pointRadius: 5,
-                                // pointHoverRadius: 8,
-                                yMin: 0,
-                                yMax: 18,
-                            }}
-                            team2Data={{
-                                name: matchup.teamsData[1].name,
-                                data: matchup.teamsData[1].matchupHistScores,
-                                lineColour: "#0288d1",
-                                backgroundColor: "#0288d1",
-                                fill: false, // Do not fill under the line
-                                cubicInterpolationMode: 'monotone',
-                                tension: 0.4,
-                                borderWidth: 3,
-                                pointStyle: 'circle',
-                                // pointRadius: 5,
-                                // pointHoverRadius: 8,
-                            }}
-                        />
+                                team1Data={{
+                                    name: matchup.teamsData[0].name,
+                                    data: matchup.teamsData[0].matchupHistScores,
+                                    lineColour: "#d32f2f",
+                                    backgroundColor: "#d32f2f",
+                                    fill: false, // Do not fill under the line
+                                    cubicInterpolationMode: 'monotone',
+                                    tension: 0.4,
+                                    borderWidth: 3,
+                                    pointStyle: 'circle',
+                                    // pointRadius: 5,
+                                    // pointHoverRadius: 8,
+                                    yMin: 0,
+                                    yMax: 18,
+                                }}
+                                team2Data={{
+                                    name: matchup.teamsData[1].name,
+                                    data: matchup.teamsData[1].matchupHistScores,
+                                    lineColour: "#0288d1",
+                                    backgroundColor: "#0288d1",
+                                    fill: false, // Do not fill under the line
+                                    cubicInterpolationMode: 'monotone',
+                                    tension: 0.4,
+                                    borderWidth: 3,
+                                    pointStyle: 'circle',
+                                    // pointRadius: 5,
+                                    // pointHoverRadius: 8,
+                                }}
+                            />
+                            </div>
                         </>):(<></>)}
                         </div>
                     </>))}
