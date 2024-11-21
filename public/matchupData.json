@@ -10217,81 +10217,82 @@
                         {
                             "stat": {
                                 "stat_id": "1",
-                                "value": ""
+                                "value": "4"
                             }
                         },
                         {
                             "stat": {
                                 "stat_id": "2",
-                                "value": ""
+                                "value": "4"
                             }
                         },
                         {
                             "stat": {
                                 "stat_id": "8",
-                                "value": ""
+                                "value": "2"
                             }
                         },
                         {
                             "stat": {
                                 "stat_id": "14",
-                                "value": ""
+                                "value": "38"
                             }
                         },
                         {
                             "stat": {
                                 "stat_id": "31",
-                                "value": ""
+                                "value": "18"
                             }
                         },
                         {
                             "stat": {
                                 "stat_id": "32",
-                                "value": ""
+                                "value": "21"
                             }
                         },
                         {
                             "stat": {
                                 "stat_id": "19",
-                                "value": ""
+                                "value": "0"
                             }
                         },
                         {
                             "stat": {
                                 "stat_id": "22",
-                                "value": ""
+                                "value": "11"
                             }
                         },
                         {
                             "stat": {
                                 "stat_id": "23",
-                                "value": ""
+                                "value": "3.58"
                             }
                         },
                         {
                             "stat": {
                                 "stat_id": "25",
-                                "value": ""
+                                "value": "80"
                             }
                         },
                         {
                             "stat": {
                                 "stat_id": "24",
-                                "value": ""
+                                "value": "91"
                             }
                         },
                         {
                             "stat": {
                                 "stat_id": "26",
-                                "value": ""
+                                "value": ".879"
                             }
                         }
                     ],
-                    "currentScore": 7.0,
+                    "currentScore": 4.5,
                     "matchupHistScores": [
                         0,
                         15,
-                        14
+                        14,
+                        9
                     ],
                     "matchupHistStats": [
                         {
@@ -10300,7 +10301,8 @@
                             "data": [
                                 0,
                                 1.0,
-                                3.0
+                                3.0,
+                                4.0
                             ]
                         },
                         {
@@ -10309,6 +10311,7 @@
                             "data": [
                                 0,
                                 3.0,
+                                4.0,
                                 4.0
                             ]
                         },
@@ -10318,6 +10321,7 @@
                             "data": [
                                 0,
                                 1.0,
+                                2.0,
                                 2.0
                             ]
                         },
@@ -10327,7 +10331,8 @@
                             "data": [
                                 0,
                                 14.0,
-                                31.0
+                                31.0,
+                                38.0
                             ]
                         },
                         {
@@ -10336,7 +10341,8 @@
                             "data": [
                                 0,
                                 10.0,
-                                17.0
+                                17.0,
+                                18.0
                             ]
                         },
                         {
@@ -10345,7 +10351,8 @@
                             "data": [
                                 0,
                                 7.0,
-                                19.0
+                                19.0,
+                                21.0
                             ]
                         },
                         {
@@ -10353,6 +10360,7 @@
                             "name": "W",
                             "data": [
                                 0,
+                                0.0,
                                 0.0,
                                 0.0
                             ]
@@ -10363,6 +10371,7 @@
                             "data": [
                                 0,
                                 5.0,
+                                11.0,
                                 11.0
                             ]
                         },
@@ -10372,6 +10381,7 @@
                             "data": [
                                 0,
                                 5.05,
+                                3.58,
                                 3.58
                             ]
                         },
@@ -10381,6 +10391,7 @@
                             "data": [
                                 0,
                                 24.0,
+                                80.0,
                                 80.0
                             ]
                         },
@@ -10390,6 +10401,7 @@
                             "data": [
                                 0,
                                 29.0,
+                                91.0,
                                 91.0
                             ]
                         },
@@ -10399,6 +10411,7 @@
                             "data": [
                                 0,
                                 0.828,
+                                0.879,
                                 0.879
                             ]
                         }
@@ -10415,81 +10428,82 @@
                         {
                             "stat": {
                                 "stat_id": "1",
-                                "value": ""
+                                "value": "3"
                             }
                         },
                         {
                             "stat": {
                                 "stat_id": "2",
-                                "value": ""
+                                "value": "4"
                             }
                         },
                         {
                             "stat": {
                                 "stat_id": "8",
-                                "value": ""
+                                "value": "1"
                             }
                         },
                         {
                             "stat": {
                                 "stat_id": "14",
-                                "value": ""
+                                "value": "28"
                             }
                         },
                         {
                             "stat": {
                                 "stat_id": "31",
-                                "value": ""
+                                "value": "19"
                             }
                         },
                         {
                             "stat": {
                                 "stat_id": "32",
-                                "value": ""
+                                "value": "15"
                             }
                         },
                         {
                             "stat": {
                                 "stat_id": "19",
-                                "value": ""
+                                "value": "1"
                             }
                         },
                         {
                             "stat": {
                                 "stat_id": "22",
-                                "value": ""
+                                "value": "4"
                             }
                         },
                         {
                             "stat": {
                                 "stat_id": "23",
-                                "value": ""
+                                "value": "2.03"
                             }
                         },
                         {
                             "stat": {
                                 "stat_id": "25",
-                                "value": ""
+                                "value": "45"
                             }
                         },
                         {
                             "stat": {
                                 "stat_id": "24",
-                                "value": ""
+                                "value": "49"
                             }
                         },
                         {
                             "stat": {
                                 "stat_id": "26",
-                                "value": ""
+                                "value": ".918"
                             }
                         }
                     ],
-                    "currentScore": 2.0,
+                    "currentScore": 4.5,
                     "matchupHistScores": [
                         0,
                         3,
-                        4
+                        4,
+                        9
                     ],
                     "matchupHistStats": [
                         {
@@ -10498,6 +10512,7 @@
                             "data": [
                                 0,
                                 2.0,
+                                3.0,
                                 3.0
                             ]
                         },
@@ -10507,6 +10522,7 @@
                             "data": [
                                 0,
                                 2.0,
+                                4.0,
                                 4.0
                             ]
                         },
@@ -10515,6 +10531,7 @@
                             "name": "PPP",
                             "data": [
                                 0,
+                                1.0,
                                 1.0,
                                 1.0
                             ]
@@ -10525,7 +10542,8 @@
                             "data": [
                                 0,
                                 6.0,
-                                26.0
+                                26.0,
+                                28.0
                             ]
                         },
                         {
@@ -10534,7 +10552,8 @@
                             "data": [
                                 0,
                                 6.0,
-                                17.0
+                                17.0,
+                                19.0
                             ]
                         },
                         {
@@ -10543,7 +10562,8 @@
                             "data": [
                                 0,
                                 4.0,
-                                14.0
+                                14.0,
+                                15.0
                             ]
                         },
                         {
@@ -10552,7 +10572,8 @@
                             "data": [
                                 0,
                                 0,
-                                0.0
+                                0.0,
+                                1.0
                             ]
                         },
                         {
@@ -10561,6 +10582,7 @@
                             "data": [
                                 0,
                                 0,
+                                4.0,
                                 4.0
                             ]
                         },
@@ -10570,7 +10592,8 @@
                             "data": [
                                 0,
                                 0,
-                                4.13
+                                4.13,
+                                2.03
                             ]
                         },
                         {
@@ -10579,7 +10602,8 @@
                             "data": [
                                 0,
                                 0,
-                                21.0
+                                21.0,
+                                45.0
                             ]
                         },
                         {
@@ -10588,7 +10612,8 @@
                             "data": [
                                 0,
                                 0,
-                                25.0
+                                25.0,
+                                49.0
                             ]
                         },
                         {
@@ -10597,7 +10622,8 @@
                             "data": [
                                 0,
                                 0,
-                                0.84
+                                0.84,
+                                0.918
                             ]
                         }
                     ],
@@ -10620,235 +10646,37 @@
                         {
                             "stat": {
                                 "stat_id": "1",
-                                "value": ""
+                                "value": "5"
                             }
                         },
                         {
                             "stat": {
                                 "stat_id": "2",
-                                "value": ""
+                                "value": "7"
                             }
                         },
                         {
                             "stat": {
                                 "stat_id": "8",
-                                "value": ""
+                                "value": "2"
                             }
                         },
                         {
                             "stat": {
                                 "stat_id": "14",
-                                "value": ""
+                                "value": "38"
                             }
                         },
                         {
                             "stat": {
                                 "stat_id": "31",
-                                "value": ""
+                                "value": "14"
                             }
                         },
                         {
                             "stat": {
                                 "stat_id": "32",
-                                "value": ""
-                            }
-                        },
-                        {
-                            "stat": {
-                                "stat_id": "19",
-                                "value": ""
-                            }
-                        },
-                        {
-                            "stat": {
-                                "stat_id": "22",
-                                "value": ""
-                            }
-                        },
-                        {
-                            "stat": {
-                                "stat_id": "23",
-                                "value": ""
-                            }
-                        },
-                        {
-                            "stat": {
-                                "stat_id": "25",
-                                "value": ""
-                            }
-                        },
-                        {
-                            "stat": {
-                                "stat_id": "24",
-                                "value": ""
-                            }
-                        },
-                        {
-                            "stat": {
-                                "stat_id": "26",
-                                "value": ""
-                            }
-                        }
-                    ],
-                    "currentScore": 4.0,
-                    "matchupHistScores": [
-                        0,
-                        10,
-                        8
-                    ],
-                    "matchupHistStats": [
-                        {
-                            "id": "1",
-                            "name": "G",
-                            "data": [
-                                0,
-                                2.0,
-                                2.0
-                            ]
-                        },
-                        {
-                            "id": "2",
-                            "name": "A",
-                            "data": [
-                                0,
-                                3.0,
-                                5.0
-                            ]
-                        },
-                        {
-                            "id": "8",
-                            "name": "PPP",
-                            "data": [
-                                0,
-                                1.0,
-                                2.0
-                            ]
-                        },
-                        {
-                            "id": "14",
-                            "name": "SOG",
-                            "data": [
-                                0,
-                                15.0,
-                                19.0
-                            ]
-                        },
-                        {
-                            "id": "31",
-                            "name": "HIT",
-                            "data": [
-                                0,
-                                7.0,
-                                8.0
-                            ]
-                        },
-                        {
-                            "id": "32",
-                            "name": "BLK",
-                            "data": [
-                                0,
-                                2.0,
-                                3.0
-                            ]
-                        },
-                        {
-                            "id": "19",
-                            "name": "W",
-                            "data": [
-                                0,
-                                0,
-                                0
-                            ]
-                        },
-                        {
-                            "id": "22",
-                            "name": "GA",
-                            "data": [
-                                0,
-                                0,
-                                0
-                            ]
-                        },
-                        {
-                            "id": "23",
-                            "name": "GAA",
-                            "data": [
-                                0,
-                                0,
-                                0
-                            ]
-                        },
-                        {
-                            "id": "25",
-                            "name": "SV",
-                            "data": [
-                                0,
-                                0,
-                                0
-                            ]
-                        },
-                        {
-                            "id": "24",
-                            "name": "SA",
-                            "data": [
-                                0,
-                                0,
-                                0
-                            ]
-                        },
-                        {
-                            "id": "26",
-                            "name": "SV%",
-                            "data": [
-                                0,
-                                0,
-                                0
-                            ]
-                        }
-                    ],
-                    "name": "W.B Snipes",
-                    "logo": "https://yahoofantasysports-res.cloudinary.com/image/upload/t_s192sq/fantasy-logos/69ad15e445bc8fb45e81620e05563eca7c64eeb99307ee4f7b4be0283c3f6bbc.jpg",
-                    "url": "https://hockey.fantasysports.yahoo.com/hockey/5795/2",
-                    "rank": 14,
-                    "totalWLT": "15-3-36"
-                },
-                {
-                    "team_id": "453.l.5795.t.4",
-                    "statValues": [
-                        {
-                            "stat": {
-                                "stat_id": "1",
-                                "value": ""
-                            }
-                        },
-                        {
-                            "stat": {
-                                "stat_id": "2",
-                                "value": ""
-                            }
-                        },
-                        {
-                            "stat": {
-                                "stat_id": "8",
-                                "value": ""
-                            }
-                        },
-                        {
-                            "stat": {
-                                "stat_id": "14",
-                                "value": ""
-                            }
-                        },
-                        {
-                            "stat": {
-                                "stat_id": "31",
-                                "value": ""
-                            }
-                        },
-                        {
-                            "stat": {
-                                "stat_id": "32",
-                                "value": ""
+                                "value": "5"
                             }
                         },
                         {
@@ -10891,6 +10719,7 @@
                     "currentScore": 5.0,
                     "matchupHistScores": [
                         0,
+                        10,
                         8,
                         10
                     ],
@@ -10901,6 +10730,218 @@
                             "data": [
                                 0,
                                 2.0,
+                                2.0,
+                                5.0
+                            ]
+                        },
+                        {
+                            "id": "2",
+                            "name": "A",
+                            "data": [
+                                0,
+                                3.0,
+                                5.0,
+                                7.0
+                            ]
+                        },
+                        {
+                            "id": "8",
+                            "name": "PPP",
+                            "data": [
+                                0,
+                                1.0,
+                                2.0,
+                                2.0
+                            ]
+                        },
+                        {
+                            "id": "14",
+                            "name": "SOG",
+                            "data": [
+                                0,
+                                15.0,
+                                19.0,
+                                38.0
+                            ]
+                        },
+                        {
+                            "id": "31",
+                            "name": "HIT",
+                            "data": [
+                                0,
+                                7.0,
+                                8.0,
+                                14.0
+                            ]
+                        },
+                        {
+                            "id": "32",
+                            "name": "BLK",
+                            "data": [
+                                0,
+                                2.0,
+                                3.0,
+                                5.0
+                            ]
+                        },
+                        {
+                            "id": "19",
+                            "name": "W",
+                            "data": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ]
+                        },
+                        {
+                            "id": "22",
+                            "name": "GA",
+                            "data": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ]
+                        },
+                        {
+                            "id": "23",
+                            "name": "GAA",
+                            "data": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ]
+                        },
+                        {
+                            "id": "25",
+                            "name": "SV",
+                            "data": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ]
+                        },
+                        {
+                            "id": "24",
+                            "name": "SA",
+                            "data": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ]
+                        },
+                        {
+                            "id": "26",
+                            "name": "SV%",
+                            "data": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ]
+                        }
+                    ],
+                    "name": "W.B Snipes",
+                    "logo": "https://yahoofantasysports-res.cloudinary.com/image/upload/t_s192sq/fantasy-logos/69ad15e445bc8fb45e81620e05563eca7c64eeb99307ee4f7b4be0283c3f6bbc.jpg",
+                    "url": "https://hockey.fantasysports.yahoo.com/hockey/5795/2",
+                    "rank": 14,
+                    "totalWLT": "15-3-36"
+                },
+                {
+                    "team_id": "453.l.5795.t.4",
+                    "statValues": [
+                        {
+                            "stat": {
+                                "stat_id": "1",
+                                "value": "3"
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "2",
+                                "value": "3"
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "8",
+                                "value": "1"
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "14",
+                                "value": "36"
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "31",
+                                "value": "11"
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "32",
+                                "value": "10"
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "19",
+                                "value": "1"
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "22",
+                                "value": "0"
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "23",
+                                "value": "0.00"
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "25",
+                                "value": "30"
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "24",
+                                "value": "30"
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "26",
+                                "value": "1.000"
+                            }
+                        }
+                    ],
+                    "currentScore": 4.0,
+                    "matchupHistScores": [
+                        0,
+                        8,
+                        10,
+                        8
+                    ],
+                    "matchupHistStats": [
+                        {
+                            "id": "1",
+                            "name": "G",
+                            "data": [
+                                0,
+                                2.0,
+                                3.0,
                                 3.0
                             ]
                         },
@@ -10910,6 +10951,7 @@
                             "data": [
                                 0,
                                 1.0,
+                                3.0,
                                 3.0
                             ]
                         },
@@ -10918,6 +10960,7 @@
                             "name": "PPP",
                             "data": [
                                 0,
+                                1.0,
                                 1.0,
                                 1.0
                             ]
@@ -10928,7 +10971,8 @@
                             "data": [
                                 0,
                                 9.0,
-                                15.0
+                                15.0,
+                                36.0
                             ]
                         },
                         {
@@ -10937,7 +10981,8 @@
                             "data": [
                                 0,
                                 0.0,
-                                2.0
+                                2.0,
+                                11.0
                             ]
                         },
                         {
@@ -10946,7 +10991,8 @@
                             "data": [
                                 0,
                                 0.0,
-                                5.0
+                                5.0,
+                                10.0
                             ]
                         },
                         {
@@ -10954,6 +11000,7 @@
                             "name": "W",
                             "data": [
                                 0,
+                                1.0,
                                 1.0,
                                 1.0
                             ]
@@ -10964,6 +11011,7 @@
                             "data": [
                                 0,
                                 0.0,
+                                0.0,
                                 0.0
                             ]
                         },
@@ -10972,6 +11020,7 @@
                             "name": "GAA",
                             "data": [
                                 0,
+                                0.0,
                                 0.0,
                                 0.0
                             ]
@@ -10982,6 +11031,7 @@
                             "data": [
                                 0,
                                 30.0,
+                                30.0,
                                 30.0
                             ]
                         },
@@ -10991,6 +11041,7 @@
                             "data": [
                                 0,
                                 30.0,
+                                30.0,
                                 30.0
                             ]
                         },
@@ -10999,6 +11050,7 @@
                             "name": "SV%",
                             "data": [
                                 0,
+                                1.0,
                                 1.0,
                                 1.0
                             ]
@@ -11023,81 +11075,82 @@
                         {
                             "stat": {
                                 "stat_id": "1",
-                                "value": ""
+                                "value": "2"
                             }
                         },
                         {
                             "stat": {
                                 "stat_id": "2",
-                                "value": ""
+                                "value": "7"
                             }
                         },
                         {
                             "stat": {
                                 "stat_id": "8",
-                                "value": ""
+                                "value": "3"
                             }
                         },
                         {
                             "stat": {
                                 "stat_id": "14",
-                                "value": ""
+                                "value": "37"
                             }
                         },
                         {
                             "stat": {
                                 "stat_id": "31",
-                                "value": ""
+                                "value": "18"
                             }
                         },
                         {
                             "stat": {
                                 "stat_id": "32",
-                                "value": ""
+                                "value": "19"
                             }
                         },
                         {
                             "stat": {
                                 "stat_id": "19",
-                                "value": ""
+                                "value": "2"
                             }
                         },
                         {
                             "stat": {
                                 "stat_id": "22",
-                                "value": ""
+                                "value": "3"
                             }
                         },
                         {
                             "stat": {
                                 "stat_id": "23",
-                                "value": ""
+                                "value": "1.02"
                             }
                         },
                         {
                             "stat": {
                                 "stat_id": "25",
-                                "value": ""
+                                "value": "73"
                             }
                         },
                         {
                             "stat": {
                                 "stat_id": "24",
-                                "value": ""
+                                "value": "76"
                             }
                         },
                         {
                             "stat": {
                                 "stat_id": "26",
-                                "value": ""
+                                "value": ".961"
                             }
                         }
                     ],
-                    "currentScore": 3.5,
+                    "currentScore": 6.5,
                     "matchupHistScores": [
                         0,
                         10,
-                        7
+                        7,
+                        13
                     ],
                     "matchupHistStats": [
                         {
@@ -11106,7 +11159,8 @@
                             "data": [
                                 0,
                                 0.0,
-                                1.0
+                                1.0,
+                                2.0
                             ]
                         },
                         {
@@ -11115,7 +11169,8 @@
                             "data": [
                                 0,
                                 1.0,
-                                4.0
+                                4.0,
+                                7.0
                             ]
                         },
                         {
@@ -11124,6 +11179,7 @@
                             "data": [
                                 0,
                                 0.0,
+                                3.0,
                                 3.0
                             ]
                         },
@@ -11133,7 +11189,8 @@
                             "data": [
                                 0,
                                 13.0,
-                                22.0
+                                22.0,
+                                37.0
                             ]
                         },
                         {
@@ -11142,7 +11199,8 @@
                             "data": [
                                 0,
                                 7.0,
-                                13.0
+                                13.0,
+                                18.0
                             ]
                         },
                         {
@@ -11151,7 +11209,8 @@
                             "data": [
                                 0,
                                 7.0,
-                                9.0
+                                9.0,
+                                19.0
                             ]
                         },
                         {
@@ -11160,7 +11219,8 @@
                             "data": [
                                 0,
                                 1.0,
-                                1.0
+                                1.0,
+                                2.0
                             ]
                         },
                         {
@@ -11169,7 +11229,8 @@
                             "data": [
                                 0,
                                 2.0,
-                                2.0
+                                2.0,
+                                3.0
                             ]
                         },
                         {
@@ -11178,7 +11239,8 @@
                             "data": [
                                 0,
                                 2.0,
-                                2.0
+                                2.0,
+                                1.02
                             ]
                         },
                         {
@@ -11187,7 +11249,8 @@
                             "data": [
                                 0,
                                 24.0,
-                                24.0
+                                24.0,
+                                73.0
                             ]
                         },
                         {
@@ -11196,7 +11259,8 @@
                             "data": [
                                 0,
                                 26.0,
-                                26.0
+                                26.0,
+                                76.0
                             ]
                         },
                         {
@@ -11205,7 +11269,8 @@
                             "data": [
                                 0,
                                 0.923,
-                                0.923
+                                0.923,
+                                0.961
                             ]
                         }
                     ],
@@ -11221,81 +11286,82 @@
                         {
                             "stat": {
                                 "stat_id": "1",
-                                "value": ""
+                                "value": "2"
                             }
                         },
                         {
                             "stat": {
                                 "stat_id": "2",
-                                "value": ""
+                                "value": "9"
                             }
                         },
                         {
                             "stat": {
                                 "stat_id": "8",
-                                "value": ""
+                                "value": "2"
                             }
                         },
                         {
                             "stat": {
                                 "stat_id": "14",
-                                "value": ""
+                                "value": "36"
                             }
                         },
                         {
                             "stat": {
                                 "stat_id": "31",
-                                "value": ""
+                                "value": "26"
                             }
                         },
                         {
                             "stat": {
                                 "stat_id": "32",
-                                "value": ""
+                                "value": "16"
                             }
                         },
                         {
                             "stat": {
                                 "stat_id": "19",
-                                "value": ""
+                                "value": "1"
                             }
                         },
                         {
                             "stat": {
                                 "stat_id": "22",
-                                "value": ""
+                                "value": "6"
                             }
                         },
                         {
                             "stat": {
                                 "stat_id": "23",
-                                "value": ""
+                                "value": "3.02"
                             }
                         },
                         {
                             "stat": {
                                 "stat_id": "25",
-                                "value": ""
+                                "value": "44"
                             }
                         },
                         {
                             "stat": {
                                 "stat_id": "24",
-                                "value": ""
+                                "value": "50"
                             }
                         },
                         {
                             "stat": {
                                 "stat_id": "26",
-                                "value": ""
+                                "value": ".880"
                             }
                         }
                     ],
-                    "currentScore": 5.5,
+                    "currentScore": 2.5,
                     "matchupHistScores": [
                         0,
                         8,
-                        11
+                        11,
+                        5
                     ],
                     "matchupHistStats": [
                         {
@@ -11304,6 +11370,7 @@
                             "data": [
                                 0,
                                 0.0,
+                                2.0,
                                 2.0
                             ]
                         },
@@ -11313,7 +11380,8 @@
                             "data": [
                                 0,
                                 5.0,
-                                7.0
+                                7.0,
+                                9.0
                             ]
                         },
                         {
@@ -11322,7 +11390,8 @@
                             "data": [
                                 0,
                                 0.0,
-                                1.0
+                                1.0,
+                                2.0
                             ]
                         },
                         {
@@ -11331,7 +11400,8 @@
                             "data": [
                                 0,
                                 16.0,
-                                28.0
+                                28.0,
+                                36.0
                             ]
                         },
                         {
@@ -11340,7 +11410,8 @@
                             "data": [
                                 0,
                                 7.0,
-                                23.0
+                                23.0,
+                                26.0
                             ]
                         },
                         {
@@ -11349,7 +11420,8 @@
                             "data": [
                                 0,
                                 7.0,
-                                10.0
+                                10.0,
+                                16.0
                             ]
                         },
                         {
@@ -11358,6 +11430,7 @@
                             "data": [
                                 0,
                                 0,
+                                1.0,
                                 1.0
                             ]
                         },
@@ -11367,6 +11440,7 @@
                             "data": [
                                 0,
                                 0,
+                                6.0,
                                 6.0
                             ]
                         },
@@ -11376,6 +11450,7 @@
                             "data": [
                                 0,
                                 0,
+                                3.02,
                                 3.02
                             ]
                         },
@@ -11385,6 +11460,7 @@
                             "data": [
                                 0,
                                 0,
+                                44.0,
                                 44.0
                             ]
                         },
@@ -11394,6 +11470,7 @@
                             "data": [
                                 0,
                                 0,
+                                50.0,
                                 50.0
                             ]
                         },
@@ -11403,6 +11480,7 @@
                             "data": [
                                 0,
                                 0,
+                                0.88,
                                 0.88
                             ]
                         }
@@ -11426,81 +11504,82 @@
                         {
                             "stat": {
                                 "stat_id": "1",
-                                "value": ""
+                                "value": "3"
                             }
                         },
                         {
                             "stat": {
                                 "stat_id": "2",
-                                "value": ""
+                                "value": "3"
                             }
                         },
                         {
                             "stat": {
                                 "stat_id": "8",
-                                "value": ""
+                                "value": "2"
                             }
                         },
                         {
                             "stat": {
                                 "stat_id": "14",
-                                "value": ""
+                                "value": "35"
                             }
                         },
                         {
                             "stat": {
                                 "stat_id": "31",
-                                "value": ""
+                                "value": "9"
                             }
                         },
                         {
                             "stat": {
                                 "stat_id": "32",
-                                "value": ""
+                                "value": "16"
                             }
                         },
                         {
                             "stat": {
                                 "stat_id": "19",
-                                "value": ""
+                                "value": "2"
                             }
                         },
                         {
                             "stat": {
                                 "stat_id": "22",
-                                "value": ""
+                                "value": "4"
                             }
                         },
                         {
                             "stat": {
                                 "stat_id": "23",
-                                "value": ""
+                                "value": "2.00"
                             }
                         },
                         {
                             "stat": {
                                 "stat_id": "25",
-                                "value": ""
+                                "value": "49"
                             }
                         },
                         {
                             "stat": {
                                 "stat_id": "24",
-                                "value": ""
+                                "value": "53"
                             }
                         },
                         {
                             "stat": {
                                 "stat_id": "26",
-                                "value": ""
+                                "value": ".925"
                             }
                         }
                     ],
-                    "currentScore": 5.5,
+                    "currentScore": 3.5,
                     "matchupHistScores": [
                         0,
                         6,
-                        11
+                        11,
+                        7
                     ],
                     "matchupHistStats": [
                         {
@@ -11509,6 +11588,7 @@
                             "data": [
                                 0,
                                 1.0,
+                                3.0,
                                 3.0
                             ]
                         },
@@ -11518,6 +11598,7 @@
                             "data": [
                                 0,
                                 1.0,
+                                3.0,
                                 3.0
                             ]
                         },
@@ -11527,6 +11608,7 @@
                             "data": [
                                 0,
                                 1.0,
+                                2.0,
                                 2.0
                             ]
                         },
@@ -11536,7 +11618,8 @@
                             "data": [
                                 0,
                                 9.0,
-                                22.0
+                                22.0,
+                                35.0
                             ]
                         },
                         {
@@ -11545,7 +11628,8 @@
                             "data": [
                                 0,
                                 0.0,
-                                7.0
+                                7.0,
+                                9.0
                             ]
                         },
                         {
@@ -11554,7 +11638,8 @@
                             "data": [
                                 0,
                                 5.0,
-                                14.0
+                                14.0,
+                                16.0
                             ]
                         },
                         {
@@ -11563,6 +11648,7 @@
                             "data": [
                                 0,
                                 0,
+                                2.0,
                                 2.0
                             ]
                         },
@@ -11572,6 +11658,7 @@
                             "data": [
                                 0,
                                 0,
+                                4.0,
                                 4.0
                             ]
                         },
@@ -11581,6 +11668,7 @@
                             "data": [
                                 0,
                                 0,
+                                2.0,
                                 2.0
                             ]
                         },
@@ -11590,6 +11678,7 @@
                             "data": [
                                 0,
                                 0,
+                                49.0,
                                 49.0
                             ]
                         },
@@ -11599,6 +11688,7 @@
                             "data": [
                                 0,
                                 0,
+                                53.0,
                                 53.0
                             ]
                         },
@@ -11608,6 +11698,7 @@
                             "data": [
                                 0,
                                 0,
+                                0.925,
                                 0.925
                             ]
                         }
@@ -11624,81 +11715,82 @@
                         {
                             "stat": {
                                 "stat_id": "1",
-                                "value": ""
+                                "value": "6"
                             }
                         },
                         {
                             "stat": {
                                 "stat_id": "2",
-                                "value": ""
+                                "value": "4"
                             }
                         },
                         {
                             "stat": {
                                 "stat_id": "8",
-                                "value": ""
+                                "value": "2"
                             }
                         },
                         {
                             "stat": {
                                 "stat_id": "14",
-                                "value": ""
+                                "value": "27"
                             }
                         },
                         {
                             "stat": {
                                 "stat_id": "31",
-                                "value": ""
+                                "value": "15"
                             }
                         },
                         {
                             "stat": {
                                 "stat_id": "32",
-                                "value": ""
+                                "value": "13"
                             }
                         },
                         {
                             "stat": {
                                 "stat_id": "19",
-                                "value": ""
+                                "value": "1"
                             }
                         },
                         {
                             "stat": {
                                 "stat_id": "22",
-                                "value": ""
+                                "value": "4"
                             }
                         },
                         {
                             "stat": {
                                 "stat_id": "23",
-                                "value": ""
+                                "value": "1.96"
                             }
                         },
                         {
                             "stat": {
                                 "stat_id": "25",
-                                "value": ""
+                                "value": "50"
                             }
                         },
                         {
                             "stat": {
                                 "stat_id": "24",
-                                "value": ""
+                                "value": "54"
                             }
                         },
                         {
                             "stat": {
                                 "stat_id": "26",
-                                "value": ""
+                                "value": ".926"
                             }
                         }
                     ],
-                    "currentScore": 3.5,
+                    "currentScore": 5.5,
                     "matchupHistScores": [
                         0,
                         12,
-                        7
+                        7,
+                        11
                     ],
                     "matchupHistStats": [
                         {
@@ -11707,6 +11799,7 @@
                             "data": [
                                 0,
                                 3.0,
+                                6.0,
                                 6.0
                             ]
                         },
@@ -11716,7 +11809,8 @@
                             "data": [
                                 0,
                                 0.0,
-                                1.0
+                                1.0,
+                                4.0
                             ]
                         },
                         {
@@ -11725,7 +11819,8 @@
                             "data": [
                                 0,
                                 1.0,
-                                1.0
+                                1.0,
+                                2.0
                             ]
                         },
                         {
@@ -11734,7 +11829,8 @@
                             "data": [
                                 0,
                                 11.0,
-                                22.0
+                                22.0,
+                                27.0
                             ]
                         },
                         {
@@ -11743,7 +11839,8 @@
                             "data": [
                                 0,
                                 13.0,
-                                14.0
+                                14.0,
+                                15.0
                             ]
                         },
                         {
@@ -11752,7 +11849,8 @@
                             "data": [
                                 0,
                                 8.0,
-                                9.0
+                                9.0,
+                                13.0
                             ]
                         },
                         {
@@ -11761,6 +11859,7 @@
                             "data": [
                                 0,
                                 0,
+                                1.0,
                                 1.0
                             ]
                         },
@@ -11770,7 +11869,8 @@
                             "data": [
                                 0,
                                 0,
-                                2.0
+                                2.0,
+                                4.0
                             ]
                         },
                         {
@@ -11779,7 +11879,8 @@
                             "data": [
                                 0,
                                 0,
-                                1.88
+                                1.88,
+                                1.96
                             ]
                         },
                         {
@@ -11788,7 +11889,8 @@
                             "data": [
                                 0,
                                 0,
-                                17.0
+                                17.0,
+                                50.0
                             ]
                         },
                         {
@@ -11797,7 +11899,8 @@
                             "data": [
                                 0,
                                 0,
-                                19.0
+                                19.0,
+                                54.0
                             ]
                         },
                         {
@@ -11806,7 +11909,8 @@
                             "data": [
                                 0,
                                 0,
-                                0.895
+                                0.895,
+                                0.926
                             ]
                         }
                     ],
@@ -11829,79 +11933,80 @@
                         {
                             "stat": {
                                 "stat_id": "1",
-                                "value": ""
+                                "value": "3"
                             }
                         },
                         {
                             "stat": {
                                 "stat_id": "2",
-                                "value": ""
+                                "value": "5"
                             }
                         },
                         {
                             "stat": {
                                 "stat_id": "8",
-                                "value": ""
+                                "value": "5"
                             }
                         },
                         {
                             "stat": {
                                 "stat_id": "14",
-                                "value": ""
+                                "value": "39"
                             }
                         },
                         {
                             "stat": {
                                 "stat_id": "31",
-                                "value": ""
+                                "value": "36"
                             }
                         },
                         {
                             "stat": {
                                 "stat_id": "32",
-                                "value": ""
+                                "value": "23"
                             }
                         },
                         {
                             "stat": {
                                 "stat_id": "19",
-                                "value": ""
+                                "value": "1"
                             }
                         },
                         {
                             "stat": {
                                 "stat_id": "22",
-                                "value": ""
+                                "value": "2"
                             }
                         },
                         {
                             "stat": {
                                 "stat_id": "23",
-                                "value": ""
+                                "value": "2.00"
                             }
                         },
                         {
                             "stat": {
                                 "stat_id": "25",
-                                "value": ""
+                                "value": "34"
                             }
                         },
                         {
                             "stat": {
                                 "stat_id": "24",
-                                "value": ""
+                                "value": "36"
                             }
                         },
                         {
                             "stat": {
                                 "stat_id": "26",
-                                "value": ""
+                                "value": ".944"
                             }
                         }
                     ],
                     "currentScore": 7.0,
                     "matchupHistScores": [
                         0,
+                        14,
                         14,
                         14
                     ],
@@ -11912,6 +12017,7 @@
                             "data": [
                                 0,
                                 0.0,
+                                3.0,
                                 3.0
                             ]
                         },
@@ -11921,7 +12027,8 @@
                             "data": [
                                 0,
                                 2.0,
-                                3.0
+                                3.0,
+                                5.0
                             ]
                         },
                         {
@@ -11930,7 +12037,8 @@
                             "data": [
                                 0,
                                 1.0,
-                                3.0
+                                3.0,
+                                5.0
                             ]
                         },
                         {
@@ -11939,7 +12047,8 @@
                             "data": [
                                 0,
                                 19.0,
-                                33.0
+                                33.0,
+                                39.0
                             ]
                         },
                         {
@@ -11948,7 +12057,8 @@
                             "data": [
                                 0,
                                 17.0,
-                                28.0
+                                28.0,
+                                36.0
                             ]
                         },
                         {
@@ -11957,7 +12067,8 @@
                             "data": [
                                 0,
                                 13.0,
-                                18.0
+                                18.0,
+                                23.0
                             ]
                         },
                         {
@@ -11965,6 +12076,7 @@
                             "name": "W",
                             "data": [
                                 0,
+                                1.0,
                                 1.0,
                                 1.0
                             ]
@@ -11975,6 +12087,7 @@
                             "data": [
                                 0,
                                 2.0,
+                                2.0,
                                 2.0
                             ]
                         },
@@ -11983,6 +12096,7 @@
                             "name": "GAA",
                             "data": [
                                 0,
+                                2.0,
                                 2.0,
                                 2.0
                             ]
@@ -11993,6 +12107,7 @@
                             "data": [
                                 0,
                                 34.0,
+                                34.0,
                                 34.0
                             ]
                         },
@@ -12002,6 +12117,7 @@
                             "data": [
                                 0,
                                 36.0,
+                                36.0,
                                 36.0
                             ]
                         },
@@ -12010,6 +12126,7 @@
                             "name": "SV%",
                             "data": [
                                 0,
+                                0.944,
                                 0.944,
                                 0.944
                             ]
@@ -12027,79 +12144,80 @@
                         {
                             "stat": {
                                 "stat_id": "1",
-                                "value": ""
+                                "value": "5"
                             }
                         },
                         {
                             "stat": {
                                 "stat_id": "2",
-                                "value": ""
+                                "value": "7"
                             }
                         },
                         {
                             "stat": {
                                 "stat_id": "8",
-                                "value": ""
+                                "value": "2"
                             }
                         },
                         {
                             "stat": {
                                 "stat_id": "14",
-                                "value": ""
+                                "value": "28"
                             }
                         },
                         {
                             "stat": {
                                 "stat_id": "31",
-                                "value": ""
+                                "value": "15"
                             }
                         },
                         {
                             "stat": {
                                 "stat_id": "32",
-                                "value": ""
+                                "value": "17"
                             }
                         },
                         {
                             "stat": {
                                 "stat_id": "19",
-                                "value": ""
+                                "value": "0"
                             }
                         },
                         {
                             "stat": {
                                 "stat_id": "22",
-                                "value": ""
+                                "value": "6"
                             }
                         },
                         {
                             "stat": {
                                 "stat_id": "23",
-                                "value": ""
+                                "value": "4.21"
                             }
                         },
                         {
                             "stat": {
                                 "stat_id": "25",
-                                "value": ""
+                                "value": "32"
                             }
                         },
                         {
                             "stat": {
                                 "stat_id": "24",
-                                "value": ""
+                                "value": "38"
                             }
                         },
                         {
                             "stat": {
                                 "stat_id": "26",
-                                "value": ""
+                                "value": ".842"
                             }
                         }
                     ],
                     "currentScore": 2.0,
                     "matchupHistScores": [
                         0,
+                        4,
                         4,
                         4
                     ],
@@ -12110,6 +12228,7 @@
                             "data": [
                                 0,
                                 1.0,
+                                5.0,
                                 5.0
                             ]
                         },
@@ -12119,6 +12238,7 @@
                             "data": [
                                 0,
                                 3.0,
+                                7.0,
                                 7.0
                             ]
                         },
@@ -12128,6 +12248,7 @@
                             "data": [
                                 0,
                                 0.0,
+                                2.0,
                                 2.0
                             ]
                         },
@@ -12137,7 +12258,8 @@
                             "data": [
                                 0,
                                 6.0,
-                                21.0
+                                21.0,
+                                28.0
                             ]
                         },
                         {
@@ -12146,7 +12268,8 @@
                             "data": [
                                 0,
                                 3.0,
-                                9.0
+                                9.0,
+                                15.0
                             ]
                         },
                         {
@@ -12155,7 +12278,8 @@
                             "data": [
                                 0,
                                 6.0,
-                                14.0
+                                14.0,
+                                17.0
                             ]
                         },
                         {
@@ -12163,6 +12287,7 @@
                             "name": "W",
                             "data": [
                                 0,
+                                0.0,
                                 0.0,
                                 0.0
                             ]
@@ -12173,7 +12298,8 @@
                             "data": [
                                 0,
                                 4.0,
-                                4.0
+                                4.0,
+                                6.0
                             ]
                         },
                         {
@@ -12182,7 +12308,8 @@
                             "data": [
                                 0,
                                 9.36,
-                                9.36
+                                9.36,
+                                4.21
                             ]
                         },
                         {
@@ -12191,7 +12318,8 @@
                             "data": [
                                 0,
                                 9.0,
-                                9.0
+                                9.0,
+                                32.0
                             ]
                         },
                         {
@@ -12200,7 +12328,8 @@
                             "data": [
                                 0,
                                 13.0,
-                                13.0
+                                13.0,
+                                38.0
                             ]
                         },
                         {
@@ -12209,7 +12338,8 @@
                             "data": [
                                 0,
                                 0.692,
-                                0.692
+                                0.692,
+                                0.842
                             ]
                         }
                     ],
@@ -12232,73 +12362,73 @@
                         {
                             "stat": {
                                 "stat_id": "1",
-                                "value": ""
+                                "value": "3"
                             }
                         },
                         {
                             "stat": {
                                 "stat_id": "2",
-                                "value": ""
+                                "value": "4"
                             }
                         },
                         {
                             "stat": {
                                 "stat_id": "8",
-                                "value": ""
+                                "value": "2"
                             }
                         },
                         {
                             "stat": {
                                 "stat_id": "14",
-                                "value": ""
+                                "value": "24"
                             }
                         },
                         {
                             "stat": {
                                 "stat_id": "31",
-                                "value": ""
+                                "value": "8"
                             }
                         },
                         {
                             "stat": {
                                 "stat_id": "32",
-                                "value": ""
+                                "value": "10"
                             }
                         },
                         {
                             "stat": {
                                 "stat_id": "19",
-                                "value": ""
+                                "value": "2"
                             }
                         },
                         {
                             "stat": {
                                 "stat_id": "22",
-                                "value": ""
+                                "value": "4"
                             }
                         },
                         {
                             "stat": {
                                 "stat_id": "23",
-                                "value": ""
+                                "value": "2.01"
                             }
                         },
                         {
                             "stat": {
                                 "stat_id": "25",
-                                "value": ""
+                                "value": "39"
                             }
                         },
                         {
                             "stat": {
                                 "stat_id": "24",
-                                "value": ""
+                                "value": "43"
                             }
                         },
                         {
                             "stat": {
                                 "stat_id": "26",
-                                "value": ""
+                                "value": ".907"
                             }
                         }
                     ],
@@ -12306,6 +12436,7 @@
                     "matchupHistScores": [
                         0,
                         7,
+                        8,
                         8
                     ],
                     "matchupHistStats": [
@@ -12314,6 +12445,7 @@
                             "name": "G",
                             "data": [
                                 0,
+                                3.0,
                                 3.0,
                                 3.0
                             ]
@@ -12324,6 +12456,7 @@
                             "data": [
                                 0,
                                 2.0,
+                                4.0,
                                 4.0
                             ]
                         },
@@ -12332,6 +12465,7 @@
                             "name": "PPP",
                             "data": [
                                 0,
+                                2.0,
                                 2.0,
                                 2.0
                             ]
@@ -12342,7 +12476,8 @@
                             "data": [
                                 0,
                                 13.0,
-                                19.0
+                                19.0,
+                                24.0
                             ]
                         },
                         {
@@ -12351,7 +12486,8 @@
                             "data": [
                                 0,
                                 1.0,
-                                2.0
+                                2.0,
+                                8.0
                             ]
                         },
                         {
@@ -12360,7 +12496,8 @@
                             "data": [
                                 0,
                                 5.0,
-                                7.0
+                                7.0,
+                                10.0
                             ]
                         },
                         {
@@ -12369,7 +12506,8 @@
                             "data": [
                                 0,
                                 0,
-                                1.0
+                                1.0,
+                                2.0
                             ]
                         },
                         {
@@ -12378,7 +12516,8 @@
                             "data": [
                                 0,
                                 0,
-                                3.0
+                                3.0,
+                                4.0
                             ]
                         },
                         {
@@ -12387,7 +12526,8 @@
                             "data": [
                                 0,
                                 0,
-                                3.02
+                                3.02,
+                                2.01
                             ]
                         },
                         {
@@ -12396,7 +12536,8 @@
                             "data": [
                                 0,
                                 0,
-                                21.0
+                                21.0,
+                                39.0
                             ]
                         },
                         {
@@ -12405,7 +12546,8 @@
                             "data": [
                                 0,
                                 0,
-                                24.0
+                                24.0,
+                                43.0
                             ]
                         },
                         {
@@ -12414,7 +12556,8 @@
                             "data": [
                                 0,
                                 0,
-                                0.875
+                                0.875,
+                                0.907
                             ]
                         }
                     ],
@@ -12430,73 +12573,73 @@
                         {
                             "stat": {
                                 "stat_id": "1",
-                                "value": ""
+                                "value": "2"
                             }
                         },
                         {
                             "stat": {
                                 "stat_id": "2",
-                                "value": ""
+                                "value": "7"
                             }
                         },
                         {
                             "stat": {
                                 "stat_id": "8",
-                                "value": ""
+                                "value": "3"
                             }
                         },
                         {
                             "stat": {
                                 "stat_id": "14",
-                                "value": ""
+                                "value": "36"
                             }
                         },
                         {
                             "stat": {
                                 "stat_id": "31",
-                                "value": ""
+                                "value": "17"
                             }
                         },
                         {
                             "stat": {
                                 "stat_id": "32",
-                                "value": ""
+                                "value": "14"
                             }
                         },
                         {
                             "stat": {
                                 "stat_id": "19",
-                                "value": ""
+                                "value": "1"
                             }
                         },
                         {
                             "stat": {
                                 "stat_id": "22",
-                                "value": ""
+                                "value": "6"
                             }
                         },
                         {
                             "stat": {
                                 "stat_id": "23",
-                                "value": ""
+                                "value": "3.07"
                             }
                         },
                         {
                             "stat": {
                                 "stat_id": "25",
-                                "value": ""
+                                "value": "44"
                             }
                         },
                         {
                             "stat": {
                                 "stat_id": "24",
-                                "value": ""
+                                "value": "50"
                             }
                         },
                         {
                             "stat": {
                                 "stat_id": "26",
-                                "value": ""
+                                "value": ".880"
                             }
                         }
                     ],
@@ -12504,6 +12647,7 @@
                     "matchupHistScores": [
                         0,
                         11,
+                        10,
                         10
                     ],
                     "matchupHistStats": [
@@ -12513,7 +12657,8 @@
                             "data": [
                                 0,
                                 0.0,
-                                1.0
+                                1.0,
+                                2.0
                             ]
                         },
                         {
@@ -12522,7 +12667,8 @@
                             "data": [
                                 0,
                                 2.0,
-                                6.0
+                                6.0,
+                                7.0
                             ]
                         },
                         {
@@ -12531,6 +12677,7 @@
                             "data": [
                                 0,
                                 1.0,
+                                3.0,
                                 3.0
                             ]
                         },
@@ -12540,7 +12687,8 @@
                             "data": [
                                 0,
                                 19.0,
-                                30.0
+                                30.0,
+                                36.0
                             ]
                         },
                         {
@@ -12549,7 +12697,8 @@
                             "data": [
                                 0,
                                 6.0,
-                                12.0
+                                12.0,
+                                17.0
                             ]
                         },
                         {
@@ -12558,7 +12707,8 @@
                             "data": [
                                 0,
                                 2.0,
-                                10.0
+                                10.0,
+                                14.0
                             ]
                         },
                         {
@@ -12567,7 +12717,8 @@
                             "data": [
                                 0,
                                 0.0,
-                                0.0
+                                0.0,
+                                1.0
                             ]
                         },
                         {
@@ -12576,7 +12727,8 @@
                             "data": [
                                 0,
                                 4.0,
-                                4.0
+                                4.0,
+                                6.0
                             ]
                         },
                         {
@@ -12585,7 +12737,8 @@
                             "data": [
                                 0,
                                 4.18,
-                                4.18
+                                4.18,
+                                3.07
                             ]
                         },
                         {
@@ -12594,7 +12747,8 @@
                             "data": [
                                 0,
                                 23.0,
-                                23.0
+                                23.0,
+                                44.0
                             ]
                         },
                         {
@@ -12603,7 +12757,8 @@
                             "data": [
                                 0,
                                 27.0,
-                                27.0
+                                27.0,
+                                50.0
                             ]
                         },
                         {
@@ -12612,7 +12767,8 @@
                             "data": [
                                 0,
                                 0.852,
-                                0.852
+                                0.852,
+                                0.88
                             ]
                         }
                     ],
@@ -12635,81 +12791,82 @@
                         {
                             "stat": {
                                 "stat_id": "1",
-                                "value": ""
+                                "value": "1"
                             }
                         },
                         {
                             "stat": {
                                 "stat_id": "2",
-                                "value": ""
+                                "value": "4"
                             }
                         },
                         {
                             "stat": {
                                 "stat_id": "8",
-                                "value": ""
+                                "value": "0"
                             }
                         },
                         {
                             "stat": {
                                 "stat_id": "14",
-                                "value": ""
+                                "value": "24"
                             }
                         },
                         {
                             "stat": {
                                 "stat_id": "31",
-                                "value": ""
+                                "value": "12"
                             }
                         },
                         {
                             "stat": {
                                 "stat_id": "32",
-                                "value": ""
+                                "value": "13"
                             }
                         },
                         {
                             "stat": {
                                 "stat_id": "19",
-                                "value": ""
+                                "value": "0"
                             }
                         },
                         {
                             "stat": {
                                 "stat_id": "22",
-                                "value": ""
+                                "value": "2"
                             }
                         },
                         {
                             "stat": {
                                 "stat_id": "23",
-                                "value": ""
+                                "value": "2.09"
                             }
                         },
                         {
                             "stat": {
                                 "stat_id": "25",
-                                "value": ""
+                                "value": "22"
                             }
                         },
                         {
                             "stat": {
                                 "stat_id": "24",
-                                "value": ""
+                                "value": "24"
                             }
                         },
                         {
                             "stat": {
                                 "stat_id": "26",
-                                "value": ""
+                                "value": ".917"
                             }
                         }
                     ],
-                    "currentScore": 5.0,
+                    "currentScore": 2.0,
                     "matchupHistScores": [
                         0,
                         14,
-                        10
+                        10,
+                        4
                     ],
                     "matchupHistStats": [
                         {
@@ -12718,6 +12875,7 @@
                             "data": [
                                 0,
                                 0.0,
+                                1.0,
                                 1.0
                             ]
                         },
@@ -12727,7 +12885,8 @@
                             "data": [
                                 0,
                                 1.0,
-                                3.0
+                                3.0,
+                                4.0
                             ]
                         },
                         {
@@ -12735,6 +12894,7 @@
                             "name": "PPP",
                             "data": [
                                 0,
+                                0.0,
                                 0.0,
                                 0.0
                             ]
@@ -12745,7 +12905,8 @@
                             "data": [
                                 0,
                                 9.0,
-                                20.0
+                                20.0,
+                                24.0
                             ]
                         },
                         {
@@ -12754,7 +12915,8 @@
                             "data": [
                                 0,
                                 1.0,
-                                8.0
+                                8.0,
+                                12.0
                             ]
                         },
                         {
@@ -12763,7 +12925,8 @@
                             "data": [
                                 0,
                                 1.0,
-                                9.0
+                                9.0,
+                                13.0
                             ]
                         },
                         {
@@ -12771,6 +12934,7 @@
                             "name": "W",
                             "data": [
                                 0,
+                                0.0,
                                 0.0,
                                 0.0
                             ]
@@ -12781,6 +12945,7 @@
                             "data": [
                                 0,
                                 2.0,
+                                2.0,
                                 2.0
                             ]
                         },
@@ -12789,6 +12954,7 @@
                             "name": "GAA",
                             "data": [
                                 0,
+                                2.09,
                                 2.09,
                                 2.09
                             ]
@@ -12799,6 +12965,7 @@
                             "data": [
                                 0,
                                 22.0,
+                                22.0,
                                 22.0
                             ]
                         },
@@ -12808,6 +12975,7 @@
                             "data": [
                                 0,
                                 24.0,
+                                24.0,
                                 24.0
                             ]
                         },
@@ -12816,6 +12984,7 @@
                             "name": "SV%",
                             "data": [
                                 0,
+                                0.917,
                                 0.917,
                                 0.917
                             ]
@@ -12833,81 +13002,82 @@
                         {
                             "stat": {
                                 "stat_id": "1",
-                                "value": ""
+                                "value": "5"
                             }
                         },
                         {
                             "stat": {
                                 "stat_id": "2",
-                                "value": ""
+                                "value": "6"
                             }
                         },
                         {
                             "stat": {
                                 "stat_id": "8",
-                                "value": ""
+                                "value": "2"
                             }
                         },
                         {
                             "stat": {
                                 "stat_id": "14",
-                                "value": ""
+                                "value": "36"
                             }
                         },
                         {
                             "stat": {
                                 "stat_id": "31",
-                                "value": ""
+                                "value": "11"
                             }
                         },
                         {
                             "stat": {
                                 "stat_id": "32",
-                                "value": ""
+                                "value": "9"
                             }
                         },
                         {
                             "stat": {
                                 "stat_id": "19",
-                                "value": ""
+                                "value": "1"
                             }
                         },
                         {
                             "stat": {
                                 "stat_id": "22",
-                                "value": ""
+                                "value": "0"
                             }
                         },
                         {
                             "stat": {
                                 "stat_id": "23",
-                                "value": ""
+                                "value": "0.00"
                             }
                         },
                         {
                             "stat": {
                                 "stat_id": "25",
-                                "value": ""
+                                "value": "23"
                             }
                         },
                         {
                             "stat": {
                                 "stat_id": "24",
-                                "value": ""
+                                "value": "23"
                             }
                         },
                         {
                             "stat": {
                                 "stat_id": "26",
-                                "value": ""
+                                "value": "1.000"
                             }
                         }
                     ],
-                    "currentScore": 4.0,
+                    "currentScore": 7.0,
                     "matchupHistScores": [
                         0,
                         4,
-                        8
+                        8,
+                        14
                     ],
                     "matchupHistStats": [
                         {
@@ -12916,7 +13086,8 @@
                             "data": [
                                 0,
                                 0.0,
-                                3.0
+                                3.0,
+                                5.0
                             ]
                         },
                         {
@@ -12925,7 +13096,8 @@
                             "data": [
                                 0,
                                 2.0,
-                                4.0
+                                4.0,
+                                6.0
                             ]
                         },
                         {
@@ -12934,6 +13106,7 @@
                             "data": [
                                 0,
                                 0.0,
+                                2.0,
                                 2.0
                             ]
                         },
@@ -12943,7 +13116,8 @@
                             "data": [
                                 0,
                                 6.0,
-                                24.0
+                                24.0,
+                                36.0
                             ]
                         },
                         {
@@ -12952,7 +13126,8 @@
                             "data": [
                                 0,
                                 0.0,
-                                6.0
+                                6.0,
+                                11.0
                             ]
                         },
                         {
@@ -12961,7 +13136,8 @@
                             "data": [
                                 0,
                                 0.0,
-                                2.0
+                                2.0,
+                                9.0
                             ]
                         },
                         {
@@ -12970,7 +13146,8 @@
                             "data": [
                                 0,
                                 0,
-                                0
+                                0,
+                                1.0
                             ]
                         },
                         {
@@ -12979,7 +13156,8 @@
                             "data": [
                                 0,
                                 0,
-                                0
+                                0,
+                                0.0
                             ]
                         },
                         {
@@ -12988,7 +13166,8 @@
                             "data": [
                                 0,
                                 0,
-                                0
+                                0,
+                                0.0
                             ]
                         },
                         {
@@ -12997,7 +13176,8 @@
                             "data": [
                                 0,
                                 0,
-                                0
+                                0,
+                                23.0
                             ]
                         },
                         {
@@ -13006,7 +13186,8 @@
                             "data": [
                                 0,
                                 0,
-                                0
+                                0,
+                                23.0
                             ]
                         },
                         {
@@ -13015,7 +13196,8 @@
                             "data": [
                                 0,
                                 0,
-                                0
+                                0,
+                                1.0
                             ]
                         }
                     ],
@@ -13038,81 +13220,82 @@
                         {
                             "stat": {
                                 "stat_id": "1",
-                                "value": ""
+                                "value": "1"
                             }
                         },
                         {
                             "stat": {
                                 "stat_id": "2",
-                                "value": ""
+                                "value": "7"
                             }
                         },
                         {
                             "stat": {
                                 "stat_id": "8",
-                                "value": ""
+                                "value": "3"
                             }
                         },
                         {
                             "stat": {
                                 "stat_id": "14",
-                                "value": ""
+                                "value": "12"
                             }
                         },
                         {
                             "stat": {
                                 "stat_id": "31",
-                                "value": ""
+                                "value": "10"
                             }
                         },
                         {
                             "stat": {
                                 "stat_id": "32",
-                                "value": ""
+                                "value": "12"
                             }
                         },
                         {
                             "stat": {
                                 "stat_id": "19",
-                                "value": ""
+                                "value": "1"
                             }
                         },
                         {
                             "stat": {
                                 "stat_id": "22",
-                                "value": ""
+                                "value": "6"
                             }
                         },
                         {
                             "stat": {
                                 "stat_id": "23",
-                                "value": ""
+                                "value": "2.86"
                             }
                         },
                         {
                             "stat": {
                                 "stat_id": "25",
-                                "value": ""
+                                "value": "57"
                             }
                         },
                         {
                             "stat": {
                                 "stat_id": "24",
-                                "value": ""
+                                "value": "63"
                             }
                         },
                         {
                             "stat": {
                                 "stat_id": "26",
-                                "value": ""
+                                "value": ".905"
                             }
                         }
                     ],
-                    "currentScore": 4.5,
+                    "currentScore": 5.0,
                     "matchupHistScores": [
                         0,
                         0,
-                        9
+                        9,
+                        10
                     ],
                     "matchupHistStats": [
                         {
@@ -13121,6 +13304,7 @@
                             "data": [
                                 0,
                                 0,
+                                1.0,
                                 1.0
                             ]
                         },
@@ -13130,7 +13314,8 @@
                             "data": [
                                 0,
                                 0,
-                                6.0
+                                6.0,
+                                7.0
                             ]
                         },
                         {
@@ -13139,6 +13324,7 @@
                             "data": [
                                 0,
                                 0,
+                                3.0,
                                 3.0
                             ]
                         },
@@ -13148,7 +13334,8 @@
                             "data": [
                                 0,
                                 0,
-                                11.0
+                                11.0,
+                                12.0
                             ]
                         },
                         {
@@ -13157,7 +13344,8 @@
                             "data": [
                                 0,
                                 0,
-                                9.0
+                                9.0,
+                                10.0
                             ]
                         },
                         {
@@ -13166,7 +13354,8 @@
                             "data": [
                                 0,
                                 0,
-                                6.0
+                                6.0,
+                                12.0
                             ]
                         },
                         {
@@ -13175,6 +13364,7 @@
                             "data": [
                                 0,
                                 0.0,
+                                1.0,
                                 1.0
                             ]
                         },
@@ -13184,6 +13374,7 @@
                             "data": [
                                 0,
                                 5.0,
+                                6.0,
                                 6.0
                             ]
                         },
@@ -13193,6 +13384,7 @@
                             "data": [
                                 0,
                                 4.94,
+                                2.86,
                                 2.86
                             ]
                         },
@@ -13202,6 +13394,7 @@
                             "data": [
                                 0,
                                 29.0,
+                                57.0,
                                 57.0
                             ]
                         },
@@ -13211,6 +13404,7 @@
                             "data": [
                                 0,
                                 34.0,
+                                63.0,
                                 63.0
                             ]
                         },
@@ -13220,6 +13414,7 @@
                             "data": [
                                 0,
                                 0.853,
+                                0.905,
                                 0.905
                             ]
                         }
@@ -13236,81 +13431,82 @@
                         {
                             "stat": {
                                 "stat_id": "1",
-                                "value": ""
+                                "value": "4"
                             }
                         },
                         {
                             "stat": {
                                 "stat_id": "2",
-                                "value": ""
+                                "value": "4"
                             }
                         },
                         {
                             "stat": {
                                 "stat_id": "8",
-                                "value": ""
+                                "value": "1"
                             }
                         },
                         {
                             "stat": {
                                 "stat_id": "14",
-                                "value": ""
+                                "value": "32"
                             }
                         },
                         {
                             "stat": {
                                 "stat_id": "31",
-                                "value": ""
+                                "value": "23"
                             }
                         },
                         {
                             "stat": {
                                 "stat_id": "32",
-                                "value": ""
+                                "value": "6"
                             }
                         },
                         {
                             "stat": {
                                 "stat_id": "19",
-                                "value": ""
+                                "value": "2"
                             }
                         },
                         {
                             "stat": {
                                 "stat_id": "22",
-                                "value": ""
+                                "value": "9"
                             }
                         },
                         {
                             "stat": {
                                 "stat_id": "23",
-                                "value": ""
+                                "value": "3.01"
                             }
                         },
                         {
                             "stat": {
                                 "stat_id": "25",
-                                "value": ""
+                                "value": "66"
                             }
                         },
                         {
                             "stat": {
                                 "stat_id": "24",
-                                "value": ""
+                                "value": "75"
                             }
                         },
                         {
                             "stat": {
                                 "stat_id": "26",
-                                "value": ""
+                                "value": ".880"
                             }
                         }
                     ],
-                    "currentScore": 4.5,
+                    "currentScore": 4.0,
                     "matchupHistScores": [
                         0,
                         18,
-                        9
+                        9,
+                        8
                     ],
                     "matchupHistStats": [
                         {
@@ -13319,6 +13515,7 @@
                             "data": [
                                 0,
                                 1.0,
+                                4.0,
                                 4.0
                             ]
                         },
@@ -13328,6 +13525,7 @@
                             "data": [
                                 0,
                                 2.0,
+                                4.0,
                                 4.0
                             ]
                         },
@@ -13337,6 +13535,7 @@
                             "data": [
                                 0,
                                 0.0,
+                                1.0,
                                 1.0
                             ]
                         },
@@ -13346,7 +13545,8 @@
                             "data": [
                                 0,
                                 8.0,
-                                29.0
+                                29.0,
+                                32.0
                             ]
                         },
                         {
@@ -13355,7 +13555,8 @@
                             "data": [
                                 0,
                                 4.0,
-                                13.0
+                                13.0,
+                                23.0
                             ]
                         },
                         {
@@ -13364,6 +13565,7 @@
                             "data": [
                                 0,
                                 3.0,
+                                6.0,
                                 6.0
                             ]
                         },
@@ -13372,6 +13574,7 @@
                             "name": "W",
                             "data": [
                                 0,
+                                2.0,
                                 2.0,
                                 2.0
                             ]
@@ -13382,7 +13585,8 @@
                             "data": [
                                 0,
                                 6.0,
-                                6.0
+                                6.0,
+                                9.0
                             ]
                         },
                         {
@@ -13391,7 +13595,8 @@
                             "data": [
                                 0,
                                 2.99,
-                                2.99
+                                2.99,
+                                3.01
                             ]
                         },
                         {
@@ -13400,7 +13605,8 @@
                             "data": [
                                 0,
                                 40.0,
-                                40.0
+                                40.0,
+                                66.0
                             ]
                         },
                         {
@@ -13409,7 +13615,8 @@
                             "data": [
                                 0,
                                 46.0,
-                                46.0
+                                46.0,
+                                75.0
                             ]
                         },
                         {
@@ -13418,7 +13625,8 @@
                             "data": [
                                 0,
                                 0.87,
-                                0.87
+                                0.87,
+                                0.88
                             ]
                         }
                     ],
