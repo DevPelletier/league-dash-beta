@@ -23015,37 +23015,235 @@
                         {
                             "stat": {
                                 "stat_id": "1",
-                                "value": ""
+                                "value": "7"
                             }
                         },
                         {
                             "stat": {
                                 "stat_id": "2",
-                                "value": ""
+                                "value": "5"
                             }
                         },
                         {
                             "stat": {
                                 "stat_id": "8",
-                                "value": ""
+                                "value": "3"
                             }
                         },
                         {
                             "stat": {
                                 "stat_id": "14",
-                                "value": ""
+                                "value": "19"
                             }
                         },
                         {
                             "stat": {
                                 "stat_id": "31",
-                                "value": ""
+                                "value": "14"
                             }
                         },
                         {
                             "stat": {
                                 "stat_id": "32",
-                                "value": ""
+                                "value": "8"
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "19",
+                                "value": "0"
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "22",
+                                "value": "8"
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "23",
+                                "value": "8.00"
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "25",
+                                "value": "27"
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "24",
+                                "value": "35"
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "26",
+                                "value": ".771"
+                            }
+                        }
+                    ],
+                    "currentScore": 8.5,
+                    "matchupHistScores": [
+                        0,
+                        12,
+                        17
+                    ],
+                    "matchupHistStats": [
+                        {
+                            "id": "1",
+                            "name": "G",
+                            "data": [
+                                0,
+                                3.0,
+                                7.0
+                            ]
+                        },
+                        {
+                            "id": "2",
+                            "name": "A",
+                            "data": [
+                                0,
+                                2.0,
+                                5.0
+                            ]
+                        },
+                        {
+                            "id": "8",
+                            "name": "PPP",
+                            "data": [
+                                0,
+                                0.0,
+                                3.0
+                            ]
+                        },
+                        {
+                            "id": "14",
+                            "name": "SOG",
+                            "data": [
+                                0,
+                                8.0,
+                                19.0
+                            ]
+                        },
+                        {
+                            "id": "31",
+                            "name": "HIT",
+                            "data": [
+                                0,
+                                7.0,
+                                14.0
+                            ]
+                        },
+                        {
+                            "id": "32",
+                            "name": "BLK",
+                            "data": [
+                                0,
+                                0.0,
+                                8.0
+                            ]
+                        },
+                        {
+                            "id": "19",
+                            "name": "W",
+                            "data": [
+                                0,
+                                0,
+                                0.0
+                            ]
+                        },
+                        {
+                            "id": "22",
+                            "name": "GA",
+                            "data": [
+                                0,
+                                0,
+                                8.0
+                            ]
+                        },
+                        {
+                            "id": "23",
+                            "name": "GAA",
+                            "data": [
+                                0,
+                                0,
+                                8.0
+                            ]
+                        },
+                        {
+                            "id": "25",
+                            "name": "SV",
+                            "data": [
+                                0,
+                                0,
+                                27.0
+                            ]
+                        },
+                        {
+                            "id": "24",
+                            "name": "SA",
+                            "data": [
+                                0,
+                                0,
+                                35.0
+                            ]
+                        },
+                        {
+                            "id": "26",
+                            "name": "SV%",
+                            "data": [
+                                0,
+                                0,
+                                0.771
+                            ]
+                        }
+                    ],
+                    "name": "Jimothy-Timothy's Anger Mgmt",
+                    "logo": "https://yahoofantasysports-res.cloudinary.com/image/upload/t_s192sq/fantasy-logos/18706d4634a0a5a1b868904261436c84e2a518d2bba7aa938c18d7ac2cd20b8b.png",
+                    "url": "https://hockey.fantasysports.yahoo.com/hockey/5795/1",
+                    "rank": 4,
+                    "totalWLT": "46-5-30"
+                },
+                {
+                    "team_id": "453.l.5795.t.10",
+                    "statValues": [
+                        {
+                            "stat": {
+                                "stat_id": "1",
+                                "value": "2"
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "2",
+                                "value": "4"
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "8",
+                                "value": "1"
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "14",
+                                "value": "18"
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "31",
+                                "value": "7"
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "32",
+                                "value": "8"
                             }
                         },
                         {
@@ -23085,10 +23283,11 @@
                             }
                         }
                     ],
-                    "currentScore": 6.0,
+                    "currentScore": 0.5,
                     "matchupHistScores": [
                         0,
-                        12
+                        6,
+                        1
                     ],
                     "matchupHistStats": [
                         {
@@ -23096,7 +23295,8 @@
                             "name": "G",
                             "data": [
                                 0,
-                                3.0
+                                0.0,
+                                2.0
                             ]
                         },
                         {
@@ -23104,7 +23304,8 @@
                             "name": "A",
                             "data": [
                                 0,
-                                2.0
+                                1.0,
+                                4.0
                             ]
                         },
                         {
@@ -23112,7 +23313,8 @@
                             "name": "PPP",
                             "data": [
                                 0,
-                                0.0
+                                0.0,
+                                1.0
                             ]
                         },
                         {
@@ -23120,7 +23322,8 @@
                             "name": "SOG",
                             "data": [
                                 0,
-                                8.0
+                                5.0,
+                                18.0
                             ]
                         },
                         {
@@ -23128,6 +23331,7 @@
                             "name": "HIT",
                             "data": [
                                 0,
+                                1.0,
                                 7.0
                             ]
                         },
@@ -23136,13 +23340,15 @@
                             "name": "BLK",
                             "data": [
                                 0,
-                                0.0
+                                5.0,
+                                8.0
                             ]
                         },
                         {
                             "id": "19",
                             "name": "W",
                             "data": [
+                                0,
                                 0,
                                 0
                             ]
@@ -23152,6 +23358,7 @@
                             "name": "GA",
                             "data": [
                                 0,
+                                0,
                                 0
                             ]
                         },
@@ -23159,6 +23366,7 @@
                             "id": "23",
                             "name": "GAA",
                             "data": [
+                                0,
                                 0,
                                 0
                             ]
@@ -23168,6 +23376,7 @@
                             "name": "SV",
                             "data": [
                                 0,
+                                0,
                                 0
                             ]
                         },
@@ -23175,6 +23384,7 @@
                             "id": "24",
                             "name": "SA",
                             "data": [
+                                0,
                                 0,
                                 0
                             ]
@@ -23184,53 +23394,61 @@
                             "name": "SV%",
                             "data": [
                                 0,
+                                0,
                                 0
                             ]
                         }
                     ],
-                    "name": "Jimothy-Timothy's Anger Mgmt",
-                    "logo": "https://yahoofantasysports-res.cloudinary.com/image/upload/t_s192sq/fantasy-logos/18706d4634a0a5a1b868904261436c84e2a518d2bba7aa938c18d7ac2cd20b8b.png",
-                    "url": "https://hockey.fantasysports.yahoo.com/hockey/5795/1",
-                    "rank": 4,
-                    "totalWLT": "46-5-30"
-                },
+                    "name": "Mitch Marners Dad",
+                    "logo": "https://yahoofantasysports-res.cloudinary.com/image/upload/t_s192sq/fantasy-logos/59599878202_b7d2dd.jpg",
+                    "url": "https://hockey.fantasysports.yahoo.com/hockey/5795/10",
+                    "rank": 9,
+                    "totalWLT": "41-5-35"
+                }
+            ]
+        },
+        {
+            "id": "10-2-14",
+            "weekStart": "2024-12-09",
+            "weekEnd": "2024-12-15",
+            "teamsData": [
                 {
-                    "team_id": "453.l.5795.t.10",
+                    "team_id": "453.l.5795.t.2",
                     "statValues": [
                         {
                             "stat": {
                                 "stat_id": "1",
-                                "value": ""
+                                "value": "2"
                             }
                         },
                         {
                             "stat": {
                                 "stat_id": "2",
-                                "value": ""
+                                "value": "6"
                             }
                         },
                         {
                             "stat": {
                                 "stat_id": "8",
-                                "value": ""
+                                "value": "2"
                             }
                         },
                         {
                             "stat": {
                                 "stat_id": "14",
-                                "value": ""
+                                "value": "25"
                             }
                         },
                         {
                             "stat": {
                                 "stat_id": "31",
-                                "value": ""
+                                "value": "15"
                             }
                         },
                         {
                             "stat": {
                                 "stat_id": "32",
-                                "value": ""
+                                "value": "16"
                             }
                         },
                         {
@@ -23273,6 +23491,7 @@
                     "currentScore": 3.0,
                     "matchupHistScores": [
                         0,
+                        10,
                         6
                     ],
                     "matchupHistStats": [
@@ -23281,215 +23500,26 @@
                             "name": "G",
                             "data": [
                                 0,
-                                0.0
-                            ]
-                        },
-                        {
-                            "id": "2",
-                            "name": "A",
-                            "data": [
-                                0,
-                                1.0
-                            ]
-                        },
-                        {
-                            "id": "8",
-                            "name": "PPP",
-                            "data": [
-                                0,
-                                0.0
-                            ]
-                        },
-                        {
-                            "id": "14",
-                            "name": "SOG",
-                            "data": [
-                                0,
-                                5.0
-                            ]
-                        },
-                        {
-                            "id": "31",
-                            "name": "HIT",
-                            "data": [
-                                0,
-                                1.0
-                            ]
-                        },
-                        {
-                            "id": "32",
-                            "name": "BLK",
-                            "data": [
-                                0,
-                                5.0
-                            ]
-                        },
-                        {
-                            "id": "19",
-                            "name": "W",
-                            "data": [
-                                0,
-                                0
-                            ]
-                        },
-                        {
-                            "id": "22",
-                            "name": "GA",
-                            "data": [
-                                0,
-                                0
-                            ]
-                        },
-                        {
-                            "id": "23",
-                            "name": "GAA",
-                            "data": [
-                                0,
-                                0
-                            ]
-                        },
-                        {
-                            "id": "25",
-                            "name": "SV",
-                            "data": [
-                                0,
-                                0
-                            ]
-                        },
-                        {
-                            "id": "24",
-                            "name": "SA",
-                            "data": [
-                                0,
-                                0
-                            ]
-                        },
-                        {
-                            "id": "26",
-                            "name": "SV%",
-                            "data": [
-                                0,
-                                0
-                            ]
-                        }
-                    ],
-                    "name": "Mitch Marners Dad",
-                    "logo": "https://yahoofantasysports-res.cloudinary.com/image/upload/t_s192sq/fantasy-logos/59599878202_b7d2dd.jpg",
-                    "url": "https://hockey.fantasysports.yahoo.com/hockey/5795/10",
-                    "rank": 9,
-                    "totalWLT": "41-5-35"
-                }
-            ]
-        },
-        {
-            "id": "10-2-14",
-            "weekStart": "2024-12-09",
-            "weekEnd": "2024-12-15",
-            "teamsData": [
-                {
-                    "team_id": "453.l.5795.t.2",
-                    "statValues": [
-                        {
-                            "stat": {
-                                "stat_id": "1",
-                                "value": ""
-                            }
-                        },
-                        {
-                            "stat": {
-                                "stat_id": "2",
-                                "value": ""
-                            }
-                        },
-                        {
-                            "stat": {
-                                "stat_id": "8",
-                                "value": ""
-                            }
-                        },
-                        {
-                            "stat": {
-                                "stat_id": "14",
-                                "value": ""
-                            }
-                        },
-                        {
-                            "stat": {
-                                "stat_id": "31",
-                                "value": ""
-                            }
-                        },
-                        {
-                            "stat": {
-                                "stat_id": "32",
-                                "value": ""
-                            }
-                        },
-                        {
-                            "stat": {
-                                "stat_id": "19",
-                                "value": ""
-                            }
-                        },
-                        {
-                            "stat": {
-                                "stat_id": "22",
-                                "value": ""
-                            }
-                        },
-                        {
-                            "stat": {
-                                "stat_id": "23",
-                                "value": ""
-                            }
-                        },
-                        {
-                            "stat": {
-                                "stat_id": "25",
-                                "value": ""
-                            }
-                        },
-                        {
-                            "stat": {
-                                "stat_id": "24",
-                                "value": ""
-                            }
-                        },
-                        {
-                            "stat": {
-                                "stat_id": "26",
-                                "value": ""
-                            }
-                        }
-                    ],
-                    "currentScore": 5.0,
-                    "matchupHistScores": [
-                        0,
-                        10
-                    ],
-                    "matchupHistStats": [
-                        {
-                            "id": "1",
-                            "name": "G",
-                            "data": [
-                                0,
-                                0.0
-                            ]
-                        },
-                        {
-                            "id": "2",
-                            "name": "A",
-                            "data": [
-                                0,
+                                0.0,
                                 2.0
                             ]
                         },
                         {
+                            "id": "2",
+                            "name": "A",
+                            "data": [
+                                0,
+                                2.0,
+                                6.0
+                            ]
+                        },
+                        {
                             "id": "8",
                             "name": "PPP",
                             "data": [
                                 0,
-                                0.0
+                                0.0,
+                                2.0
                             ]
                         },
                         {
@@ -23497,7 +23527,8 @@
                             "name": "SOG",
                             "data": [
                                 0,
-                                5.0
+                                5.0,
+                                25.0
                             ]
                         },
                         {
@@ -23505,7 +23536,8 @@
                             "name": "HIT",
                             "data": [
                                 0,
-                                0.0
+                                0.0,
+                                15.0
                             ]
                         },
                         {
@@ -23513,13 +23545,15 @@
                             "name": "BLK",
                             "data": [
                                 0,
-                                1.0
+                                1.0,
+                                16.0
                             ]
                         },
                         {
                             "id": "19",
                             "name": "W",
                             "data": [
+                                0,
                                 0,
                                 0
                             ]
@@ -23529,6 +23563,7 @@
                             "name": "GA",
                             "data": [
                                 0,
+                                0,
                                 0
                             ]
                         },
@@ -23536,6 +23571,7 @@
                             "id": "23",
                             "name": "GAA",
                             "data": [
+                                0,
                                 0,
                                 0
                             ]
@@ -23545,6 +23581,7 @@
                             "name": "SV",
                             "data": [
                                 0,
+                                0,
                                 0
                             ]
                         },
@@ -23553,6 +23590,7 @@
                             "name": "SA",
                             "data": [
                                 0,
+                                0,
                                 0
                             ]
                         },
@@ -23560,6 +23598,7 @@
                             "id": "26",
                             "name": "SV%",
                             "data": [
+                                0,
                                 0,
                                 0
                             ]
@@ -23577,37 +23616,37 @@
                         {
                             "stat": {
                                 "stat_id": "1",
-                                "value": ""
+                                "value": "4"
                             }
                         },
                         {
                             "stat": {
                                 "stat_id": "2",
-                                "value": ""
+                                "value": "6"
                             }
                         },
                         {
                             "stat": {
                                 "stat_id": "8",
-                                "value": ""
+                                "value": "3"
                             }
                         },
                         {
                             "stat": {
                                 "stat_id": "14",
-                                "value": ""
+                                "value": "26"
                             }
                         },
                         {
                             "stat": {
                                 "stat_id": "31",
-                                "value": ""
+                                "value": "32"
                             }
                         },
                         {
                             "stat": {
                                 "stat_id": "32",
-                                "value": ""
+                                "value": "6"
                             }
                         },
                         {
@@ -23647,10 +23686,11 @@
                             }
                         }
                     ],
-                    "currentScore": 4.0,
+                    "currentScore": 6.0,
                     "matchupHistScores": [
                         0,
-                        8
+                        8,
+                        12
                     ],
                     "matchupHistStats": [
                         {
@@ -23658,7 +23698,8 @@
                             "name": "G",
                             "data": [
                                 0,
-                                1.0
+                                1.0,
+                                4.0
                             ]
                         },
                         {
@@ -23666,7 +23707,8 @@
                             "name": "A",
                             "data": [
                                 0,
-                                1.0
+                                1.0,
+                                6.0
                             ]
                         },
                         {
@@ -23674,7 +23716,8 @@
                             "name": "PPP",
                             "data": [
                                 0,
-                                1.0
+                                1.0,
+                                3.0
                             ]
                         },
                         {
@@ -23682,7 +23725,8 @@
                             "name": "SOG",
                             "data": [
                                 0,
-                                2.0
+                                2.0,
+                                26.0
                             ]
                         },
                         {
@@ -23690,7 +23734,8 @@
                             "name": "HIT",
                             "data": [
                                 0,
-                                0.0
+                                0.0,
+                                32.0
                             ]
                         },
                         {
@@ -23698,13 +23743,15 @@
                             "name": "BLK",
                             "data": [
                                 0,
-                                0.0
+                                0.0,
+                                6.0
                             ]
                         },
                         {
                             "id": "19",
                             "name": "W",
                             "data": [
+                                0,
                                 0,
                                 0
                             ]
@@ -23714,6 +23761,7 @@
                             "name": "GA",
                             "data": [
                                 0,
+                                0,
                                 0
                             ]
                         },
@@ -23721,6 +23769,7 @@
                             "id": "23",
                             "name": "GAA",
                             "data": [
+                                0,
                                 0,
                                 0
                             ]
@@ -23730,6 +23779,7 @@
                             "name": "SV",
                             "data": [
                                 0,
+                                0,
                                 0
                             ]
                         },
@@ -23738,6 +23788,7 @@
                             "name": "SA",
                             "data": [
                                 0,
+                                0,
                                 0
                             ]
                         },
@@ -23745,6 +23796,7 @@
                             "id": "26",
                             "name": "SV%",
                             "data": [
+                                0,
                                 0,
                                 0
                             ]
@@ -23769,1545 +23821,37 @@
                         {
                             "stat": {
                                 "stat_id": "1",
-                                "value": ""
+                                "value": "2"
                             }
                         },
                         {
                             "stat": {
                                 "stat_id": "2",
-                                "value": ""
+                                "value": "1"
                             }
                         },
                         {
                             "stat": {
                                 "stat_id": "8",
-                                "value": ""
+                                "value": "1"
                             }
                         },
                         {
                             "stat": {
                                 "stat_id": "14",
-                                "value": ""
+                                "value": "16"
                             }
                         },
                         {
                             "stat": {
                                 "stat_id": "31",
-                                "value": ""
+                                "value": "12"
                             }
                         },
                         {
                             "stat": {
                                 "stat_id": "32",
-                                "value": ""
-                            }
-                        },
-                        {
-                            "stat": {
-                                "stat_id": "19",
-                                "value": ""
-                            }
-                        },
-                        {
-                            "stat": {
-                                "stat_id": "22",
-                                "value": ""
-                            }
-                        },
-                        {
-                            "stat": {
-                                "stat_id": "23",
-                                "value": ""
-                            }
-                        },
-                        {
-                            "stat": {
-                                "stat_id": "25",
-                                "value": ""
-                            }
-                        },
-                        {
-                            "stat": {
-                                "stat_id": "24",
-                                "value": ""
-                            }
-                        },
-                        {
-                            "stat": {
-                                "stat_id": "26",
-                                "value": ""
-                            }
-                        }
-                    ],
-                    "currentScore": 3.5,
-                    "matchupHistScores": [
-                        0,
-                        7
-                    ],
-                    "matchupHistStats": [
-                        {
-                            "id": "1",
-                            "name": "G",
-                            "data": [
-                                0,
-                                1.0
-                            ]
-                        },
-                        {
-                            "id": "2",
-                            "name": "A",
-                            "data": [
-                                0,
-                                0.0
-                            ]
-                        },
-                        {
-                            "id": "8",
-                            "name": "PPP",
-                            "data": [
-                                0,
-                                0.0
-                            ]
-                        },
-                        {
-                            "id": "14",
-                            "name": "SOG",
-                            "data": [
-                                0,
-                                1.0
-                            ]
-                        },
-                        {
-                            "id": "31",
-                            "name": "HIT",
-                            "data": [
-                                0,
-                                2.0
-                            ]
-                        },
-                        {
-                            "id": "32",
-                            "name": "BLK",
-                            "data": [
-                                0,
-                                0.0
-                            ]
-                        },
-                        {
-                            "id": "19",
-                            "name": "W",
-                            "data": [
-                                0,
-                                0
-                            ]
-                        },
-                        {
-                            "id": "22",
-                            "name": "GA",
-                            "data": [
-                                0,
-                                0
-                            ]
-                        },
-                        {
-                            "id": "23",
-                            "name": "GAA",
-                            "data": [
-                                0,
-                                0
-                            ]
-                        },
-                        {
-                            "id": "25",
-                            "name": "SV",
-                            "data": [
-                                0,
-                                0
-                            ]
-                        },
-                        {
-                            "id": "24",
-                            "name": "SA",
-                            "data": [
-                                0,
-                                0
-                            ]
-                        },
-                        {
-                            "id": "26",
-                            "name": "SV%",
-                            "data": [
-                                0,
-                                0
-                            ]
-                        }
-                    ],
-                    "name": "Ayo bath ur son",
-                    "logo": "https://yahoofantasysports-res.cloudinary.com/image/upload/t_s192sq/fantasy-logos/bfac32e2667c66bc641d3c859cbf969e9fe8ace8769d9974ad615bfbff12588f.jpg",
-                    "url": "https://hockey.fantasysports.yahoo.com/hockey/5795/3",
-                    "rank": 2,
-                    "totalWLT": "46-8-27"
-                },
-                {
-                    "team_id": "453.l.5795.t.12",
-                    "statValues": [
-                        {
-                            "stat": {
-                                "stat_id": "1",
-                                "value": ""
-                            }
-                        },
-                        {
-                            "stat": {
-                                "stat_id": "2",
-                                "value": ""
-                            }
-                        },
-                        {
-                            "stat": {
-                                "stat_id": "8",
-                                "value": ""
-                            }
-                        },
-                        {
-                            "stat": {
-                                "stat_id": "14",
-                                "value": ""
-                            }
-                        },
-                        {
-                            "stat": {
-                                "stat_id": "31",
-                                "value": ""
-                            }
-                        },
-                        {
-                            "stat": {
-                                "stat_id": "32",
-                                "value": ""
-                            }
-                        },
-                        {
-                            "stat": {
-                                "stat_id": "19",
-                                "value": ""
-                            }
-                        },
-                        {
-                            "stat": {
-                                "stat_id": "22",
-                                "value": ""
-                            }
-                        },
-                        {
-                            "stat": {
-                                "stat_id": "23",
-                                "value": ""
-                            }
-                        },
-                        {
-                            "stat": {
-                                "stat_id": "25",
-                                "value": ""
-                            }
-                        },
-                        {
-                            "stat": {
-                                "stat_id": "24",
-                                "value": ""
-                            }
-                        },
-                        {
-                            "stat": {
-                                "stat_id": "26",
-                                "value": ""
-                            }
-                        }
-                    ],
-                    "currentScore": 5.5,
-                    "matchupHistScores": [
-                        0,
-                        11
-                    ],
-                    "matchupHistStats": [
-                        {
-                            "id": "1",
-                            "name": "G",
-                            "data": [
-                                0,
-                                0.0
-                            ]
-                        },
-                        {
-                            "id": "2",
-                            "name": "A",
-                            "data": [
-                                0,
-                                1.0
-                            ]
-                        },
-                        {
-                            "id": "8",
-                            "name": "PPP",
-                            "data": [
-                                0,
-                                1.0
-                            ]
-                        },
-                        {
-                            "id": "14",
-                            "name": "SOG",
-                            "data": [
-                                0,
-                                8.0
-                            ]
-                        },
-                        {
-                            "id": "31",
-                            "name": "HIT",
-                            "data": [
-                                0,
-                                1.0
-                            ]
-                        },
-                        {
-                            "id": "32",
-                            "name": "BLK",
-                            "data": [
-                                0,
-                                7.0
-                            ]
-                        },
-                        {
-                            "id": "19",
-                            "name": "W",
-                            "data": [
-                                0,
-                                0
-                            ]
-                        },
-                        {
-                            "id": "22",
-                            "name": "GA",
-                            "data": [
-                                0,
-                                0
-                            ]
-                        },
-                        {
-                            "id": "23",
-                            "name": "GAA",
-                            "data": [
-                                0,
-                                0
-                            ]
-                        },
-                        {
-                            "id": "25",
-                            "name": "SV",
-                            "data": [
-                                0,
-                                0
-                            ]
-                        },
-                        {
-                            "id": "24",
-                            "name": "SA",
-                            "data": [
-                                0,
-                                0
-                            ]
-                        },
-                        {
-                            "id": "26",
-                            "name": "SV%",
-                            "data": [
-                                0,
-                                0
-                            ]
-                        }
-                    ],
-                    "name": "OY MATVEI \ud83c\uddf7\ud83c\uddfa",
-                    "logo": "https://yahoofantasysports-res.cloudinary.com/image/upload/t_s192sq/fantasy-logos/7fb47e0016458f98354b1a7a0cdc5ec6744b558b7f3cc562ec8705479ce8be0b.jpg",
-                    "url": "https://hockey.fantasysports.yahoo.com/hockey/5795/12",
-                    "rank": 11,
-                    "totalWLT": "36-8-37"
-                }
-            ]
-        },
-        {
-            "id": "10-4-5",
-            "weekStart": "2024-12-09",
-            "weekEnd": "2024-12-15",
-            "teamsData": [
-                {
-                    "team_id": "453.l.5795.t.4",
-                    "statValues": [
-                        {
-                            "stat": {
-                                "stat_id": "1",
-                                "value": ""
-                            }
-                        },
-                        {
-                            "stat": {
-                                "stat_id": "2",
-                                "value": ""
-                            }
-                        },
-                        {
-                            "stat": {
-                                "stat_id": "8",
-                                "value": ""
-                            }
-                        },
-                        {
-                            "stat": {
-                                "stat_id": "14",
-                                "value": ""
-                            }
-                        },
-                        {
-                            "stat": {
-                                "stat_id": "31",
-                                "value": ""
-                            }
-                        },
-                        {
-                            "stat": {
-                                "stat_id": "32",
-                                "value": ""
-                            }
-                        },
-                        {
-                            "stat": {
-                                "stat_id": "19",
-                                "value": ""
-                            }
-                        },
-                        {
-                            "stat": {
-                                "stat_id": "22",
-                                "value": ""
-                            }
-                        },
-                        {
-                            "stat": {
-                                "stat_id": "23",
-                                "value": ""
-                            }
-                        },
-                        {
-                            "stat": {
-                                "stat_id": "25",
-                                "value": ""
-                            }
-                        },
-                        {
-                            "stat": {
-                                "stat_id": "24",
-                                "value": ""
-                            }
-                        },
-                        {
-                            "stat": {
-                                "stat_id": "26",
-                                "value": ""
-                            }
-                        }
-                    ],
-                    "currentScore": 6.5,
-                    "matchupHistScores": [
-                        0,
-                        13
-                    ],
-                    "matchupHistStats": [
-                        {
-                            "id": "1",
-                            "name": "G",
-                            "data": [
-                                0,
-                                3.0
-                            ]
-                        },
-                        {
-                            "id": "2",
-                            "name": "A",
-                            "data": [
-                                0,
-                                0.0
-                            ]
-                        },
-                        {
-                            "id": "8",
-                            "name": "PPP",
-                            "data": [
-                                0,
-                                1.0
-                            ]
-                        },
-                        {
-                            "id": "14",
-                            "name": "SOG",
-                            "data": [
-                                0,
-                                13.0
-                            ]
-                        },
-                        {
-                            "id": "31",
-                            "name": "HIT",
-                            "data": [
-                                0,
-                                0.0
-                            ]
-                        },
-                        {
-                            "id": "32",
-                            "name": "BLK",
-                            "data": [
-                                0,
-                                1.0
-                            ]
-                        },
-                        {
-                            "id": "19",
-                            "name": "W",
-                            "data": [
-                                0,
-                                1.0
-                            ]
-                        },
-                        {
-                            "id": "22",
-                            "name": "GA",
-                            "data": [
-                                0,
-                                2.0
-                            ]
-                        },
-                        {
-                            "id": "23",
-                            "name": "GAA",
-                            "data": [
-                                0,
-                                1.85
-                            ]
-                        },
-                        {
-                            "id": "25",
-                            "name": "SV",
-                            "data": [
-                                0,
-                                27.0
-                            ]
-                        },
-                        {
-                            "id": "24",
-                            "name": "SA",
-                            "data": [
-                                0,
-                                29.0
-                            ]
-                        },
-                        {
-                            "id": "26",
-                            "name": "SV%",
-                            "data": [
-                                0,
-                                0.931
-                            ]
-                        }
-                    ],
-                    "name": "Bobby Margarita",
-                    "logo": "https://yahoofantasysports-res.cloudinary.com/image/upload/t_s192sq/fantasy-logos/97e52324332f2a9d8c21ac0134129589424ba139bad6b22e947b0638cae7d705.jpg",
-                    "url": "https://hockey.fantasysports.yahoo.com/hockey/5795/4",
-                    "rank": 5,
-                    "totalWLT": "42-10-29"
-                },
-                {
-                    "team_id": "453.l.5795.t.5",
-                    "statValues": [
-                        {
-                            "stat": {
-                                "stat_id": "1",
-                                "value": ""
-                            }
-                        },
-                        {
-                            "stat": {
-                                "stat_id": "2",
-                                "value": ""
-                            }
-                        },
-                        {
-                            "stat": {
-                                "stat_id": "8",
-                                "value": ""
-                            }
-                        },
-                        {
-                            "stat": {
-                                "stat_id": "14",
-                                "value": ""
-                            }
-                        },
-                        {
-                            "stat": {
-                                "stat_id": "31",
-                                "value": ""
-                            }
-                        },
-                        {
-                            "stat": {
-                                "stat_id": "32",
-                                "value": ""
-                            }
-                        },
-                        {
-                            "stat": {
-                                "stat_id": "19",
-                                "value": ""
-                            }
-                        },
-                        {
-                            "stat": {
-                                "stat_id": "22",
-                                "value": ""
-                            }
-                        },
-                        {
-                            "stat": {
-                                "stat_id": "23",
-                                "value": ""
-                            }
-                        },
-                        {
-                            "stat": {
-                                "stat_id": "25",
-                                "value": ""
-                            }
-                        },
-                        {
-                            "stat": {
-                                "stat_id": "24",
-                                "value": ""
-                            }
-                        },
-                        {
-                            "stat": {
-                                "stat_id": "26",
-                                "value": ""
-                            }
-                        }
-                    ],
-                    "currentScore": 2.5,
-                    "matchupHistScores": [
-                        0,
-                        5
-                    ],
-                    "matchupHistStats": [
-                        {
-                            "id": "1",
-                            "name": "G",
-                            "data": [
-                                0,
-                                0.0
-                            ]
-                        },
-                        {
-                            "id": "2",
-                            "name": "A",
-                            "data": [
-                                0,
-                                0.0
-                            ]
-                        },
-                        {
-                            "id": "8",
-                            "name": "PPP",
-                            "data": [
-                                0,
-                                0.0
-                            ]
-                        },
-                        {
-                            "id": "14",
-                            "name": "SOG",
-                            "data": [
-                                0,
-                                4.0
-                            ]
-                        },
-                        {
-                            "id": "31",
-                            "name": "HIT",
-                            "data": [
-                                0,
-                                4.0
-                            ]
-                        },
-                        {
-                            "id": "32",
-                            "name": "BLK",
-                            "data": [
-                                0,
-                                6.0
-                            ]
-                        },
-                        {
-                            "id": "19",
-                            "name": "W",
-                            "data": [
-                                0,
-                                0
-                            ]
-                        },
-                        {
-                            "id": "22",
-                            "name": "GA",
-                            "data": [
-                                0,
-                                0
-                            ]
-                        },
-                        {
-                            "id": "23",
-                            "name": "GAA",
-                            "data": [
-                                0,
-                                0
-                            ]
-                        },
-                        {
-                            "id": "25",
-                            "name": "SV",
-                            "data": [
-                                0,
-                                0
-                            ]
-                        },
-                        {
-                            "id": "24",
-                            "name": "SA",
-                            "data": [
-                                0,
-                                0
-                            ]
-                        },
-                        {
-                            "id": "26",
-                            "name": "SV%",
-                            "data": [
-                                0,
-                                0
-                            ]
-                        }
-                    ],
-                    "name": "Evil Marc",
-                    "logo": "https://yahoofantasysports-res.cloudinary.com/image/upload/t_s192sq/fantasy-logos/390862196a754bdb333fd284d950ba892d749aa087a4172fe6c253d20787a720.png",
-                    "url": "https://hockey.fantasysports.yahoo.com/hockey/5795/5",
-                    "rank": 1,
-                    "totalWLT": "48-6-27"
-                }
-            ]
-        },
-        {
-            "id": "10-6-7",
-            "weekStart": "2024-12-09",
-            "weekEnd": "2024-12-15",
-            "teamsData": [
-                {
-                    "team_id": "453.l.5795.t.6",
-                    "statValues": [
-                        {
-                            "stat": {
-                                "stat_id": "1",
-                                "value": ""
-                            }
-                        },
-                        {
-                            "stat": {
-                                "stat_id": "2",
-                                "value": ""
-                            }
-                        },
-                        {
-                            "stat": {
-                                "stat_id": "8",
-                                "value": ""
-                            }
-                        },
-                        {
-                            "stat": {
-                                "stat_id": "14",
-                                "value": ""
-                            }
-                        },
-                        {
-                            "stat": {
-                                "stat_id": "31",
-                                "value": ""
-                            }
-                        },
-                        {
-                            "stat": {
-                                "stat_id": "32",
-                                "value": ""
-                            }
-                        },
-                        {
-                            "stat": {
-                                "stat_id": "19",
-                                "value": ""
-                            }
-                        },
-                        {
-                            "stat": {
-                                "stat_id": "22",
-                                "value": ""
-                            }
-                        },
-                        {
-                            "stat": {
-                                "stat_id": "23",
-                                "value": ""
-                            }
-                        },
-                        {
-                            "stat": {
-                                "stat_id": "25",
-                                "value": ""
-                            }
-                        },
-                        {
-                            "stat": {
-                                "stat_id": "24",
-                                "value": ""
-                            }
-                        },
-                        {
-                            "stat": {
-                                "stat_id": "26",
-                                "value": ""
-                            }
-                        }
-                    ],
-                    "currentScore": 0.0,
-                    "matchupHistScores": [
-                        0,
-                        0
-                    ],
-                    "matchupHistStats": [
-                        {
-                            "id": "1",
-                            "name": "G",
-                            "data": [
-                                0,
-                                0
-                            ]
-                        },
-                        {
-                            "id": "2",
-                            "name": "A",
-                            "data": [
-                                0,
-                                0
-                            ]
-                        },
-                        {
-                            "id": "8",
-                            "name": "PPP",
-                            "data": [
-                                0,
-                                0
-                            ]
-                        },
-                        {
-                            "id": "14",
-                            "name": "SOG",
-                            "data": [
-                                0,
-                                0
-                            ]
-                        },
-                        {
-                            "id": "31",
-                            "name": "HIT",
-                            "data": [
-                                0,
-                                0
-                            ]
-                        },
-                        {
-                            "id": "32",
-                            "name": "BLK",
-                            "data": [
-                                0,
-                                0
-                            ]
-                        },
-                        {
-                            "id": "19",
-                            "name": "W",
-                            "data": [
-                                0,
-                                0
-                            ]
-                        },
-                        {
-                            "id": "22",
-                            "name": "GA",
-                            "data": [
-                                0,
-                                0
-                            ]
-                        },
-                        {
-                            "id": "23",
-                            "name": "GAA",
-                            "data": [
-                                0,
-                                0
-                            ]
-                        },
-                        {
-                            "id": "25",
-                            "name": "SV",
-                            "data": [
-                                0,
-                                0
-                            ]
-                        },
-                        {
-                            "id": "24",
-                            "name": "SA",
-                            "data": [
-                                0,
-                                0
-                            ]
-                        },
-                        {
-                            "id": "26",
-                            "name": "SV%",
-                            "data": [
-                                0,
-                                0
-                            ]
-                        }
-                    ],
-                    "name": "The Magic Gus Bus",
-                    "logo": "https://yahoofantasysports-res.cloudinary.com/image/upload/t_s192sq/fantasy-logos/1e3fb617166af257611ce8cb9e2ff08825f900b1487a21fc30928c219ffa0077.jpg",
-                    "url": "https://hockey.fantasysports.yahoo.com/hockey/5795/6",
-                    "rank": 13,
-                    "totalWLT": "33-4-44"
-                },
-                {
-                    "team_id": "453.l.5795.t.7",
-                    "statValues": [
-                        {
-                            "stat": {
-                                "stat_id": "1",
-                                "value": ""
-                            }
-                        },
-                        {
-                            "stat": {
-                                "stat_id": "2",
-                                "value": ""
-                            }
-                        },
-                        {
-                            "stat": {
-                                "stat_id": "8",
-                                "value": ""
-                            }
-                        },
-                        {
-                            "stat": {
-                                "stat_id": "14",
-                                "value": ""
-                            }
-                        },
-                        {
-                            "stat": {
-                                "stat_id": "31",
-                                "value": ""
-                            }
-                        },
-                        {
-                            "stat": {
-                                "stat_id": "32",
-                                "value": ""
-                            }
-                        },
-                        {
-                            "stat": {
-                                "stat_id": "19",
-                                "value": ""
-                            }
-                        },
-                        {
-                            "stat": {
-                                "stat_id": "22",
-                                "value": ""
-                            }
-                        },
-                        {
-                            "stat": {
-                                "stat_id": "23",
-                                "value": ""
-                            }
-                        },
-                        {
-                            "stat": {
-                                "stat_id": "25",
-                                "value": ""
-                            }
-                        },
-                        {
-                            "stat": {
-                                "stat_id": "24",
-                                "value": ""
-                            }
-                        },
-                        {
-                            "stat": {
-                                "stat_id": "26",
-                                "value": ""
-                            }
-                        }
-                    ],
-                    "currentScore": 9.0,
-                    "matchupHistScores": [
-                        0,
-                        18
-                    ],
-                    "matchupHistStats": [
-                        {
-                            "id": "1",
-                            "name": "G",
-                            "data": [
-                                0,
-                                0.0
-                            ]
-                        },
-                        {
-                            "id": "2",
-                            "name": "A",
-                            "data": [
-                                0,
-                                2.0
-                            ]
-                        },
-                        {
-                            "id": "8",
-                            "name": "PPP",
-                            "data": [
-                                0,
-                                1.0
-                            ]
-                        },
-                        {
-                            "id": "14",
-                            "name": "SOG",
-                            "data": [
-                                0,
-                                7.0
-                            ]
-                        },
-                        {
-                            "id": "31",
-                            "name": "HIT",
-                            "data": [
-                                0,
-                                6.0
-                            ]
-                        },
-                        {
-                            "id": "32",
-                            "name": "BLK",
-                            "data": [
-                                0,
-                                0.0
-                            ]
-                        },
-                        {
-                            "id": "19",
-                            "name": "W",
-                            "data": [
-                                0,
-                                0.0
-                            ]
-                        },
-                        {
-                            "id": "22",
-                            "name": "GA",
-                            "data": [
-                                0,
-                                2.0
-                            ]
-                        },
-                        {
-                            "id": "23",
-                            "name": "GAA",
-                            "data": [
-                                0,
-                                1.85
-                            ]
-                        },
-                        {
-                            "id": "25",
-                            "name": "SV",
-                            "data": [
-                                0,
-                                19.0
-                            ]
-                        },
-                        {
-                            "id": "24",
-                            "name": "SA",
-                            "data": [
-                                0,
-                                21.0
-                            ]
-                        },
-                        {
-                            "id": "26",
-                            "name": "SV%",
-                            "data": [
-                                0,
-                                0.905
-                            ]
-                        }
-                    ],
-                    "name": "Have a Heart",
-                    "logo": "https://yahoofantasysports-res.cloudinary.com/image/upload/t_s192sq/fantasy-logos/eb53549458071b1dbd2067d7e071dbf082c592e3c1a15c05c9b4a79d06893fed.png",
-                    "url": "https://hockey.fantasysports.yahoo.com/hockey/5795/7",
-                    "rank": 3,
-                    "totalWLT": "48-2-31"
-                }
-            ]
-        },
-        {
-            "id": "10-8-16",
-            "weekStart": "2024-12-09",
-            "weekEnd": "2024-12-15",
-            "teamsData": [
-                {
-                    "team_id": "453.l.5795.t.8",
-                    "statValues": [
-                        {
-                            "stat": {
-                                "stat_id": "1",
-                                "value": ""
-                            }
-                        },
-                        {
-                            "stat": {
-                                "stat_id": "2",
-                                "value": ""
-                            }
-                        },
-                        {
-                            "stat": {
-                                "stat_id": "8",
-                                "value": ""
-                            }
-                        },
-                        {
-                            "stat": {
-                                "stat_id": "14",
-                                "value": ""
-                            }
-                        },
-                        {
-                            "stat": {
-                                "stat_id": "31",
-                                "value": ""
-                            }
-                        },
-                        {
-                            "stat": {
-                                "stat_id": "32",
-                                "value": ""
-                            }
-                        },
-                        {
-                            "stat": {
-                                "stat_id": "19",
-                                "value": ""
-                            }
-                        },
-                        {
-                            "stat": {
-                                "stat_id": "22",
-                                "value": ""
-                            }
-                        },
-                        {
-                            "stat": {
-                                "stat_id": "23",
-                                "value": ""
-                            }
-                        },
-                        {
-                            "stat": {
-                                "stat_id": "25",
-                                "value": ""
-                            }
-                        },
-                        {
-                            "stat": {
-                                "stat_id": "24",
-                                "value": ""
-                            }
-                        },
-                        {
-                            "stat": {
-                                "stat_id": "26",
-                                "value": ""
-                            }
-                        }
-                    ],
-                    "currentScore": 5.5,
-                    "matchupHistScores": [
-                        0,
-                        11
-                    ],
-                    "matchupHistStats": [
-                        {
-                            "id": "1",
-                            "name": "G",
-                            "data": [
-                                0,
-                                1.0
-                            ]
-                        },
-                        {
-                            "id": "2",
-                            "name": "A",
-                            "data": [
-                                0,
-                                1.0
-                            ]
-                        },
-                        {
-                            "id": "8",
-                            "name": "PPP",
-                            "data": [
-                                0,
-                                0.0
-                            ]
-                        },
-                        {
-                            "id": "14",
-                            "name": "SOG",
-                            "data": [
-                                0,
-                                3.0
-                            ]
-                        },
-                        {
-                            "id": "31",
-                            "name": "HIT",
-                            "data": [
-                                0,
-                                0.0
-                            ]
-                        },
-                        {
-                            "id": "32",
-                            "name": "BLK",
-                            "data": [
-                                0,
-                                2.0
-                            ]
-                        },
-                        {
-                            "id": "19",
-                            "name": "W",
-                            "data": [
-                                0,
-                                0.0
-                            ]
-                        },
-                        {
-                            "id": "22",
-                            "name": "GA",
-                            "data": [
-                                0,
-                                2.0
-                            ]
-                        },
-                        {
-                            "id": "23",
-                            "name": "GAA",
-                            "data": [
-                                0,
-                                2.06
-                            ]
-                        },
-                        {
-                            "id": "25",
-                            "name": "SV",
-                            "data": [
-                                0,
-                                30.0
-                            ]
-                        },
-                        {
-                            "id": "24",
-                            "name": "SA",
-                            "data": [
-                                0,
-                                32.0
-                            ]
-                        },
-                        {
-                            "id": "26",
-                            "name": "SV%",
-                            "data": [
-                                0,
-                                0.938
-                            ]
-                        }
-                    ],
-                    "name": "House Markonnen",
-                    "logo": "https://yahoofantasysports-res.cloudinary.com/image/upload/t_s192sq/fantasy-logos/5278d48bd8a69a2a330ad7f54f64b0e5c6561724b50895af4d60f6fa17e1869b.jpg",
-                    "url": "https://hockey.fantasysports.yahoo.com/hockey/5795/8",
-                    "rank": 10,
-                    "totalWLT": "40-5-36"
-                },
-                {
-                    "team_id": "453.l.5795.t.16",
-                    "statValues": [
-                        {
-                            "stat": {
-                                "stat_id": "1",
-                                "value": ""
-                            }
-                        },
-                        {
-                            "stat": {
-                                "stat_id": "2",
-                                "value": ""
-                            }
-                        },
-                        {
-                            "stat": {
-                                "stat_id": "8",
-                                "value": ""
-                            }
-                        },
-                        {
-                            "stat": {
-                                "stat_id": "14",
-                                "value": ""
-                            }
-                        },
-                        {
-                            "stat": {
-                                "stat_id": "31",
-                                "value": ""
-                            }
-                        },
-                        {
-                            "stat": {
-                                "stat_id": "32",
-                                "value": ""
-                            }
-                        },
-                        {
-                            "stat": {
-                                "stat_id": "19",
-                                "value": ""
-                            }
-                        },
-                        {
-                            "stat": {
-                                "stat_id": "22",
-                                "value": ""
-                            }
-                        },
-                        {
-                            "stat": {
-                                "stat_id": "23",
-                                "value": ""
-                            }
-                        },
-                        {
-                            "stat": {
-                                "stat_id": "25",
-                                "value": ""
-                            }
-                        },
-                        {
-                            "stat": {
-                                "stat_id": "24",
-                                "value": ""
-                            }
-                        },
-                        {
-                            "stat": {
-                                "stat_id": "26",
-                                "value": ""
-                            }
-                        }
-                    ],
-                    "currentScore": 3.5,
-                    "matchupHistScores": [
-                        0,
-                        7
-                    ],
-                    "matchupHistStats": [
-                        {
-                            "id": "1",
-                            "name": "G",
-                            "data": [
-                                0,
-                                0.0
-                            ]
-                        },
-                        {
-                            "id": "2",
-                            "name": "A",
-                            "data": [
-                                0,
-                                1.0
-                            ]
-                        },
-                        {
-                            "id": "8",
-                            "name": "PPP",
-                            "data": [
-                                0,
-                                0.0
-                            ]
-                        },
-                        {
-                            "id": "14",
-                            "name": "SOG",
-                            "data": [
-                                0,
-                                7.0
-                            ]
-                        },
-                        {
-                            "id": "31",
-                            "name": "HIT",
-                            "data": [
-                                0,
-                                3.0
-                            ]
-                        },
-                        {
-                            "id": "32",
-                            "name": "BLK",
-                            "data": [
-                                0,
-                                2.0
-                            ]
-                        },
-                        {
-                            "id": "19",
-                            "name": "W",
-                            "data": [
-                                0,
-                                0
-                            ]
-                        },
-                        {
-                            "id": "22",
-                            "name": "GA",
-                            "data": [
-                                0,
-                                0
-                            ]
-                        },
-                        {
-                            "id": "23",
-                            "name": "GAA",
-                            "data": [
-                                0,
-                                0
-                            ]
-                        },
-                        {
-                            "id": "25",
-                            "name": "SV",
-                            "data": [
-                                0,
-                                0
-                            ]
-                        },
-                        {
-                            "id": "24",
-                            "name": "SA",
-                            "data": [
-                                0,
-                                0
-                            ]
-                        },
-                        {
-                            "id": "26",
-                            "name": "SV%",
-                            "data": [
-                                0,
-                                0
-                            ]
-                        }
-                    ],
-                    "name": "Sweet Baby Bedjsus",
-                    "logo": "https://yahoofantasysports-res.cloudinary.com/image/upload/t_s192sq/fantasy-logos/055e10358f33ed9af4be1e06e5afd71880d65054544202cad46f4d0217d97da5.jpg",
-                    "url": "https://hockey.fantasysports.yahoo.com/hockey/5795/16",
-                    "rank": 6,
-                    "totalWLT": "41-9-31"
-                }
-            ]
-        },
-        {
-            "id": "10-9-15",
-            "weekStart": "2024-12-09",
-            "weekEnd": "2024-12-15",
-            "teamsData": [
-                {
-                    "team_id": "453.l.5795.t.9",
-                    "statValues": [
-                        {
-                            "stat": {
-                                "stat_id": "1",
-                                "value": ""
-                            }
-                        },
-                        {
-                            "stat": {
-                                "stat_id": "2",
-                                "value": ""
-                            }
-                        },
-                        {
-                            "stat": {
-                                "stat_id": "8",
-                                "value": ""
-                            }
-                        },
-                        {
-                            "stat": {
-                                "stat_id": "14",
-                                "value": ""
-                            }
-                        },
-                        {
-                            "stat": {
-                                "stat_id": "31",
-                                "value": ""
-                            }
-                        },
-                        {
-                            "stat": {
-                                "stat_id": "32",
-                                "value": ""
+                                "value": "10"
                             }
                         },
                         {
@@ -25350,6 +23894,7 @@
                     "currentScore": 2.0,
                     "matchupHistScores": [
                         0,
+                        7,
                         4
                     ],
                     "matchupHistStats": [
@@ -25358,7 +23903,8 @@
                             "name": "G",
                             "data": [
                                 0,
-                                0.0
+                                1.0,
+                                2.0
                             ]
                         },
                         {
@@ -25366,7 +23912,8 @@
                             "name": "A",
                             "data": [
                                 0,
-                                0.0
+                                0.0,
+                                1.0
                             ]
                         },
                         {
@@ -25374,7 +23921,8 @@
                             "name": "PPP",
                             "data": [
                                 0,
-                                0.0
+                                0.0,
+                                1.0
                             ]
                         },
                         {
@@ -25382,7 +23930,8 @@
                             "name": "SOG",
                             "data": [
                                 0,
-                                3.0
+                                1.0,
+                                16.0
                             ]
                         },
                         {
@@ -25390,7 +23939,8 @@
                             "name": "HIT",
                             "data": [
                                 0,
-                                6.0
+                                2.0,
+                                12.0
                             ]
                         },
                         {
@@ -25398,13 +23948,15 @@
                             "name": "BLK",
                             "data": [
                                 0,
-                                5.0
+                                0.0,
+                                10.0
                             ]
                         },
                         {
                             "id": "19",
                             "name": "W",
                             "data": [
+                                0,
                                 0,
                                 0
                             ]
@@ -25414,6 +23966,7 @@
                             "name": "GA",
                             "data": [
                                 0,
+                                0,
                                 0
                             ]
                         },
@@ -25421,6 +23974,7 @@
                             "id": "23",
                             "name": "GAA",
                             "data": [
+                                0,
                                 0,
                                 0
                             ]
@@ -25430,6 +23984,7 @@
                             "name": "SV",
                             "data": [
                                 0,
+                                0,
                                 0
                             ]
                         },
@@ -25437,6 +23992,7 @@
                             "id": "24",
                             "name": "SA",
                             "data": [
+                                0,
                                 0,
                                 0
                             ]
@@ -25446,7 +24002,1620 @@
                             "name": "SV%",
                             "data": [
                                 0,
+                                0,
                                 0
+                            ]
+                        }
+                    ],
+                    "name": "Ayo bath ur son",
+                    "logo": "https://yahoofantasysports-res.cloudinary.com/image/upload/t_s192sq/fantasy-logos/bfac32e2667c66bc641d3c859cbf969e9fe8ace8769d9974ad615bfbff12588f.jpg",
+                    "url": "https://hockey.fantasysports.yahoo.com/hockey/5795/3",
+                    "rank": 2,
+                    "totalWLT": "46-8-27"
+                },
+                {
+                    "team_id": "453.l.5795.t.12",
+                    "statValues": [
+                        {
+                            "stat": {
+                                "stat_id": "1",
+                                "value": "1"
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "2",
+                                "value": "9"
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "8",
+                                "value": "5"
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "14",
+                                "value": "24"
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "31",
+                                "value": "9"
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "32",
+                                "value": "13"
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "19",
+                                "value": "0"
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "22",
+                                "value": "6"
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "23",
+                                "value": "3.09"
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "25",
+                                "value": "47"
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "24",
+                                "value": "53"
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "26",
+                                "value": ".887"
+                            }
+                        }
+                    ],
+                    "currentScore": 7.0,
+                    "matchupHistScores": [
+                        0,
+                        11,
+                        14
+                    ],
+                    "matchupHistStats": [
+                        {
+                            "id": "1",
+                            "name": "G",
+                            "data": [
+                                0,
+                                0.0,
+                                1.0
+                            ]
+                        },
+                        {
+                            "id": "2",
+                            "name": "A",
+                            "data": [
+                                0,
+                                1.0,
+                                9.0
+                            ]
+                        },
+                        {
+                            "id": "8",
+                            "name": "PPP",
+                            "data": [
+                                0,
+                                1.0,
+                                5.0
+                            ]
+                        },
+                        {
+                            "id": "14",
+                            "name": "SOG",
+                            "data": [
+                                0,
+                                8.0,
+                                24.0
+                            ]
+                        },
+                        {
+                            "id": "31",
+                            "name": "HIT",
+                            "data": [
+                                0,
+                                1.0,
+                                9.0
+                            ]
+                        },
+                        {
+                            "id": "32",
+                            "name": "BLK",
+                            "data": [
+                                0,
+                                7.0,
+                                13.0
+                            ]
+                        },
+                        {
+                            "id": "19",
+                            "name": "W",
+                            "data": [
+                                0,
+                                0,
+                                0.0
+                            ]
+                        },
+                        {
+                            "id": "22",
+                            "name": "GA",
+                            "data": [
+                                0,
+                                0,
+                                6.0
+                            ]
+                        },
+                        {
+                            "id": "23",
+                            "name": "GAA",
+                            "data": [
+                                0,
+                                0,
+                                3.09
+                            ]
+                        },
+                        {
+                            "id": "25",
+                            "name": "SV",
+                            "data": [
+                                0,
+                                0,
+                                47.0
+                            ]
+                        },
+                        {
+                            "id": "24",
+                            "name": "SA",
+                            "data": [
+                                0,
+                                0,
+                                53.0
+                            ]
+                        },
+                        {
+                            "id": "26",
+                            "name": "SV%",
+                            "data": [
+                                0,
+                                0,
+                                0.887
+                            ]
+                        }
+                    ],
+                    "name": "OY MATVEI \ud83c\uddf7\ud83c\uddfa",
+                    "logo": "https://yahoofantasysports-res.cloudinary.com/image/upload/t_s192sq/fantasy-logos/7fb47e0016458f98354b1a7a0cdc5ec6744b558b7f3cc562ec8705479ce8be0b.jpg",
+                    "url": "https://hockey.fantasysports.yahoo.com/hockey/5795/12",
+                    "rank": 11,
+                    "totalWLT": "36-8-37"
+                }
+            ]
+        },
+        {
+            "id": "10-4-5",
+            "weekStart": "2024-12-09",
+            "weekEnd": "2024-12-15",
+            "teamsData": [
+                {
+                    "team_id": "453.l.5795.t.4",
+                    "statValues": [
+                        {
+                            "stat": {
+                                "stat_id": "1",
+                                "value": "4"
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "2",
+                                "value": "5"
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "8",
+                                "value": "1"
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "14",
+                                "value": "29"
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "31",
+                                "value": "5"
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "32",
+                                "value": "9"
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "19",
+                                "value": "1"
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "22",
+                                "value": "2"
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "23",
+                                "value": "1.85"
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "25",
+                                "value": "27"
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "24",
+                                "value": "29"
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "26",
+                                "value": ".931"
+                            }
+                        }
+                    ],
+                    "currentScore": 3.0,
+                    "matchupHistScores": [
+                        0,
+                        13,
+                        6
+                    ],
+                    "matchupHistStats": [
+                        {
+                            "id": "1",
+                            "name": "G",
+                            "data": [
+                                0,
+                                3.0,
+                                4.0
+                            ]
+                        },
+                        {
+                            "id": "2",
+                            "name": "A",
+                            "data": [
+                                0,
+                                0.0,
+                                5.0
+                            ]
+                        },
+                        {
+                            "id": "8",
+                            "name": "PPP",
+                            "data": [
+                                0,
+                                1.0,
+                                1.0
+                            ]
+                        },
+                        {
+                            "id": "14",
+                            "name": "SOG",
+                            "data": [
+                                0,
+                                13.0,
+                                29.0
+                            ]
+                        },
+                        {
+                            "id": "31",
+                            "name": "HIT",
+                            "data": [
+                                0,
+                                0.0,
+                                5.0
+                            ]
+                        },
+                        {
+                            "id": "32",
+                            "name": "BLK",
+                            "data": [
+                                0,
+                                1.0,
+                                9.0
+                            ]
+                        },
+                        {
+                            "id": "19",
+                            "name": "W",
+                            "data": [
+                                0,
+                                1.0,
+                                1.0
+                            ]
+                        },
+                        {
+                            "id": "22",
+                            "name": "GA",
+                            "data": [
+                                0,
+                                2.0,
+                                2.0
+                            ]
+                        },
+                        {
+                            "id": "23",
+                            "name": "GAA",
+                            "data": [
+                                0,
+                                1.85,
+                                1.85
+                            ]
+                        },
+                        {
+                            "id": "25",
+                            "name": "SV",
+                            "data": [
+                                0,
+                                27.0,
+                                27.0
+                            ]
+                        },
+                        {
+                            "id": "24",
+                            "name": "SA",
+                            "data": [
+                                0,
+                                29.0,
+                                29.0
+                            ]
+                        },
+                        {
+                            "id": "26",
+                            "name": "SV%",
+                            "data": [
+                                0,
+                                0.931,
+                                0.931
+                            ]
+                        }
+                    ],
+                    "name": "Bobby Margarita",
+                    "logo": "https://yahoofantasysports-res.cloudinary.com/image/upload/t_s192sq/fantasy-logos/97e52324332f2a9d8c21ac0134129589424ba139bad6b22e947b0638cae7d705.jpg",
+                    "url": "https://hockey.fantasysports.yahoo.com/hockey/5795/4",
+                    "rank": 5,
+                    "totalWLT": "42-10-29"
+                },
+                {
+                    "team_id": "453.l.5795.t.5",
+                    "statValues": [
+                        {
+                            "stat": {
+                                "stat_id": "1",
+                                "value": "3"
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "2",
+                                "value": "4"
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "8",
+                                "value": "0"
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "14",
+                                "value": "34"
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "31",
+                                "value": "13"
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "32",
+                                "value": "15"
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "19",
+                                "value": "2"
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "22",
+                                "value": "3"
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "23",
+                                "value": "1.44"
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "25",
+                                "value": "42"
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "24",
+                                "value": "45"
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "26",
+                                "value": ".933"
+                            }
+                        }
+                    ],
+                    "currentScore": 6.0,
+                    "matchupHistScores": [
+                        0,
+                        5,
+                        12
+                    ],
+                    "matchupHistStats": [
+                        {
+                            "id": "1",
+                            "name": "G",
+                            "data": [
+                                0,
+                                0.0,
+                                3.0
+                            ]
+                        },
+                        {
+                            "id": "2",
+                            "name": "A",
+                            "data": [
+                                0,
+                                0.0,
+                                4.0
+                            ]
+                        },
+                        {
+                            "id": "8",
+                            "name": "PPP",
+                            "data": [
+                                0,
+                                0.0,
+                                0.0
+                            ]
+                        },
+                        {
+                            "id": "14",
+                            "name": "SOG",
+                            "data": [
+                                0,
+                                4.0,
+                                34.0
+                            ]
+                        },
+                        {
+                            "id": "31",
+                            "name": "HIT",
+                            "data": [
+                                0,
+                                4.0,
+                                13.0
+                            ]
+                        },
+                        {
+                            "id": "32",
+                            "name": "BLK",
+                            "data": [
+                                0,
+                                6.0,
+                                15.0
+                            ]
+                        },
+                        {
+                            "id": "19",
+                            "name": "W",
+                            "data": [
+                                0,
+                                0,
+                                2.0
+                            ]
+                        },
+                        {
+                            "id": "22",
+                            "name": "GA",
+                            "data": [
+                                0,
+                                0,
+                                3.0
+                            ]
+                        },
+                        {
+                            "id": "23",
+                            "name": "GAA",
+                            "data": [
+                                0,
+                                0,
+                                1.44
+                            ]
+                        },
+                        {
+                            "id": "25",
+                            "name": "SV",
+                            "data": [
+                                0,
+                                0,
+                                42.0
+                            ]
+                        },
+                        {
+                            "id": "24",
+                            "name": "SA",
+                            "data": [
+                                0,
+                                0,
+                                45.0
+                            ]
+                        },
+                        {
+                            "id": "26",
+                            "name": "SV%",
+                            "data": [
+                                0,
+                                0,
+                                0.933
+                            ]
+                        }
+                    ],
+                    "name": "Evil Marc",
+                    "logo": "https://yahoofantasysports-res.cloudinary.com/image/upload/t_s192sq/fantasy-logos/390862196a754bdb333fd284d950ba892d749aa087a4172fe6c253d20787a720.png",
+                    "url": "https://hockey.fantasysports.yahoo.com/hockey/5795/5",
+                    "rank": 1,
+                    "totalWLT": "48-6-27"
+                }
+            ]
+        },
+        {
+            "id": "10-6-7",
+            "weekStart": "2024-12-09",
+            "weekEnd": "2024-12-15",
+            "teamsData": [
+                {
+                    "team_id": "453.l.5795.t.6",
+                    "statValues": [
+                        {
+                            "stat": {
+                                "stat_id": "1",
+                                "value": "5"
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "2",
+                                "value": "2"
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "8",
+                                "value": "0"
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "14",
+                                "value": "18"
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "31",
+                                "value": "5"
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "32",
+                                "value": "5"
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "19",
+                                "value": "2"
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "22",
+                                "value": "5"
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "23",
+                                "value": "2.42"
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "25",
+                                "value": "42"
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "24",
+                                "value": "47"
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "26",
+                                "value": ".894"
+                            }
+                        }
+                    ],
+                    "currentScore": 4.0,
+                    "matchupHistScores": [
+                        0,
+                        0,
+                        8
+                    ],
+                    "matchupHistStats": [
+                        {
+                            "id": "1",
+                            "name": "G",
+                            "data": [
+                                0,
+                                0,
+                                5.0
+                            ]
+                        },
+                        {
+                            "id": "2",
+                            "name": "A",
+                            "data": [
+                                0,
+                                0,
+                                2.0
+                            ]
+                        },
+                        {
+                            "id": "8",
+                            "name": "PPP",
+                            "data": [
+                                0,
+                                0,
+                                0.0
+                            ]
+                        },
+                        {
+                            "id": "14",
+                            "name": "SOG",
+                            "data": [
+                                0,
+                                0,
+                                18.0
+                            ]
+                        },
+                        {
+                            "id": "31",
+                            "name": "HIT",
+                            "data": [
+                                0,
+                                0,
+                                5.0
+                            ]
+                        },
+                        {
+                            "id": "32",
+                            "name": "BLK",
+                            "data": [
+                                0,
+                                0,
+                                5.0
+                            ]
+                        },
+                        {
+                            "id": "19",
+                            "name": "W",
+                            "data": [
+                                0,
+                                0,
+                                2.0
+                            ]
+                        },
+                        {
+                            "id": "22",
+                            "name": "GA",
+                            "data": [
+                                0,
+                                0,
+                                5.0
+                            ]
+                        },
+                        {
+                            "id": "23",
+                            "name": "GAA",
+                            "data": [
+                                0,
+                                0,
+                                2.42
+                            ]
+                        },
+                        {
+                            "id": "25",
+                            "name": "SV",
+                            "data": [
+                                0,
+                                0,
+                                42.0
+                            ]
+                        },
+                        {
+                            "id": "24",
+                            "name": "SA",
+                            "data": [
+                                0,
+                                0,
+                                47.0
+                            ]
+                        },
+                        {
+                            "id": "26",
+                            "name": "SV%",
+                            "data": [
+                                0,
+                                0,
+                                0.894
+                            ]
+                        }
+                    ],
+                    "name": "The Magic Gus Bus",
+                    "logo": "https://yahoofantasysports-res.cloudinary.com/image/upload/t_s192sq/fantasy-logos/1e3fb617166af257611ce8cb9e2ff08825f900b1487a21fc30928c219ffa0077.jpg",
+                    "url": "https://hockey.fantasysports.yahoo.com/hockey/5795/6",
+                    "rank": 13,
+                    "totalWLT": "33-4-44"
+                },
+                {
+                    "team_id": "453.l.5795.t.7",
+                    "statValues": [
+                        {
+                            "stat": {
+                                "stat_id": "1",
+                                "value": "2"
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "2",
+                                "value": "5"
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "8",
+                                "value": "3"
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "14",
+                                "value": "20"
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "31",
+                                "value": "16"
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "32",
+                                "value": "4"
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "19",
+                                "value": "1"
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "22",
+                                "value": "5"
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "23",
+                                "value": "2.40"
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "25",
+                                "value": "34"
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "24",
+                                "value": "39"
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "26",
+                                "value": ".872"
+                            }
+                        }
+                    ],
+                    "currentScore": 5.0,
+                    "matchupHistScores": [
+                        0,
+                        18,
+                        10
+                    ],
+                    "matchupHistStats": [
+                        {
+                            "id": "1",
+                            "name": "G",
+                            "data": [
+                                0,
+                                0.0,
+                                2.0
+                            ]
+                        },
+                        {
+                            "id": "2",
+                            "name": "A",
+                            "data": [
+                                0,
+                                2.0,
+                                5.0
+                            ]
+                        },
+                        {
+                            "id": "8",
+                            "name": "PPP",
+                            "data": [
+                                0,
+                                1.0,
+                                3.0
+                            ]
+                        },
+                        {
+                            "id": "14",
+                            "name": "SOG",
+                            "data": [
+                                0,
+                                7.0,
+                                20.0
+                            ]
+                        },
+                        {
+                            "id": "31",
+                            "name": "HIT",
+                            "data": [
+                                0,
+                                6.0,
+                                16.0
+                            ]
+                        },
+                        {
+                            "id": "32",
+                            "name": "BLK",
+                            "data": [
+                                0,
+                                0.0,
+                                4.0
+                            ]
+                        },
+                        {
+                            "id": "19",
+                            "name": "W",
+                            "data": [
+                                0,
+                                0.0,
+                                1.0
+                            ]
+                        },
+                        {
+                            "id": "22",
+                            "name": "GA",
+                            "data": [
+                                0,
+                                2.0,
+                                5.0
+                            ]
+                        },
+                        {
+                            "id": "23",
+                            "name": "GAA",
+                            "data": [
+                                0,
+                                1.85,
+                                2.4
+                            ]
+                        },
+                        {
+                            "id": "25",
+                            "name": "SV",
+                            "data": [
+                                0,
+                                19.0,
+                                34.0
+                            ]
+                        },
+                        {
+                            "id": "24",
+                            "name": "SA",
+                            "data": [
+                                0,
+                                21.0,
+                                39.0
+                            ]
+                        },
+                        {
+                            "id": "26",
+                            "name": "SV%",
+                            "data": [
+                                0,
+                                0.905,
+                                0.872
+                            ]
+                        }
+                    ],
+                    "name": "Have a Heart",
+                    "logo": "https://yahoofantasysports-res.cloudinary.com/image/upload/t_s192sq/fantasy-logos/eb53549458071b1dbd2067d7e071dbf082c592e3c1a15c05c9b4a79d06893fed.png",
+                    "url": "https://hockey.fantasysports.yahoo.com/hockey/5795/7",
+                    "rank": 3,
+                    "totalWLT": "48-2-31"
+                }
+            ]
+        },
+        {
+            "id": "10-8-16",
+            "weekStart": "2024-12-09",
+            "weekEnd": "2024-12-15",
+            "teamsData": [
+                {
+                    "team_id": "453.l.5795.t.8",
+                    "statValues": [
+                        {
+                            "stat": {
+                                "stat_id": "1",
+                                "value": "3"
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "2",
+                                "value": "8"
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "8",
+                                "value": "1"
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "14",
+                                "value": "23"
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "31",
+                                "value": "9"
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "32",
+                                "value": "5"
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "19",
+                                "value": "1"
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "22",
+                                "value": "4"
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "23",
+                                "value": "2.04"
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "25",
+                                "value": "51"
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "24",
+                                "value": "55"
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "26",
+                                "value": ".927"
+                            }
+                        }
+                    ],
+                    "currentScore": 6.0,
+                    "matchupHistScores": [
+                        0,
+                        11,
+                        12
+                    ],
+                    "matchupHistStats": [
+                        {
+                            "id": "1",
+                            "name": "G",
+                            "data": [
+                                0,
+                                1.0,
+                                3.0
+                            ]
+                        },
+                        {
+                            "id": "2",
+                            "name": "A",
+                            "data": [
+                                0,
+                                1.0,
+                                8.0
+                            ]
+                        },
+                        {
+                            "id": "8",
+                            "name": "PPP",
+                            "data": [
+                                0,
+                                0.0,
+                                1.0
+                            ]
+                        },
+                        {
+                            "id": "14",
+                            "name": "SOG",
+                            "data": [
+                                0,
+                                3.0,
+                                23.0
+                            ]
+                        },
+                        {
+                            "id": "31",
+                            "name": "HIT",
+                            "data": [
+                                0,
+                                0.0,
+                                9.0
+                            ]
+                        },
+                        {
+                            "id": "32",
+                            "name": "BLK",
+                            "data": [
+                                0,
+                                2.0,
+                                5.0
+                            ]
+                        },
+                        {
+                            "id": "19",
+                            "name": "W",
+                            "data": [
+                                0,
+                                0.0,
+                                1.0
+                            ]
+                        },
+                        {
+                            "id": "22",
+                            "name": "GA",
+                            "data": [
+                                0,
+                                2.0,
+                                4.0
+                            ]
+                        },
+                        {
+                            "id": "23",
+                            "name": "GAA",
+                            "data": [
+                                0,
+                                2.06,
+                                2.04
+                            ]
+                        },
+                        {
+                            "id": "25",
+                            "name": "SV",
+                            "data": [
+                                0,
+                                30.0,
+                                51.0
+                            ]
+                        },
+                        {
+                            "id": "24",
+                            "name": "SA",
+                            "data": [
+                                0,
+                                32.0,
+                                55.0
+                            ]
+                        },
+                        {
+                            "id": "26",
+                            "name": "SV%",
+                            "data": [
+                                0,
+                                0.938,
+                                0.927
+                            ]
+                        }
+                    ],
+                    "name": "House Markonnen",
+                    "logo": "https://yahoofantasysports-res.cloudinary.com/image/upload/t_s192sq/fantasy-logos/5278d48bd8a69a2a330ad7f54f64b0e5c6561724b50895af4d60f6fa17e1869b.jpg",
+                    "url": "https://hockey.fantasysports.yahoo.com/hockey/5795/8",
+                    "rank": 10,
+                    "totalWLT": "40-5-36"
+                },
+                {
+                    "team_id": "453.l.5795.t.16",
+                    "statValues": [
+                        {
+                            "stat": {
+                                "stat_id": "1",
+                                "value": "3"
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "2",
+                                "value": "6"
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "8",
+                                "value": "1"
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "14",
+                                "value": "29"
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "31",
+                                "value": "6"
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "32",
+                                "value": "11"
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "19",
+                                "value": "0"
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "22",
+                                "value": "4"
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "23",
+                                "value": "3.71"
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "25",
+                                "value": "34"
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "24",
+                                "value": "38"
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "26",
+                                "value": ".895"
+                            }
+                        }
+                    ],
+                    "currentScore": 3.0,
+                    "matchupHistScores": [
+                        0,
+                        7,
+                        6
+                    ],
+                    "matchupHistStats": [
+                        {
+                            "id": "1",
+                            "name": "G",
+                            "data": [
+                                0,
+                                0.0,
+                                3.0
+                            ]
+                        },
+                        {
+                            "id": "2",
+                            "name": "A",
+                            "data": [
+                                0,
+                                1.0,
+                                6.0
+                            ]
+                        },
+                        {
+                            "id": "8",
+                            "name": "PPP",
+                            "data": [
+                                0,
+                                0.0,
+                                1.0
+                            ]
+                        },
+                        {
+                            "id": "14",
+                            "name": "SOG",
+                            "data": [
+                                0,
+                                7.0,
+                                29.0
+                            ]
+                        },
+                        {
+                            "id": "31",
+                            "name": "HIT",
+                            "data": [
+                                0,
+                                3.0,
+                                6.0
+                            ]
+                        },
+                        {
+                            "id": "32",
+                            "name": "BLK",
+                            "data": [
+                                0,
+                                2.0,
+                                11.0
+                            ]
+                        },
+                        {
+                            "id": "19",
+                            "name": "W",
+                            "data": [
+                                0,
+                                0,
+                                0.0
+                            ]
+                        },
+                        {
+                            "id": "22",
+                            "name": "GA",
+                            "data": [
+                                0,
+                                0,
+                                4.0
+                            ]
+                        },
+                        {
+                            "id": "23",
+                            "name": "GAA",
+                            "data": [
+                                0,
+                                0,
+                                3.71
+                            ]
+                        },
+                        {
+                            "id": "25",
+                            "name": "SV",
+                            "data": [
+                                0,
+                                0,
+                                34.0
+                            ]
+                        },
+                        {
+                            "id": "24",
+                            "name": "SA",
+                            "data": [
+                                0,
+                                0,
+                                38.0
+                            ]
+                        },
+                        {
+                            "id": "26",
+                            "name": "SV%",
+                            "data": [
+                                0,
+                                0,
+                                0.895
+                            ]
+                        }
+                    ],
+                    "name": "Sweet Baby Bedjsus",
+                    "logo": "https://yahoofantasysports-res.cloudinary.com/image/upload/t_s192sq/fantasy-logos/055e10358f33ed9af4be1e06e5afd71880d65054544202cad46f4d0217d97da5.jpg",
+                    "url": "https://hockey.fantasysports.yahoo.com/hockey/5795/16",
+                    "rank": 6,
+                    "totalWLT": "41-9-31"
+                }
+            ]
+        },
+        {
+            "id": "10-9-15",
+            "weekStart": "2024-12-09",
+            "weekEnd": "2024-12-15",
+            "teamsData": [
+                {
+                    "team_id": "453.l.5795.t.9",
+                    "statValues": [
+                        {
+                            "stat": {
+                                "stat_id": "1",
+                                "value": "1"
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "2",
+                                "value": "4"
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "8",
+                                "value": "2"
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "14",
+                                "value": "19"
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "31",
+                                "value": "20"
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "32",
+                                "value": "18"
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "19",
+                                "value": "0"
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "22",
+                                "value": "2"
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "23",
+                                "value": "2.05"
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "25",
+                                "value": "27"
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "24",
+                                "value": "29"
+                            }
+                        },
+                        {
+                            "stat": {
+                                "stat_id": "26",
+                                "value": ".931"
+                            }
+                        }
+                    ],
+                    "currentScore": 4.0,
+                    "matchupHistScores": [
+                        0,
+                        4,
+                        8
+                    ],
+                    "matchupHistStats": [
+                        {
+                            "id": "1",
+                            "name": "G",
+                            "data": [
+                                0,
+                                0.0,
+                                1.0
+                            ]
+                        },
+                        {
+                            "id": "2",
+                            "name": "A",
+                            "data": [
+                                0,
+                                0.0,
+                                4.0
+                            ]
+                        },
+                        {
+                            "id": "8",
+                            "name": "PPP",
+                            "data": [
+                                0,
+                                0.0,
+                                2.0
+                            ]
+                        },
+                        {
+                            "id": "14",
+                            "name": "SOG",
+                            "data": [
+                                0,
+                                3.0,
+                                19.0
+                            ]
+                        },
+                        {
+                            "id": "31",
+                            "name": "HIT",
+                            "data": [
+                                0,
+                                6.0,
+                                20.0
+                            ]
+                        },
+                        {
+                            "id": "32",
+                            "name": "BLK",
+                            "data": [
+                                0,
+                                5.0,
+                                18.0
+                            ]
+                        },
+                        {
+                            "id": "19",
+                            "name": "W",
+                            "data": [
+                                0,
+                                0,
+                                0.0
+                            ]
+                        },
+                        {
+                            "id": "22",
+                            "name": "GA",
+                            "data": [
+                                0,
+                                0,
+                                2.0
+                            ]
+                        },
+                        {
+                            "id": "23",
+                            "name": "GAA",
+                            "data": [
+                                0,
+                                0,
+                                2.05
+                            ]
+                        },
+                        {
+                            "id": "25",
+                            "name": "SV",
+                            "data": [
+                                0,
+                                0,
+                                27.0
+                            ]
+                        },
+                        {
+                            "id": "24",
+                            "name": "SA",
+                            "data": [
+                                0,
+                                0,
+                                29.0
+                            ]
+                        },
+                        {
+                            "id": "26",
+                            "name": "SV%",
+                            "data": [
+                                0,
+                                0,
+                                0.931
                             ]
                         }
                     ],
@@ -25462,80 +25631,81 @@
                         {
                             "stat": {
                                 "stat_id": "1",
-                                "value": ""
+                                "value": "3"
                             }
                         },
                         {
                             "stat": {
                                 "stat_id": "2",
-                                "value": ""
+                                "value": "2"
                             }
                         },
                         {
                             "stat": {
                                 "stat_id": "8",
-                                "value": ""
+                                "value": "3"
                             }
                         },
                         {
                             "stat": {
                                 "stat_id": "14",
-                                "value": ""
+                                "value": "36"
                             }
                         },
                         {
                             "stat": {
                                 "stat_id": "31",
-                                "value": ""
+                                "value": "22"
                             }
                         },
                         {
                             "stat": {
                                 "stat_id": "32",
-                                "value": ""
+                                "value": "9"
                             }
                         },
                         {
                             "stat": {
                                 "stat_id": "19",
-                                "value": ""
+                                "value": "1"
                             }
                         },
                         {
                             "stat": {
                                 "stat_id": "22",
-                                "value": ""
+                                "value": "6"
                             }
                         },
                         {
                             "stat": {
                                 "stat_id": "23",
-                                "value": ""
+                                "value": "3.01"
                             }
                         },
                         {
                             "stat": {
                                 "stat_id": "25",
-                                "value": ""
+                                "value": "38"
                             }
                         },
                         {
                             "stat": {
                                 "stat_id": "24",
-                                "value": ""
+                                "value": "44"
                             }
                         },
                         {
                             "stat": {
                                 "stat_id": "26",
-                                "value": ""
+                                "value": ".864"
                             }
                         }
                     ],
-                    "currentScore": 7.0,
+                    "currentScore": 5.0,
                     "matchupHistScores": [
                         0,
-                        14
+                        14,
+                        10
                     ],
                     "matchupHistStats": [
                         {
@@ -25543,7 +25713,8 @@
                             "name": "G",
                             "data": [
                                 0,
-                                1.0
+                                1.0,
+                                3.0
                             ]
                         },
                         {
@@ -25551,7 +25722,8 @@
                             "name": "A",
                             "data": [
                                 0,
-                                1.0
+                                1.0,
+                                2.0
                             ]
                         },
                         {
@@ -25559,7 +25731,8 @@
                             "name": "PPP",
                             "data": [
                                 0,
-                                1.0
+                                1.0,
+                                3.0
                             ]
                         },
                         {
@@ -25567,7 +25740,8 @@
                             "name": "SOG",
                             "data": [
                                 0,
-                                15.0
+                                15.0,
+                                36.0
                             ]
                         },
                         {
@@ -25575,7 +25749,8 @@
                             "name": "HIT",
                             "data": [
                                 0,
-                                16.0
+                                16.0,
+                                22.0
                             ]
                         },
                         {
@@ -25583,7 +25758,8 @@
                             "name": "BLK",
                             "data": [
                                 0,
-                                5.0
+                                5.0,
+                                9.0
                             ]
                         },
                         {
@@ -25591,7 +25767,8 @@
                             "name": "W",
                             "data": [
                                 0,
-                                0
+                                0,
+                                1.0
                             ]
                         },
                         {
@@ -25599,7 +25776,8 @@
                             "name": "GA",
                             "data": [
                                 0,
-                                0
+                                0,
+                                6.0
                             ]
                         },
                         {
@@ -25607,7 +25785,8 @@
                             "name": "GAA",
                             "data": [
                                 0,
-                                0
+                                0,
+                                3.01
                             ]
                         },
                         {
@@ -25615,7 +25794,8 @@
                             "name": "SV",
                             "data": [
                                 0,
-                                0
+                                0,
+                                38.0
                             ]
                         },
                         {
@@ -25623,7 +25803,8 @@
                             "name": "SA",
                             "data": [
                                 0,
-                                0
+                                0,
+                                44.0
                             ]
                         },
                         {
@@ -25631,7 +25812,8 @@
                             "name": "SV%",
                             "data": [
                                 0,
-                                0
+                                0,
+                                0.864
                             ]
                         }
                     ],
@@ -25654,80 +25836,81 @@
                         {
                             "stat": {
                                 "stat_id": "1",
-                                "value": ""
+                                "value": "2"
                             }
                         },
                         {
                             "stat": {
                                 "stat_id": "2",
-                                "value": ""
+                                "value": "1"
                             }
                         },
                         {
                             "stat": {
                                 "stat_id": "8",
-                                "value": ""
+                                "value": "0"
                             }
                         },
                         {
                             "stat": {
                                 "stat_id": "14",
-                                "value": ""
+                                "value": "19"
                             }
                         },
                         {
                             "stat": {
                                 "stat_id": "31",
-                                "value": ""
+                                "value": "16"
                             }
                         },
                         {
                             "stat": {
                                 "stat_id": "32",
-                                "value": ""
+                                "value": "9"
                             }
                         },
                         {
                             "stat": {
                                 "stat_id": "19",
-                                "value": ""
+                                "value": "1"
                             }
                         },
                         {
                             "stat": {
                                 "stat_id": "22",
-                                "value": ""
+                                "value": "3"
                             }
                         },
                         {
                             "stat": {
                                 "stat_id": "23",
-                                "value": ""
+                                "value": "1.47"
                             }
                         },
                         {
                             "stat": {
                                 "stat_id": "25",
-                                "value": ""
+                                "value": "37"
                             }
                         },
                         {
                             "stat": {
                                 "stat_id": "24",
-                                "value": ""
+                                "value": "40"
                             }
                         },
                         {
                             "stat": {
                                 "stat_id": "26",
-                                "value": ""
+                                "value": ".925"
                             }
                         }
                     ],
-                    "currentScore": 4.0,
+                    "currentScore": 1.5,
                     "matchupHistScores": [
                         0,
-                        8
+                        8,
+                        3
                     ],
                     "matchupHistStats": [
                         {
@@ -25735,7 +25918,8 @@
                             "name": "G",
                             "data": [
                                 0,
-                                0.0
+                                0.0,
+                                2.0
                             ]
                         },
                         {
@@ -25743,7 +25927,8 @@
                             "name": "A",
                             "data": [
                                 0,
-                                0.0
+                                0.0,
+                                1.0
                             ]
                         },
                         {
@@ -25751,6 +25936,7 @@
                             "name": "PPP",
                             "data": [
                                 0,
+                                0.0,
                                 0.0
                             ]
                         },
@@ -25759,7 +25945,8 @@
                             "name": "SOG",
                             "data": [
                                 0,
-                                4.0
+                                4.0,
+                                19.0
                             ]
                         },
                         {
@@ -25767,7 +25954,8 @@
                             "name": "HIT",
                             "data": [
                                 0,
-                                4.0
+                                4.0,
+                                16.0
                             ]
                         },
                         {
@@ -25775,7 +25963,8 @@
                             "name": "BLK",
                             "data": [
                                 0,
-                                2.0
+                                2.0,
+                                9.0
                             ]
                         },
                         {
@@ -25783,7 +25972,8 @@
                             "name": "W",
                             "data": [
                                 0,
-                                0
+                                0,
+                                1.0
                             ]
                         },
                         {
@@ -25791,7 +25981,8 @@
                             "name": "GA",
                             "data": [
                                 0,
-                                0
+                                0,
+                                3.0
                             ]
                         },
                         {
@@ -25799,7 +25990,8 @@
                             "name": "GAA",
                             "data": [
                                 0,
-                                0
+                                0,
+                                1.47
                             ]
                         },
                         {
@@ -25807,7 +25999,8 @@
                             "name": "SV",
                             "data": [
                                 0,
-                                0
+                                0,
+                                37.0
                             ]
                         },
                         {
@@ -25815,7 +26008,8 @@
                             "name": "SA",
                             "data": [
                                 0,
-                                0
+                                0,
+                                40.0
                             ]
                         },
                         {
@@ -25823,7 +26017,8 @@
                             "name": "SV%",
                             "data": [
                                 0,
-                                0
+                                0,
+                                0.925
                             ]
                         }
                     ],
@@ -25839,80 +26034,81 @@
                         {
                             "stat": {
                                 "stat_id": "1",
-                                "value": ""
+                                "value": "4"
                             }
                         },
                         {
                             "stat": {
                                 "stat_id": "2",
-                                "value": ""
+                                "value": "4"
                             }
                         },
                         {
                             "stat": {
                                 "stat_id": "8",
-                                "value": ""
+                                "value": "3"
                             }
                         },
                         {
                             "stat": {
                                 "stat_id": "14",
-                                "value": ""
+                                "value": "24"
                             }
                         },
                         {
                             "stat": {
                                 "stat_id": "31",
-                                "value": ""
+                                "value": "14"
                             }
                         },
                         {
                             "stat": {
                                 "stat_id": "32",
-                                "value": ""
+                                "value": "11"
                             }
                         },
                         {
                             "stat": {
                                 "stat_id": "19",
-                                "value": ""
+                                "value": "1"
                             }
                         },
                         {
                             "stat": {
                                 "stat_id": "22",
-                                "value": ""
+                                "value": "1"
                             }
                         },
                         {
                             "stat": {
                                 "stat_id": "23",
-                                "value": ""
+                                "value": "0.95"
                             }
                         },
                         {
                             "stat": {
                                 "stat_id": "25",
-                                "value": ""
+                                "value": "38"
                             }
                         },
                         {
                             "stat": {
                                 "stat_id": "24",
-                                "value": ""
+                                "value": "39"
                             }
                         },
                         {
                             "stat": {
                                 "stat_id": "26",
-                                "value": ""
+                                "value": ".974"
                             }
                         }
                     ],
-                    "currentScore": 5.0,
+                    "currentScore": 7.5,
                     "matchupHistScores": [
                         0,
-                        10
+                        10,
+                        15
                     ],
                     "matchupHistStats": [
                         {
@@ -25920,7 +26116,8 @@
                             "name": "G",
                             "data": [
                                 0,
-                                0.0
+                                0.0,
+                                4.0
                             ]
                         },
                         {
@@ -25928,7 +26125,8 @@
                             "name": "A",
                             "data": [
                                 0,
-                                1.0
+                                1.0,
+                                4.0
                             ]
                         },
                         {
@@ -25936,7 +26134,8 @@
                             "name": "PPP",
                             "data": [
                                 0,
-                                0.0
+                                0.0,
+                                3.0
                             ]
                         },
                         {
@@ -25944,7 +26143,8 @@
                             "name": "SOG",
                             "data": [
                                 0,
-                                4.0
+                                4.0,
+                                24.0
                             ]
                         },
                         {
@@ -25952,7 +26152,8 @@
                             "name": "HIT",
                             "data": [
                                 0,
-                                6.0
+                                6.0,
+                                14.0
                             ]
                         },
                         {
@@ -25960,7 +26161,8 @@
                             "name": "BLK",
                             "data": [
                                 0,
-                                1.0
+                                1.0,
+                                11.0
                             ]
                         },
                         {
@@ -25968,7 +26170,8 @@
                             "name": "W",
                             "data": [
                                 0,
-                                0
+                                0,
+                                1.0
                             ]
                         },
                         {
@@ -25976,7 +26179,8 @@
                             "name": "GA",
                             "data": [
                                 0,
-                                0
+                                0,
+                                1.0
                             ]
                         },
                         {
@@ -25984,7 +26188,8 @@
                             "name": "GAA",
                             "data": [
                                 0,
-                                0
+                                0,
+                                0.95
                             ]
                         },
                         {
@@ -25992,7 +26197,8 @@
                             "name": "SV",
                             "data": [
                                 0,
-                                0
+                                0,
+                                38.0
                             ]
                         },
                         {
@@ -26000,7 +26206,8 @@
                             "name": "SA",
                             "data": [
                                 0,
-                                0
+                                0,
+                                39.0
                             ]
                         },
                         {
@@ -26008,7 +26215,8 @@
                             "name": "SV%",
                             "data": [
                                 0,
-                                0
+                                0,
+                                0.974
                             ]
                         }
                     ],
