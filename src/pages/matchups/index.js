@@ -23,7 +23,7 @@ export default function Matchups({}) {
     const [matchupData, setMatchupData] = useState({});
     const [teamsData, setTeamsData] = useState([]);
     const [loading, setLoading] = useState(true);
-    const [expanded, setExpanded] = useState('10'); // Track expanded accordion
+    const [expanded, setExpanded] = useState('11'); // Track expanded accordion
 
     
     const matchTeamsData = async (initMatchupData) => {
